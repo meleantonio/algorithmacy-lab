@@ -391,3 +391,45 @@ upon.
   drawn before; the gap statement of facet Z is unchanged until someone reads it.
 - The Jensen and Meckling card was written from a scan of unclear provenance and should be checked
   against the journal.
+
+## 10. Third round (2026-10-13): literatures the outline had not covered
+
+*Written by Claude (lead) on 2026-10-13. The author adopted a nine-section outline (snapshot in
+`../../DRAFT.md`; the governing text is his Google Doc) and asked for research on what else the
+literature holds. Facets L, M, N, O and P ran, and `../audit/AUDIT_07`–`11.md` re-checked and corrected
+them in place (18 wrong and 92 overstated rows across the five). Read depth is thinner than in the card
+library: most sources were read in part or as abstracts, and each facet says which. Section numbers
+below are the outline's.*
+
+| Outline section | What the round found | Sources, with the audit's caution |
+| --- | --- | --- |
+| 2, 7 | Ruler and church enforced the conventions of the written page. Nothing opened shows scribes and readers sharing interests as equals, and none of these texts mentions word separation | Charlemagne, letter to Baugulf (read in full, translation); *Admonitio generalis* c. 72 and Alcuin, carm. XCIV (OCR of the MGH volumes); Westwell 2018. McKitterick, Ganz and Bischoff not opened |
+| 4 | The law-and-economics critique of mandated disclosure states the paper's mechanism: disclosees do not read, understand or use disclosures | Ben-Shahar and Schneider 2011, p. 665 (read in full); Loewenstein, Sunstein and Golman 2014; Fung, Graham and Weil 2007 |
+| 4 | Explanations do not improve decisions on average | Schemmer et al. 2022 (SMD 0.07, 95% CI −0.15 to 0.30; read in full); Vaccaro, Almaatouq and Malone 2024 (370 effect sizes) |
+| 4 | Disclosure often changes behaviour without improving outcomes. A stated property of a rule moved sincere bidding from 20.6% to 46.9% and efficiency by about one point | Masuda et al. 2022 (net effect against control p = 0.051). "Doesn't affect" is contradicted for behaviour; the claim should be about performance |
+| 4 | The nearest rival, nudge against boost, sorts by whether an effect outlasts the intervention, and a boost can be a re-representation. The measured case for structure over information is modest | Hertwig and Grüne-Yanoff 2017, pp. 977, 981 (read in full); Mertens et al. 2022 as corrected; Maier et al. 2022. Mertens classes "translation" of information with informational interventions |
+| 5 | Intent is sourced for withholding rules and not for noise or delay | Rahman 2019 (dissertation, pp. 128–129: anti-gaming and control); the 2021 article not opened. Chen, Mislove and Wilson 2015: surge jitter was a bug by Uber's account |
+| 5 | Where the rule is hidden, people infer it from other people's outcomes; learning is social as well as enacted | Ghalme et al. 2021; Bechavod et al. 2022; Lee et al. 2015; Kellogg, Valentine and Christin 2020 |
+| 6 | Convention A: the best presentation tested leaves about four in ten not playing straightforwardly; a menu description raised understanding more than play | Gonczarowski, Heffetz, Ishai and Thomas 2024 (N = 542; 59% against 56% and 48%; read in part) |
+| 6 | Convention B: validity comes before speed. Frequent feedback on noisy choices lowered investment by about 25% and earnings by about 35%; more than a third of feedback interventions lower performance | Larson, List and Metcalfe 2016 (read in part); Kluger and DeNisi 1996, 1998 (abstracts); Tiefenbeck et al. 2018 for the case where real-time feedback helps |
+| 7 | One statute goes beyond disclosure: a human takes termination decisions, and decisions that infringe rights are rectified or compensated | Directive (EU) 2024/2831, Arts. 7, 10(3), 10(5), 11(3), 13; in force since 1 December 2024, transposition due 2 December 2026 |
+| 7 | Standards bodies bind no implementer; co-determination binds through arbitration | RFC 8890 (IAB); BetrVG §87(1) no. 6 and (2) |
+| 8 | Closest precedent: two people and a computer mediator that maximises agreement, rule shown every round, no manipulation of what is shown | Casella, Friedman and Perez Archila (working paper, 2024). No study found gives the mediator its own objective. March 2021 and Chugunova and Sele 2020 not opened |
+| 8 | Integrated information has been applied to human groups only as a proxy | Engel and Malone 2018 (68 groups, r = .37, no mediator; read in full). Barrett et al. 2026 (preprint): Φ "has not been computed on any real physical system" |
+
+**Inferences by the agents or the lead, with no source behind them.** That disclosures which work are
+re-representations (the sources say "simple signals" and stress the discloser's response). That an owner
+is bound only when a third party with a sanction stands behind the rule, or the convention is a mandated
+format. That Convention B should read "valid and plain first, then quick". Each is usable as the paper's
+argument and should not be cited as a finding.
+
+**What was changed in the author's document.** Fifteen word-level edits followed from this round, listed
+in the commit that added this section: the two sentences on scribes and readers, the "Mediated
+Distortion" bullet, the limits of both conventions, the abstract's gloss on Convention B and its verb
+("argues" for "demonstrates"), citations for the literacy fallacy and the surge example, the Platform
+Work Directive among the statutes, and three additions to section 8 (the measurement plan, the Casella
+precedent, a discrete-time arm).
+
+**Still open.** Whether the paper keeps the name "radical feedback immediacy"; how it places itself
+against nudge and boost; whether it treats a stated property of a rule as disclosure or as part of
+Convention A; and the full texts listed in each facet's section (d).

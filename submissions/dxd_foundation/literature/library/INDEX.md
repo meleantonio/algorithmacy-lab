@@ -92,7 +92,7 @@ Places where a full reading disagrees with a facet file are collected in [`../au
 - ✓* [Sangster, A. (2024). The emergence of double entry bookkeeping. *The Economic History Review*, 78(2), 499–528.](sangster2024emergence.md) — full text; facets F
 - ✓ [Sangster, A. (2025). Time to reboot accounting history: Evidence from scholarship on double entry. *Accounting History, 30*(3), 368–391.](sangster2025reboot.md) — full text; facets F
 - ✓ [Schlimm, D., & Neth, H. (2008). Modeling ancient and modern arithmetic practices: Addition and multiplication with Arabic and Roman numerals. In V. Sloutsky, B. Love,…](schlimm2008modeling.md) — full text; facets F
-- ✓ [Shneiderman, B. (1983). Direct manipulation: A step beyond programming languages. *Computer*, *16*(8), 57–69. https://doi.org/10.1109/mc.1983.1654471](shneiderman1983direct.md) — full text; facets F
+- ✓ [Shneiderman, B. (1983). Direct manipulation: A step beyond programming languages. *Computer*, *16*(8), 57–69. https://doi.org/10.1109/mc.1983.1654471](shneiderman1983direct.md) — full text; facets F, N
 - ✓* [Guido of Arezzo. Prologue to his Antiphoner; *Epistola de ignoto cantu* (excerpts). In O. Strunk & L. Treitler (Eds.), *Source Readings in Music History* (rev. ed.).…](strunk1998guido.md) — full text; facets F
 
 ## Facet G — Nadella and his lineage (49)
@@ -155,21 +155,21 @@ Places where a full reading disagrees with a facet file are collected in [`../au
 - ✓ [Amin, R. M., Adatepe, A., Fernandes, D., Buschek, D., & Butz, A. (2026). Conversations in space: Non-linear LLM interaction in everyday use. arXiv:2605.15848.](amin2026conversations.md) — full text; facets H
 - ✓* [Arteaga, F., Kapor, A. J., Neilson, C. A., & Zimmerman, S. D. (2022). *Smart matching platforms and heterogeneous beliefs in centralized school choice* (NBER Working…](arteaga2022smart.md) — partial read; facets H
 - ✓* [Ashlagi, I., & Gonczarowski, Y. A. (2018). Stable matching mechanisms are not obviously strategy-proof. *Journal of Economic Theory, 177*, 405–425.…](ashlagi2018stable.md) — partial read; facets H
-- ✓* [Bansal, G., Nushi, B., Kamar, E., Weld, D. S., Lasecki, W. S., & Horvitz, E. (2019). Updates in human-AI teams: Understanding and addressing the…](bansal2019updates.md) — full text; facets H
+- ✓* [Bansal, G., Nushi, B., Kamar, E., Weld, D. S., Lasecki, W. S., & Horvitz, E. (2019). Updates in human-AI teams: Understanding and addressing the…](bansal2019updates.md) — full text; facets H, N
 - ✓ [Boelhouwer, A., van den Beukel, A. P., van der Voort, M. C., & Martens, M. H. (2019). Should I take over? Does system knowledge help drivers in making take-over…](boelhouwer2019should.md) — full text; facets H
 - ✓ [Bolton, G., Greiner, B., & Ockenfels, A. (2013). Engineering trust: Reciprocity in the production of reputation information. *Management Science, 59*(2), 265–285.](bolton2013engineering.md) — full text; facets H
 - ✓ [Cabrera, Á. A., Perer, A., & Hong, J. I. (2023). Improving human-AI collaboration with descriptions of AI behavior. *Proceedings of the ACM on Human-Computer…](cabrera2023improving.md) — full text; facets H
-- ✓ [Cerrone, C., Hermstrüwer, Y., & Kesten, O. (2024). School choice with consent: An experiment. *The Economic Journal, 134*(661), 1760–1805.](cerrone2024school.md) — full text; facets H
+- ✓ [Cerrone, C., Hermstrüwer, Y., & Kesten, O. (2024). School choice with consent: An experiment. *The Economic Journal, 134*(661), 1760–1805.](cerrone2024school.md) — full text; facets H, N
 - ✓* [Chen, L., Zaharia, M., & Zou, J. (2024). How is ChatGPT's behavior changing over time? *Harvard Data Science Review, 6*(2).](chen2024chatgpt.md) — full text; facets H
 - ✓ [Chen, J., Zhang, Y., Zhang, Y., Shao, Y., & Yang, D. (2025). Generative interfaces for language models. arXiv:2508.19227.](chen2025generative.md) — full text; facets H
 - ✓ [Crisan, A., Drouhard, M., Vig, J., & Rajani, N. (2022). Interactive model cards: A human-centered approach to model documentation. In *Proceedings of the 2022 ACM…](crisan2022interactive.md) — full text; facets H
-- ✓* [Delacroix, S., & Lawrence, N. D. (2019). Bottom-up data trusts: Disturbing the 'one size fits all' approach to data governance. *International Data Privacy Law, 9*(4).](delacroix2019bottom.md) — full text; facets H
+- ✓* [Delacroix, S., & Lawrence, N. D. (2019). Bottom-up data trusts: Disturbing the 'one size fits all' approach to data governance. *International Data Privacy Law, 9*(4).](delacroix2019bottom.md) — full text; facets H, O
 - ✓* [Dietvorst, B. J., Simmons, J. P., & Massey, C. (2018). Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them.…](dietvorst2018overcoming.md) — full text; facets H
 - ✓* [Ehsan, U., Liao, Q. V., Passi, S., Riedl, M. O., & Daumé III, H. (2024). Seamful XAI: Operationalizing seamful design in explainable AI. *Proceedings of the ACM on…](ehsan2024seamful.md) — partial read; facets H
 - ✓ [Fogliato, R., Chappidi, S., Lungren, M., Fitzke, M., Parkinson, M., Wilson, D., Fisher, P., Horvitz, E., Inkpen, K., & Nushi, B. (2022). Who goes first? Influences of…](fogliato2022who.md) — full text; facets H
 - ✓* [Gauthier, G., Hodler, R., Widmer, P., & Zhuravskaya, E. (2026). The political effects of X's feed algorithm. *Nature, 652*(8109), 416–423.](gauthier2026political.md) — full text; facets H
 - ✓ [Gero, K. I., Swoopes, C., Gu, Z., Kummerfeld, J. K., & Glassman, E. L. (2024). Supporting sensemaking of large language model outputs at scale. In *Proceedings of the…](gero2024supporting.md) — full text; facets H
-- ✓* [Gonczarowski, Y. A., Heffetz, O., & Thomas, C. (2023). Strategyproofness-exposing descriptions of matching mechanisms (NBER Working Paper 31506; rev. October 2025).…](gonczarowski2023strategyproofness.md) — partial read; facets H
+- ✓* [Gonczarowski, Y. A., Heffetz, O., & Thomas, C. (2023). Strategyproofness-exposing descriptions of matching mechanisms (NBER Working Paper 31506; rev. October 2025).…](gonczarowski2023strategyproofness.md) — partial read; facets H, N
 - ✓ [Goyal, A., Choi, F., & Chandrasekharan, E. (2025). PILOT: Control surfaces for authoring social media feeds (arXiv:2509.19615v2). University of Illinois Urbana-Champaign.](goyal2025pilot.md) — full text; facets H
 - ✓ [Guess, A. M., Malhotra, N., Pan, J., Barberá, P., Allcott, H., Brown, T., Crespo-Tenorio, A., Dimmery, D., Freelon, D., Gentzkow, M., González-Bailón, S., Kennedy,…](guess2023how.md) — full text; facets H
 - ✓* [Harper, F. M., Xu, F., Kaur, H., Condiff, K., Chang, S., & Terveen, L. (2015). Putting users in control of their recommendations. *Proceedings of the 9th ACM…](harper2015putting.md) — full text; facets H
@@ -180,18 +180,18 @@ Places where a full reading disagrees with a facet file are collected in [`../au
 - ✓* [Kapor, A., Neilson, C. A., & Zimmerman, S. D. (2018, rev. 2019). Heterogeneous beliefs and school choice mechanisms (NBER Working Paper 25096). National Bureau of…](kapor2020heterogeneous.md) — full text; facets H
 - ✓* [Kelley, P. G., Bresee, J., Cranor, L. F., & Reeder, R. W. (2009). A "nutrition label" for privacy. *Proceedings of the 5th Symposium on Usable Privacy and Security…](kelley2009nutrition.md) — full text; facets H
 - ✓* [Kling, J. R., Mullainathan, S., Shafir, E., Vermeulen, L. C., & Wrobel, M. V. (2012). Comparison friction: Experimental evidence from Medicare drug plans. *Quarterly…](kling2012comparison.md) — full text; facets H
-- ✓* [Li, S. (2017). Obviously strategy-proof mechanisms. *American Economic Review, 107*(11), 3257–3287.](li2017obviously.md) — partial read; facets H
-- ✓* [Li, R., Liu, X., & Sundararajan, A. (2026). Platform design, earnings transparency and minimum wage policies: Evidence from a natural experiment on Lyft. *arXiv…](li2026platform.md) — full text; facets H
+- ✓* [Li, S. (2017). Obviously strategy-proof mechanisms. *American Economic Review, 107*(11), 3257–3287.](li2017obviously.md) — partial read; facets H, N
+- ✓* [Li, R., Liu, X., & Sundararajan, A. (2026). Platform design, earnings transparency and minimum wage policies: Evidence from a natural experiment on Lyft. *arXiv…](li2026platform.md) — full text; facets H, N
 - ✓ [Liu, D. Z. (2026). SovereignNegotiation-Bench: Evaluating user-owned personal agents in delegated bargaining under privacy, consent, evidence, and institutional…](liu2026sovereignnegotiation.md) — full text; facets H
 - ✓* [Lukoff, K., Lyngs, U., Zade, H., Liao, J. V., Choi, J., Fan, K., Munson, S. A., & Hiniker, A. (2021). How the design of YouTube influences user sense of agency. In…](lukoff2021how.md) — full text; facets H
 - ✓ [Lyons, H., Velloso, E., & Miller, T. (2021). Conceptualising contestability: Perspectives on contesting algorithmic decisions. *Proceedings of the ACM on…](lyons2021conceptualising.md) — full text; facets H
 - ✓ [Matsuo, R., Liu, H., Hiraoka, T., & Wada, T. (2026). An educational human machine interface providing request-to-intervene trigger and reason explanation for…](matsuo2026educational.md) — full text; facets H
-- ✓* [Mejia, J., & Parker, C. (2021). When transparency fails: Bias and financial incentives in ridesharing platforms. *Management Science, 67*(1), 166–184.](mejia2021when.md) — full text; facets H
+- ✓* [Mejia, J., & Parker, C. (2021). When transparency fails: Bias and financial incentives in ridesharing platforms. *Management Science, 67*(1), 166–184.](mejia2021when.md) — full text; facets H, N
 - ✓ [Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., & Gebru, T. (2019). Model cards for model reporting. In…](mitchell2019model.md) — full text; facets H
 - ✓* [Møller, A. G., Romero, D. M., Jurgens, D., & Aiello, L. M. (2026). The impact of generative AI on social media: An experimental study. *Scientific Reports, 16*, 9376.](moller2025impact.md) — full text; facets H
 - ✓ [Nosko, C., & Tadelis, S. (2026). The limits of reputation in platform markets: An empirical analysis and field experiment. *Quantitative Marketing and Economics,…](nosko2015limits.md) — full text; facets H
 - ✓* [Poursabzi-Sangdeh, F., Goldstein, D. G., Hofman, J. M., Wortman Vaughan, J., & Wallach, H. (2021). Manipulating and measuring model interpretability. In *Proceedings…](poursabzi2021manipulating.md) — full text; facets H
-- ✓* [Rees-Jones, A., & Skowronek, S. (2018). An experimental investigation of preference misrepresentation in the residency match. *Proceedings of the National Academy of…](reesjones2018experimental.md) — full text; facets H
+- ✓* [Rees-Jones, A., & Skowronek, S. (2018). An experimental investigation of preference misrepresentation in the residency match. *Proceedings of the National Academy of…](reesjones2018experimental.md) — full text; facets H, N
 - ✓ [Seira, E., Elizondo, A., & Laguna-Müggenburg, E. (2017). Are information disclosures effective? Evidence from the credit card market. *American Economic Journal:…](seira2017are.md) — full text; facets H
 - ✓* [Singer, J., Tefft, B. C., Benson, A., Jenness, J. W., & Horrey, W. J. (2022). Driver expectations of a partial driving automation system in relation to branding and…](singer2022driver.md) — full text; facets H
 - ✓* [Starke, C., Metikoš, L., Helberger, N., & de Vreese, C. (2025). Contesting personalized recommender systems: A cross-country analysis of user preferences.…](starke2024contesting.md) — full text; facets H
@@ -205,15 +205,15 @@ Places where a full reading disagrees with a facet file are collected in [`../au
 ## Facet I — Understanding through action (16)
 
 - ✓ [Brehmer, B., & Nählinder, S. (2004). Achieving what cannot be done: Coping with the time constants in a dynamic decision task. *Proceedings of the 22nd International…](brehmer2004achieving.md) — full text; facets I
-- ✓* [Cen, S. H., Ilyas, A., Allen, J., Li, H., & Mądry, A. (2024). Measuring strategization in recommendation: Users adapt their behavior to shape future content.…](cen2024measuring.md) — partial read; facets I
+- ✓* [Cen, S. H., Ilyas, A., Allen, J., Li, H., & Mądry, A. (2024). Measuring strategization in recommendation: Users adapt their behavior to shape future content.…](cen2024measuring.md) — partial read; facets I, L
 - ✓* [Chernikova, O., Heitzmann, N., Stadler, M., Holzberger, D., Seidel, T., & Fischer, F. (2020). Simulation-based learning in higher education: A meta-analysis. *Review…](chernikova2020simulation.md) — full text; facets I
 - ✓* [Choi, Y., Kang, E. J., Lee, M. K., & Kim, J. (2023). Creator-friendly algorithms: Behaviors, challenges, and design opportunities in algorithmic platforms. In…](choi2023creator.md) — partial read; facets I
-- ✓* [Cook, C., Diamond, R., Hall, J. V., List, J. A., & Oyer, P. (2021). The gender earnings gap in the gig economy: Evidence from over a million rideshare drivers.…](cook2021gender.md) — partial read; facets I
+- ✓* [Cook, C., Diamond, R., Hall, J. V., List, J. A., & Oyer, P. (2021). The gender earnings gap in the gig economy: Evidence from over a million rideshare drivers.…](cook2021gender.md) — partial read; facets I, M
 - ✓* [Dismukes, R. K., & Berman, B. (2010). *Checklists and monitoring in the cockpit: Why crucial defenses sometimes fail* (NASA/TM-2010-216396). NASA Ames Research Center.](dismukes2010checklists.md) — partial read; facets I
 - ✓* [Performance-Based Aviation Rulemaking Committee & Commercial Aviation Safety Team Flight Deck Automation Working Group (2013). *Operational use of flight path…](faa2013operational.md) — partial read; facets I
 - ✓ [Hase, P., & Bansal, M. (2020). Evaluating explainable AI: Which algorithmic explanations help users predict model behavior? *Proceedings of the 58th Annual Meeting of…](hase2020evaluating.md) — full text; facets I
-- ✓ [Heiland, H. (2023). The social construction of algorithms: A reassessment of algorithmic management in food delivery gig work. *New Technology, Work and Employment,…](heiland2023social.md) — full text; facets I
-- ✓* [Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist, 64*(6), 515–526.](kahneman2009conditions.md) — full text; facets I
+- ✓ [Heiland, H. (2023). The social construction of algorithms: A reassessment of algorithmic management in food delivery gig work. *New Technology, Work and Employment,…](heiland2023social.md) — full text; facets I, M, N
+- ✓* [Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist, 64*(6), 515–526.](kahneman2009conditions.md) — full text; facets I, N
 - ✓ [Kuhl, U., Artelt, A., & Hammer, B. (2023). Let's go to the Alien Zoo: Introducing an experimental framework to study usability of counterfactual explanations for…](kuhl2023alien.md) — full text; facets I
 - ✓* [Mumaw, R. J., Billman, D., & Feary, M. S. (2020). *Analysis of pilot monitoring skills and a review of training effectiveness* (NASA/TM-2021-0000047). NASA Ames…](mumaw2020analysis.md) — partial read; facets I
 - ✓* [Rahmandad, H., & Gary, M. S. (2023). Delays impair learning and can drive convergence to inefficient strategies. *Organization Science, 34*(6), 2392–2414.](rahmandad2023delays.md) — full text; facets I
@@ -229,7 +229,7 @@ Places where a full reading disagrees with a facet file are collected in [`../au
 - ✓* [Colvin, A. J. S. (2011). An empirical study of employment arbitration: Case outcomes and processes. *Journal of Empirical Legal Studies, 8*(1), 1–23.](colvin2011empirical.md) — full text; facets J
 - ✓ [Douek, E. (2024). The Meta Oversight Board and the empty promise of legitimacy. *Harvard Journal of Law & Technology, 37*(2), 373–445.](douek2023meta.md) — full text; facets J
 - ✓* [Regulation (EU) 2019/1150 of the European Parliament and of the Council of 20 June 2019 on promoting fairness and transparency for business users of online…](eu2019p2b.md) — partial read; facets J
-- ✓* [European Parliament and Council of the European Union. (2022). Regulation (EU) 2022/2065 of 19 October 2022 on a Single Market For Digital Services and amending…](eu2022dsa.md) — partial read; facets J
+- ✓* [European Parliament and Council of the European Union. (2022). Regulation (EU) 2022/2065 of 19 October 2022 on a Single Market For Digital Services and amending…](eu2022dsa.md) — partial read; facets J, O
 - ✓* [Evans, M. D. D. (2018). Forex trading and the WMR Fix. *Journal of Banking & Finance, 87*, 233–247.](evans2018forex.md) — partial read; facets J
 - ✓* [Financial Conduct Authority. (2014, November 12). *FCA fines five banks £1.1 billion for FX failings and announces industry-wide remediation programme* [Press release].](fca2014fines.md) — full text; facets J
 - ✓* [Financial Stability Board. (2014, September 30). *Foreign exchange benchmarks: Final report*. Financial Stability Board.](fsb2014foreign.md) — partial read; facets J
@@ -245,7 +245,7 @@ Places where a full reading disagrees with a facet file are collected in [`../au
 - ✓ [Oomen, R. (2017). Last look. *Quantitative Finance, 17*(7), 1057–1070 (online 2016).](oomen2016last.md) — full text; facets J
 - ✓* [Oversight Board. (2022). *Q1 2022 transparency report* [Report covering 1 January–31 March 2022].](oversight2022q1.md) — partial read; facets J
 - ✓* [Pałka, P., Porębski, A., Pałosz, R., & Wiśniewska, K. (2025). Do foreign service providers simply ignore the EU consumer law? An empirical study of 100 online terms…](palka2025foreign.md) — full text; facets J
-- ✓ [Rosenblat, A., & Stark, L. (2016). Algorithmic labor and information asymmetries: A case study of Uber's drivers. *International Journal of Communication, 10*, 3758–3784.](rosenblat2016algorithmic.md) — full text; facets J, X
+- ✓ [Rosenblat, A., & Stark, L. (2016). Algorithmic labor and information asymmetries: A case study of Uber's drivers. *International Journal of Communication, 10*, 3758–3784.](rosenblat2016algorithmic.md) — full text; facets J, M, O, X
 - ✓ [Seattle Office of Labor Standards. (2024, November). *Model notice of deactivation* (based on requirements of SMC 8.40.070) [Form].](seattle2024deactivation.md) — full text; facets J
 - ✓* [Suzor, N. (2016, October 5–8). The responsibilities of platforms: A new constitutionalism to promote the legitimacy of decentralized governance. *Selected Papers of…](suzor2016responsibilities.md) — full text; facets J
 - ✓* [Suzor, N. (2018). Digital constitutionalism: Using the rule of law to evaluate the legitimacy of governance by platforms. *Social Media + Society, 4*(3), 1–11.](suzor2018digital.md) — full text; facets J

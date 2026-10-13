@@ -111,6 +111,29 @@ The lead writes `T_adjudication.md` after the facets and the audit.
 
 Facets I, J and K follow the same format and rules (§7, §8).
 
+### Third round (2026-10-13), from the author's outline
+
+The author adopted a nine-section outline (the Google Doc "Human Factors Paper"; sections: 2 the scribal
+precedent, 3 the human factors of re-representation, 4 the failure of disclosure, 5 from literacy to
+algorithmacy, 6 Decision Experience Design conventions, 7 institutional custody, 8 testing the
+irreducible triad, 9 limits) and asked for "deep research to identify any other aspects of that
+literature that we should include". Each facet below looks for literatures the first two rounds did not
+cover. Read `literature/library/INDEX.md` and the earlier facets first and do not repeat them.
+
+| Facet | File stem | Outline sections | Literatures to search |
+| --- | --- | --- | --- |
+| L | `L_disclosure_and_choice` | 4 | The law-and-economics and behavioural critique of mandated disclosure (Ben-Shahar and Schneider; Loewenstein, Sunstein and Golman; Bar-Gill; Fung, Graham and Weil on targeted transparency); privacy notices and consent; nudging against boosting (Hertwig and Grüne-Yanoff) and choice architecture as the nearest rival to "design, don't inform"; meta-analyses and reviews of explainable-AI human-subject studies and of human–AI decision performance; any disclosure study in a two-sided or mediated setting with a behavioural outcome |
+| M | `M_acting_on_algorithms` | 5 | Strategic classification and performative prediction in machine learning; algorithmic recourse; folk theories, algorithmic imaginaries, algorithmic gossip and "gaming the algorithm" among creators, sellers and workers; algoactivism and resistance (Kellogg, Valentine and Christin; Cameron and Rahman); whether platforms keep rules opaque or noisy on purpose (Rahman's "invisible cage"; obfuscation and shrouded attributes in economics, Ellison and Ellison, Gabaix and Laibson; sludge and dark patterns); experimentation and learning by doing on platforms |
+| N | `N_feedback_and_presentation` | 3, 6 | Interventions that change feedback timing or form with a behavioural outcome (real-time feedback field experiments, feedforward, previews, upfront pricing and information shown to gig workers); experiments on how a strategy-proof or simple mechanism is presented (menu descriptions; "the mechanism is truthful, why aren't you?"; obvious strategy-proofness follow-ups); display-design principles the outline has not used (proximity compatibility, stimulus–response compatibility, affordances and signifiers, gulfs of execution and evaluation, cognitive load theory) |
+| O | `O_custody_of_conventions` | 2, 7 | Who has held interface and procedural conventions and how they were enforced: the Carolingian script reform and monastic and court standardisation of writing; standards bodies for technical and interface conventions (IETF, W3C, accessibility standards, the browser padlock); platform governance scholarship; information fiduciaries; collective bargaining and statute on algorithmic management (EU Platform Work Directive, Spain's Rider Law, co-determination); commons and polycentric governance (Ostrom); worker data collectives and audits |
+| P | `P_triad_experiments` | 8 | Laboratory and field experiments with two human parties and an algorithmic intermediary that has its own objective (experimental markets with intermediaries, platform experiments, human–AI-mediated communication and negotiation); integrated information, synergy and partial information decomposition applied to groups, teams or social systems; design and preregistration standards for such experiments |
+
+Facets L–P follow the same format and rules (§7, §8), with three additions. Card-level reading is the
+aim: open the full text wherever an open copy exists and say which pages you read. End the synthesis
+with a section "What the outline should add", keyed to the outline's section numbers, giving for each
+proposed addition the claim, the two or three sources that carry it, and their read status. Never send
+any e-mail address to any service (so no Unpaywall); use OpenAlex for open-access locations.
+
 ## 6. What the repo already holds
 
 Start from `literature/REUSE.md`. Each row there is a lead: reopen the source and record your own read

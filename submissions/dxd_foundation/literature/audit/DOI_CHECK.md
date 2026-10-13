@@ -2,7 +2,7 @@
 
 *Written by `check_dois.py`. Metadata only: the registered title and year against the bib entry.*
 
-Entries with a DOI: 411. ok: 395. year differs: 7; TITLE MISMATCH: 9; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 165.
+Entries with a DOI: 576. ok: 559. year differs: 8; TITLE MISMATCH: 9; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 208.
 
 ## Rows needing a look
 
@@ -22,6 +22,7 @@ of silent reading</i>. Stanf |
 | `alfrink2023contestable` | 10.1007/s11023-022-09611-z | Crossref | 1.00 | 2023 | 2022 | year differs | Contestable AI by Design: Towards a Framework |
 | `gillespie2019custodians` | 10.12987/9780300235029 | Crossref | 1.00 | 2018 | 2019 | year differs | Custodians of the Internet Platforms, Content Moderation, and the Hidden Decisions That Sh |
 | `cribiore1996writing` | 10.3998/mpub.9749698 | Crossref | 1.00 | 1996 | 1995 | year differs | Writing, Teachers and Students in Graeco-Roman Egypt |
+| `mediano2019measuring` | 10.3390/e21010017 | Crossref | 1.00 | 2019 | 2018 | year differs | Measuring Integrated Information: Comparison of Candidate Measures in Theory and Simulatio |
 | `leveson2011engineering` | 10.7551/mitpress/8179.001.0001 | Crossref | 1.00 | 2011 | 2012 | year differs | Engineering a Safer World Systems Thinking Applied to Safety |
 | `perrow1999normal` | 10.2307/j.ctt7srgf | Crossref | 0.86 | 1999 | 2011 | year differs | Normal Accidents Living with High Risk Technologies - Updated Edition |
 | `holzinger2024human` | 10.1016/j.nbt.2024.12.003 | Crossref | 1.00 | 2024 | 2025 | year differs | Is human oversight to AI systems still possible? |
@@ -183,6 +184,49 @@ of silent reading</i>. Stanf |
 | `blake2002literacy` | https://archive.org/details/literacylearning0000blak |
 | `baron2000alphabet` | https://archive.org/details/alphabettoemailh00baro_0 |
 | `lyons2010history` | https://archive.org/details/historyofreading0000lyon |
+| `benshahar2011failure` | https://chicagounbound.uchicago.edu/journal_articles/1067 |
+| `willis2008against` | (no identifier) |
+| `bargill2019algorithmic` | https://chicagounbound.uchicago.edu/uclrev/vol86/iss2/12/ |
+| `mcdonald2008cost` | https://cyberlaw.stanford.edu/content/files/bitstream/handle/1811/72839/isjlp_v4n3_543.pdf |
+| `thaler2008nudge` | (no identifier) |
+| `perdomo2020performative` | 2002.06673 |
+| `ghalme2021strategic` | 2102.11592 |
+| `bechavod2022information` | 2103.01028 |
+| `hardt2023algorithmic` | 2302.04262 |
+| `rahman2019invisible` | https://purl.stanford.edu/fc567cc8525 |
+| `bambauer2018algorithm` | https://ndlawreview.org/wp-content/uploads/2018/11/1-Bambauer-Zarksy.pdf |
+| `hakimov2025complexity` | 2511.22834 |
+| `charlemagne1900letter` | https://sourcebooks.web.fordham.edu/source/carol-baugulf.asp |
+| `boretius1883capitularia` | https://archive.org/details/capitulariaregum01bore |
+| `dummler1881alcuini` | https://archive.org/details/poetaelatiniaevi00dm |
+| `piazzoni11bookhands` | https://spotlight.vatlib.it/latin-paleography/feature/11-1-bookhands-of-the-frankish-regions |
+| `rfc2026` | https://www.rfc-editor.org/rfc/rfc2026 |
+| `rfc7282` | https://www.rfc-editor.org/rfc/rfc7282 |
+| `rfc8890` | https://www.rfc-editor.org/rfc/rfc8890 |
+| `w3c2025process` | https://www.w3.org/policies/process/20250818/ |
+| `w3c2024wcag22` | https://www.w3.org/TR/2024/REC-WCAG22-20241212/ |
+| `doj2024ada` | https://www.federalregister.gov/documents/2024/04/24/2024-07758 |
+| `doj2026extension` | https://www.federalregister.gov/documents/2026/04/20/2026-07663 |
+| `eu2019eaa` | http://publications.europa.eu/resource/celex/32019L0882 |
+| `felt2016rethinking` | https://www.usenix.org/conference/soups2016/technical-sessions/presentation/porter-felt |
+| `chromium2018evolving` | https://blog.chromium.org/2018/05/evolving-chromes-security-indicators.html |
+| `helpnet2023lock` | https://www.helpnetsecurity.com/2023/05/03/google-chrome-https/ |
+| `akhawe2013alice` | https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/akhawe |
+| `balkin2016information` | https://lawreview.law.ucdavis.edu/sites/g/files/dgvnsk15026/files/media/documents/49-4_Balkin.pdf |
+| `khan2019skeptical` | https://scholarship.law.columbia.edu/faculty_scholarship/2451 |
+| `holznagel2025shortcomings` | https://dsa-observatory.eu/2025/06/11/shortcomings-of-the-first-dsa-audits-and-how-to-do-better/ |
+| `eu2024platform` | http://publications.europa.eu/resource/celex/32024L2831 |
+| `boe2021rdl9` | https://www.boe.es/buscar/act.php?id=BOE-A-2021-7840 |
+| `de1972betrvg` | https://www.gesetze-im-internet.de/betrvg/ |
+| `neumann2025authority` | https://etheses.whiterose.ac.uk/id/eprint/38626/ |
+| `eurofound2024hilfr` | https://apps.eurofound.europa.eu/platformeconomydb/collective-agreement-on-use-of-ai-and-algorithms-signed-110187 |
+| `wageindicator2022justeat` | https://wageindicator.org/labour-laws/collective-bargaining/2022/spain-collective-agreement-for-food-delivery-platform-january-31-2022 |
+| `eurofound2025glovo` | https://apps.eurofound.europa.eu/platformeconomydb/glovo-faces-450m-spanish-social-security-bill-for-misclassifying-riders-110271 |
+| `williams2010nonnegative` | 1004.2515 |
+| `barrett2026integrated` | 2604.11482 |
+| `rebbin2025inferring` | 2512.02671 |
+| `chugunova2020we` | https://research-collection.ethz.ch/handle/20.500.11850/442053 |
+| `otree2026live` | https://otree.readthedocs.io/en/latest/live.html |
 | `finnegan1988literacy` | (no identifier) |
 | `plato1925phaedrus` | (no identifier) |
 | `hunt2026decision` | (no identifier) |

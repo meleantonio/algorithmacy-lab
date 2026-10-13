@@ -1,12 +1,14 @@
 # The foundation paper for Decision Experience Design
 
-**Status (2026-10-13):** researched in two rounds, audited, carded and outlined. The author ruled on the
+**Status (2026-10-13):** researched in three rounds, audited, carded and outlined. The author ruled on the
 ten decisions on 2026-10-13 and then asked Claude for an abstract, an introduction and a section outline:
-[`DRAFT.md`](DRAFT.md), Claude-drafted and unreviewed. The author writes the rest. Claude wrote every file in this arm, and
+Claude drafted one, the author replaced it with a Gemini-written version in a Google Doc, and
+[`DRAFT.md`](DRAFT.md) is a snapshot of that doc with Claude's edits and citation bullets marked. The
+author writes the rest. Claude wrote every file in this arm, and
 none of the wording is the author's unless quoted.
 
 **Where the research stands.** [`literature/facets/T_adjudication.md`](literature/facets/T_adjudication.md)
-§9 is the current statement, and [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) follows it. In brief: readers used
+§9 and §10 are the current statement, and [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) follows it. In brief: readers used
 to spaces lose a third to a half of their speed without them, and that dependence is the robust fact;
 no source credits word separation with spreading literacy, and the nearest support for a shortened
 training is one sentence of Saenger's (1997, p. 85). Word separation re-represented the page without
@@ -35,9 +37,9 @@ observation and containment by the organisation. See [`CLAIM.md`](CLAIM.md).
 | [`CLAIM.md`](CLAIM.md) | The provisional claim, the two hypotheses on the history, and what not to claim |
 | [`RESEARCH_PLAN.md`](RESEARCH_PLAN.md) | Terms, standing rulings, the four problems, the ten facets, the facet file format and rules |
 | [`literature/REUSE.md`](literature/REUSE.md) | What the lab's other arms already hold, with recorded read depths |
-| `literature/facets/` | Ten research facets (A–H, X, Z) and three from the second round (I, J, K), one `.md` and one `.bib` each, then [`T_adjudication.md`](literature/facets/T_adjudication.md) |
+| `literature/facets/` | Ten research facets (A–H, X, Z), three from the second round (I, J, K) and five from the third (L–P), one `.md` and one `.bib` each, then [`T_adjudication.md`](literature/facets/T_adjudication.md) |
 | `literature/references.bib` | Built by `python3 literature/merge_bibs.py` from the facet bibs (first facet wins) |
-| `literature/audit/` | `AUDIT_01`–`06.md` (every quotation and number in the facet syntheses, re-checked by independent agents), `CARD_FACET_CHECKS.md` (where a full reading disagreed with a facet), `DOI_CHECK.md` (written by `check_dois.py`), `BIB_CHANGES.md` |
+| `literature/audit/` | `AUDIT_01`–`11.md` (every quotation and number in the facet syntheses, re-checked by independent agents), `CARD_FACET_CHECKS.md` (where a full reading disagreed with a facet), `DOI_CHECK.md` (written by `check_dois.py`), `BIB_CHANGES.md` |
 | [`literature/library/`](literature/library/INDEX.md) | The contextual bibliography: 251 cards, one per source read from full text, each re-checked by a second agent. [`INDEX.md`](literature/library/INDEX.md) lists them by facet; [`README.md`](literature/library/README.md) gives the card format |
 | [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) | Twelve premises to the conclusion, each with its source, depth mark and weakest point |
 | [`OUTLINE.md`](OUTLINE.md) | Decisions, terms, section plan, course crosswalk, flags on existing texts, sources to fetch |
