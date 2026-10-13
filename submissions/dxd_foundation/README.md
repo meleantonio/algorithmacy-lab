@@ -1,7 +1,8 @@
 # The foundation paper for Decision Experience Design
 
-**Status (2026-10-13):** researched in two rounds, audited, carded and outlined; no draft. The author
-ruled on the ten decisions on 2026-10-13 and writes the paper. Claude wrote every file in this arm, and
+**Status (2026-10-13):** researched in two rounds, audited, carded and outlined. The author ruled on the
+ten decisions on 2026-10-13 and then asked Claude for an abstract, an introduction and a section outline:
+[`DRAFT.md`](DRAFT.md), Claude-drafted and unreviewed. The author writes the rest. Claude wrote every file in this arm, and
 none of the wording is the author's unless quoted.
 
 **Where the research stands.** [`literature/facets/T_adjudication.md`](literature/facets/T_adjudication.md)
