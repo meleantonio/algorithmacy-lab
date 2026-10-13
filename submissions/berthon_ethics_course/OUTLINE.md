@@ -1,7 +1,7 @@
 # Outline — the ethics of two transitions
 
-*Written by Claude on 2026-10-13 and revised the same day after the author's eight rulings and the
-second round. The author has not reviewed it, and none of the text is the author's.
+*Written by Claude on 2026-10-13 and revised the same day after the author's rulings, the second
+round, and the third round on the full texts he supplied. The author has not reviewed it, and none of the text is the author's.
 This is a section plan with sources. It holds no draft prose; the author writes the paper.*
 
 ## (a) The author's rulings that shape the outline
@@ -30,7 +30,9 @@ the people who must acquire it, and what did they do with it last time?
 
 **§2. The standard.** What licenses calling a past practice a failure.
 - Sources: facet X, Q2 (Hunt; Butterfield; Levy's split between condemning a practice and blaming
-  persons). Socrates on writing (`sources/part2_ethics_DRAFT.md:71`) as a contemporary objecting to
+  persons). Moody-Adams (1994), read in full: against the "inability thesis" (p. 293); "affected
+  ignorance" (p. 296); a culture "cannot be an 'agent' of anything" (p. 304). `T_adjudication.md`
+  §9.4 says what she does to the three standards. Socrates on writing (`sources/part2_ethics_DRAFT.md:71`) as a contemporary objecting to
   the transition itself.
 - Carries the qualification at `sources/design_ethics_DRAFT.md:85`: no cognitive claim; and the
   counter-evidence of P9, that people sought literacy and it delivered.
@@ -38,21 +40,28 @@ the people who must acquire it, and what did they do with it last time?
 **§3. Five things done with literacy.** One subsection each; each gives what was done, to whom, on
 what stated ground, who objected, what ended it.
 1. *The gate.* Facet D, F1–F3. The framers' statements; registrar discretion; *Gaston*; Wilson's veto.
+   Holmes's review of Kousser for turnout before and after (64 to 30 percent, pp. 270–271); the book
+   itself is unread.
 2. *The withheld competence.* Facet C, Failures 1–2. The statutes at their actual scope; Auld; the
    Douglasses; More's "no writing for the poor".
 3. *The record over the voice.* Facet A, Failures 1–3. *Marshall* ¶14, ¶40; *Delgamuukw* ¶98; Waitangi;
    Barnet. Facet G adds the third party: Henry Williams at Waitangi (Tribunal pp. 355, 506, 514), and
    against him the safeguards of the same era (the Pragmática of 1503; second interpreters; the plea
-   of *non est factum*). `T_adjudication.md` §8.1.
+   of *non est factum*). `T_adjudication.md` §8.1. Andrien's review of Burns (p. 145) reports Cuzco
+   notaries manipulating the record for a powerful client; review depth only.
 4. *The monopoly.* Facet B, Failure 1. The charter; the 1662 Act; Milton.
-5. *The promise.* Facet F, Q1, Q3, Q5. Jomtien and Dakar; the 2024 count; Freire.
+5. *The promise.* Facet F, Q1, Q3, Q5. Jomtien and Dakar; the 2024 count; Freire. Graff, ch. 7,
+   p. 321 ("more valuable to the society's goals and needs than to those of most individuals within
+   it") and 1979 introduction, p. 19 ("Literacy did carry certain benefits"). Cite Kamperman and
+   Graff (2026, p. 36) here and in §4: they already apply the myth to AI literacy.
 6. *Compulsory participation and one enforced language* (ruling 5). Facet E. Not a failure of
    literacy: the reports blame removal, forced labour, abuse and language suppression, and none blames
    the teaching of reading (facet E, "Claims the sources contradict" 1). The subsection carries the two
    properties the reports do support, that attendance was compelled and that one language of
    instruction was enforced, and says in its first lines why it is not a sixth failure of the kind
    in 1–5.
-- Do not use: Innis as a wrong done to persons; print as the cause of dialect loss; any count of people
+- Do not use: "societies came to require literacy" as a general claim (`T_adjudication.md` §9.2);
+  Innis as a wrong done to persons; print as the cause of dialect loss; any count of people
   excluded in the print era; Graff's require/reward distinction as his.
 
 **§4. The same positions, occupied again.** The comparison table of `T_adjudication.md` §4, one
@@ -66,7 +75,8 @@ paragraph per row, each naming the property compared.
 - The promise: `sources/design_ethics_DRAFT.md:93` (reading the black box); facet Z, Q2 (AI-literacy
   rules); `sources/design_ethics_DRAFT.md:120` (Berthon and Pitt; ruling 6). Facet H contradicts
   three sentences of that passage (`T_adjudication.md` §8.2), so it cannot be used as it stands; the
-  author rewrites it from `BERTHON_NOTES.md`. What
+  author rewrites it from `BERTHON_NOTES.md`, which now rests on the full texts: Berthon, Pitt and
+  Campbell argue that "information is necessary, but not sufficient to change behavior" (p. 457). What
   the sources support: Berthon and Pitt diagnose a business model "designed to make us mindless" and
   say the shallow form of mindfulness "may be of little help"; Berthon, Pitt and Campbell list
   "informing, guiding, and restricting"; Williams rejects "media literacy alone" (pp. 100–101).
@@ -105,7 +115,9 @@ counter-delegation against the one-sided record.
 ## (c) What must be read before anything in this plan is quoted
 
 The library list in `T_adjudication.md` §7. First: Graff, *The Literacy Myth*; Kamperman and Graff
-(2026); Clanchy; and, since the second round, Berthon, Pitt and Campbell (2019). Every source marked
+(2026); Clanchy; and, since the second round, Berthon, Pitt and Campbell (2019). The author supplied
+full texts of several on 2026-10-13; `T_adjudication.md` §9.6 lists what is now quotable and what is
+still unread. Every source marked
 ◐ or ○ in `ARGUMENT_MAP.md` is paraphrase-only until re-read.
 
 ## (d) Flags on the two drafts

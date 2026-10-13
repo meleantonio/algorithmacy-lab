@@ -48,6 +48,15 @@ questions. The second column is the option label he chose, verbatim. The third i
 | The pairing of each design principle with the failure it answers (`OUTLINE.md` §6) | "Keep it" | §6 is organised by the three pairs. |
 | Push the branch and open a PR into `contrib` | "Push and open PR" | Done on 2026-10-13. |
 
+## Texts the author supplied (2026-10-13)
+
+After the second round the author supplied twenty PDFs from his own library access. They are kept
+outside the repo. Seven are full texts (Berthon, Pitt and Campbell 2019; Berthon and Pitt 2019;
+Berthon et al. 2024; Keaney and Berthon 2025; Kamperman and Graff 2026; Moody-Adams 1994; Graff's two
+introductions and chapter 7 of *The Literacy Myth*). The others are reviews of Clanchy (two), Stock
+(one, supplied twice), Burns, Nussdorfer, Williams, Cornelius, Monaghan, Kousser and Keyssar. Facets
+L1–L3 record the readings.
+
 ## The two source drafts
 
 Copies are in [`sources/`](sources/), unchanged. Claude wrote both drafts; neither holds the author's

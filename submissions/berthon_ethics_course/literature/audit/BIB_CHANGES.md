@@ -44,3 +44,17 @@ All corrections in `AUDIT_03.md` (C1–C11 for H, C1g–C11g for G; 34 text repl
 the facet files as exact replacements. One further locator in `H_berthon_record.md` was changed on
 the same ground as C1–C4 ("proof pp. 6–7" to "proof p. 6" in Q4; page 7 of the proof holds references
 only). One bib entry changed: `su2023ethical`, pages 4933–4942 (C11).
+
+## Third round (facets L1–L3, 2026-10-13)
+
+`merge_bibs.py` now merges L1, L2 and L3 first, so that entries for texts the author supplied carry
+the read status of the full-text reading. The merged file holds 255 entries; 29 duplicates were
+dropped.
+
+142 entries carry a DOI; 137 match. Two more need no change, for the same reason as
+`silverblatt2012burns`: `robertson1980clanchy` and `hemphill2006monaghan` are book reviews registered
+under the titles of the books they review.
+
+All 20 replacements in `AUDIT_04.md` are applied to the L facets as exact replacements. One e-mail
+address, copied from a paper's title page into `L1_berthon_fulltext.md`, was removed before the first
+commit of that file.

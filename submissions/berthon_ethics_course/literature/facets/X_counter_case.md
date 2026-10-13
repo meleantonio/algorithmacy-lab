@@ -1,5 +1,7 @@
 # Facet X: the counter-case (2026-10-13)
 
+*Note added by the lead, 2026-10-13: this facet is a dated record. Full texts supplied later were read in `L3_library_reads.md`, which lists the statements here that they correct; where the two differ, `L3_library_reads.md` and `T_adjudication.md` §9 govern.*
+
 Agent-drafted. The author has not reviewed it, and none of the text is the author's.
 
 ## What this facet covers

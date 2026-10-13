@@ -1,6 +1,7 @@
 # The ethics of two transitions (Berthon ethics course paper)
 
-**Status (2026-10-13):** two research rounds run and audited; the author has ruled on the eight
+**Status (2026-10-13):** three research rounds run and audited, the third on full texts the author
+supplied; the author has ruled on the eight
 decisions; adjudicated and outlined; no draft. The author writes the paper.
 Claude wrote every file in this arm, and none of the wording is the author's unless quoted.
 
@@ -26,6 +27,13 @@ The two facets that followed found that the literacy transition had its own thir
 safeguards better documented than abuse, and that three sentences of the Berthon passage misstate
 their sources (`T_adjudication.md` §8).
 
+**The third round.** The author supplied twenty PDFs: seven full texts and reviews of ten books.
+Kamperman and Graff (2026) already make the overselling argument for AI literacy and touch none of
+the other four failures. Graff's introductions and chapter 7 do not state the require/reward
+distinction the design-ethics draft attributes to him. Berthon, Pitt and Campbell (2019) argue for
+regulation and say information is "necessary, but not sufficient". Moody-Adams (1994) removes the
+need for a contemporary objector (`T_adjudication.md` §9).
+
 **Where it starts.** Two Claude-written drafts hold the starting material:
 [`../algorithmacy_design_ethics/DRAFT.md`](../algorithmacy_design_ethics/DRAFT.md) and
 [`../decision_experience_design/part2_ethics/DRAFT.md`](../decision_experience_design/part2_ethics/DRAFT.md).
@@ -42,10 +50,10 @@ before mass literacy and document no wrong done during the transition.
 | [`sources/`](sources/) | Byte-identical copies of the two drafts |
 | [`REUSE_MAP.md`](REUSE_MAP.md) | Every section of both drafts tagged as carrying over, carrying over with a flag, or out of scope; five flags for the author |
 | [`RESEARCH_PLAN.md`](RESEARCH_PLAN.md) | Terms, standing rulings, the five problems, the eight facets, the facet file format and rules |
-| `literature/facets/` | One `.md` and one `.bib` per facet (A–F, X, Z; then G and H in the second round), then [`T_adjudication.md`](literature/facets/T_adjudication.md) |
+| `literature/facets/` | One `.md` and one `.bib` per facet (A–F, X, Z; G and H in the second round; L1–L3 in the third), then [`T_adjudication.md`](literature/facets/T_adjudication.md) |
 | `literature/references.bib` | Built by `python3 literature/merge_bibs.py` from the facet bibs (first facet wins) |
-| `literature/audit/` | `AUDIT_01.md` (facets A–D) and `AUDIT_02.md` (E, F, X, Z): 460 items re-checked by independent agents, 384 confirmed, 25 wrong, 51 unverifiable, with every proposed correction applied but one; `AUDIT_03.md` (G, H): 69 rows, 46 confirmed, 15 wrong and corrected, 8 unverifiable; `DOI_CHECK.md`, written by `check_dois.py`; `BIB_CHANGES.md` |
-| [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) | Fifteen premises, each with its source, depth mark and weakest point |
+| `literature/audit/` | `AUDIT_01.md` (facets A–D) and `AUDIT_02.md` (E, F, X, Z): 460 items re-checked by independent agents, 384 confirmed, 25 wrong, 51 unverifiable, with every proposed correction applied but one; `AUDIT_03.md` (G, H): 69 rows, 46 confirmed, 15 wrong and corrected, 8 unverifiable; `AUDIT_04.md` (L1–L3): 107 items, 93 confirmed, 9 wrong and corrected, 5 unverifiable; `DOI_CHECK.md`, written by `check_dois.py`; `BIB_CHANGES.md` |
+| [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) | Sixteen premises, each with its source, depth mark and weakest point |
 | [`OUTLINE.md`](OUTLINE.md) | The author's rulings, a six-section plan with the passages each section can draw on, the rebuilt table, and four further flags on the two drafts |
 | [`BERTHON_NOTES.md`](BERTHON_NOTES.md) | What Berthon's papers and Williams say, with locators, set against the three sentences of the draft passage that misstate them. Notes only |
 
@@ -53,12 +61,13 @@ before mass literacy and document no wrong done during the transition.
 
 - The Berthon passage, which the author rewrites from [`BERTHON_NOTES.md`](BERTHON_NOTES.md).
 - The five flags at the end of [`REUSE_MAP.md`](REUSE_MAP.md) and the four in `OUTLINE.md` (d).
-- The library list in `T_adjudication.md` §7 and §8.3. Graff's *The Literacy Myth*, Kamperman and
-  Graff (2026), Clanchy, and Berthon, Pitt and Campbell (2019) come first; none was opened, and
-  nothing from them is quotable.
+- The books still unread, listed in `T_adjudication.md` §9.6. Reviews of ten of them were read;
+  a review is not quotable as the book.
+- Earlier facets are dated records. Where L1–L3 differ from facets F, G, H, X or Z, the L facets
+  and `T_adjudication.md` §9 govern.
 
-**How it was made.** Ten Sonnet agents ran one facet each on 2026-10-13 and three more audited the
-facet syntheses. Claude (Opus) led, applied the audits' corrections as exact text replacements,
+**How it was made.** Thirteen Sonnet agents ran one facet each on 2026-10-13 and four more audited
+the facet syntheses. Claude (Opus) led, applied the audits' corrections as exact text replacements,
 adjudicated, and wrote the argument map and outline. Read depth is recorded per source; most sources
 were read in part, and no book was read whole.
 

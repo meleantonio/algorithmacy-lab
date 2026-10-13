@@ -173,3 +173,113 @@ Berthon, Pitt and Campbell (2019), *Journal of Public Policy & Marketing* 38(4),
 *Into the Archive*; Nussdorfer, *Brokers of Public Trust*; Merrell, *Into the American Woods*;
 *Thoroughgood's Case* (1582); *Saunders v Anglia Building Society* (1971); the Waitangi Tribunal's
 Wai 1040 report beyond the twenty-odd pages read.
+
+## 9. The third round: full texts the author supplied (2026-10-13)
+
+The author supplied twenty PDFs. Seven are full texts: Berthon, Pitt and Campbell (2019); Berthon and
+Pitt (2019) in the version of record; Berthon et al. (2024); Keaney and Berthon (2025); Kamperman and
+Graff (2026); Moody-Adams (1994); and three parts of Graff's *The Literacy Myth* (both introductions
+and chapter 7). Ten are reviews of books on the library list, one of them supplied twice. A review
+reports what the reviewer says the book argues; the books themselves stay unread. Facets L1–L3 hold
+the readings, audited in `../audit/AUDIT_04.md` (107 items: 93 confirmed, 9 wrong and corrected, 5
+unverifiable). Sections 1–8 stand as written; where this section differs, it governs.
+
+### 9.1 Kamperman and Graff (2026): what the paper must cite, and what it adds [L2]
+
+Kamperman and Graff apply Graff's literacy myth to "AI literacy". Their second myth is "Literacy is a
+certain or guaranteed path to economic security" (p. 36), which is the overselling argument of row 5.
+The gap statement of facet Z no longer holds for that row: the paper cites them for it.
+
+They do not discuss a reading test as a gate, a law against teaching, a written record overriding
+speech, a monopoly over the medium, or a third party between two people. A full-text search by the
+auditor found no voting test, statute, treaty, deed, licence or monopoly. On those four rows, and on
+the question of standing, I found no prior work in the sources searched.
+
+Two things in the article bear on this paper's own terms. It faults AI literacy for using "literacy
+uncritically as a metaphor" (p. 35), an objection "algorithmacy" has to meet. And its remedy is
+person-side with "norms for disclosure" (p. 37), so it does not argue against the remedy of teaching
+the person, as §4 guessed it might. Its nearest thing to a gate is its report that Ohio State
+"proclaimed all OSU graduates starting with the class of 2029 would be 'AI fluent'" (p. 35), which is
+a requirement placed on a curriculum, not a bar on a person.
+
+### 9.2 Graff: the require/reward distinction, and the first premise [L2]
+
+No passage in the two introductions or chapter 7 sets a society requiring literacy against literacy
+rewarding the literate. The auditor searched all three files for "require", "reward", "benefit" and
+"demand" and found none. Graff's own contrasts are promised against delivered, and society against
+individual: "literacy was more valuable to the society's goals and needs than to those of most
+individuals within it" (ch. 7, p. 321). He does not say literacy rewarded no one: "Literacy did carry
+certain benefits" (1979 introduction, p. 19). Chapters 1–6 are unread.
+
+Chapter 7 also bears on P1, that societies came to require literacy for standing. For unskilled and
+semiskilled work in 1861 Ontario, "Doing his or her job seldom, if ever, required the use of reading
+and writing" (p. 302), and "Simply, high degrees of literacy were often not required for work or
+welfare" (p. 303); the next sentence on p. 302 says artisans needed it more often. Hunnisett's review
+of Clanchy adds that literacy was "not essential for kings or for such officials as sheriffs" (p. 67).
+P1 therefore holds only for the particular gates the facets document, which is how the map already
+qualified it.
+
+Graff gives no one-sentence definition of the literacy myth in the parts read; the formula facet F
+quotes is from his 2010 and 2022 papers. Chapter 7 names contemporaries who doubted the promoters
+(Hodgson in 1868, Phillips Thompson, the labour press; pp. 269, 299–301), which adds to row 5's
+"who named it a wrong at the time" at the scale of one Canadian province.
+
+### 9.3 Berthon [L1]
+
+`BERTHON_NOTES.md` is rewritten from the full texts and replaces §8.2 points 1, 3 and 4. In brief:
+the policy paper of 2019 argues that "public policy solutions are required" (p. 457) and that
+"information is necessary, but not sufficient to change behavior" (p. 457); it sorts mandated stopping
+points and taxes under guiding, not restricting; and it keeps mindfulness teaching and digital hygiene
+inside the regulatory package. The quotation from the mindfulness column is on p. 136 of the printed
+issue. The reading that Berthon's remedy follows his reader, regulator for policy-makers and firm for
+managers, is Claude's.
+
+### 9.4 Moody-Adams (1994) and the standard for "failed" [L3]
+
+Moody-Adams argues against "the inability thesis", that a culture can leave people unable to know a
+practice is wrong (p. 293). Evidence of what agents did not do cannot show what they could not do
+(p. 294); "affected ignorance" is "choosing not to know what one can and should know" (p. 296); and a
+culture "cannot be an 'agent' of anything" (p. 304). Her worked case is slavery in ancient Greece.
+She does not discuss literacy.
+
+What this does to §5, in Claude's reading:
+
+1. The author's three internal standards stand. She supplies a test of blame (could have known, had
+   an interest, did not examine), not a further standard for calling a practice a failure.
+2. A present-day standard would not be unfair on her argument. The ruling against adding one is then
+   a choice the paper makes, and the paper should not say presentism forces it.
+3. For record over voice, where few contemporaries objected, a thin record of objection does not
+   clear the actors. The paper can claim plausibly affected ignorance where it shows interest and a
+   refusal to examine. It cannot claim proof.
+4. Her line on culture supports ruling 3: "the global community" is not an agent that failed.
+5. Levy's split between condemning a practice and blaming persons (§5) is not hers. She blames
+   persons in degree.
+
+### 9.5 What the reviews add [L3]
+
+Each of these is a reviewer's report of a book that was not opened.
+
+- **The gate.** Holmes on Kousser: in the 1880s 64 percent of eligible Southern voters took part and
+  25 percent backed Republicans or independents; after the restrictions, 30 percent and 10 percent
+  (pp. 270–271). Black-belt Democrats "wanted to eliminate the voting of poor whites as well as
+  blacks" (p. 271). Populists, Republicans and Black voters opposed the restrictions (p. 271).
+- **Withholding.** Margo on Williams gives the legislators' ground: "Fearing insurrection, southern
+  state legislatures made it a crime for persons to instruct slaves or free blacks to read and write"
+  (p. 590). He notes that Williams does not test whether the laws were effective (p. 591). Waters on
+  Cornelius reports that Whitemarsh Seabrook's proposals for criminal penalties were challenged by
+  other South Carolinians (p. 106); the reviewer does not say they called the proposals a wrong.
+- **Third parties.** Andrien on Burns: Cuzco notaries "could manipulate the legal record in the
+  service of a powerful client or on their own account" (p. 145). This is a second case of a third
+  party with a divergent interest and qualifies §8.1's statement that the record documents safeguards
+  more firmly than abuse. Andrien does not say the other party could not read. The phrase "acting for
+  both litigants and judges", which facet G gives to Andrien and Gose, is Gose's alone.
+- **Records.** Hunnisett on Clanchy reports forgeries prevailing over "genuine Anglo-Saxon charters"
+  (p. 68).
+
+### 9.6 The library list after this round
+
+Read in full and now quotable: Berthon, Pitt and Campbell (2019); Kamperman and Graff (2026);
+Moody-Adams (1994); Graff's two introductions and chapter 7; Berthon et al. (2024); Keaney and Berthon
+(2025). Still unread as books: Graff chapters 1–6; Clanchy; Stock; Burns; Nussdorfer; Williams;
+Cornelius; Monaghan; Kousser; Keyssar; Eisenstein; Febvre and Martin; Johns (1998); Merrell; the
+UNESCO/UNDP assessment of 1976.

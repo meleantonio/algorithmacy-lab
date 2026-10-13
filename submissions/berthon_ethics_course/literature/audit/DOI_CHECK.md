@@ -2,12 +2,14 @@
 
 *Written by `check_dois.py`. Metadata only: the registered title and year against the bib entry.*
 
-Entries with a DOI: 135. ok: 132. year differs: 1; TITLE MISMATCH: 2; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 111.
+Entries with a DOI: 142. ok: 137. year differs: 1; TITLE MISMATCH: 4; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 113.
 
 ## Rows needing a look
 
 | key | doi | source | title ratio | bib year | registered year(s) | verdict | registered title |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| `robertson1980clanchy` | 10.2307/1854942 | Crossref | 0.51 | 1980 | 1980 | TITLE MISMATCH | From Memory to Written Record: England, 1066-1307 Sprache und Gesellschaft im Mittelalter: |
+| `hemphill2006monaghan` | 10.1086/ahr.111.5.1500 | Crossref | 0.02 | 2006 | 2006 | TITLE MISMATCH | E. JENNIFER MONAGHAN. Learning to Read and Write in Colonial America. (Studies in Print Cu |
 | `lake2006mississippi` | 10.22459/cw.03.2006 | Crossref | 0.26 | 2006 | 2006 | TITLE MISMATCH | Connected Worlds: History in Transnational Perspective |
 | `bromham2022global` | 10.1038/s41559-021-01604-y | Crossref | 1.00 | 2022 | 2021 | year differs | Global predictors of language endangerment and the future of linguistic diversity |
 | `silverblatt2012burns` | 10.1093/jsh/shs049 | Crossref | 0.52 | 2012 | 2012 | TITLE MISMATCH | Into the Archive: Writing and Power in Colonial Peru. By Kathryn Burns (Durham, NC: Duke U |
@@ -16,6 +18,10 @@ Entries with a DOI: 135. ok: 132. year differs: 1; TITLE MISMATCH: 2; NOT FOUND:
 
 | key | identifier |
 | --- | --- |
+| `graff1991literacy` | https://wacclearinghouse.org/books/landmarks/literacy-myth/ |
+| `andrien2012burns` | https://www.jstor.org/stable/41487910 |
+| `margo2005williams` | https://www.jstor.org/stable/3875089 |
+| `polakoff2000keyssar` | (no identifier) |
 | `clanchy2013memory` | https://books.google.com/books?id=wbKWUBrE7SAC |
 | `waitangi2014declaration` | https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_85648980/Te%20Raki%20W.pdf |
 | `delgamuukw1997` | https://decisions.scc-csc.ca/scc-csc/scc-csc/en/item/1569/index.do |
@@ -91,7 +97,6 @@ Entries with a DOI: 135. ok: 132. year differs: 1; TITLE MISMATCH: 2; NOT FOUND:
 | `mignolo1995darker` | https://archive.org/details/darkersideofrena0000mign |
 | `dietrich2006language` | (no identifier) |
 | `street1984literacy` | (no identifier) |
-| `graff1991literacy` | https://wacclearinghouse.org/books/landmarks/literacy-myth/ |
 | `alexander1980literacy` | https://journals.lib.unb.ca/index.php/Acadiensis/article/view/11538 |
 | `mann1849massachusetts` | https://archive.org/details/massachusettssys01mass |
 | `freire1970pedagogy` | https://courses.cs.duke.edu/spring24/compsci290.2/readings/Pedagogy-of-the-Oppressed-Chapter-2.pdf |
@@ -110,7 +115,6 @@ Entries with a DOI: 135. ok: 132. year differs: 1; TITLE MISMATCH: 2; NOT FOUND:
 | `saunders1971anglia` | https://www.bailii.org/uk/cases/UKHL/1970/5.html |
 | `petelin1975cullen` | (no identifier) |
 | `nussdorfer2009brokers` | https://doi.org/10.1086/ahr.116.1.238 |
-| `andrien2012burns` | https://consensus.app/papers/details/057da4a404fb59a5afc17703ba41dea1/ |
 | `metayer1991ecrivain` | https://consensus.app/papers/details/f824e692863756de986da7483b87517d/ |
 | `delaware2006pennsylvania` | https://www2.ca3.uscourts.gov/opinarch/044593p.pdf |
 | `washington1901up` | https://archive.org/details/upfromslaveryaut00wash |
