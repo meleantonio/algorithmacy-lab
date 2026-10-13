@@ -145,3 +145,29 @@ and Christin (2020); Ananny and Crawford (2018); Elman on the Chinese examinatio
   US law on algorithmic management. Whether Benjamin (*Race After Technology*) draws the literacy-test
   parallel could not be checked; do not attribute it.
 - Record over voice and monopoly found no new cases outside those the paper has.
+
+## 7. Worked into the Google Doc (2026-10-13)
+
+The author ruled: "if you think it helps the argument, do it". Claude made 20 find-and-replace edits
+in the Google Doc, each adding one to three sentences inside an existing bullet or narrowing a phrase:
+
+- The safeguards claim narrowed to "independent, binding counterpart" in the abstract, contribution 3
+  and 5.3, with the EU provisions and the platform's two roles (§2 item 1; §3 item 10).
+- Introduction: Edwards and Veale cited for disclosure; "current critiques (Vee, 2013; Kamperman &
+  Graff, 2026) center the skill and its promise, not the positions around it".
+- 2.1 Street and Simmel; 2.3 Walzer and the symmetry with §6; 2.5 Brandt, non-domination and Young.
+- 3.1 Latin America and Natal; 3.2 the Indies, Ukraine and Phule; 3.3 Messick and Fricker; 3.5 Street
+  and Giesler and Veresiu.
+- 5.1 Dubal and Cameron; 5.3 the notary's duty to both parties.
+- 6.1 the three benchmarks applied to the present, and the fiduciary alternative; 6.2 Hoeksema; 6.3
+  the disclosure caveat; 6.4 the agency-law caution and prior proposals; 6.5 enforcement.
+- 7.1 the wider cases named as checks.
+
+Not worked in: epistemic injustice beyond one sentence; the §4 table; items 9 (who pays the third
+party) and 12 (who holds the claim) of section 3; the Hill aside on reading terms aloud.
+
+Cited in the doc but not read in the original, so each needs reading before the paper is submitted:
+Pettit (1997); Fricker (2007); Street (1984); Brandt (1998, read in its 1997 report version); and, at
+abstract or secondary depth, Muldoon and Raekstad (2023), Hoeksema (2023), Mittelstadt (2019). The
+doc's reference list covers the introduction only and does not yet include Edwards and Veale (2017) or
+Vee (2013).
