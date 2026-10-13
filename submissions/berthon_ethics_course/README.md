@@ -2,7 +2,8 @@
 
 **Status (2026-10-13):** three research rounds run and audited, the third on full texts the author
 supplied; the author has ruled on the eight
-decisions; adjudicated and outlined; no draft. The author writes the paper.
+decisions; adjudicated and outlined. One Claude-drafted introduction, written at the author's request; the
+author writes the paper.
 Claude wrote every file in this arm, and none of the wording is the author's unless quoted.
 
 **The question.** Where did the global community fail on ethical grounds as literacy spread, and which
@@ -55,6 +56,8 @@ before mass literacy and document no wrong done during the transition.
 | `literature/audit/` | `AUDIT_01.md` (facets A–D) and `AUDIT_02.md` (E, F, X, Z): 460 items re-checked by independent agents, 384 confirmed, 25 wrong, 51 unverifiable, with every proposed correction applied but one; `AUDIT_03.md` (G, H): 69 rows, 46 confirmed, 15 wrong and corrected, 8 unverifiable; `AUDIT_04.md` (L1–L3): 107 items, 93 confirmed, 9 wrong and corrected, 5 unverifiable; `DOI_CHECK.md`, written by `check_dois.py`; `BIB_CHANGES.md` |
 | [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) | Sixteen premises, each with its source, depth mark and weakest point |
 | [`OUTLINE.md`](OUTLINE.md) | The author's rulings, a six-section plan with the passages each section can draw on, the rebuilt table, and four further flags on the two drafts |
+| [`INTRODUCTION.md`](INTRODUCTION.md) | A draft introduction on Lange and Pfarrer's five moves. Claude drafted it at the author's request; it is the only draft prose in the arm and is not the author's until he rewrites it |
+| [`PAPER_OUTLINE.md`](PAPER_OUTLINE.md) | A paragraph-level outline of §2–§7: claim, evidence with locator and depth, caution. Supersedes section (b) of `OUTLINE.md` |
 | [`BERTHON_NOTES.md`](BERTHON_NOTES.md) | What Berthon's papers and Williams say, with locators, set against the three sentences of the draft passage that misstate them. Notes only |
 
 ## Open for the author

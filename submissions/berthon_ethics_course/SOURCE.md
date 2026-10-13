@@ -57,6 +57,14 @@ introductions and chapter 7 of *The Literacy Myth*). The others are reviews of C
 (one, supplied twice), Burns, Nussdorfer, Williams, Cornelius, Monaghan, Kousser and Keyssar. Facets
 L1–L3 record the readings.
 
+## The author's request for an introduction (2026-10-13, verbatim)
+
+> "write a full introduction follow lange and pfarrars 5Cs and then a full outline for the rest of the
+> paper"
+
+Claude had twice declined to draft, citing the author's standing rule that he writes the prose. This
+request overrides that rule for the introduction only. `INTRODUCTION.md` is marked as Claude's.
+
 ## The two source drafts
 
 Copies are in [`sources/`](sources/), unchanged. Claude wrote both drafts; neither holds the author's
