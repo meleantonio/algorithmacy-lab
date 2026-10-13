@@ -46,13 +46,12 @@ before mass literacy and document no wrong done during the transition.
 | `literature/references.bib` | Built by `python3 literature/merge_bibs.py` from the facet bibs (first facet wins) |
 | `literature/audit/` | `AUDIT_01.md` (facets A–D) and `AUDIT_02.md` (E, F, X, Z): 460 items re-checked by independent agents, 384 confirmed, 25 wrong, 51 unverifiable, with every proposed correction applied but one; `AUDIT_03.md` (G, H): 69 rows, 46 confirmed, 15 wrong and corrected, 8 unverifiable; `DOI_CHECK.md`, written by `check_dois.py`; `BIB_CHANGES.md` |
 | [`ARGUMENT_MAP.md`](ARGUMENT_MAP.md) | Fifteen premises, each with its source, depth mark and weakest point |
-| [`OUTLINE.md`](OUTLINE.md) | The author's rulings, a six-section plan with the passages each section can draw on, proposed rows for the rebuilt table, and four further flags on the two drafts |
+| [`OUTLINE.md`](OUTLINE.md) | The author's rulings, a six-section plan with the passages each section can draw on, the rebuilt table, and four further flags on the two drafts |
+| [`BERTHON_NOTES.md`](BERTHON_NOTES.md) | What Berthon's papers and Williams say, with locators, set against the three sentences of the draft passage that misstate them. Notes only |
 
 ## Open for the author
 
-- The proposed rows for the rebuilt table in [`OUTLINE.md`](OUTLINE.md) §5: accept, change or drop.
-- What replaces the three misstated sentences of the Berthon passage (`T_adjudication.md` §8.2).
-- The pairing of design principles with failures in `OUTLINE.md` §6, which is Claude's proposal.
+- The Berthon passage, which the author rewrites from [`BERTHON_NOTES.md`](BERTHON_NOTES.md).
 - The five flags at the end of [`REUSE_MAP.md`](REUSE_MAP.md) and the four in `OUTLINE.md` (d).
 - The library list in `T_adjudication.md` §7 and §8.3. Graff's *The Literacy Myth*, Kamperman and
   Graff (2026), Clanchy, and Berthon, Pitt and Campbell (2019) come first; none was opened, and

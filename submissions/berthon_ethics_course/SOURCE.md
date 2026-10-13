@@ -39,6 +39,15 @@ questions. The second column is the option label he chose, verbatim. The third i
 | 7 | The two-paradigm table | "Rebuild (Recommended)" | Rebuilt on adaptivity and binding outcomes; Claude proposes rows and the author accepts or changes them. |
 | 8 | A further facet on third parties | "Run it (Recommended)" | Facet G: scribes, notaries and interpreters. |
 
+## The author's four rulings after the second round (2026-10-13)
+
+| Question | Ruling | What it changes (Claude) |
+| --- | --- | --- |
+| The five proposed rows of the rebuilt table (`OUTLINE.md` §5) | "Accept all five" | The table stands as proposed. |
+| How the arm handles the Berthon passage, three of whose sentences misstate their sources | "Notes only (Recommended)" | The passage stays untouched. [`BERTHON_NOTES.md`](BERTHON_NOTES.md) gives what each source says, with locators. The author writes the replacement. |
+| The pairing of each design principle with the failure it answers (`OUTLINE.md` §6) | "Keep it" | §6 is organised by the three pairs. |
+| Push the branch and open a PR into `contrib` | "Push and open PR" | Done on 2026-10-13. |
+
 ## The two source drafts
 
 Copies are in [`sources/`](sources/), unchanged. Claude wrote both drafts; neither holds the author's

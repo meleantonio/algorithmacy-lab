@@ -65,7 +65,8 @@ paragraph per row, each naming the property compared.
 - The monopoly: `sources/design_ethics_DRAFT.md:116`, which needs a source before it is used.
 - The promise: `sources/design_ethics_DRAFT.md:93` (reading the black box); facet Z, Q2 (AI-literacy
   rules); `sources/design_ethics_DRAFT.md:120` (Berthon and Pitt; ruling 6). Facet H contradicts
-  three sentences of that passage (`T_adjudication.md` §8.2), so it cannot be used as it stands. What
+  three sentences of that passage (`T_adjudication.md` §8.2), so it cannot be used as it stands; the
+  author rewrites it from `BERTHON_NOTES.md`. What
   the sources support: Berthon and Pitt diagnose a business model "designed to make us mindless" and
   say the shallow form of mindfulness "may be of little help"; Berthon, Pitt and Campbell list
   "informing, guiding, and restricting"; Williams rejects "media literacy alone" (pp. 100–101).
@@ -78,8 +79,8 @@ party (facet G; P14).
 - The rebuilt table below replaces `sources/design_ethics_DRAFT.md:101–106`.
 - The history's standing, per ruling 1: evidence for §3, analogy for §4.
 
-Proposed rows for the rebuilt table (ruling 7). Claude proposes them; the author accepts, changes or
-drops each. Facet G changed the plan: a third party who binds two people existed under literacy too,
+Rows for the rebuilt table (ruling 7). Claude proposed them and the author accepted all five on
+2026-10-13. Facet G changed the plan: a third party who binds two people existed under literacy too,
 so "binding outcomes" is not a row of difference.
 
 | Dimension | Literacy transition | Transition to algorithmacy | Source and depth |
@@ -98,7 +99,8 @@ contradicts. The present-day cells of rows 2 and 3 rest on the two drafts' sourc
 `sources/design_ethics_DRAFT.md:128`, each set against the failure it answers: structural refusal
 against the gate, a declared operating envelope and conditions for learning against withholding,
 counter-delegation against the one-sided record.
-- This pairing is Claude's proposal and needs the author's ruling before it is used.
+- Claude proposed this pairing and the author kept it on 2026-10-13. Monopoly and overselling have
+  no paired principle; §6 says so.
 
 ## (c) What must be read before anything in this plan is quoted
 
