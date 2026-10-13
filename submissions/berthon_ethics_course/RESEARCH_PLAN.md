@@ -39,7 +39,7 @@ which of those failures recur as coordination moves onto algorithmic intermediar
 | No claim that literacy restructured cognition (Ong, Goody and Watt); Street's critique stands. The claims that survive are institutional | `sources/design_ethics_DRAFT.md:85`; `sources/part2_ethics_DRAFT.md:7` |
 | "Nothing here claims literacy *rewarded* the literate" (Graff's distinction between requiring literacy and rewarding it) | `sources/design_ethics_DRAFT.md:85` |
 | A source is quotable only at full-text depth | lab-wide |
-| Whether the history is evidence or only a guide for this paper | open; the author rules after this round (`SOURCE.md`) |
+| The history is evidence for the historical half; the inference to algorithmacy is an analogy | the author's ruling 1 of 2026-10-13, after the first round (`SOURCE.md`) |
 
 ## 4. Problems the research must settle
 
@@ -67,6 +67,8 @@ which of those failures recur as coordination moves onto algorithmic intermediar
 | F | `F_promise_and_campaigns` | What promoters promised literacy would do and what it did: Graff's literacy myth and its critics, mass schooling, the international campaigns (UNESCO's Experimental World Literacy Programme and its own evaluation), the current count of adults who cannot read and who they are |
 | X | `X_counter_case` | The strongest case against the paper: where the transition went well by the standards of its time and ours; where contemporaries named the failures as they happened; where the comparison between literacy and algorithmacy breaks |
 | Z | `Z_gap_search` | Who has already argued from the ethics or the harms of the literacy transition to AI, platforms or algorithms; current uses of "AI literacy" that repeat or avoid the earlier pattern (tests, gates, deficit framing) |
+| G | `G_third_parties` | Second round, by the author's ruling 8. Scribes, notaries, scriveners and treaty interpreters as third parties between two people: where a literate intermediary wrote or translated the binding text for parties who could not read it, whose side the intermediary served, what safeguards existed, and who objected |
+| H | `H_berthon_record` | Second round, by the author's ruling 6. What Pierre Berthon argues in the 2019 mindfulness paper, the 2019 digital-addiction paper and his AI papers of 2023–2026: what each diagnoses, what it prescribes, and who bears the remedy |
 
 The lead writes `T_adjudication.md` after the facets and the audit.
 
@@ -127,9 +129,11 @@ status.
 - Do not use the Chrome browser tools; several agents run at once and would collide. List sources that
   need a browser in section (d).
 - Do not try to get around a paywall or a bot wall. Record the block.
-- Tools that have worked: Crossref, OpenAlex (`https://api.openalex.org/works?search=`), Unpaywall
-  (`https://api.unpaywall.org/v2/<doi>?email=` with the address in
-  `org_frontier/research/oa_acquire.py`), Europe PMC, HAL, author copies by `curl` and `pdftotext`,
+- Never put a person's e-mail address in a request header, URL or payload. Send anonymous requests,
+  with no `mailto`, and do not use Unpaywall, which requires an address. (Added after the first round:
+  see `literature/audit/AUDIT_02.md`, line 9.)
+- Tools that have worked: Crossref, OpenAlex (`https://api.openalex.org/works?search=`, whose
+  `open_access.oa_url` field locates open copies), Europe PMC, HAL, author copies by `curl` and `pdftotext`,
   archive.org (including its full-text search and borrowable books), Open Library, HathiTrust,
   Project Gutenberg, the UNESCO digital library (unesdoc), the UNESCO Institute for Statistics,
   Consensus (at most three calls at a time; on a rate-limit error wait 30 seconds), WebSearch and

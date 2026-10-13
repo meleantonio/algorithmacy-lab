@@ -103,3 +103,73 @@ Graff, *The Literacy Myth* (1979/1991), introduction and chapter 7. Kamperman an
 Southern Politics*; Keyssar, *The Right to Vote*. Eisenstein (1979); Febvre and Martin; Johns (1998).
 UNESCO/UNDP (1976), *The Experimental World Literacy Programme: A Critical Assessment*. Moody-Adams
 (1994). Berthon's papers of 2019, 2024 and 2025 listed in facet Z.
+
+## 8. The author's rulings and the second round (2026-10-13)
+
+The author ruled on the eight decisions of §6; his answers are verbatim in `SOURCE.md`. In summary:
+(1) the history is evidence and the inference an analogy; (2) all five failures; (3) "the global
+community" for the campaigns only; (4) the three internal standards; (5) imposed schooling reframed as
+compulsory participation and an enforced language standard; (6) the Berthon passage kept, with his
+later work added; (7) the table rebuilt; (8) a further facet on third parties run. Rulings 6 and 8
+produced facets H and G, audited in `../audit/AUDIT_03.md` (69 rows: 46 confirmed, 15 wrong and
+corrected, 8 unverifiable). Sections 1–7 above stand as written before the rulings.
+
+### 8.1 Third parties (facet G): what row 3 can now carry
+
+Facet G applied one check to each case: two principals and a distinct intermediary; a text by the
+intermediary that bound both; evidence that the intermediary's interest diverged from one principal's.
+
+| Case | Distinct intermediary | Text bound both | Divergent interest | Depth |
+| --- | --- | --- | --- | --- |
+| Waitangi, 1840: Henry Williams between Hobson and the rangatira | yes; he interpreted "sentence by sentence" (Tribunal, p. 355) and made the Māori text | in part; most rangatira signed the Māori text | an instruction from his bishop to support cession (p. 506) and his land holdings (p. 417) are documented; deceit is disputed among the historians the Tribunal reports, and the Tribunal writes that he "must, however, have known that tino rangatiratanga conveyed more than what was set out in the English text" (p. 514) | report read in part |
+| Castilian notaries under the Pragmática of Alcalá, 1503 | yes, by design | yes | none in the sources read; the law required the notes read in the presence of parties and witnesses and a witness's signature for a party who could not sign (Almeida Cabrejas, p. 24, quoting the law at second hand) | one article, read in part |
+| Interpreters at Anglo-Iroquois councils | yes | through the minutes | suspicion recorded, with second interpreters as a check; Hagedorn (p. 61) calls the charge that they were generally unscrupulous "too harsh" | one article, read in part |
+| *Non est factum* in English law (*Foster v Mackinnon*, 1869) | no; the person who misdescribed the paper was the counterparty | — | — | one case read in part |
+| The Walking Purchase, 1737 | no; the court names no interpreter | — | — | one opinion, read in part |
+
+Three results follow. First, the literacy transition did have third parties who wrote or translated
+the binding text for people who could not read it, so P13's "binding outcomes" is not a difference
+between the two transitions. Second, the record documents safeguards around those third parties
+(reading in the parties' presence, witnesses, a second interpreter, a plea in law for the signer who
+was misled) more firmly than it documents abuse by them; facet G found no petition by an illiterate
+party against a notary or scrivener. Third, only Waitangi meets all three parts of the check, and its
+third part is contested. Burns, Nussdorfer (2009), Merrell and *Thoroughgood's Case* were not opened.
+
+The reading that follows is Claude's: the historical third party was a named person, bound by a
+public duty and checked by other people present, and the comparison to algorithmacy turns on which
+of those safeguards has a present counterpart, not on whether a third party existed.
+
+### 8.2 Berthon's record (facet H): what the passage at `design_ethics_DRAFT.md:120` can carry
+
+1. **Both quotations are verbatim.** Berthon and Pitt's is on p. 6 of the corrected proof; the issue
+   page 136 is unchecked, and the draft drops the opening word "Increasingly,". Williams's "as
+   dangerous as it is futile" is on pp. 101–102.
+2. **The Williams contrast answers a claim Berthon and Pitt do not make.** Williams applies the phrase
+   to the hope that design will align with well-being if the makers of technology think in "Eastern
+   religious terms", after rejecting mindfulness "among employees in the technology industry" as a
+   route to reform (p. 101). Berthon and Pitt write about attention as practised by the individual
+   consumer. Williams's rejections of "just adapt", "unplug" and "media literacy alone" (pp. 100–101)
+   do concern user-side remedies.
+3. **Berthon and Pitt do not expect mindfulness to defeat the platforms.** They write that
+   observational mindfulness "may be of little help with addictive technology platforms" and close on
+   a challenge to "innovate to develop new business models that do not run on attention" (proof p. 6).
+   The paper addresses managers and gives consumers no instruction.
+4. **His position in 2019 already included regulation.** The abstract of Berthon, Pitt and Campbell
+   (2019) lists "informing, guiding, and restricting". The paper itself was not opened; a university
+   press release reports mandatory labels and stopping points and possible taxes.
+5. **His AI papers address managers.** Wang, Berthon and Su (2025) place ethical responsibility
+   "squarely on their shoulders" (p. 5191) and leave regulation to future research (p. 5192). Three of
+   his papers were read in full (2019 mindfulness; 2023 and 2025 HICSS); the rest at abstract depth.
+6. **None of the texts opened mentions literacy, print or the history of media.**
+
+So three sentences of the draft passage are contradicted or under-supported: that Williams refuses
+the subject-side remedy "by name"; that he calls employee mindfulness programs "as dangerous as it is
+futile"; and that Berthon and Pitt's remedy "leaves the underlying corporate incentives untouched".
+The passage is Claude-written source material, and the author decides what replaces it.
+
+### 8.3 Added to the library list of §7
+
+Berthon, Pitt and Campbell (2019), *Journal of Public Policy & Marketing* 38(4), first. Then Burns,
+*Into the Archive*; Nussdorfer, *Brokers of Public Trust*; Merrell, *Into the American Woods*;
+*Thoroughgood's Case* (1582); *Saunders v Anglia Building Society* (1971); the Waitangi Tribunal's
+Wai 1040 report beyond the twenty-odd pages read.

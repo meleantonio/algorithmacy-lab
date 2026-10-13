@@ -2,7 +2,7 @@
 
 *Written by `check_dois.py`. Metadata only: the registered title and year against the bib entry.*
 
-Entries with a DOI: 118. ok: 116. year differs: 1; TITLE MISMATCH: 1; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 102.
+Entries with a DOI: 135. ok: 132. year differs: 1; TITLE MISMATCH: 2; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 111.
 
 ## Rows needing a look
 
@@ -10,6 +10,7 @@ Entries with a DOI: 118. ok: 116. year differs: 1; TITLE MISMATCH: 1; NOT FOUND:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `lake2006mississippi` | 10.22459/cw.03.2006 | Crossref | 0.26 | 2006 | 2006 | TITLE MISMATCH | Connected Worlds: History in Transnational Perspective |
 | `bromham2022global` | 10.1038/s41559-021-01604-y | Crossref | 1.00 | 2022 | 2021 | year differs | Global predictors of language endangerment and the future of linguistic diversity |
+| `silverblatt2012burns` | 10.1093/jsh/shs049 | Crossref | 0.52 | 2012 | 2012 | TITLE MISMATCH | Into the Archive: Writing and Power in Colonial Peru. By Kathryn Burns (Durham, NC: Duke U |
 
 ## Entries with no DOI (checked by hand or by their facet)
 
@@ -104,10 +105,19 @@ Entries with a DOI: 118. ok: 116. year differs: 1; TITLE MISMATCH: 1; NOT FOUND:
 | `uis2026adult` | https://databrowser.uis.unesco.org/ |
 | `roser2018literacy` | https://ourworldindata.org/literacy |
 | `owid2026literate` | https://ourworldindata.org/grapher/literate-and-illiterate-world-population |
+| `foster1869mackinnon` | https://archive.org/details/law-reports-common-pleas_1868-1869_4 |
+| `thoroughgood1582case` | (no identifier) |
+| `saunders1971anglia` | https://www.bailii.org/uk/cases/UKHL/1970/5.html |
+| `petelin1975cullen` | (no identifier) |
+| `nussdorfer2009brokers` | https://doi.org/10.1086/ahr.116.1.238 |
+| `andrien2012burns` | https://consensus.app/papers/details/057da4a404fb59a5afc17703ba41dea1/ |
+| `metayer1991ecrivain` | https://consensus.app/papers/details/f824e692863756de986da7483b87517d/ |
+| `delaware2006pennsylvania` | https://www2.ca3.uscourts.gov/opinarch/044593p.pdf |
 | `washington1901up` | https://archive.org/details/upfromslaveryaut00wash |
 | `hunt2002against` | https://www.historians.org/perspectives-article/against-presentism-may-2002/ |
 | `butterfield1931whig` | https://archive.org/details/whiginterpretationofhistory |
 | `qadri2026ai` | https://research.google/pubs/ai-is-not-the-new-a-diagnostic-analogy-framework-for-generative-ais-cultural-impacts/ |
+| `sfu2019addictive` | https://www.sciencedaily.com/releases/2019/10/191003092039.htm |
 | `euaiact2024` | http://data.europa.eu/eli/reg/2024/1689/oj |
 | `euomnibus2026` | http://data.europa.eu/eli/reg/2026/1744/oj |
 | `oecd2026pisamail` | https://www.naer.edu.tw/upload/1/14/doc/5466/%E9%99%84%E4%BB%B64-PISA2029MAILAssessmentFrameworkFirstDraft.pdf |

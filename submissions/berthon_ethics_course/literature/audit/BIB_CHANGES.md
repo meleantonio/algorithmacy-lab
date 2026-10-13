@@ -29,3 +29,18 @@ listed in `DOI_CHECK.md`.
 All eleven corrections in `AUDIT_01.md` and corrections C1–C14 in `AUDIT_02.md` are applied to the
 facet files as exact text replacements. C15 (a note that Butterfield's page locators may run one page
 early) is not applied; the locators stay unconfirmed. No bib entry changed.
+
+## Second round (facets G and H, 2026-10-13)
+
+`merge_bibs.py` now merges in the order A–F, G, X, H, Z. H precedes Z so that H's entries for
+Berthon's papers, which carry the later read status, replace Z's. The merged file holds 246 entries;
+21 duplicates were dropped.
+
+135 entries carry a DOI; 132 match. The third that needs no change:
+
+- `silverblatt2012burns`: a book review, registered under the title of the book it reviews.
+
+All corrections in `AUDIT_03.md` (C1–C11 for H, C1g–C11g for G; 34 text replacements) are applied to
+the facet files as exact replacements. One further locator in `H_berthon_record.md` was changed on
+the same ground as C1–C4 ("proof pp. 6–7" to "proof p. 6" in Q4; page 7 of the proof holds references
+only). One bib entry changed: `su2023ethical`, pages 4933–4942 (C11).

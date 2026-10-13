@@ -23,6 +23,22 @@ text he typed, verbatim. The third column is Claude's reading of what the answer
 | What are the course facts for the Berthon ethics paper (course code, length, due date)? | "dont worry about that stuff" | Course code, length, rubric and due date are not pursued. No file in this arm states them. |
 | Part 2 and the foundation paper rule that the reading history is an analogy or a guide. This paper makes the history carry the ethical argument. How should the arm treat it? | "Decide after the research" | Open. `literature/facets/T_adjudication.md` returns the question with the evidence. |
 
+## The author's eight rulings after the first round (2026-10-13)
+
+Claude put the eight decisions of `literature/facets/T_adjudication.md` §6 to the author as option
+questions. The second column is the option label he chose, verbatim. The third is Claude's reading.
+
+| # | Decision | Ruling | What it changes (Claude) |
+| --- | --- | --- | --- |
+| 1 | The history's standing | "Evidence + analogy (Recommended)" | The historical half stands as evidence; the step to algorithmacy is stated as an analogy. This departs from Part 2 and the foundation paper, where the history is a guide. |
+| 2 | Which failures | "All five (Recommended)" | Gate, withholding, record over voice, monopoly, overselling. |
+| 3 | "The global community" | "Campaigns only (Recommended)" | The phrase is kept for the international campaigns; every other case names its actor. |
+| 4 | The standard for "failed" | "Three internal (Recommended)" | A contemporary named the wrong; the actors broke their own standard; outcome against promise. No present-day standard is added. |
+| 5 | Imposed schooling | "Reframe" | Carried as compulsory participation and an enforced language standard, not as a failure of literacy. |
+| 6 | The Berthon passage | "Add his later work" | The passage at `sources/design_ethics_DRAFT.md:120` stays, and his later work is read and added (facet H). |
+| 7 | The two-paradigm table | "Rebuild (Recommended)" | Rebuilt on adaptivity and binding outcomes; Claude proposes rows and the author accepts or changes them. |
+| 8 | A further facet on third parties | "Run it (Recommended)" | Facet G: scribes, notaries and interpreters. |
+
 ## The two source drafts
 
 Copies are in [`sources/`](sources/), unchanged. Claude wrote both drafts; neither holds the author's
@@ -37,7 +53,7 @@ prose.
 
 | Ruling | Locator | Status here |
 | --- | --- | --- |
-| The history of reading is an analogy, not a mechanism | `../decision_experience_design/part2_ethics/README.md:8` | Open, by the author's fourth answer |
+| The history of reading is an analogy, not a mechanism | `../decision_experience_design/part2_ethics/README.md:8` | Set aside for this paper by ruling 1 of the second table: evidence for the historical half, analogy for the inference |
 | The numeracy framing, not Ong's: no claim that mediation restructures cognition | `../decision_experience_design/README.md` | Stands |
 | Algorithmacy is not legibility; design for counter-delegation, structural refusal and bounded outputs | `../decision_experience_design/README.md` | Stands |
 | A source is quotable only at full-text depth | lab-wide | Stands |

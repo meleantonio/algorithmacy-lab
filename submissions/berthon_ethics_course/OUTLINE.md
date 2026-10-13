@@ -1,23 +1,24 @@
 # Outline — the ethics of two transitions
 
-*Written by Claude on 2026-10-13. The author has not reviewed it, and none of the text is the author's.
+*Written by Claude on 2026-10-13 and revised the same day after the author's eight rulings and the
+second round. The author has not reviewed it, and none of the text is the author's.
 This is a section plan with sources. It holds no draft prose; the author writes the paper.*
 
-## (a) Decisions that shape the outline
+## (a) The author's rulings that shape the outline
 
-The eight decisions are set out in `literature/facets/T_adjudication.md` §6. The plan below assumes the
-default in the middle column. A different ruling changes the section named in the last column.
+The author ruled on the eight decisions of `literature/facets/T_adjudication.md` §6 on 2026-10-13. His
+answers are verbatim in `SOURCE.md`; the middle column is Claude's summary.
 
-| # | Decision | Default assumed here | Changes |
+| # | Decision | Ruling | Section |
 | --- | --- | --- | --- |
 | 1 | The history's standing | Evidence for the historical half; analogy for the inference | §2, §5 |
-| 2 | Which failures | All five, in the order of the adjudication | §3 |
+| 2 | Which failures | All five | §3 |
 | 3 | "The global community" | Kept for the international campaigns; actors named elsewhere | §1, §3.5 |
-| 4 | The standard for "failed" | Contemporary naming, the actors' own standard, outcome against promise | §2 |
-| 5 | Imposed schooling | Left out of the five; one paragraph in §3 says why | §3 |
-| 6 | The Berthon passage | Unchanged, pending the author | §4 |
+| 4 | The standard for "failed" | The three internal standards; no present-day standard added | §2 |
+| 5 | Imposed schooling | Reframed as compulsory participation and an enforced language standard | §3.6, §4 |
+| 6 | The Berthon passage | Kept, with his later work added (facet H) | §4 |
 | 7 | The two-paradigm table | Rebuilt on adaptivity and binding outcomes | §5 |
-| 8 | A further facet on scribes, notaries and interpreters | Not run | §3.3, §5 |
+| 8 | A further facet on scribes, notaries and interpreters | Run (facet G) | §3.3, §5 |
 
 ## (b) Section plan
 
@@ -40,10 +41,17 @@ what stated ground, who objected, what ended it.
 2. *The withheld competence.* Facet C, Failures 1–2. The statutes at their actual scope; Auld; the
    Douglasses; More's "no writing for the poor".
 3. *The record over the voice.* Facet A, Failures 1–3. *Marshall* ¶14, ¶40; *Delgamuukw* ¶98; Waitangi;
-   Barnet.
+   Barnet. Facet G adds the third party: Henry Williams at Waitangi (Tribunal pp. 355, 506, 514), and
+   against him the safeguards of the same era (the Pragmática of 1503; second interpreters; the plea
+   of *non est factum*). `T_adjudication.md` §8.1.
 4. *The monopoly.* Facet B, Failure 1. The charter; the 1662 Act; Milton.
 5. *The promise.* Facet F, Q1, Q3, Q5. Jomtien and Dakar; the 2024 count; Freire.
-- One paragraph on why imposed schooling is not a sixth (facet E, "Claims the sources contradict" 1).
+6. *Compulsory participation and one enforced language* (ruling 5). Facet E. Not a failure of
+   literacy: the reports blame removal, forced labour, abuse and language suppression, and none blames
+   the teaching of reading (facet E, "Claims the sources contradict" 1). The subsection carries the two
+   properties the reports do support, that attendance was compelled and that one language of
+   instruction was enforced, and says in its first lines why it is not a sixth failure of the kind
+   in 1–5.
 - Do not use: Innis as a wrong done to persons; print as the cause of dialect loss; any count of people
   excluded in the print era; Graff's require/reward distinction as his.
 
@@ -56,12 +64,34 @@ paragraph per row, each naming the property compared.
 - The record: `sources/part2_ethics_DRAFT.md:29` (template replies; appeals); `:23` (Hirschman on voice).
 - The monopoly: `sources/design_ethics_DRAFT.md:116`, which needs a source before it is used.
 - The promise: `sources/design_ethics_DRAFT.md:93` (reading the black box); facet Z, Q2 (AI-literacy
-  rules); `sources/design_ethics_DRAFT.md:120` (Berthon and Pitt; decision 6).
+  rules); `sources/design_ethics_DRAFT.md:120` (Berthon and Pitt; ruling 6). Facet H contradicts
+  three sentences of that passage (`T_adjudication.md` §8.2), so it cannot be used as it stands. What
+  the sources support: Berthon and Pitt diagnose a business model "designed to make us mindless" and
+  say the shallow form of mindfulness "may be of little help"; Berthon, Pitt and Campbell list
+  "informing, guiding, and restricting"; Williams rejects "media literacy alone" (pp. 100–101).
+- Compulsory participation and the enforced standard: `sources/part2_ethics_DRAFT.md:27` (Bagger et
+  al. on mandated digital participation); `sources/design_ethics_DRAFT.md:118` (dialect penalties).
 - State for each row where the parallel is weak (the table's last column).
 
-**§5. Where the comparison stops.** Adaptivity and binding outcomes (facet X, Q3; P13).
-- The rebuilt table replaces `sources/design_ethics_DRAFT.md:101–106`.
-- The history's standing, per decision 1.
+**§5. Where the comparison stops.** Adaptivity (facet X, Q3; P13) and the safeguards around the third
+party (facet G; P14).
+- The rebuilt table below replaces `sources/design_ethics_DRAFT.md:101–106`.
+- The history's standing, per ruling 1: evidence for §3, analogy for §4.
+
+Proposed rows for the rebuilt table (ruling 7). Claude proposes them; the author accepts, changes or
+drops each. Facet G changed the plan: a third party who binds two people existed under literacy too,
+so "binding outcomes" is not a row of difference.
+
+| Dimension | Literacy transition | Transition to algorithmacy | Source and depth |
+| --- | --- | --- | --- |
+| Does the medium respond to the person? | No. A page does not change with its reader | Yes. The system updates on the person's behaviour | Yeung (2016), read in part; one user, not a triad |
+| Who stands between the two parties? | A named person: notary, clerk, interpreter | A system run by a firm | Facet G, read in part; `part2_ethics_DRAFT.md:25–29` |
+| What checks the third party? | Reading in the parties' presence, witnesses, a second interpreter, a plea for the signer who was misled | Appeals and template replies, as the drafts record them | Facet G (the 1503 law at second hand); `part2_ethics_DRAFT.md:29` |
+| Is there a party behind the medium? | Yes: the Stationers' Company, the Crown's licensers | Yes: the firms that hold the models | Facet B; `design_ethics_DRAFT.md:116`, unsourced |
+| Does comprehension give leverage? | Not where the law denied it: Douglass could read and had "a view of my wretched condition, without the remedy" | Not shown either way by a source in hand | Facet C; the present-day cell is a gap |
+
+Rows 4 and 5 are likenesses, and they replace the two rows of the old table that the record
+contradicts. The present-day cells of rows 2 and 3 rest on the two drafts' sources, not on this round.
 
 **§6. What the earlier failures ask of this transition.** The obligation at
 `sources/part2_ethics_DRAFT.md:101` and the three design principles at
@@ -73,7 +103,8 @@ counter-delegation against the one-sided record.
 ## (c) What must be read before anything in this plan is quoted
 
 The library list in `T_adjudication.md` §7. First: Graff, *The Literacy Myth*; Kamperman and Graff
-(2026); Clanchy. Every source marked ◐ or ○ in `ARGUMENT_MAP.md` is paraphrase-only until re-read.
+(2026); Clanchy; and, since the second round, Berthon, Pitt and Campbell (2019). Every source marked
+◐ or ○ in `ARGUMENT_MAP.md` is paraphrase-only until re-read.
 
 ## (d) Flags on the two drafts
 
@@ -83,3 +114,6 @@ The five flags at the end of `REUSE_MAP.md` stand. The research adds three:
 - `sources/design_ethics_DRAFT.md:85` attributes a distinction to Graff that no opened source states.
 - `sources/design_ethics_DRAFT.md:103–106` (rows 1 and 4 of the table) is contradicted by the record
   in facets B, C and D.
+
+The second round adds one: `sources/design_ethics_DRAFT.md:120` misstates what Williams calls "as
+dangerous as it is futile" and what Berthon and Pitt prescribe (`T_adjudication.md` §8.2).

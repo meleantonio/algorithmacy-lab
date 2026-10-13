@@ -12,7 +12,7 @@ import sys
 import pathlib
 
 HERE = pathlib.Path(__file__).resolve().parent
-ORDER = ["A", "B", "C", "D", "E", "F", "X", "Z"]
+ORDER = ["A", "B", "C", "D", "E", "F", "G", "X", "H", "Z"]
 ENTRY = re.compile(r'@(\w+)\s*\{\s*([^,\s]+)\s*,(.*?)\n\}', flags=re.S)
 DOI = re.compile(r'\bdoi\s*=\s*[{"]\s*([^}"]+?)\s*[}"]', flags=re.I)
 

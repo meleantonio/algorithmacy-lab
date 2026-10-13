@@ -2,7 +2,8 @@
 
 *Written by Claude on 2026-10-13 from `literature/facets/T_adjudication.md`. The author has not
 reviewed it, and none of the text is the author's. It maps the argument the research can support; it
-is not the author's argument until he rules on the decisions in `T_adjudication.md` §6.*
+is not the author's argument. He ruled on the decisions of `T_adjudication.md` §6 on 2026-10-13
+(`SOURCE.md`); P13–P15 were revised or added after the second round (facets G and H).*
 
 **Depth marks.** ● the source's own text, opened this round. ◐ read in part or through an official
 summary. ○ secondary, abstract or unread. Bracketed letters name the facet that holds the locator.
@@ -13,7 +14,8 @@ When a society makes a competence a condition of ordinary standing, the parties 
 the record and the means have used that position against the people who must acquire the competence,
 and the people who promote the competence have promised more than it delivered. The literacy
 transition documents each of these. The transition to algorithmacy shows the same positions occupied
-again, by an intermediary that also adapts to the person and commits the outcome.
+again, by an intermediary that also adapts to the person. The earlier transition had third parties
+who bound two people as well, and it surrounded them with safeguards.
 
 ## Premises
 
@@ -31,7 +33,9 @@ again, by an intermediary that also adapts to the person and commits the outcome
 | P10 | Algorithmacy is a competence people now need for ordinary standing, and exit is unavailable or ruinously priced | `sources/part2_ethics_DRAFT.md:25–27` (Brevoort et al.; Rosenblat and Stark; Bommasani et al.; Bagger et al.) | ◐ as recorded in that arm's audit | Documented for credit, hiring and platform work; not for triage or search |
 | P11 | The gate, the withheld competence and the one-sided record recur in algorithmic mediation | `T_adjudication.md` §4 | the reading is Claude's | No present rule gates standing on the competence [Z]; no source shows intent to withhold; the enclosure claim is unsourced |
 | P12 | The remedy on offer is again to teach the person to read the system better | `sources/design_ethics_DRAFT.md:93`; AI-literacy frameworks [Z] | ◐ | Kamperman and Graff (2026) may already argue this and is unread |
-| P13 | Two things differ: the intermediary adapts to the person, and it commits an outcome binding on a second person | Yeung [X]; the arm's definition of algorithmacy | ○ | Yeung is read in part and concerns one user and a choice architect, not a triad |
+| P13 | One thing differs in kind: the intermediary adapts to the person. Binding outcomes do not differ in kind (P14); what differs there is the safeguards around the third party | Yeung [X]; facet G | ○ | Yeung is read in part and concerns one user and a choice architect, not a triad. The claim about safeguards is Claude's reading |
+| P14 | The literacy transition had third parties who wrote or translated the binding text for people who could not read it, and the record shows safeguards around them more firmly than abuse by them | Waitangi Tribunal (2014) pp. 355, 506, 514; the Pragmática of 1503 in Almeida Cabrejas p. 24; Hagedorn p. 61; *Foster v Mackinnon* (1869) at 711 [G] | ◐ | Only Waitangi shows a third party with a documented divergent interest, and deceit there is disputed. The 1503 law is quoted at second hand. Burns, Nussdorfer and Merrell are unread. No complaint by an illiterate party was found |
+| P15 | Berthon's own work diagnoses a structural cause and, in 2019, already lists restriction among the remedies | Berthon and Pitt (2019), proof p. 6; the abstract of Berthon, Pitt and Campbell (2019); Wang, Berthon and Su (2025) pp. 5191–5192 [H] | ◐ | The 2019 policy paper is known from its abstract and a press release. The issue page of the Berthon and Pitt quotation is unchecked |
 
 ## How the premises connect
 
@@ -41,7 +45,9 @@ again, by an intermediary that also adapts to the person and commits the outcome
 - P8 answers the presentism objection for P2, P4, P6 and P7. P9 limits all of them: the charge is
   against what was done with literacy, never against literacy.
 - P10 establishes that the present case is a transition of the same kind. P11 and P12 carry the
-  comparison. P13 says where it stops.
+  comparison. P13 says where it stops, and P14 narrows it: a third party who binds two people is not
+  new, so the comparison for record over voice runs through the safeguards.
+- P15 bears on P12. Berthon is not an example of the remedy P12 describes.
 
 ## What the map cannot yet carry
 
@@ -49,4 +55,7 @@ again, by an intermediary that also adapts to the person and commits the outcome
 2. A claim that schooling imposed on Indigenous children was a failure of literacy [E].
 3. Graff's require/reward distinction as Graff's.
 4. Any count of people excluded by a print-era rule.
-5. A historical third party standing between two people, which P5 needs to match the triad.
+5. A historical third party shown to have used the position against the party who could not read.
+   Facet G supplies the third party (P14) and one contested case of divergent interest.
+6. Berthon and Pitt (2019) as a remedy that leaves corporate incentives untouched, or Williams as
+   answering them [H].
