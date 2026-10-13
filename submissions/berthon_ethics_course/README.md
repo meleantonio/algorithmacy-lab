@@ -61,6 +61,7 @@ before mass literacy and document no wrong done during the transition.
 | [`INTRODUCTION.md`](INTRODUCTION.md) | A draft introduction on Lange and Pfarrer's five moves. Claude drafted it at the author's request; superseded by `AUTHOR_DRAFT.md` |
 | [`PAPER_OUTLINE.md`](PAPER_OUTLINE.md) | A paragraph-level outline of §2–§7: claim, evidence with locator and depth, caution. Supersedes section (b) of `OUTLINE.md`; the author's own outline in `AUTHOR_DRAFT.md` now governs |
 | [`LITERATURE_TO_ADD.md`](LITERATURE_TO_ADD.md) | The fourth round's recommendations by outline section: works that already say part of what the paper says, claims the new sources narrow, twelve aspects the outline lacks, and what to get from the library |
+| [`venue/`](venue/) | Journal research: the brief, two agent-drafted files, and [`VENUE_RECOMMENDATION.md`](venue/VENUE_RECOMMENDATION.md). Unaudited; AJG ratings unverified |
 | [`BERTHON_NOTES.md`](BERTHON_NOTES.md) | What Berthon's papers and Williams say, with locators, set against the three sentences of the draft passage that misstate them. Notes only |
 
 ## Open for the author
