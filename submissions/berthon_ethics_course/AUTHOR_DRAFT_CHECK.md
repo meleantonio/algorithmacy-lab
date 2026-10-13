@@ -110,3 +110,12 @@ as first supplied and does not carry these edits.
 
 Left untouched, for the author to rule on: A1, A2, A10, A12, A14–A16, B1, B5, B12, C1, C5, C15, C17,
 C21, D2, D3, D6, D9, and section E.
+
+### Second pass (2026-10-13)
+
+The author then ruled "your judgeemnt is fine, update the google doc". Claude accepted the 46
+suggestions and made 20 further direct edits covering rows A1, A2, A9, A10, A12, A14, A15, B1, C1, C15,
+C17, C21, D2, D3 (the promise row only), D6 and D9, and retitled 5.3 "The Absence of Procedural
+Buffers". The Google Doc is now the current text; `AUTHOR_DRAFT.md` here remains the text as first
+supplied. Still open: A16 (Lange and Pfarrer listed but not cited), B5, B12, C5, the unsourced record
+and monopoly cells of the §4 table (D3), and section E.
