@@ -2,7 +2,7 @@
 
 *Written by `check_dois.py`. Metadata only: the registered title and year against the bib entry.*
 
-Entries with a DOI: 337. ok: 323. year differs: 5; TITLE MISMATCH: 9; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 118.
+Entries with a DOI: 411. ok: 395. year differs: 7; TITLE MISMATCH: 9; NOT FOUND: 0; ERROR: 0. Entries with no DOI: 165.
 
 ## Rows needing a look
 
@@ -20,6 +20,8 @@ of silent reading</i>. Stanf |
 | `montgomeryanderson2014review` | 10.1353/lan.2014.0030 | Crossref | 0.50 | 2014 | 2014/2026 | TITLE MISMATCH | The Cherokee syllabary: Writing the people's perseverance. By Cushman
                      |
 | `alfrink2023contestable` | 10.1007/s11023-022-09611-z | Crossref | 1.00 | 2023 | 2022 | year differs | Contestable AI by Design: Towards a Framework |
+| `gillespie2019custodians` | 10.12987/9780300235029 | Crossref | 1.00 | 2018 | 2019 | year differs | Custodians of the Internet Platforms, Content Moderation, and the Hidden Decisions That Sh |
+| `cribiore1996writing` | 10.3998/mpub.9749698 | Crossref | 1.00 | 1996 | 1995 | year differs | Writing, Teachers and Students in Graeco-Roman Egypt |
 | `leveson2011engineering` | 10.7551/mitpress/8179.001.0001 | Crossref | 1.00 | 2011 | 2012 | year differs | Engineering a Safer World Systems Thinking Applied to Safety |
 | `perrow1999normal` | 10.2307/j.ctt7srgf | Crossref | 0.86 | 1999 | 2011 | year differs | Normal Accidents Living with High Risk Technologies - Updated Edition |
 | `holzinger2024human` | 10.1016/j.nbt.2024.12.003 | Crossref | 1.00 | 2024 | 2025 | year differs | Is human oversight to AI systems still possible? |
@@ -131,13 +133,60 @@ of silent reading</i>. Stanf |
 | `hua2026passive` | 2608.13787 |
 | `pritchett1994variations` | (no identifier) |
 | `hansman1995party` | (no identifier) |
+| `mumaw2020analysis` | https://ntrs.nasa.gov/citations/20210000047 |
+| `dismukes2010checklists` | https://ntrs.nasa.gov/citations/20110011145 |
+| `faa2013operational` | https://www.faa.gov/sites/faa.gov/files/aircraft/air_cert/design_approvals/human_factors/OUFPMS_Report.pdf |
+| `brehmer2004achieving` | https://proceedings.systemdynamics.org/2004/SDS_2004/PAPERS/236BREHM.pdf |
+| `thibaut1975procedural` | https://doi.org/10.2307/448155 |
+| `suzor2016responsibilities` | https://spir.aoir.org/ojs/index.php/spir/article/view/9055 |
+| `klonick2018new` | https://harvardlawreview.org/wp-content/uploads/2018/04/1598-1670_Online.pdf |
+| `oversight2022q1` | https://oversightboard.com/attachment/731010438013851 |
+| `apple2026guidelines` | https://developer.apple.com/app-store/review/guidelines/ |
+| `eu2019p2b` | https://eur-lex.europa.eu/eli/reg/2019/1150/oj |
+| `eu2022dsa` | https://eur-lex.europa.eu/eli/reg/2022/2065/oj |
+| `seattle2024deactivation` | https://www.seattle.gov/laborstandards/ordinances/app-based-worker-deactivation-rights-ordinance |
+| `globalfxc2024code` | https://www.globalfxc.org/docs/fx_global.pdf |
+| `fsb2014foreign` | https://www.fsb.org/wp-content/uploads/r_140930.pdf |
+| `fsb2015progress` | https://fsb.org/uploads/FX-Benchmarks-progress-report.pdf |
+| `fca2014fines` | https://www.fca.org.uk/news/press-releases/fca-fines-five-banks-for-fx-failings |
+| `nydfs2015barclays` | https://www.dfs.ny.gov/system/files/documents/2020/04/ea151117_barclays.pdf |
+| `nydfs2015barclayspr` | https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1511181 |
+| `cftc2017fxcm` | https://www.cftc.gov/PressRoom/PressReleases/pr7528-17 |
+| `bis2019fx` | https://www.bis.org/publ/qtrpdf/r_qt1912x.htm |
+| `us2072usc` | https://www.law.cornell.edu/uscode/text/28/2072 |
+| `us2073usc` | https://www.law.cornell.edu/uscode/text/28/2073 |
+| `us455usc` | https://www.law.cornell.edu/uscode/text/28/455 |
+| `us9usc10` | https://www.law.cornell.edu/uscode/text/9/10 |
+| `mathews1976eldridge` | https://www.law.cornell.edu/supremecourt/text/424/319 |
+| `tumey1927ohio` | https://www.law.cornell.edu/supremecourt/text/273/510 |
+| `caperton2009massey` | https://www.law.cornell.edu/supct/html/08-22.ZS.html |
 | `rosenblat2016algorithmic` | https://ijoc.org/index.php/ijoc/article/view/4892 |
+| `quintilian1920institutio` | https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/1A*.html |
+| `dionysius1910composition` | https://archive.org/details/cu31924026465165 |
+| `thrax1874grammar` | (no identifier) |
+| `marrou1956history` | https://archive.org/details/historyofeducati0000marr |
+| `bonner1977education` | https://archive.org/details/educationinancie0000bonn |
+| `morgan1998literate` | https://archive.org/details/literateeducatio0000morg |
+| `orme2001medieval` | https://archive.org/details/medievalchildren00orme |
+| `orme2006medievalschools` | https://archive.org/details/medievalschoolsf0000orme |
+| `black2001humanism` | https://archive.org/details/humanismeducatio0000blac |
+| `grendler1989schooling` | https://archive.org/details/schoolinginrenai0000gren |
+| `riche1976education` | https://archive.org/details/educationculture0000rich |
+| `saenger1999history` | https://archive.org/details/literacyinternat0000unse |
+| `svenbro1999archaic` | https://archive.org/details/historyofreading0000unse |
+| `illich1993vineyard` | (no identifier) |
+| `mak2011page` | (no identifier) |
+| `chartier1994order` | https://archive.org/details/orderofbooksread0000char |
+| `carruthers2008book` | https://archive.org/details/bookofmemorystud0000carr |
+| `raritan2000review` | (no identifier) |
+| `nq2000saenger` | (no identifier) |
+| `blake2002literacy` | https://archive.org/details/literacylearning0000blak |
+| `baron2000alphabet` | https://archive.org/details/alphabettoemailh00baro_0 |
+| `lyons2010history` | https://archive.org/details/historyofreading0000lyon |
 | `finnegan1988literacy` | (no identifier) |
 | `plato1925phaedrus` | (no identifier) |
 | `hunt2026decision` | (no identifier) |
 | `dembeck2023flow` | https://orbilu.uni.lu/handle/10993/59372 |
-| `illich1993vineyard` | (no identifier) |
-| `mak2011page` | (no identifier) |
 | `drucker2014graphesis` | (no identifier) |
 | `muller2026interface` | https://borism.medium.com/the-interface-is-content-b13f4d693d66 |
 | `wattenberger2023chatbots` | https://wattenberger.com/thoughts/boo-chatbots |

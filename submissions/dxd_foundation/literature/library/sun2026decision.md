@@ -1,0 +1,35 @@
+# Sun, W. (2026). *Decision-centric design for LLM systems*. arXiv:2604.00414.
+
+**Identifier:** arXiv:2604.00414 (doi:10.48550/arxiv.2604.00414) · **Read depth:** partial (arXiv v1, 1 April 2026, 24 pp.; main text pp. 1–9 and references read in full; Appendices A.1–A.4 on the calendar task read; Appendices B–C, on the graph and retrieval tasks, and the later tables 8–13 were only skimmed, so figures from them are quoted from the main text only) · **Source-tier:** preprint (single author, IBM Research; no sign of peer review) · **Evidence basis:** direct_read · **Design and sample:** three small controlled experiments with local small models (IBM Granite 4 micro, and LLaMA 3 8B for a replication): calendar scheduling (8 scenarios, N = 10 runs each); graph disambiguation (5 scenarios; N = 20 per Table 10); retrieval sufficiency (150 Natural Questions, 50 per difficulty bucket) · **Parties modeled:** other (an LLM system, its controller and a simulated user; the "user" is a script that answers questions) · **Facets:** Z · **Read:** 2026-10-13
+
+## What it argues
+Sun's claim is architectural: LLM systems "must make control decisions in addition to generating outputs: whether to answer, clarify, retrieve, call tools, repair, or escalate," and these decisions usually "remain implicit within generation" (Abstract, p. 1). He proposes a "decision layer" with three parts: candidate actions, a decision context of observed, estimated and learned signals, and a deterministic policy that maps context to an action (Section 3.1, p. 3). The abstract says the separation "supports attribution of failures to signal estimation, decision policy, or execution" (Abstract; p. 3 words it "attributed to context construction, decision policy, or execution"). It is a design principle for engineers, and the policy is repeatable: "given the same exposed context and constraints, δ selects the same action" (p. 3).
+
+Results (Section 5, pp. 5–9; the main-text numbers):
+- Calendar scheduling (Table 2, p. 6): the explicit layer succeeds in all 8 scenarios on Granite. The prompt-only "Prompt-Clarify" baseline falls to 75%, 60% and 10% at two, three and four missing fields. A Retry baseline succeeds only when nothing is missing. On LLaMA 3 the layer is again ahead but dips at one missing field (75%) until the question generator is constrained (Table 3, p. 6).
+- Graph disambiguation (Table 4, p. 7): 100% in all five scenarios against 35% for prompted baselines in the scenario where one failure also eliminates other candidates.
+- Retrieval (Table 5, p. 9): on the "medium" bucket, the prompted baseline succeeds on 14% of questions against 88% for the same LLM used as an explicit sufficiency signal and 94% for a composite signal. The text of the same section gives 12% and 86% (p. 8), so the paper disagrees with its own table by two points. On "hard" questions every method gets 18% or less, which Sun puts down to retrieval, not control (appendix text, skimmed).
+
+## Relation to the argument
+The facet file's note that this paper "does use 'decision-centric design' for AI systems and shares the word 'inspectable' with the legibility paradigm the paper opposes" is right on the word and wrong on the sense. In Sun, "inspectable" means a developer can read the logged signal and the policy, "traceability" for debugging (pp. 1–3, 8). Nobody who is acted on, and no end user, appears in the paper. The "decision" belongs to the system's controller, not to a person deciding; there is no person in the loop except a scripted simulator that answers clarifying questions (Appendix A.1). So the usage does not collide with Decision Experience Design's object, a person's decision in a mediated triad, but it does show that a reviewer searching "decision-centric design" will find an engineering sense of the phrase that predates and differs from the author's. The paper should note the collision and say what it means.
+
+Two points touch the argument. First, Sun's design puts control outside the generator, in a deterministic layer with hard guards (for example "after a failed execution the system must clarify," Appendix A.2). That is the same structural move as the external controls that the argument map (P11) credits to the Nadella post, here as software engineering with measured gains on toy tasks. It is a small piece of evidence that a decision made outside the model can be more reliable than the same logic as a prompt. Second, it offers no evidence on whether a person can read, rewrite or contest the layer: the interface is for the system's builders.
+
+## In conversation with
+- `morii2026decision` — not cited here; the facet file lists that SSRN paper as a parallel use of "decision design" for human–AI systems. Sun's text never mentions it.
+- `wolf1991decision`, `klein2006making` and other decision-centred design items in the bib — none appears in Sun's references.
+- His reference list runs to chain-of-thought and agent frameworks (Wei et al. 2022; Yao et al. 2022, 2023; Shinn et al. 2023; Wu et al. 2024), LLM routing (Ong et al. 2024) and value-of-information methods (Raiffa and Schlaifer 1961; Howard 1966); he says his claim is "architectural rather than methodological" next to Bayesian-control work (Section 2, p. 2).
+- Leads not in the bib: Papamarkou et al. 2026, "Agentic AI systems should be making Bayes-consistent decisions"; Amin 2026 on Bayesian orchestration of multiple LLMs; Dong et al. 2026, "Value of information: a framework for human-agent communication."
+
+## Caution
+A single-author preprint with synthetic tasks, a small local model, and a simulated user. N is 10 or 20 runs per cell, and the paper reports no confidence intervals. The two-point mismatch between the retrieval text and its table is unresolved here. Appendices B–C and the later tables were skimmed. The claim about human oversight, legibility or end users is absent, so the paper can be cited only for the phrase and for the engineering design principle.
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** corrected
+
+**What I checked:** arXiv v1 PDF (24 pp.; pdftotext), the document matches title, author, date. I checked all 16 quotations and every number in the Results bullets against Tables 2-5, 10 and the text of §5.1-5.3.
+
+**Findings:** (1) The card quoted "attributed to signal estimation, decision policy, or execution" as the Abstract's words; the Abstract says "attribution of failures to signal estimation, decision policy, or execution", and the "attributed to" wording on p. 3 reads "context construction, decision policy, or execution". Fixed. (2) Appendix A.2 quotation read "after a failed execute"; the source says "after a failed execution". Fixed. (3) The card states that Appendices B-C and Tables 8-13 (most of pp. 10-24) were only skimmed, so I changed "full_text" to "partial" and kept the list of what was not read. All numbers (75/60/10%, Retry, LLaMA 75%, 35%, 14/88/94 against 12/86 text) are right. I did not search the source for absence of `morii2026decision`, `wolf1991decision`, `klein2006making` beyond the main text and reference list; none appears there.

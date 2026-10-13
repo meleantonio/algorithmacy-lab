@@ -101,6 +101,16 @@ therefore open for this paper: the research carries two hypotheses and the autho
 
 The lead writes `T_adjudication.md` after the facets and the audit.
 
+### Second round (2026-10-13), from the author's rulings in `SOURCE.md`
+
+| Facet | File stem | Question |
+| --- | --- | --- |
+| I | `I_understanding_through_action` | The author's ruling D7: "we understand THROUGH deciding and quickly ingesting the results. pilots dont spend time reading the situation, they act and through the action the gauge and adjust in the moment." What does the human-factors and cognitive-science literature say about understanding gained by acting: manual control and tracking, skill-based behaviour (Rasmussen), epistemic action (Kirsh and Maglio), recognition-primed decision (Klein), direct perception and ecological interface design, sensemaking by enactment (Weick)? How much of a pilot's task is monitoring (Endsley; Sarter and Woods; instrument-scan studies)? What must feedback be like for learning by acting to work (Kahneman and Klein 2009; Hogarth's kind and wicked environments), and what do studies of platform users (drivers, sellers, creators) show about learning by trial under delayed, noisy or personalised feedback? |
+| J | `J_who_holds_the_convention` | The author's ruling D8: "we can look at how courts and forex markets work, compare that platforms (which i think take a highly draconian position), and look for where the convention bends towards". In each of three settings where a third party stands between two parties (courts and arbitration; foreign-exchange and other dealer or clearing markets; digital platforms), who writes the procedural conventions, who can change them, what notice and appeal the parties get, and what the evidence says about outcomes: procedural justice (Thibaut and Walker; Tyler; Lind), repeat players (Galanter 1974), the FX Global Code, the WM/Reuters fix and last-look cases, CLS settlement, platform terms of service, deactivation, appeals, the EU Platform-to-Business Regulation and Digital Services Act. Test "draconian" against the record; report where it fails |
+| K | `K_training_and_cause` | The author's rulings D1 and D2: review the historical analysis for cause, and review the debate on whether word separation changed the training reading required. How were readers taught before and after separation (Quintilian; Dionysius of Halicarnassus; Cribiore; Marrou; Bonner; Reynolds, *Medieval Reading*; Orme; Black; Grendler; Saenger's chapters on novices and the syllabary method)? Does any scholar claim, test or deny that separation shortened or eased learning to read? Does any scholar make a causal claim from separation to anything (silent reading, reference reading, scholasticism, private devotion, authorship), and how have reviewers received each claim? Start from facets A, B and C and do not repeat them |
+
+Facets I, J and K follow the same format and rules (§7, §8).
+
 ## 6. What the repo already holds
 
 Start from `literature/REUSE.md`. Each row there is a lead: reopen the source and record your own read

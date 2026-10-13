@@ -7,20 +7,59 @@ Claude's.*
 **Marks.** `[ok]` audited against the source. `[abs]` abstract only: paraphrase, do not quote. `[lib]`
 needs a library copy. `[inf]` an inference with no source. `[D n]` waits on decision *n* below.
 
-## (a) Ten decisions the outline waits on
+## (a) Ten decisions, and the author's rulings of 2026-10-13
 
-| # | Decision | Recommended | Why |
+The author ruled on all ten on 2026-10-13. His answers are verbatim in `SOURCE.md` ("The author's ten
+rulings"); the third column below is Claude's short reading of each. Sections (b) and (c) still follow
+Claude's recommendations of 2026-10-12 and will be revised to the rulings once facets I, J and K are in.
+
+| # | Decision | Ruling, as Claude reads it | Still open |
 | --- | --- | --- | --- |
-| D1 | History as design precedent, or as cause of literacy? | Design precedent | `literature/facets/T_adjudication.md` §1 |
-| D2 | `draft.md:263`: keep, soften or replace "no longer required the training" and "populace"? | Soften | The task was transformed and the scribe took on work; the first readers served were learners of Latin |
-| D3 | Restate "algorithmacy is not legibility" as "not a larger reading load on the person"? | Yes | Human factors counts making things visible as its best work; Parkes's "grammar of legibility" names the precedent itself |
-| D4 | Replace "the exact opposite" with a contrast on authority and seat? | Yes | The post shares the premise and the mechanism of external controls |
-| D5 | Take up the "enterprise, not user" reading you declined? | Yes | It is the reading the text best supports (P5, P17, P20) |
-| D6 | "A complex of conventions" for "a similar move"? | Yes | Facets A, F and H each find a bundle |
-| D7 | Engagement layer: keep "reading and rewriting the shared mediator"? | Reword so the person steers without a reading task, or defend the reading | The best-supported candidates work because the person does not read the mediator |
-| D8 | Who builds the convention? | Name it: a standard, the person's agent, regulation, exit | The interface's owner is the interested party |
-| D9 | Propose the missing experiment? | Yes | It is the paper's most concrete contribution to human factors |
-| D10 | The course statement's rejection of different support for novices and experts | Defend with the spacing evidence, or drop | Expertise-reversal research expects the opposite |
+| D1 | History as design precedent, or as cause of literacy? | Design precedent; the causal analysis is reviewed, not asserted | Facet K |
+| D2 | `draft.md:263`: "no longer required the training" and "populace" | Rests on other scholars; review the debate first | Facet K |
+| D3 | "Algorithmacy is not legibility" | Restated on disclosure: disclosure is a literacy-based intervention and does not change the ability to navigate | "Doesn't affect" against "has not been shown to change" |
+| D4 | The contrast with the insider post | He argues against neuralese, which is not algorithmacy, and answers with disclosure and transparency, which are literacy-based | "His only move" does not match P11–P12, P14, P17, P19 |
+| D5 | The "enterprise, not user" reading | Adopted | None |
+| D6 | One move or a complex | A complex, with a search for the most critical convention in it | Which convention; facets H and I |
+| D7 | Engagement layer wording | From reading and writing to deciding: understanding through deciding and taking in the results | The claim about pilots; Part 1 line 66 on disrupted feedback; facet I |
+| D8 | Who builds the convention | Not known yet; compare courts, foreign-exchange markets and platforms | Facet J |
+| D9 | The missing experiment | The triad is irreducible, and Φ gauges the irreducibility of any given triad | Whether the paper proposes a behavioural experiment; whether this arm computes Φ or cites the lab |
+| D10 | Novice and expert support | The spacing history is a guide to the move from one -acy to another, and may or may not hold | Whether the course statement's claim is carried; Claude reads the answer as no |
+
+**D3, dressed in the language of Part 1, as the author asked.** *Drafted by Claude for the author to
+accept, change or discard. The last sentence is the author's own, from Part 1, line 140.*
+
+> Disclosing an algorithm does not change a person's ability to navigate it. Disclosure hands the person
+> a text—model weights, a saliency map, an activity log, a notice of change—and so asks for a reader.
+> That makes it an intervention in literacy. Algorithmacy is exercised elsewhere, in the decisions a
+> person makes inside a coordination that a third party keeps adjusting, and no document about the third
+> party makes those decisions for them. A transparent triad remains a triad.
+
+The first sentence states the ruling as the author gave it. What the evidence in hand supports is
+narrower: Part 1 (line 138) reports that FeedVis and Instawareness raised awareness without producing
+critical evaluation or agency, and facet H finds weaker and less consistent effects for aids that hand
+the person something to read (table (i)). A first sentence the sources carry: "Disclosing an algorithm
+has not been shown to change how well a person navigates it."
+
+**What the rulings do to the argument (Claude's inferences, none sourced).**
+
+- D3 settles the legibility problem better than Claude's recommendation did. Word separation disclosed
+  nothing: the letters were the same before and after. It changed the form of the page, which is Zhang
+  and Norman's representational effect (1994, p. 89). The paper can oppose disclosure and keep its
+  precedent.
+- Word separation is still an intervention on the literacy side. D10 answers this: the history guides
+  the search for an algorithmacy-side convention and does not supply one.
+- D7 and Part 1 line 66 point at the same place. If people come to understand a mediator by deciding
+  and taking in the results, and the mediator returns results that are "partial, delayed, and mediated
+  through platform metrics" (Part 1, line 66), then a convention that returns the result of a decision
+  quickly and plainly is a candidate for the critical move of D6. Facet I tests whether the literature
+  supports this.
+- D4 needs the post's own split. Chain-of-thought transparency (P9) and two of the seven principles
+  are disclosure outright: observe everything (P15) and incident disclosure (P20). Two more are testing
+  and audit, which produce evidence for an auditor to read (P16, P18). Three disclose nothing: model
+  diversity (P14), independent controls (P17) and containment (P19). The paper can say that everything
+  the post offers a *person* is something to read, and that its other controls are held by the
+  organisation. That keeps the author's contrast and matches the text.
 
 Also open: the due date, length and rubric for the course paper, and whether the instructor must agree to
 the change of topic.
@@ -33,16 +72,31 @@ the change of topic.
 | word separation | Keep | Saenger's term. "Spaces between words" on first use |
 | aerated script | Define on first use or omit | Saenger's term for partly spaced Continental script |
 | legibility | Use only with a qualifier | Graphic legibility (Parkes) against interpretability of a system (the ruling) |
-| re-representation; representational effect | Adopt | Zhang and Norman 1994, p. 89 `[ok]` |
+| re-representation; representational effect | Adopt | Zhang and Norman 1994, p. 88 (card `zhang1994representations`; the earlier p. 89 was wrong) |
 | task transformation | Adopt | Hutchins 1995, "How a cockpit remembers its speeds", p. 283 `[ok]`. Cite the article, not *Cognition in the Wild* |
-| cognitive offloading; function allocation | Avoid for the scribes' move | The first describes a person changing their own task; a page is not an agent |
+| cognitive offloading | Available | Risko and Gilbert count offloading designed into the task environment (Box 3; card `risko2016cognitive`). *Corrected 2026-10-13; the earlier advice was to avoid the term* |
+| function allocation | Avoid for the scribes' move | A page is not an agent |
 | the move | Replace with "a convention" or "a complex of conventions" | `[D6]` |
-| observability | Do not treat as a marker of the legibility paradigm | Rieder and Hofmann use it as an alternative to transparency |
+| observability | Treat as a form of transparency | Rieder and Hofmann say it is not "a radical departure" from transparency (p. 21; card `rieder2020towards`). *Corrected 2026-10-13* |
+| disclosure | Adopt as the paper's term for what it opposes | The author's ruling D3: disclosure is a literacy-based intervention |
+| irreducible triad | Use in place of "mediated triad" | The author's ruling D9 |
+| algorithmacy | Say "in this sense" where coinage is claimed | Oberschelp 1995, p. 121, prints the word in another sense (card `oberschelp1995developing`) |
 | the insider post | Use in place of "Nadella" when the post is meant | His other 2026 posts say different things |
 | engagement layer | Define from `ENGAGEMENT_LAYER.md:9` | `[D7]` |
 | ignited literacy | Drop | `[D1]` |
 
 ## (c) Section plan
+
+> **Superseded in part (2026-10-13).** The plan below is Claude's first-round plan and predates the
+> author's rulings. Read it with `literature/facets/T_adjudication.md` §9 and the revised
+> `ARGUMENT_MAP.md`, which are the current state. The main changes the rulings and the full readings
+> make to it: section 3 opposes *disclosure*, not legibility, and may use "offloading"; section 4 drops
+> "most for learners" and carries Saenger's p. 85 sentence under his name; section 5 moves from reading
+> and rewriting to deciding (D7), with the pilot analogy narrowed; section 6 reads the post as offering a
+> person something to read, takes up the enterprise reading (D5), and no longer rests on people reviewing
+> records badly; section 7 carries two candidate conventions and the courts, foreign-exchange and
+> platform comparison (D8). Claude has not redrafted the section plan, because the author writes the
+> paper and the plan is his to re-cut.
 
 Word budgets are shares of the body, since the course length is not recorded.
 

@@ -22,6 +22,25 @@ rest is Claude's.*
 | Which reading of the Nadella post does the paper oppose? | Three of the four offered: the legibility paradigm; that it keeps the dyad; containment versus engagement. Not selected: "enterprise, not user". |
 | What does this run deliver? | Research and an outline. The author writes the prose. |
 
+## The author's ten rulings (2026-10-13)
+
+Claude put the ten decisions of `OUTLINE.md` (a) to the author as questions with options. The second
+column is his answer, verbatim where it is in quotation marks. The third column is Claude's reading of
+what the answer changes, and the flags in it are Claude's.
+
+| # | The author's answer | What it changes; flags |
+| --- | --- | --- |
+| D1 | "Design precedent, and lets review the historical analysis for cause" | The paper argues the precedent. The causal question is reviewed, not asserted: facets B and C hold the review so far, and facet K extends it |
+| D2 | "this is a question we rely on other scholars for, we need to reveiw teh debate, if any" | The sentence at `draft.md:263` waits on the scholars. Facets B and C found a debate on whether unspaced script was hard for trained readers, and found nobody who argues that separation shortened the training of readers. Facet K searches the history of reading instruction for that claim |
+| D3 | "disclosure of the algorithm doesnt affect our ability to navigate it.  disclosure is a literacy based intervention, not an algorithmacy based one.  you should dress this up in the lagauge of the ssay" | Replaces "not legibility" with a ruling on disclosure. Claude's draft of the statement is in `OUTLINE.md` (a), marked as Claude's. **Flag:** the evidence in facet H and in Part 1 (lines 136–140) is that disclosure raises awareness and has not been shown to change what people do; "doesn't affect" is stronger than that |
+| D4 | "he is arguing aginst neuralese, which is NOT algorithmacy, and his only move is disclosure design, and transparency, which are literacy based interventiones." | The contrast becomes literacy-based against algorithmacy-based intervention. The post does name "Neuralese" (P9). **Flag:** "his only move" does not match the post. Of the seven principles, model diversity (P14), independent controls (P17) and containment (P19) disclose nothing, and P11–P12 put the controls outside the model; P9 itself calls chain-of-thought transparency "not sufficient or dependable" |
+| D5 | "Adopt it (Recommended)" | The paper takes up the "enterprise, not user" reading |
+| D6 | "its a complex, BUT we are looking for the most critical, if not the critical move.  spacing between workds wasnt the ONLY move, but it was certainly a huge move" | A complex of conventions, with a search for the one that does most of the work |
+| D7 | "we are going from reading and writing to deciding...we understand THROUGH deciding and quickly ingesting the results.  pilots dont spend time reading the situation, they act and through the action the gauge and adjust in the moment.  \"Understanding\" is becoming something similar." | The engagement layer is restated as deciding and taking in results, not reading and rewriting. **Flags:** the claim about pilots needs the aviation literature, which treats monitoring as a large part of the pilot's task; and Part 1 (line 66) says an adaptive intermediary disrupts the rapid, unequivocal feedback that learning by acting needs. Facet I tests both |
+| D8 | "we just dont know yet.  we can look at how courts and forex markets work, compare that platforms (which i think take a highly draconian position), and look for where the convention bends towards" | The paper does not name a holder of the convention. Facet J compares courts, foreign-exchange markets and platforms |
+| D9 | "this is an irreducible traid, so different than statistical mediation.  we use IIT and phi to gauge the irreducibiltiy of any given triad" | The paper says "irreducible triad" and points to Φ as the gauge. "Mediated triad" in the question was the lab's own term and did not mean statistical mediation. **Open:** the answer does not say whether the paper proposes a behavioural experiment, and this arm's README says it does not re-run Φ |
+| D10 | "the spacing intervention is something we are pointing to to explore the transiton from one -acy to another -acy...going from literacy to algorithmacy might be similar, it might not be.  but its a guie" | The history is a guide, which agrees with the Part 2 ruling (analogy, not mechanism). **Open:** the answer does not rule on the course statement's novice and expert claim; Claude's reading is that the paper does not carry it |
+
 ## The course
 
 PHD1750-3, Independent Research Project, mapped to HF700-1, Foundations in Human Factors (Bentley

@@ -192,3 +192,202 @@ literature finds people do badly. It says nothing of the people the model acts u
 - Several AI-safety sources in facet G come from Anthropic, and the agents and the lead are Anthropic
   models.
 - The Nadella post was two days old at the time of research.
+
+## 9. Second round (2026-10-13): after the author's rulings
+
+*Written by Claude (lead) on 2026-10-13. The author ruled on the ten decisions of §7 (verbatim in
+`../../SOURCE.md`). Three facets followed from the rulings (I, J, K; audits `../audit/AUDIT_04`–`06`),
+and 251 sources were then read in full or in large part and carded (`../library/`,
+`../audit/CARD_FACET_CHECKS.md`). Sections 1–8 stand as the record of the first round; where this
+section disagrees with them, this section is the later reading. A source named with a key in backticks
+has a card, and the card carries the page locators.*
+
+### 9.1 What the full readings changed in §§1–5
+
+| Earlier statement | Now | Source |
+| --- | --- | --- |
+| §1, point 1: spacing lowered a cost "most for learners" | Not shown in the modern evidence. Child learners of Chinese read spaced text more slowly and less accurately (word spacing F(1, 21) = 11.80, p = .002; hanzi accuracy 95.67% against 90.91%); the learner contrast in Cui et al. is not significant. What stands for learners: second-language adults in abstract-only studies, one interaction for dyslexic readers, and Saenger's Insular case | `bassetti2012effects` (submitted version), `cui2023eye`, `galliussi2020inter` |
+| §1 table: fluent readers of unspaced scripts gain nothing | Mixed. Adult Thai readers fixate the target word for less time with spaces and take longer over the sentence; eight Thai readers read aloud faster with spaces (p < .08); Tibetan adults read spaced sentences faster (5,566 against 6,019 ms). Bai et al. remain a clean null for skilled Chinese adults (5,221 against 5,239 ms) | `chantavarin2025effects`, `kohsom1997adding`, `winskel2009eye`, `wang2024tibetan`, `bai2008reading` |
+| §1: removing spaces slows practised readers by a third to a half | Stands, and is the robust result. Mirault's "40–70%" is his citation of Rayner and Pollatsek (1996) and Rayner et al. (1998), not his own data | `mirault2019reading`, `winskel2009eye` |
+| §1, point 1: Insular scribes separated words "for readers who were learning Latin as a foreign language" | A reading held by Parkes and Saenger, not a settled finding. The reviewers' "convincingly" and "plausible" attach to narrower points; Tunbridge's thesis, supervised by Parkes, is no independent test | `../audit/AUDIT_06.md`; `tunbridge1992study` |
+| §1, point 2: the Romans' teachers divided words for novices and then withdrew the aid | The aid was known and used for learners; "withdrew" is wrong. Cribiore says continuous blocks "made word divisions necessary as a further aid for the pupil" (1996, p. 48, lending scan) | `../audit/AUDIT_06.md` |
+| §1: Knox supports trained readers supplying word boundaries | Knox says nothing of word boundaries. He supports "normally read aloud" only | `knox1968silent` |
+| §2: avoid "cognitive offloading" for the scribes' move | The term is available. Risko and Gilbert count offloading designed into the task environment (Box 3) | `risko2016cognitive` |
+| §2: Zhang and Norman, representational effect, p. 89 | p. 88 | `zhang1994representations` |
+| §3: aim the critique at P15 and P19, where people perform worst | Weaker than stated. Insider-threat practice endorses retrospective review by people (CERT, practice 12, pp. 84, 89); complacency is mainly an effect of competing tasks; the alert-fatigue paper measures no analyst performance; Greenblatt's "auditor" is a model. One direct measure exists: three annotators per transcript, 103 minutes each, AUC 0.65 | `cert2022common` (partial), `parasuraman2010complacency`, `alahmadi2022false`, `greenblatt2024ai`, `kutasov2025shade` |
+| §4 table: Kling et al. as "a pre-computed comparison" | The letter was a bundle: recommended default, savings figure, deadline, printout, after an interview | `kling2012comparison` (working paper) |
+| §4: presentation decides who benefits (Gonczarowski et al., "with a lab experiment") | The version on file is theory only. Li (2017) and Rees-Jones and Skowronek carry the point alone | `gonczarowski2023strategyproofness`, `li2017obviously`, `reesjones2018experimental` |
+| §4: bounded control beats free control (Dietvorst et al.) | Not shown. Under random assignment the capped and free conditions do not differ (p = .224). Some control raises use of the algorithm | `dietvorst2018overcoming` |
+| §5 and the exposure list: the more demanding design worked best (Buçinca et al.) | Narrower. Forcing functions beat simple explanations only where the AI was wrong, gave no overall gain, and stayed below working without the AI | `bucinca2021trust` |
+
+### 9.2 The rulings, one by one
+
+**D1 and D2. Precedent, with the causal analysis reviewed.** Facet K searched the histories of
+reading instruction for the training claim and for every causal claim made from word separation.
+
+- *Nearest support for `draft.md:263`.* Saenger writes that "Word separation, the diastole, the hyphen,
+  and eventually the trait d'union in Insular books provided shortcuts for achieving the reading skills
+  that an elite among the ancients had mastered only through a prolonged and arduous grammatical
+  apprenticeship" (1997, p. 85; verbatim and page confirmed, `../audit/AUDIT_06.md`). He names four
+  devices, gives no measure, and no reviewer read so far comments on the sentence.
+- *Against "no longer required the training".* Reynolds, Black, Grendler and Orme describe the alphabet,
+  syllables, psalter and Latin course continuing after separation was standard (snippets). Their books
+  return no hit for "word separation" or for Saenger, which shows only that the phrase is absent from
+  the scanned text.
+- *"Populace".* No source supports it.
+- *Causal claims.* Saenger alone claims that separation caused silent or rapid reading, reference
+  reading and the scholastic apparatus, private devotion, and autograph composition. Classicists contest
+  the first (Knox, Vatri, Heilmann); the rest are untested in what was read. Svenbro, in Cavallo and
+  Chartier's volume, calls unspaced script "not an insurmountable obstacle" and then cites Saenger for
+  word division as "a necessary condition for the dissemination of the practice of silent reading". Nobody
+  found claims that separation raised the number of readers.
+- *What the sentence can be made to say with support:* that separation and three other devices gave
+  Insular readers a shorter route to skills an ancient elite reached by long training. That is Saenger's
+  claim, about Insular books, and should be attributed to him.
+
+**D3. Disclosure is a literacy-based intervention.** The ruling settles the legibility problem of §2:
+word separation disclosed nothing, since the letters were the same before and after, and the
+representational effect is defined over "different isomorphic representations of a common formal
+structure" (`zhang1994representations`, p. 88). The evidence on disclosure is mixed in direction, which
+"doesn't affect" does not capture.
+
+| Finding | Direction | Card |
+| --- | --- | --- |
+| Reddit users who had read the rules judged their removal less fair (β = −.314); the abstract says the opposite | Disclosure did not help | `jhaver2019suspect` |
+| A months-to-pay message on credit-card statements raised delinquency by 0.011 points, 7.4% of the mean, for two client groups; the interest-rate message did nothing | Disclosure harmed or did nothing | `seira2017are` |
+| A clearer model made people worse at catching its mistakes in three of four experiments | Disclosure harmed | `poursabzi2021manipulating` |
+| Showing where an AI errs raised accuracy mostly by raising reliance on ordinary items | Disclosure changed deference, not navigation | `cabrera2023improving` |
+| Korbak et al. decline to recommend showing chain of thought to users (p. 7) | The monitoring literature itself stops short | `korbak2025chain` |
+| The EU Platform-to-Business Regulation requires a description of ranking parameters and says providers are "not required to disclose algorithms" (Art. 5(6)) | The legislator stops short | `eu2019p2b` (partial) |
+| A warning cue with its reason cut simulator collisions to 1 of 15, against 6 of 15 with the cue alone and 7 of 15 with none (N = 45, Fisher p = .044) | Disclosure helped | `matsuo2026educational` |
+| Explanations reduced overreliance in the hard task only | Disclosure helped, conditionally | `vasconcelos2023explanations` |
+
+Matsuo et al. and Vasconcelos et al. are person-and-machine settings with no second party. No study
+found tests disclosure in a triad with a behavioural outcome. A sentence the sources carry: disclosure
+has not been shown to change how well a person navigates a mediated coordination, and in several
+studies it changed nothing or made matters worse.
+
+**D4 and D5. The insider post.** The post names "Neuralese" (P9), as the author says. Its text does not
+bear "his only move is disclosure": model diversity (P14), independent controls (P17) and containment
+(P19) disclose nothing, and Chan et al. set out controls outside the agent as a design programme
+(`chan2025infrastructure`). The form of the author's contrast that the text supports: what the post
+gives a *person* is something to read (evidence, audit, incident disclosure) or a brake to pull, and
+every other control is held by the organisation. With D5 adopted, the post's silence on the people the
+model acts upon becomes the main point. The critique should not rest on the claim that people review
+records badly (9.1).
+
+**D6. A complex, with a search for the most critical convention.** The first-round candidate, a rule in
+the mediator that removes a strategic task, keeps its two experiments (36% against 7% of games off the
+dominant outcome, `li2017obviously`, §5.3 of the working paper; 23% misreporting in a strategy-proof
+match, `reesjones2018experimental`). D7 adds a second candidate, set out below.
+
+**D7. From reading and writing to deciding.** Facet I and the cards give the ruling partial support
+and one correction.
+
+- *Support.* Weick: "people think by acting" (`weick1988enacted`). Kirsh and Maglio's epistemic
+  actions are "physical actions that make mental computation easier, faster, or more reliable"
+  (`kirshmaglio1994distinguishing`, p. 513). Ride-hail drivers with more than 2,500 trips earn 14% more
+  per hour than those with fewer than 100 (`cook2021gender`, working paper, observational). Heiland's
+  own A/B trials on a delivery app corrected riders' false theories (`heiland2023social`).
+- *Condition.* Skilled intuition needs a valid environment and "feedback that is both rapid and
+  unequivocal" (`kahneman2009conditions`, p. 524). Delay and noise act differently: delay pushes people
+  toward options that pay quickly, and noise does not (`rahmandad2023delays`, pp. 13, 17). Part 1,
+  line 66, says an adaptive intermediary disrupts both conditions.
+- *Correction.* "Pilots don't spend time reading the situation" is contradicted. Both pilots in
+  Hutchins's cockpit keep monitoring airspeed (`hutchins1995cockpit`, pp. 283, 285); with automation
+  engaged, monitoring is the pilot's task. A narrower form holds: crews caught 35.4% of deviations in
+  primary procedures, 14.4% in checklists and 5.6% in monitoring (`dismukes2010checklists`, partial).
+  People correct what they do far more often than what they watch.
+- *No source supports "from reading and writing to deciding" as a historical shift.* It is the author's
+  proposal.
+- *Inference (Claude's, unsourced).* If understanding of a mediator comes through deciding and taking in
+  the results, then the convention that matters most may be one that returns the result of a decision
+  quickly and plainly, and holds still long enough for the result to mean something. That would be a
+  candidate for D6 that keeps the person acting, unlike the task-removing rule. Interventions that
+  shorten or clean the loop have thin and mixed evidence (previews, simulation, counterfactual feedback;
+  `kuhl2023alien` did not replicate its own gain, p = .554).
+
+**D8. Who holds the convention.** Facet J, its audit and the cards give this comparison. "Draconian" is
+the author's word and is tested, not adopted.
+
+| | Courts | Dealer foreign exchange | Platforms |
+| --- | --- | --- | --- |
+| Who writes the convention | Judges under statute, through committees; non-compliance with the process "does not invalidate a rule" (28 U.S.C. § 2073(e)) | The Global FX Committee of central banks and industry; each dealer for its own last look | The owner; EU law sets a floor |
+| Change of terms | By rule-making or appeal | Substantial changes "should be agreed before any transaction" (Principle 40), voluntarily | By the owner alone, on 15 days' notice to EU business users (P2B Art. 3) |
+| Reasons and complaint | Reasoned decisions, appeal | Basis for rejections disclosed, reasons recorded and shared "where appropriate", a channel for concerns (Principles 7, 9, 36, 39), all voluntary | Statement of reasons, internal complaint, regulator complaint and damages in the EU (DSA Arts. 17, 20, 53–54); in Seattle the company decides the worker's challenge itself |
+| What binds the third party | Appeal, recusal; an interested judge is barred (*Tumey v. Ohio*, 1927) | Reputation and regulators after the fact; the 4pm fix was manipulated by dealers and five banks were fined £1.1bn on 12 Nov 2014 | Statute where it exists (fines to 6% of turnover under the DSA); otherwise the owner's terms, which gave "broad, unfettered discretion" in all 14 platforms Suzor read |
+| What moved it | Litigation | Scandal, then regulators | Statute; collective action (a drivers' union won over 1,400 reactivations before any tool existed) |
+
+Three findings qualify the comparison. Tyler finds the weights people give to criteria of fair procedure
+vary with the situation and concludes there are "no universally fair procedures" (`tyler1988what`,
+p. 131), so the settings can be described on these rows and not ranked on one scale. Galanter's
+one-shotter does not fit a driver or seller who deals with a platform continually (`galanter1974why`,
+n. 4, p. 97). Klonick calls platform moderation "impressively intricate and responsive" while recording
+the lack of an appeals system (`klonick2018new`, pp. 1664–1665), and Meta reversed itself in 14 of 20
+cases the Oversight Board shortlisted, before the Board ruled (`oversight2022q1`, p. 9).
+
+*Where the convention bends.* In every setting it moved toward the weaker party under outside force and
+not on the third party's initiative. On paper, dealer foreign exchange promises the counterparty most
+and binds the dealer least; EU platform law promises less and binds more; a platform's own terms promise
+least. The author's reading holds for terms of service and for places without such statute. Premise P10
+stands: nothing found stops an owner from changing a convention alone.
+
+**D9. Irreducible triad.** The paper says "irreducible triad" and names Φ as the gauge of
+irreducibility. Two points stay open for the author: whether the paper proposes a behavioural experiment
+(no study found tests any convention in a triad with a behavioural outcome), and whether this arm
+computes Φ or cites the lab's results. A Φ value classifies a triad; it does not show that a convention
+helps the people in it, so the two are complements.
+
+**D10. The history as a guide.** This agrees with the Part 2 ruling and with what the evidence now
+permits (9.1). The course statement's claim about novices and experts is not carried, on Claude's
+reading of the answer.
+
+### 9.3 Three further matters for the author
+
+1. **"Algorithmacy" appears in print in 1995.** Oberschelp writes "we have to preserve logicacy and
+   algorithmacy by continuously training simple mental activities without artificial tools"
+   (`oberschelp1995developing`, p. 121), once, undefined, meaning a skill of carrying out algorithmic
+   steps by hand. The sense differs from the author's. Any statement of coinage should say "in this
+   sense" or cite him. This reaches the dissertation and the *Organization Theory* arm.
+2. **A seventh flag on the author's published text.** Part 1, line 106, says forcing functions curbed
+   uncritical acceptance "far more effectively than explanatory text"; the paper's result is narrower
+   (9.1, last row).
+3. **A source that changed sides.** Meyman (2026), which facet Z read as a proof that observability
+   cannot produce authorization, withdraws the universal claim in its current version and is a
+   self-published note by an author affiliated with the company it supports (`meyman2026impossibility`).
+
+### 9.4 What survives, restated
+
+*Claude's statement, for the author to accept, change or reject.*
+
+Readers used to spaces lose a third to a half of their speed without them. That dependence is the robust
+fact; whether spaces first opened reading to learners rests on Saenger's reading of the Insular evidence
+and one sentence on p. 85. Word separation re-represented the page without disclosing anything new, and
+that is the feature the paper needs: it is the model of an intervention that is neither disclosure nor
+training. The history is a guide to the question and no proof of the answer.
+
+Coordination through an algorithmic third party has two candidate conventions with some evidence. One
+removes a strategic task by rule and shows that it is gone. The other, which follows from the author's
+ruling that understanding now comes through deciding, returns the result of a decision fast and plainly
+enough to learn from. The second is an inference with thin evidence. No convention has been tested in a
+triad, and in courts, dealer markets and platforms alike the third party gave ground only under outside
+force.
+
+Nadella's insider post answers a different question: how an organisation contains a model it cannot
+read. What it offers a person is a record to read and a brake. It is silent on the people the model acts
+upon.
+
+### 9.5 Limits of the second round
+
+- 251 of 576 sources are carded; 43 of the cards rest on a partial read. Saenger, Parkes, Wingo, Vatri,
+  Gavrilov, Burnyeat, Reynolds, Orme, Cribiore and the other monographs were read as snippets or not at
+  all, and facet K's page locators for them are mostly "not obtained".
+- The verification pass corrected 151 of 251 cards. A card is the best record available and is not a
+  substitute for the source when a passage is quoted in the paper.
+- Several sources were read as working papers or preprints (Li 2017, Kling 2012, Cook 2021, Bassetti and
+  Masterson 2012, Bolton 2013); each card names the version.
+- About 40 sources have open copies behind bot walls that the agents left alone. Among them is a 2026
+  post titled "wordspacing" (key `rosehill2026wordspacing`) that bears on whether the analogy has been
+  drawn before; the gap statement of facet Z is unchanged until someone reads it.
+- The Jensen and Meckling card was written from a scan of unclear provenance and should be checked
+  against the journal.

@@ -1,0 +1,44 @@
+# Hutchins, E. (1995). How a cockpit remembers its speeds. *Cognitive Science, 19*(3), 265–288.
+
+**Identifier:** doi:10.1207/s15516709cog1903_1 · **Read depth:** full_text (journal pagination, pp. 265–288, including the reference list and glossary; the PDF is a scan with OCR, so quotations were checked against the OCR text and a few OCR slips are silently corrected) · **Source-tier:** peer-reviewed article · **Evidence basis:** direct_read · **Design and sample:** theoretical framework plus a "somewhat stylized account" of one task, built from the author's observation of "more than 100 flights" as an observer, simulator recordings, operations manuals and pilot interviews (pp. 266–267, 271 n. 6); no extended observational data are presented (p. 266) · **Parties modeled:** other: a socio-technical system (pilot flying, pilot not flying, and instruments) as the unit of analysis · **Facets:** E · **Read:** 2026-10-13
+
+## What it argues
+
+Hutchins takes the cockpit, not the pilot, as the unit of cognitive analysis. The cockpit "remembers" the speeds at which wing configuration must change on an approach, and that memory is not "made primarily of pilot memory" (p. 286). He gives three descriptions of one task: procedural (pp. 271–275), representations outside the pilots (pp. 275–279), and representations inside the pilots (pp. 279–284). The task has two parts: matching flap and slat settings to airspeed as the airliner slows, and holding the landing (reference) speed, Vref.
+
+The pilot not flying selects a speed card by gross weight, reads the speeds aloud, and both pilots set "speed bugs" on their airspeed indicators. The card is a durable memory; the spoken values are ephemeral; the bug settings "capture a regularity in the environment that is of a shorter time scale" than the card, a memory that is malleable and fits one period of time, this approach (p. 277).
+
+The central move is a redescription of what the bugs do. The common view calls a bug a memory aid, but "it is not clear that they contribute to the pilot's memory at all" (p. 282). Without bugs a pilot reads, remembers and compares speed values; with them "the same results" arrive by "judgments of spatial proximity" (p. 282). "Individual pilot memory has not been enhanced; rather, the memory function has now become a property of a larger system in which the individual engages in a different sort of cognitive behavior" (p. 282). Calling a bug a memory aid "is to mistake the cognitive properties of the reorganized functional system for the cognitive properties of one of its human components" (p. 283). On final approach, "a memory and scale reading task is transformed into a judgment of spatial adjacency" (p. 283). The pilot not flying then applies a second transformation: because the salmon bug's base spans about ten knots, the check of whether speed is within 5 knots of target becomes whether the needle points at any part of the bug's body, a strategy that "permits a conceptual task to be implemented by perceptual processes" (p. 283). A third change turns that visual judgment into an aural call ("five knots fast"), which spares the flying pilot's scarce visual resources (p. 283). Hutchins says that twice "a change in the nature of the representation of information results in a change in the nature of the cognitive task facing the pilot" (p. 283).
+
+The work does not vanish. Setting one bug "requires the pilot to hold the target speed in memory, read speed scale, locate the target speed on the speed scale ... and then, manually, move the speed bug" (p. 280), and transposition errors are "probably the most frequent sort of error" (p. 280). The effort shifts "across time" to a low-workload phase, 25 to 30 minutes before landing (p. 272), and across people: the flying pilot looks at the aircraft, the other watches airspeed (p. 285). The results are "relatively insensitive to the interruptions, the distractions, and the delays that may disrupt internal memories" (p. 286). The system is "surprisingly redundant" in representation, processing and checking (p. 286). Hutchins also notes a use the designers did not plan: the bug's width was not specified, and the pilots exploit it as a yardstick (pp. 284–285).
+
+## Relation to the argument
+
+Premise P5 (the scribes' move re-represents the task) and the ruling D10 (history as a guide). This is the strongest located statement in the library that an artefact can leave a person's capacity unchanged and still change the task: from remembering and reading to judging adjacency, a conceptual task given a perceptual implementation (p. 283). The facet's use of pp. 282–283 holds against the full text.
+
+It also supports two cautions that the paper has already taken on. First, the work relocates: a person sets the bugs, at working-memory cost (p. 280), as a scribe spaces the text. That agrees with the argument map's line that "the task was transformed and the scribe took on work." Second, the bugs fit a "regularity in the environment" of a short time scale (p. 277), and Hutchins treats a fixed, well-characterised task (published speeds, a mandated crew division of labour, p. 268). The card does not show an adaptive or interested counterpart. The argument map's exposure 2 (a medium is not a coordination) stands.
+
+On ruling D7 ("pilots dont spend time reading the situation, they act"): the article does not support it as stated. The flying pilot must keep to monitor airspeed, glide path and runway alignment together (p. 283), the pilot not flying monitors airspeed and calls deviations (p. 285), and the crew run cross-checks of the bug settings, the card and the displayed weight (pp. 274, 278). Hutchins's pilots perceive and judge continuously; the bugs make that cheaper. Facet check: the facet's bearing statement agrees with my reading. Its read status ("in part, pp. 265, 277, 280–283") is now superseded by a full reading, and nothing in the rest of the article contradicts the facet's quotations. The facet quotations I compared (pp. 277, 280, 282, 283) match the text.
+
+## In conversation with
+
+- `norman1991cognitive` (bib title "Cognitive artifacts"). The article's own Norman references are Norman (1991), "Cognitive science in the cockpit," *CSERIAC Gateway* 2, and Norman (1993). Hutchins cites the 1991 item for the "memory aid" view of bugs and for transposition errors (pp. 280–281), so the bib key may not name the same item; verify before citing.
+- `norman1993things` (*Things That Make Us Smart*): cited at p. 266 for the claim that environmental structure "can provide much more than external memory."
+- `hutchins1995cognition` (the book): cited at p. 266 for system-level properties that "cannot be reduced" to those of persons. The article, not the book, is the source of every quotation here.
+- Bib items not cited by the article: `zhang1994representations`, `larkin1987why`, `kirshmaglio1994distinguishing` are related lines of work; the article does not cite them.
+
+Leads not in the bib, from the reference list: Luria (1979), *The making of mind* (the "functional system"); Wickens & Flach (1988), "Information processing," in *Human factors in aviation*; Tenney (1988), *Professional Pilot* (bugs as "memory aid"); Hutchins (1991), "Organizing work by adaptation," *Organization Science* 2, 14–38; Simon (1981), *The sciences of the artificial*.
+
+## Caution
+
+The account is "stylized" (p. 266): no data, counts or error rates, and one airliner type (MD-80, p. 267). It is a case for a way of describing a system, not a test of whether the redescription predicts performance. The article does not discuss reading, writing or any history; applying it to word separation is the paper's own step. It describes a task with a known regularity and a fixed procedure, not a mediated triad with an interested third party. Hutchins's claim that crews "nearly all" follow the procedure (p. 268) is his observation, not a measured rate.
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** corrected
+
+**What I checked:** The 24-page OCR PDF (pdftotext; journal pp. 265-288 = PDF pp. 1-24). About 30 quotations located by page, plus the numbers (25 to 30 minutes, p. 272; ten-knot bug base and 5-knot check, p. 283; MD-80, pp. 267, 271; "nearly all", p. 268).
+
+**Findings:** Every source quotation and locator matches. The only fault was the quotation budget: source quotations ran near 270 words. I turned three quotations into paraphrase (the "malleable" memory phrase at p. 277, the repeated "conceptual task ... perceptual processes" in Relation, and the "monitoring the airspeed ..." phrase at p. 283). The "across time" quote sits at p. 285, not p. 272; the card's sentence gives p. 272 for the 25-30 minutes figure and p. 285 for the people split, which is correct as written. Quotations attributed to the argument map or facet (not the article) were not checkable here.
