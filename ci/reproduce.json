@@ -6884,6 +6884,21 @@
       ],
       "timeout": 300,
       "source": "org_frontier/studies/m3_subset_fidelity_v4/FINDINGS.md"
+    },
+    {
+      "name": "q220-observation-process-robustness",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.probe_observation_process_robustness",
+      "expect": [
+        "CONTROL faithful triad: structure=triadic max_phi=2.000 core=(0, 1, 2) cc_pick=1 -> PASS",
+        "H0 dose-0 identity: PASS",
+        "H1 (BN drop m=0->0.3 <= 0.10): drop=0.172 REFUTED",
+        "H2 (TD drop m=0->0.3 >= 0.10): drop=0.003 REFUTED",
+        "H3 (TD MAR-BURST at 0.3 >= 0.05): gap=0.013 REFUTED",
+        "H4 (BN drop OFFSET2 > MAR0.3): -0.022 vs 0.172 REFUTED",
+        "H5 (TD at every g>=2 within 0.05 of null 0.556): max excess=0.028 CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     }
   ]
 }
