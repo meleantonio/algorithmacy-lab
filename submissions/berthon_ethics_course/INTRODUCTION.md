@@ -30,9 +30,9 @@ did it with literacy. The president of Alabama's constitutional convention of 19
 who would write a literacy test into the franchise what they had met to do: "to establish white
 supremacy in this State" (Alabama Constitutional Convention, 1901, p. 8). Hugh Auld forbade his wife
 to teach Frederick Douglass to read because learning would "forever unfit him to be a slave"
-(Douglass, 1845, p. 33). And the Supreme Court of Canada, reading a treaty of 1760 in 1999, observed
-that the Mi'kmaq signatories "did not, for all practical purposes, have the opportunity to create
-their own written record of the negotiations" (*R. v. Marshall*, 1999, para. 14). None of these is a
+(Douglass, 1845, p. 33). And the Supreme Court of Canada, reading a Mi'kmaq treaty of 1760 in 1999, observed
+of treaty-making in general that "The Indian parties did not, for all practical purposes, have the
+opportunity to create their own written record of the negotiations" (*R. v. Marshall*, 1999, para. 14). None of these is a
 broken promise. Each is the use of a position that opened once a competence became compulsory — the
 examiner's, the teacher's, the record-keeper's. Kamperman and Graff do not treat these positions, and
 in the sources I searched (Crossref, Consensus, arXiv and the open web) I found no work that asks who
@@ -73,6 +73,10 @@ earlier failures ask of the people who design the intermediary.
 ---
 
 ## Notes for the author (Claude)
+
+0. **Superseded.** The author rewrote this introduction on 2026-10-13; his text is `AUTHOR_DRAFT.md`
+   and governs. One error here was corrected after he wrote: paragraph 2 had attributed para. 14 of
+   *Marshall* to the Mi'kmaq signatories, and it is a remark about treaty-making in general.
 
 1. **Paragraph 2, the gap statement.** The searches were the lab's, run through agents. The limits are
    in `literature/facets/Z_gap_search.md` ("Search limits"): Crossref covers titles and metadata only,
