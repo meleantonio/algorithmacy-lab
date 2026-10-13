@@ -98,3 +98,15 @@ the Mi'kmaq attribution in row A8 and the present-day "ledger" claim in row A12.
   (`T_adjudication.md` §8.1, §9.5). The draft's 3.3 names "British translators" only.
 - The read-depth limits. 7.1 gives scope and data limits but not that no book was read whole and that
   ten are known through reviews.
+
+## F. Edits made in the author's Google Doc (2026-10-13)
+
+At the author's instruction ("targeted, scalpel level edits ... do not rewrite anything"), Claude made
+46 find-and-replace edits in the Google Doc "Design Ethics Paper", in Suggesting mode, so each shows as
+a tracked suggestion (48 in all, since "sworn" was struck in three places). They cover rows A3–A9, A11,
+A13, B2–B4, B6–B11, C2–C4, C6–C14, C16, C18–C20, C22, D1, D4, D5, D7, D8 and D10, plus a page number
+for Rosenblat and Stark and "about" before "fifteen seconds". `AUTHOR_DRAFT.md` in this arm is the text
+as first supplied and does not carry these edits.
+
+Left untouched, for the author to rule on: A1, A2, A10, A12, A14–A16, B1, B5, B12, C1, C5, C15, C17,
+C21, D2, D3, D6, D9, and section E.
