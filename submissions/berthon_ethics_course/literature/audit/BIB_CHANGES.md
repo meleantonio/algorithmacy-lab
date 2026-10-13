@@ -58,3 +58,10 @@ under the titles of the books they review.
 All 20 replacements in `AUDIT_04.md` are applied to the L facets as exact replacements. One e-mail
 address, copied from a paper's title page into `L1_berthon_fulltext.md`, was removed before the first
 commit of that file.
+
+## Fourth round (facets M1–M5, 2026-10-13)
+
+`merge_bibs.py` appends M1–M5 after the earlier facets. The merged file holds 459 entries; 39
+duplicates were dropped. All 75 replacements in `AUDIT_05.md` are applied to the M facets and their
+bibs as exact replacements. `DOI_CHECK.md` is regenerated; mismatches it lists for book reviews and
+for chapters carrying a volume DOI are of the kinds explained above.

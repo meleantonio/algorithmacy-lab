@@ -283,3 +283,20 @@ Moody-Adams (1994); Graff's two introductions and chapter 7; Berthon et al. (202
 (2025). Still unread as books: Graff chapters 1–6; Clanchy; Stock; Burns; Nussdorfer; Williams;
 Cornelius; Monaghan; Kousser; Keyssar; Eisenstein; Febvre and Martin; Johns (1998); Merrell; the
 UNESCO/UNDP assessment of 1976.
+
+## 10. The fourth round: what else to include (2026-10-13)
+
+The author asked for the outline's key citations and for "any other aspects of that literature that
+we should include". Facets M1–M5 searched literacy studies, algorithm studies, intermediaries and
+records, ethical frameworks, and cases outside the Anglo-American record; `../audit/AUDIT_05.md`
+checked 243 items (201 confirmed, 30 wrong and corrected, 12 unverifiable). The results, by section of
+the author's outline, are in `../../LITERATURE_TO_ADD.md`. Three bear on verdicts above:
+
+1. §8.1 and the author's 5.3: platforms are not without procedural safeguards. EU law and contract
+   law supply some. What has no counterpart is an independent, binding check at the point of decision.
+2. §9.1: Kamperman and Graff are not the only prior work. Brandt's "sponsors of literacy" names the
+   parties who "regulate, suppress, or withhold literacy and gain advantage by it"; Vee (2013)
+   compares mass-literacy history with a computing competence; Edwards and Veale (2017) call
+   explanation to the individual a "transparency fallacy". None has the five practices or the triad.
+3. §2 row 1: the Saraiva Law of 1881 is the right date for Brazil. The gate is also documented across
+   Latin America and in Natal (1897), and a stated exclusionary purpose only for Natal and the US.
