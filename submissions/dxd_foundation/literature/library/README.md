@@ -5,7 +5,14 @@ none of the text is his.*
 
 One card per source, `<bibkey>.md`, keyed to `../references.bib`. A card exists only where an agent read
 the full text of the source in the session that wrote it. Sources reachable only as an abstract, a
-snippet or a preview have no card and stay in the facet files with their read status. Full texts are
+snippet or a preview have no card and stay in the facet files with their read status.
+
+**Round 4 (2026-10-14).** The author ruled that every source cited in `../../DRAFT_v2.md` gets a card,
+whether or not a full text is open. A card for a source not read in full opens with "⚠ Not read in full."
+under its header, gives `Read depth: partial` with an itemised list of what was seen, and says in Caution
+which of the draft's claims about it could not be checked. Claims resting on such a card are marked
+`unverifiable` in `../audit/claims/`. Round-4 cards also carry a "Use in DRAFT_v2" paragraph naming the
+draft lines that cite the source. Full texts are
 kept outside this public repo; a card quotes in short passages with locators.
 
 ## Card format

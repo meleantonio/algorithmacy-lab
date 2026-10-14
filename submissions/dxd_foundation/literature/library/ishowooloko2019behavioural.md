@@ -1,0 +1,42 @@
+# Ishowo-Oloko, F., Bonnefon, J.-F., Soroye, Z., Crandall, J., Rahwan, I., & Rahwan, T. (2019). Behavioural evidence for a transparency–efficiency tradeoff in human–machine cooperation. *Nature Machine Intelligence, 1*(11), 517–521. https://doi.org/10.1038/s42256-019-0113-5
+
+**Identifier:** doi:10.1038/s42256-019-0113-5 · **Read depth:** full_text of the accepted manuscript (Toulouse School of Economics copy in the lab's local store, 13 pages, manuscript pagination 1–13, not the journal's 517–521; I read the whole text, Table 1, the captions of Figures 1–3 and the reference list). Not read: the Supplementary Notes 1–5 and figures (experimental platform, S++ details). The published version is closed (OpenAlex) and was not compared · **Source-tier:** peer-reviewed article (read as accepted manuscript) · **Evidence basis:** direct_read · **Design and sample:** online experiment, 2×2 between subjects (true partner human or bot × told human or bot), MTurk, N = 698 (human partner: 170 told human, 180 told bot; bot partner: 188 told bot, 160 told human), at least 50 rounds of a repeated prisoner's dilemma; bots ran the S++ reinforcement-learning algorithm; plus a debiasing condition, N = 190 (pp. 3, 7–8) · **Parties modeled:** two parties (a person and a partner who may be a bot); no third party · **Facets:** P; cited in DRAFT_v2 §4 · **Read:** 2026-10-14
+
+## What it argues
+
+Telling people that their partner is a bot cost the bot its advantage. Participants paired with bots cooperated slightly more overall than those paired with humans (46% against 41%, p. 3). People cooperated less with partners they *believed* to be bots, from round 2 onward, whatever the partner had done (Table 1, p. 5: coefficient for purported human 0.47 in round 2, p < 0.01, and 0.40 in round 3, p < 0.05; not significant in round 1). Over 50 rounds, a multilevel model found an effect of the purported partner (z = −3.5, p < .001) and an interaction of round with the true partner (z = 8.3, p < .001) (p. 5). The authors summarise: "Bots were better than humans at eliciting cooperation, but only if they were allowed to pass as humans". Once the bot's nature was revealed, cooperation fell by "about 10 percentage points" (p. 7). Cooperation correlated with profit (r = .52 with humans, r = .58 with bots, p. 7).
+
+A debiasing message, "Data suggest that people are better off if they treat the bot as if it were a human", given to 190 participants, left behaviour "essentially the same" (pp. 7–8). The authors conclude that "simple debiasing cannot solve the transparency-efficiency tradeoff" (p. 8).
+
+The discussion separates two senses of transparency: explaining decisions, and "disclosing their non-human nature upfront, before any interaction" (p. 8). The result is "restricted to one form of transparency ... and one form of efficiency" (p. 8). The authors raise, without endorsing, the idea that people might agree as a policy to let machines withhold their nature, by analogy with blind orchestra auditions. They stress that opaque bots conflict with values such as "respect and dignity" (pp. 8–9).
+
+## Relation to the argument
+
+**Target 1 and ruling D3.** The paper is the clearest behavioural test of the draft's Target 1, disclosure of presence. It shows that presence disclosure changes behaviour, and for the worse in efficiency terms: people defect more against a declared bot. A written instruction to treat the bot as human did nothing (p. 8). That fits the draft's line that a text handed to a person rarely changes what they do (P8). In this case the disclosure itself did change behaviour, through prejudice, not understanding. The effect is also a two-sided dynamic. The S++ bots "learn to expect less from humans than from other bots, especially when they are transparent" (pp. 6–7, Figure 3), and an S++ bot with a lower aspiration level becomes less likely to seek mutual cooperation. Part of the cost of disclosure therefore runs through the bot's adaptation to people's distrust, not through the people alone.
+
+**What it does not show.** It is a two-party game with no mediator and no third party. The "bot" is the counterparty, not a platform between two people. Efficiency is cooperation in a prisoner's dilemma. The paper's ethical conclusion (people must decide what efficiency cost to accept for transparency, p. 9) is not an argument against disclosing presence.
+
+**Use in DRAFT_v2:** Line 155: "Target 1 (Presence): Notifying users that an algorithm or bot is active (Ishowo-Oloko et al., 2019)." Supported as an example of presence disclosure: the manipulation is disclosure of the partner's "non-human nature upfront" (p. 8; design p. 3). The draft cites it only as an instance and says nothing of the result. The result is that presence disclosure cut cooperation by about 10 points and a debiasing note did not restore it (pp. 7–8). That is relevant to the draft's taxonomy, because it shows Target 1 is not inert.
+
+## In conversation with
+
+- `dietvorst2018overcoming`: algorithm aversion. The paper cites Dietvorst, Simmons & Massey (2015), the earlier work (ref. 1), as background for distrust of algorithms.
+- `jakesch2019ai`: disclosure that a text was AI-written lowered trust. A parallel finding for presence disclosure in communication.
+- `hohenstein2023artificial`: AI-mediated communication and perceptions. Same family.
+- Not in the bib, as leads: Crandall et al. (2018), "Cooperating with machines" (*Nature Communications*), S++ against humans; Kiesler, Sproull & Waters (1996), prisoner's dilemma with human-like computers; Goldin & Rouse (2000), blind auditions (the analogy in the discussion); Citron & Pasquale (2014) on due process for automated predictions; the EU AI Act's disclosure duty for chatbots (Art. 50) as the later legal form of Target 1.
+
+## Caution
+
+MTurk participants in an abstract game, with one bot algorithm. A single form of disclosure (a label before play) and a single efficiency measure. Read from the accepted manuscript: page numbers are the manuscript's, and the journal's pages (517–521) were not mapped. The supplementary notes were not read. The paper cannot be cited for presence disclosure in a mediated triad, or for disclosure of a decision rule.
+
+## S2 adversarial verification (2026-10-14)
+
+**Verdict:** confirmed
+
+**What I checked:** I re-opened the same accepted manuscript (dxd_foundation_local/pdfs/P/ishowo.pdf and .txt, 13 pages, a pdfTeX author version with manuscript pagination). I checked every quotation and number against pp. 1–9 and the reference list, and checked Crossref for doi:10.1038/s42256-019-0113-5 (six authors; *Nature Machine Intelligence* 1(11), 517–521; 2019). I re-read DRAFT_v2.md line 155.
+
+**Findings:**
+1. No errors found. Checked and correct: N = 698 with the four cell sizes 170/180/188/160, at least 50 rounds, S++ and the Supplementary Notes (p. 3); cooperation of 46% against 41% (p. 3); Table 1 coefficients 0.13 (n.s.), 0.47** and 0.40* (p. 5); z = −3.5 and z = 8.3 (p. 5); "Bots were better than humans at eliciting cooperation, but only if they were allowed to pass as humans" and "about 10 percentage points" (p. 7); r = .52 and r = .58 (p. 7); the debiasing message to 190 participants, "essentially the same" and "simple debiasing cannot solve the transparency-efficiency tradeoff" (pp. 7–8); "disclosing their non-human nature upfront, before any interaction" and "restricted to one form of transparency" (p. 8); the blind-audition analogy and "respect and dignity" (p. 9); Dietvorst et al. (2015) as ref. 1. The read-depth claim (whole manuscript, supplement not read) is consistent with the locators.
+2. Addition to "Relation to the argument" (not a correction): the bots' aspiration level falls further when they are transparent (pp. 6–7, Figure 3), so the efficiency cost of presence disclosure is partly carried by the bot's adaptation. The card had attributed it to human prejudice alone.
+3. Minor note on the leads list: the manuscript's ref. 2 names "Kiesler, S., Sproull, L. & Miller, J." for the 1996 *JPSP* prisoner's-dilemma paper. The card's "Kiesler, Sproull & Waters (1996)" matches Crossref (doi:10.1037/0022-3514.70.1.47: Kiesler, Sproull, Waters; *JPSP* 70, 47–65), so the manuscript's reference is the one in error.
+4. Use in DRAFT_v2, line 155: the verdict (supported as an instance of presence disclosure; the draft is silent on the result) is confirmed.
