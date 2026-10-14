@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/A/marshall.t
 sha256: af8610ce2985918601a2281efa2b252367e2e1c815197da5d5379df578123c9d
 manuscript_lines: [15, 91, 137, 239, 253]
 ledger_rows: [P1-026, P1-027, P3-051, P3-052, P4-053, P6-040, P6-049]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -27,8 +27,8 @@ held that extrinsic evidence may show a written document does not contain all th
 historical and cultural context may be received without ambiguity (para. 11), and that where a treaty was
 concluded orally and written up by the Crown it would be unconscionable to rely on the written terms while
 ignoring the oral ones (para. 12). Because "the Indian parties did not ... have the opportunity to create their
-own written record", treaty interpretation is flexible (para. 14). The written memorial was "inadequate and
-incomplete" (para. 35), and the Nova Scotia courts erred in treating it as the whole of the obligations
+own written record", treaty interpretation is flexible (para. 14). The evidence showed "the inadequacy and
+incompleteness of the written memorial" (para. 35), and the Nova Scotia courts erred in treating it as the whole of the obligations
 (para. 40). The surviving right is to trade for "necessaries", a moderate livelihood, subject to justified
 regulation (headnote). McLachlin J., dissenting, accepted the trial judge's finding that the Mi'kmaq understood
 the trade clause (para. 89).
@@ -93,3 +93,10 @@ Crown, truckhouse trade clause, moderate livelihood, treaty fishing rights, s. 3
   regulable; headnote).
 - **Line 361, reference entry** "*R. v. Marshall*, [1999] 3 S.C.R. 456 (Supreme Court of Canada)." **holds**:
   report citation and court as on the SCC page; judgment 17 September 1999.
+
+## Verifier notes
+- 2026-10-14. sha256 of `marshall.txt` recomputed: matches. Panel, date (1999-09-17), case no. 26014 and [1999] 3 SCR 456 confirmed on the SCC decision-information block in the file.
+- Exact-string checks: paras 12 ("concluded verbally ... relying on the written terms"), 14, 35 ("inadequacy and incompleteness of the written memorial"), 40, 41 ("fragmentary historical record"), headnote ("necessaries", moderate livelihood) and dissent para. 89 ("no misunderstanding or lack of agreement"; French missionaries as interpreters; some Mi'kmaq had acquired English) all found at the paragraphs given. Para. 14 follows the Badger quotation on Cree and Dene treaties, as the card says.
+- Corrected: the Summary quoted para. 35 as "inadequate and incomplete"; that string is not in the judgment. The para. 35 words are "the inadequacy and incompleteness of the written memorial of the treaty terms". Summary sentence rewritten to quote them. Key facts and uses were already right.
+- Uses at lines 15, 91, 137, 239, 253 and reference line 361 re-read against the manuscript: all verdicts stand (both quotations exact).
+- Bib/manuscript: no disagreement on court, report citation or year; the bib note's read-status ("paras 12--14, 35, 40") is narrower than this card's pages_read.

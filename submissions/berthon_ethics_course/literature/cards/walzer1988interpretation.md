@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M4/walzer198
 sha256: 604035a2039ae1c2ab84ce150df6c071762734d824c690f9957d9598cf89c9ca
 manuscript_lines: [49]
 ledger_rows: [P2-030, P2-031, P2-032, P2-033, P2-034]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -86,3 +86,9 @@ critical distance, Gramsci, universalism
   pp. 1-80). University of Utah Press." Editor, volume and pp. 1-80 **hold** (Cambridge TOC). Year 1988 and
   University of Utah Press: **cannot check (search snippets only)**; ledger P2-033 asks for a catalogue or
   front-matter check. The bib entry lacks these fields.
+
+## Verifier notes
+- Opened `walzer1985.pdf` (sha256 matches); PDF page = printed page. All quotations exact: p. 3 (framework; 13-14 November 1985; Hillel), p. 4, p. 33 (imperial judge; connected critic), p. 34 ("an internal argument"; the two worries), p. 35, p. 39 ("inside jobs"), p. 42.
+- Line 49's three quotations exact; the bracketed "[are]" is the only change. Lecture II heading ("The Practice of Social Criticism") opens at p. 30, confirming the card's correction of the arm's "first lecture". The "earns his authority" passage sits wholly on p. 33.
+- Container pp. 1-80 confirmed by the Cambridge TOC (sha256 matches). Year 1988 and University of Utah Press are not text-confirmed. Open Library lists "Tanner Lectures Vol 8", University of Utah Press, ISBN 0874803020, with a retailer date of 20 July 1987, which conflicts with 1988; neither is a front-matter record. Hence writer-grounded.
+- Bib disagreements: bib is `@misc` with no editor, volume, pages or publisher, and its URL lacks the `/sites/105/` path. Date 2026-10-14.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit5/M4/ho
 sha256: d073192ba20445b14a20b05c2a2241ef58df450c13c33f3e289709aecb862c36
 manuscript_lines: [207]
 ledger_rows: [P6-006]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -45,3 +45,10 @@ republicanism, non-domination, radical/structural domination, constitutive domin
 ## Where the manuscript uses it
 - **L207**: "Hoeksema (2023) argues that exit and consent are the weakest answers to platform power". This takes his verdict on exit and consent. **narrower**: he says republicans "cannot rely on" exit or consent and that there is "little place" for them (reprint p. 67), and that more than exit is needed (p. 68). He does not rank them as the weakest answers.
 - **L207**: "…for exactly this reason". The reason in context is that a firm may price a second track so that no one uses it, so the duty cannot rest on the operator's goodwill. **does not hold**: his reasons are habituation and manipulation into accepting the status quo, and structural dependency on platform infrastructure that extends into inescapable public systems (reprint p. 67). Neither concerns the cost or pricing of an alternative track.
+
+## Verifier notes
+- Recomputed sha256 of `hoek.html`: matches. Crossref (10.1007/s13347-023-00618-7): Bernd Hoeksema, *Philosophy & Technology* 36(1), article 17, online 11 Mar. 2023. Bib and manuscript reference omit the article number 17; the bib author is initial only, and its note ("no page locators", WebFetch only) is stale.
+- Confirmed every key-fact quotation in `hoek.txt` (abstract; "cannot rely"; both reasons incl. "inescapable"; "little place"; "assent , rather"; privacy notices, "dependent on consent", dark patterns; digital commons; "requires more than securing exit options"; footnote 1). The "cannot rely" passage cites "R. S. Taylor, 2019", as the card says.
+- Reprint locators checked in `hoeksema2025.txt`: "It makes little sense" on p. 63; "cannot rely", "little place", "assent" and both reasons on p. 67; "to educating citizens", the digital-commons sentence and the conclusion on p. 68. The card's correction of facet N1's p. 68 locator stands.
+- L207 verdicts confirmed: "weakest answers" is **narrower** (he says republicans cannot rely on exit and consent; he ranks nothing); "for exactly this reason" **does not hold** (his reasons are habituation/manipulation and infrastructural dependency, not pricing of an alternative track).
+- Verified 2026-10-14.

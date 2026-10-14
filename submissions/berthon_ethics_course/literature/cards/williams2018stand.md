@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/H/williams20
 sha256: dd2536a86e76df7e30dabf539b712039914eb842b292c068f19c116807727d96
 manuscript_lines: [13]
 ledger_rows: [P1-014]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -70,3 +70,9 @@ addiction framing, technology ethics, design responsibility
   nests them as single marks inside its own quotation, a standard change). **holds.**
 - **Line 399, reference entry**: Cambridge University Press, 2018, DOI 10.1017/9781108453004, title and
   subtitle match the title page. **holds.**
+
+## Verifier notes
+- Opened `williams2018_local.pdf` (sha256 matches). The chapter opens at PDF p. 115 (= p. 97). I rendered PDF p. 119: running head "THE MONSTER AND THE BANK 101".
+- Exact on p. 101: "just adapt", "armies of industrialized persuasion", "Additionally, education is necessary – but not sufficient – ... Nor will “media literacy” alone lead us out of this forest.", "didn't help at all", "We also can't expect companies to self-regulate". p. 100: "pitfalls" and "unplug"/"detox". p. 102: "no one to blame", "emergent dynamics of complex multiagent systems".
+- CC BY-NC 4.0 and the three part titles confirmed in the front matter. Crossref: Williams, CUP, 2018 (online 2018-05-28), title "Stand out of our Light" with subtitle; manuscript entry and bib agree.
+- Line 13 verdicts confirmed. Date 2026-10-14.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C2_law/kolt_
 sha256: aee0792cee615e5fa86c0b16102e39484f9389cf54600ae09008c4fcd5ceeb3c
 manuscript_lines: [225, 331]
 ledger_rows: [P6-019, P6-020, P6-021]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -84,3 +84,9 @@ asymmetry, monitoring, liability, AI governance, alignment
   **does not hold** as printed. The published Article is 101 *Notre Dame L. Rev.* 335-386, Issue 1, dated 2026
   in its running heads (journal PDF). Author's call: cite 2026 with pages 335-386, or cite the 2025 arXiv
   preprint.
+
+## Verifier notes
+- Recomputed sha256 of `kolt_101_335.txt`: matches. Crossref has only the SSRN posting (10.2139/ssrn.4772956, posted-content, 2024). The journal PDF runs pp. 335-386 with running heads "2026]" and "[VOL. 101:335"; the saved journal page lists Volume 101, Issue 1. Bib (2025, no pages, arXiv URL, stale note) and manuscript reference (2025, no pages) disagree with the published version.
+- Confirmed: abstract (three contributions; "new technical and legal infrastructure ... inclusivity, visibility, and liability", p. 335); n. 28 Restatement quotation, "at present", Sommer, and the scholars on both sides (Chopra & White and Scherer against; Bellia and Bayern for) on p. 345; Restatement § 8.01 loyalty (p. 362); "can hardly be said", "private for-profit corporations", "single-minded loyalty" (printed "singleminded") and "At least not to their users" (p. 363); overarching duty "needed" (p. 364).
+- L225 quotation exact (p. 345, n. 28). Verdicts confirmed: L225 gloss **narrower**; "new third party" **holds** as Kolt's concern; L331 reference **does not hold** as printed.
+- Verified 2026-10-14.

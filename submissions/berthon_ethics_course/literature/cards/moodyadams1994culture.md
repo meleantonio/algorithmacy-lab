@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/library/txt/
 sha256: a55eedb7e85cd9c4b5bea560f60705407bdd6512c3165b07583eaa68a8488100
 manuscript_lines: [51, 53, 95]
 ledger_rows: [P2-035, P2-036, P2-037, P2-038, P2-039, P2-040, P3-062]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -51,3 +51,10 @@ moral responsibility, culture and agency, inability thesis, affected ignorance, 
 - **Line 51**, "On her argument a present-day standard would not be unfair." **narrower**: she argues that cultural inability does not excuse past wrongdoers (pp. 294–298). She does not discuss applying present-day standards as such, so the sentence is the author's inference and should read as one.
 - **Line 53**, "'A culture,' she writes, 'cannot be an "agent" of anything' (p. 304)". Exact-string check: the two fragments are **found** on p. 304, but the source reads "A culture—independent of agents who perpetuate culture—cannot be an 'agent' of anything". **narrower**: the quotation drops the qualifier without an ellipsis. Restoring it supports the manuscript's next sentence, which names the agents.
 - **Line 95**, "a thin record of objection does not show the actors could not have known" (no page). Takes the could-not / did-not point and the skewed record. pp. 294, 296. **holds**. Adding p. 296 would locate it.
+
+## Verifier notes
+- 2026-10-14. sha256 recomputed: matches. Crossref 10.1086/293601: *Ethics* 104(2), 291-309, January 1994. Matches bib and manuscript.
+- Pages located from the running heads in the text file. Every key-fact quotation found verbatim on the page given (293, 294, 296, 298, 301-302, 302, 303, 304); "agent" is in double quotation marks in the original.
+- Line 51: both quotations exact (pp. 294, 296). The "present-day standard" sentence remains **narrower**: p. 298 says the "only fair" commonplace "presumes without argument" that our ignorance is cultural; it does not address present-day standards as such.
+- Line 53: confirmed **narrower**. The source reads "A culture—independent of agents who perpetuate culture—cannot be an 'agent' of anything" (p. 304; inner quotation marks are double in the original); the manuscript joins the fragments without marking the omission.
+- Line 95 **holds** confirmed (pp. 294, 296).

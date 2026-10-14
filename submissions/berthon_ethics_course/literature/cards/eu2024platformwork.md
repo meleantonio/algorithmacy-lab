@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit5/M2/32
 sha256: d913da3980535a923675dca6e61602e49ac027bdfa922b33561ade3dc8b21e2f
 manuscript_lines: [167, 215, 237, 289]
 ledger_rows: [P5-013, P5-014, P5-015, P5-016, P6-011, P6-034]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -101,3 +101,9 @@ platform work, algorithmic management, automated decision-making, transparency d
 - v2 l. 289 (reference list): "Directive (EU) 2024/2831 ... of 23 October 2024 on improving working conditions in
   platform work. Official Journal of the European Union, L, 11.11.2024." Matches the OJ header and the "Done at
   Strasbourg, 23 October 2024" line. **holds**.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `audit5/M2/32024L2831.txt`: matches. Header confirms OJ L series 2024/2831, 11.11.2024; "Done at Strasbourg, 23 October 2024".
+- Checked arts 1(1)-(2), 9(1)(b)(iii)-(iv), 10(1)-(2), (5), 11(1)-(2), (5), 18, 21, 29(1): all quotations exact; review reply "within two weeks of receipt of the request" (art. 11(2)); written reasons "at the latest on the date on which it takes effect" (art. 11(1)).
+- Use verdicts confirmed: l. 167 holds / narrower / holds; l. 215 quotation exact as the opening of art. 9(1)(b)(iii); l. 237 holds and narrower.
+- Bib disagreements: bib note records a read from a copy on a Ukrainian parliament site and arts 7-15 only; card rests on the OJ Formex text. Otherwise bib, manuscript and OJ agree.

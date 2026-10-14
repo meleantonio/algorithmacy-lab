@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: [136, 143]
 ledger_rows: [P4-052, P4-068, P4-069, P4-070, P6-048]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -55,7 +55,7 @@ All from the abstract (no page numbers available):
 ## Critical notes from the literature
 - Ledger P4-052, P4-068–070 grade every Rahman claim "unsupported" at abstract depth and ask for the full article
   (`review/v3/ledger_parts/P4.md:92`).
-- **Dissertation, not the article (Rahman 2019, ch. 4.2, printed p. 42, `rahman2019.txt:2268-2316`):** the
+- **Dissertation, not the article (Rahman 2019, ch. 4.2, printed pp. 42–43 (verifier-corrected from p. 42), `rahman2019.txt:2268-2316`):** the
   platform, pseudonymised "StarWorks", "previously used a transparent five-star rating algorithm"; to address
   rating inflation it "officially moved to a new algorithm ... called the Work Success Score (WSS)"; "When the
   WSS was first introduced, no explanation for the score was given"; and "a summarized, public 5-star rating was
@@ -90,3 +90,9 @@ invisible cage, gig work, qualitative fieldwork
 - **Line 363, reference entry** "Rahman, H. A. (2021). The invisible cage: Workers' reactivity to opaque
   algorithmic evaluations. *Administrative Science Quarterly, 66*(4), 945–988." **holds**: title, year, volume,
   issue and pages match the OpenAlex record.
+
+## Verifier notes
+- 2026-10-14. Crossref 10.1177/00018392211010118: Rahman, Hatim A.; ASQ 66(4), 945-988; online 2021-04-21. OpenAlex abstract re-fetched; every abstract quotation on the card matches it verbatim. OpenAlex still reports closed access with no repository full text. No disagreement with bib or manuscript (reference line 363).
+- Line 136 and 143 verdicts confirmed at abstract depth: "replaced a visible rating" is not in the abstract (**cannot check**); "could not clearly identify those criteria" **holds**; "disciplined" vs "control" with divergent responses **narrower**.
+- Corrected locator in the critical notes: the dissertation passage (`rahman2019.txt:2268-2316`) spans printed pp. 42-43, not p. 42. The folios are page footers (footnote 9 then "41" end p. 41); "previously used a transparent five-star" is on p. 42, and "officially moved", "no explanation" and "completely removed" are on p. 43. Dissertation sha256 recomputed: matches.
+- Basis honesty: the card keeps every article claim at abstract depth and labels the dissertation as a different work.

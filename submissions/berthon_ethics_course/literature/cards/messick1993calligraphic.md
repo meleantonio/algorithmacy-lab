@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/messick.t
 sha256: c0a33c9ec2b05ee4783128a71331632dad9f7fe10374cea61b7946d240bf715a
 manuscript_lines: [91]
 ledger_rows: [P3-049, P3-050]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -49,3 +49,9 @@ Yemen, shari'a evidence law, Shafi'i manuals, oral testimony, legal documents, n
 
 - **Line 91**, "In the shari'a courts of highland Yemen that Messick studied, 'the manuals discuss witnessing support for documents, but they do not consider documents to be potential evidence' (Messick, 1993, pp. 209–210)". Takes the doctrinal exclusion of documents as evidence. Exact-string check: **found**, verbatim, on p. 209. The cited range 209–210 includes it. **holds**. The sentence describes the manuals' doctrine, not court practice, and the manuscript's next clause keeps that distinction.
 - **Line 91**, "doctrine put the oral testimony of reliable witnesses first, even as practice relied on documents". Takes oral primacy in doctrine and documents in practice (p. 209). **narrower**: the oral-first, documents-in-practice point holds, but "reliable witnesses" is Messick's term for the precertified institution that Shafi'i doctrine rejects (pp. 205–206, 208). "Upright witnesses" or "oral testimony" fits the source.
+
+## Verifier notes
+- 2026-10-14. sha256 of `messick.txt` recomputed: matches. Crossref 10.1525/9780520917828: Messick, Brinkley; UC Press; issued 1993 (Crossref title is the short form "Calligraphic State"; no other disagreement with bib or manuscript).
+- Page convention checked: the e-book marker "1" precedes the Introduction's first sentence, so text after marker n is on p. n. On that convention every key fact sits on the page the card gives (p. 1; pp. 205, 205-206, 206; p. 208; p. 209 for both "in actuality" and "As was noted earlier"; p. 210 for the two-witness rule). 1918 drop and post-1962 reintroduction confirmed (p. 206).
+- Line 91 quotation found verbatim on p. 209; the cited 209-210 includes it. **holds** confirmed. The "reliable witnesses" **narrower** verdict confirmed: "reliable witness" is the precertified Maliki/town institution (pp. 205-206), which the Shafi'i dictum on p. 208 rejects.
+- Basis honesty: claims stay within pp. 1-2 and 205-210 as read.

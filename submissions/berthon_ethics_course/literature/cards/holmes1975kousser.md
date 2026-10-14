@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/library/Holm
 sha256: 47ddc4d37bcef1d634cb324ee6f4b3021d49e42a5e14756f4ee6d861e7a28e29
 manuscript_lines: [69, 243]
 ledger_rows: [P3-010, P3-011, P6-045]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -47,3 +47,9 @@ disfranchisement, Southern politics 1880-1910, suffrage restriction, voter turno
 - **L69**: quotes "Populists, Republicans, and blacks consistently opposed the new laws". Exact-string check: **present, exact**, p. 271. **holds**.
 - **L69** (framing): "The effect of the Southern restrictions as a whole, of which the test was one part, was large", supported by the 64-to-30 fall. **narrower**: the fall is a before-and-after comparison, and Holmes doubts that the laws alone explain it (Key; violence; earlier laws, p. 271). Kousser's effect estimate is the 37 percent average reduction (p. 271). The review does not mention the literacy test.
 - **L243**: several books "are known through reviews, which are cited as reviews". **holds**: the reference list cites this as a review of Kousser.
+
+## Verifier notes
+- Recomputed sha256 of the library PDF: matches. Crossref (10.2307/2206040) gives JSTOR review metadata: *Journal of Southern History* 41(2), May 1975, page 270 only, with the book's title as the record title and Kousser listed as a co-author. Bib and manuscript give pp. 270-272, which the PDF supports (review runs from the foot of p. 270 to the top of p. 272).
+- Confirmed in the text layer: scope ("eleven ex-Confederate states", p. 270), 64 and 25 percent (p. 270), "only 30 percent of the electorate voted" (foot of p. 270) and 10 percent (p. 271), Goodman's ecological regression, poll tax, secret ballot, both quotations, the 37 percent average reduction, and Holmes's dissent (all p. 271); "indispensable" on p. 272.
+- Exact-string checks on both L69 quotations: present, p. 271. The review never mentions a literacy test (only "illiterates" in the secret-ballot sentence), as the card says. All L69 and L243 verdicts confirmed.
+- Verified 2026-10-14.

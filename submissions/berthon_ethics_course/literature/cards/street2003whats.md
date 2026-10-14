@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M1/street200
 sha256: c516da566138dca8cde1afa64d93a9b7617f73da2d4af1bf77f4693821ab9f12
 manuscript_lines: [33, 111]
 ledger_rows: [P2-010, P2-011, P2-012, P4-027]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -76,3 +76,9 @@ New Literacy Studies, autonomous model, ideological model, literacy events and p
   conditions.'" Exact-string check: "regardless of the social and economic conditions" found at p. 77. No page
   given in the line (it refers back to §2.1). **holds**.
 - Reference-list entry (v2 line 377): *CICE* 5(2), 77-91. Volume, issue and pages match the PDF. **holds**.
+
+## Verifier notes
+- 2026-10-14. sha256 recomputed: matches. Crossref 10.52214/cice.v5i2.11369: Street, Brian; *CICE* 5(2), 2003 (Crossref gives no pages). PDF folios run 77-91.
+- Key facts confirmed by page: p. 77 ("whose literacies"; autonomous-model passage; "disguises"), p. 78 ("desire for that view of literacy to dominate"), p. 80 ("hegemonic"), p. 85 ("the effects that the rhetoric has suggested"), pp. 86-87 (NRP, What Works Clearinghouse). Critics: Brandt and Clinton p. 79, Collins and Blot p. 81.
+- Line 33 quotation exact on p. 77 (inner double quotes nested as single). Line 111 fragment exact. Reference line 377 (5(2), 77-91) **holds**.
+- Bib disagreement: bib has no pages field and its note says the end page is unverified; the PDF settles it at 91. Manuscript gives "Street, B. V."; Crossref gives "Brian Street" (no conflict).

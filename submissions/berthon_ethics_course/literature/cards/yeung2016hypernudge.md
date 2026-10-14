@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/X/yeung.txt
 sha256: 16957420a89fde7adf511e6b94102d378e70d771a73f79b6c539e093cc3815c9
 manuscript_lines: [161]
 ledger_rows: [P5-009, P5-010, P5-011, P5-012, P6-010, P6-051]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -54,7 +54,7 @@ cure them, because people do not read privacy policies and Big Data purposes can
 - Scale: "Big Data hypernudging operates on a one-to-many basis ... a single algorithmic hypernudge initiated by
   Facebook can directly affect millions of users simultaneously" (AM p. 7; PDF p. 8).
 - Opacity: the mechanisms "are embedded into the design of complex, machine-learning algorithms, which are highly
-  opaque (and typically protected by trade secrets)" (AM p. 8; PDF p. 9).
+  opaque (and typically protected by trade secrets: Rauhofer 2015; Pasquale 2006)" (AM p. 8; PDF p. 9).
 - Notice fails: reading privacy policies "would consume 244 hours per year" (citing McDonald and Cranor 2008),
   and simplified notices are "also inadequate" (AM pp. 9-10; PDF pp. 10-11).
 - Change rate: Facebook's News Feed algorithm "adapts to users' behavior", and Facebook typically makes "two to
@@ -105,3 +105,9 @@ hypernudge, design-based regulation, choice architecture, nudge, Big Data analyt
   where the article appears with these page numbers, is dated 2017 (published-print 2017-01-02). APA cites the
   issue year, so the correct value is Yeung (2017), in the entry and at line 161 (P5-012). This is for the author
   to decide.
+
+## Verifier notes
+- Opened the AM PDF (sha256 matches) and the extraction; AM page = PDF page - 1 confirmed from folios. Abstract quotation (line 161) exact at AM p. 1; scope sentence AM p. 5; mechanism, "nimble, unobtrusive and highly potent", "continuously updated and refined" AM p. 6; one-to-many AM p. 7; 244 hours AM p. 9; Facebook weekly changes AM p. 15; "selective omission" AM p. 16 in the Conclusion.
+- Corrected the opacity bullet: the source reads "(and typically protected by trade secrets: Rauhofer 2015; Pasquale 2006)"; the card had closed the parenthesis after "trade secrets" inside a quotation.
+- Crossref confirms vol. 20(1), 118-136, online 2016-05-22, print 2017-01-02. Bib and manuscript give 2016; the card's 2017 (issue year, APA) and its "does not hold" on the year stand. I confirm the narrower verdict on "data-driven decision systems" (Yeung brackets automated decision-making, AM p. 5).
+- Date 2026-10-14.

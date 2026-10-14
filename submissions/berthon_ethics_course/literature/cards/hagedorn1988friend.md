@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/G/HagedornFr
 sha256: 10875fca95e14af402baff4606a9f256cb71134ca16e9a834caa09d648d5ae2f
 manuscript_lines: [97]
 ledger_rows: [P1-002, P3-065, P6-015, P6-050]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -47,3 +47,9 @@ interpreters, cultural brokers, Anglo-Iroquois councils, treaty protocol, wampum
 - **L97** (framing): the check is listed among safeguards that "placed someone other than the writer at the point where the record was made". **holds** for interpreters at the council (p. 61; Denny's advance review, p. 66).
 - **L221** (uncited reliance): "They brought their own: … a second interpreter to check the first". **narrower**: p. 61 describes interpreters "employed" by either side, not brought by the person who could not read. Note 9 (pp. 75-76) on Indians' "own private interpreters" is the better support, and the sentence cites neither.
 - **L239** (uncited reliance): "the second interpreter" counted among the safeguards. **holds** (p. 61). See the P1-002 caution about binding authority.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `G/HagedornFriend.pdf`: matches. Crossref (10.2307/482433) confirms author, title, Ethnohistory 35(1), first page 60; the copy's last head is p. 80.
+- Checked p. 61 (both quotations, n. 8-9 markers), p. 62 ("more than one hundred"), p. 65 ("considerable discretionary power", Johnson "softened"), pp. 65-66 (Davison and Weiser), p. 66 (Denny), p. 71 (Easton 1758; "written records were kept only by the European participants"), nn. 8-9 on pp. 75-76: all present once OCR run-together words are spaced.
+- The l. 97 quotation is exact on p. 61 after spacing and quote-mark normalisation; verdicts (holds, holds, narrower, holds) confirmed.
+- Bib disagreements: none of substance; bib note says pp. 60-66 and endnotes read.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/F/uis_world_
 sha256: 174e4bae83b3d7915ca913b91dd14df69a321957381e2c89c35e0f5e13cd6ee4
 manuscript_lines: [109]
 ledger_rows: [P4-018, P4-021, P4-022]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -50,7 +50,7 @@ from 947,961,216 in 1993 to 801,852,096 in 2000.
 
 ## Critical notes from the literature
 - The world series has a step between 1996 and 1997: the literacy rate rises 2.0 points (77.30 to 79.30), against
-  about 0.45 a year either side, and the count drops by 72.7 million. Facet F found no explanation for it
+  about 0.45 a year in 1990-1996; the next year adds 1.22 more, then 0.38 and 0.22; and the count drops by 72.7 million. Facet F found no explanation for it
   (`literature/facets/F_promise_and_campaigns.md`:250). By my arithmetic, that one-year step is about 31% of the
   1990-2000 fall in the illiteracy rate (2.0 of 6.49 points). The "about a quarter" figure may partly reflect a
   revision or series break, not only change on the ground.
@@ -74,3 +74,9 @@ adult literacy rate, illiterate population, world and regional aggregates, sex d
   simple statement"), which is harmless.
 - Reference-list entry (v2 line 383): "February 2026 data release [Data set]". Matches the metadata
   ("February 2026 Data Release", last update 02/09/2026). **holds**.
+
+## Verifier notes
+- Recomputed both sha256s (series and `uis_2024.json`): match. Recomputed from the saved records: 2024 world 739,139,712 illiterate adults, 466,257,152 women, ILLPOPF 63; LR 74.63 (1990), 81.12 (2000), 85.96 (2015), 87.74 (2024); relative fall in illiteracy 1990-2000 25.58%. All match the card.
+- Metadata definition, limitations, data sources, "February 2026 Data Release" and lastDataUpdate 02/09/2026 confirmed verbatim; UIS_EST qualifiers on 1993-1999 counts only, none on the literacy rate, confirmed.
+- Corrected a critical note: the card said the 1996-97 step stood against "about 0.45 a year either side". The series gives about 0.45 a year for 1990-96 but 1.22 for 1997-98 (then 0.38, 0.22), so "either side" was wrong. The 2.0-point step, the 72.7 million drop and the 31% share are right.
+- Uses at line 109 (both sentences) and the reference entry: verdicts confirmed. Date 2026-10-14.

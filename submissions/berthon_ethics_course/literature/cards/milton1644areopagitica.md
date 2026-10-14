@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/B/areopagiti
 sha256: 1b67e96fe680ad6430357d8063519ffe004f002f3df9cc8234c68775d111c18c
 manuscript_lines: [103]
 ledger_rows: [P4-008, P4-009]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -47,3 +47,10 @@ press licensing, censorship, Licensing Order of 1643, Stationers' Company, monop
 - **Line 103**, "Truth and understanding are not such wares as to be monopolized and traded in by tickets and statutes and standards" (Milton, 1644). Exact-string check: **found**, verbatim, in the Gutenberg text. **holds** as a quotation. There is no page locator, and the bib names no edition.
 - **Line 103**, "Milton's pamphlet of 1644 put it as a matter of trade" (in §3.4, on the Stationers' printing monopoly). Takes Milton as a contemporary objector to the monopoly. **narrower**: the quoted sentence uses a trade metaphor against licensing by appointed officers. Milton's direct charge against the monopolists is the closing passage on "old patentees and monopolizers in the trade of bookselling", which would fit §3.4 more exactly.
 - **Line 103**, the date 1644. **cannot check (basis: the Gutenberg file carries no date)**. Facet B and `AUDIT_01.md` (line 62) record 1644, but I did not confirm it from a source opened this session.
+
+## Verifier notes
+- 2026-10-14. sha256 of `areopagitica.txt` recomputed: matches (Gutenberg eBook 608).
+- All seven key-fact quotations found verbatim in the Gutenberg text (Licensing Order wording; "every man's copy"; Trent/Index; "Truth and understanding ... woolpacks", in the same paragraph as "twenty licensing forges"; printer's/author's name rule; "old patentees and monopolizers"; "popery, and open superstition ... should be extirpate").
+- Line 103 quotation: exact. The **narrower** verdict on "put it as a matter of trade" stands: the quoted sentence is a trade metaphor aimed at licensing; the monopoly charge is the closing "old patentees" passage.
+- Date 1644: still not in the Gutenberg file. Wikipedia's summary for *Areopagitica* (tertiary, fetched this session) gives 1644, consistent with facet B. Status writer-grounded because the date rests on a tertiary source and the text is a modernised, unpaginated edition not collated against 1644.
+- Bib/manuscript: bib gives Gutenberg as "publisher" and no edition; the manuscript entry names no edition or publisher, so the quotation cannot be located by page.

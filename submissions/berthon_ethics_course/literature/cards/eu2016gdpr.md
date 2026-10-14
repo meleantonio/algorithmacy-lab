@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit5/M2/32
 sha256: 8e5d737c8081e86bc0e661d9675f3923aa2a588fe44c87031c573d7cdff82343
 manuscript_lines: [167, 173, 205, 237]
 ledger_rows: [P5-019, P5-021, P5-023, P5-029, P6-005, P6-036, P6-037]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -88,3 +88,9 @@ intervention, contestation, controller, supervisory authority complaint, judicia
   (Art 22(3)). Facet N2's *SCHUFA* reading means the Art 22(1) rule also binds before any review.
 - **Line 365, reference entry** "Regulation (EU) 2016/679 ... of 27 April 2016 (General Data Protection
   Regulation). *Official Journal of the European Union*, L 119, 4.5.2016." **holds** against the OJ header.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `audit5/M2/32016R0679.txt`: matches. Header confirms OJ L 119/1, 4.5.2016, Regulation of 27 April 2016.
+- Checked Art 3, Art 22(1)-(3) (l. 756-764), Recital 71 (l. 162), Arts 77(1), 78, 79(1), and the 25 May 2018 application date: all quotations exact.
+- Use verdicts confirmed: l. 167 narrower (22(3) safeguards attach only to the 22(2)(a) and (c) exceptions); l. 167 courts holds; l. 173 "on the part of the controller" exact; l. 205 and l. 237 hold.
+- Bib disagreements: bib title is abbreviated and its note says Art 22 was read on springlex.eu rather than the OJ text; manuscript entry matches the OJ header.

@@ -5,7 +5,7 @@ authors: Alabama Constitutional Convention
 year: 1901
 type: book
 doi: null
-venue: Wetumpka Printing Co., Wetumpka, Ala. (official stenographic record; volume 1 of 4)
+venue: Wetumpka Printing Co., Wetumpka, Ala. (official stenographic record; volume 1 of 4; title page of this scan reads 1940)
 source_basis: partial-text
 pages_read: "pp. 6-17 (election of the president and Knox's whole address, 22 May 1901); p. 129 (one proposed suffrage ordinance) by keyword search"
 source_url: https://archive.org/details/alabama-constitutional-convention-proceedings-1901-v1
@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/D/al_v1.txt
 sha256: 45fff2e87e2115acf3a08889b2ffcb9e9a44d0dc2741563ff89e8f7f1d786b5e
 manuscript_lines: [15, 67, 245]
 ledger_rows: [P1-020, P1-021, P1-022, P1-023, P3-002, P3-003, P3-007, P3-008, P6-047]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -26,7 +26,7 @@ Volume 1 of the stenographic record of the convention that wrote Alabama's 1901 
 - "But if we would have white supremacy, we must establish it by law—not by force or fraud." (p. 9, heading "WHITE SUPREMACY BY LAW").
 - Mississippi: only those can register "who can read, or understand when read to them, any clause in the Constitution", and the decision "is exclusively in the hands of the registrars" (pp. 10–11).
 - The next sentences: "the objection has been urged with force that it perpetuates the very form of abuse which we are seeking to escape. Elections by managers or registrars is not what we want, our aim should be for a correction of all evils which threaten the purity of the ballot and the morals of the people." (p. 11).
-- South Carolina, Louisiana and North Carolina read-and-write tests with grandfather exemptions; their defenders say the tests "exclude the great mass of ignorant negro voters" but "not, in terms" (p. 11).
+- South Carolina: poll tax plus a read-or-understand test until 1 January 1898, then read-and-write or $300 of property. Louisiana and North Carolina: read-and-write with a grandfather exemption (voters on or before 1 January 1867 and their lineal descendants). Defenders of the Louisiana/North Carolina provision say that "in effect, it will exclude the great mass of ignorant negro voters" while it "does not, in terms, exclude them" (p. 11).
 - The address continues past p. 12 to state debt (p. 14), county debt and education (p. 15), and ends on p. 16 ("THE PRESIDENT—The next business ...", l. 1038).
 - A proposed suffrage ordinance in the volume requires that an elector "be able to read and write in the English language understandingly and intelligently" (p. 129, l. 8386–8387).
 
@@ -48,3 +48,9 @@ Alabama 1901 constitutional convention, John B. Knox, white supremacy, disfranch
 - l. 67: "Knox himself recorded the objection ... conceded that 'the objection has been urged with force that it perpetuates the very form of abuse which we are seeking to escape'" (p. 11). Exact-string check: EXACT. **narrower**: the quotation is exact, but the abuse Knox means is control of elections by managers and registrars, against "the purity of the ballot" (next sentence), not exclusion of Black voters.
 - l. 245: Knox "said they meant to" exclude. Source p. 8. **holds** for exclusion; the sentence's third item (falsifying a record) is not attributed to Knox by this source.
 - Reference list: "Address of John B. Knox, pp. 7–12". **does not hold**: the address runs pp. 7–16 in the text layer.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of al_v1.txt: matches. Read the OCR text layer of pp. 5-16 and p. 129 in full; no page images. archive.org metadata (uploaded by the Alabama Department of Archives and History) confirms the item as volume one of four.
+- Every quotation the manuscript attributes to the source (l. 15, l. 67 x3) is exact after normalising line-break hyphens (the OCR marks them with "¬"). Knox's unanimous election (p. 7), the p. 8, p. 9, p. 11 and p. 129 facts, and the address's end on p. 16 all confirmed. I confirm all use verdicts, including the two "narrower" ones (the "objection ... urged with force" concerns elections by managers or registrars and the purity of the ballot) and the reference-list page range (pp. 7-16, not 7-12).
+- Corrected one fact: the card gave South Carolina a grandfather exemption. On p. 11 Knox gives South Carolina an understanding test until 1898, then read-and-write or $300 property; the grandfather clause and the "not, in terms" defence belong to Louisiana and North Carolina.
+- Bibliographic: the scan's title page reads "WETUMPKA PRINTING CO., Printers and Publishers, Wetumpka, Ala. 1940". The manuscript reference gives 1901 and no publisher; references.bib gives 1901, no publisher, and a stale note ("Read in part: printed pp. 7-10"). The author should decide whether to cite as (1901/1940) with the publisher. The year 1940 rests on OCR of the title page and was not checked against a page image.

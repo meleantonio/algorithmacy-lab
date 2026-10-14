@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M5/src/leona
 sha256: ce4cf4962804016c4f2eee839bee2785a2ed607d8f081c94325ffef34c168571
 manuscript_lines: [83, 335]
 ledger_rows: [P3-039, P3-040, P3-048]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -79,3 +79,9 @@ evangelisation of Indians, colonial book trade, enforcement failure, conquistado
 - **Line 335, reference entry**: Leonard (1992), *Books of the brave*, University of California Press.
   **holds**: the e-book title page reads "UNIVERSITY OF CALIFORNIA PRESS ... © 1992". The entry does not note
   the 1949 first edition.
+
+## Verifier notes
+- Recomputed sha256 of `leonard.txt`: matches. No DOI. The e-book is UC Press, © 1992; Adorno's introduction dates the first edition to 1949 (p. xi). The bib adds "First edition Harvard University Press, 1949 (not checked)"; the manuscript reference does not note 1949.
+- Page markers in the e-book precede the page they number (the index's "Ocaña, 81" confirms this). Confirmed: 1531 order, "acting as sovereign", both quotations and the permitted religious books (p. 81); Mendoza instructions 14 Jul. 1536 and "not been due care", "Obedience ... apparently indifferent", 1543 order (p. 82); "need to repeat ... largely ineffective from the outset" and "primary concern" (p. 83); Toledo in Lima 1569 and "had not been observed or executed up to now" (p. 88); Adorno's "unwillingness to reconcile" (p. xi).
+- Both L83 quotations exact (p. 81). All use verdicts confirmed. Minor: chapter VII begins on p. 75; the card read pp. 78-88 of it, which `pages_read` states correctly.
+- Verified 2026-10-14.

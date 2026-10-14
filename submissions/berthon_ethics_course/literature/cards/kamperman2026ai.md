@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/library/txt/
 sha256: bdb9f20d2e17f6501e31a9b6298a0295d2f1a156ca0f4a7b5a0abfd0574e4ff8
 manuscript_lines: [13, 21, 33, 139, 147, 325]
 ledger_rows: [P1-016, P1-017, P1-018, P1-034, P2-008, P2-009, P2-017, P4-060, P4-072]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -96,3 +96,9 @@ frameworks, corporate marketing of AI, curriculum design, disclosure norms, writ
   P4-072).
 - **Line 325, reference entry**: *Change* 58(4), 34-39, DOI 10.1080/00091383.2026.2706429. **holds**: the PDF
   cover prints this citation (`...txt:16-18`).
+
+## Verifier notes
+- Recomputed sha256 of the text file: matches. Crossref (10.1080/00091383.2026.2706429): Kamperman and Graff, *Change* 58(4), 34-39, issued 4 Jul. 2026, online 19 Aug. 2026. Bib, manuscript and PDF cover agree.
+- The two-column text layer interleaves columns; I located each fact by form-feed page and read the column context. Confirmed: "use literacy uncritically as a metaphor", UNESCO "barely mentions reading or writing", OSU "AI fluent", "antidote", "sure path to economic security" (p. 35); "repeat many of the conceptual errors", both myth headings, "thrust laptops", surveillance, "fault of the individual", "recruit consumers at an early age" by technology companies and state bodies (p. 36); Table 1 areas, "corporate interests", "Establish norms for disclosure" (p. 37).
+- Exact-string checks: L13 Myth #2 heading exact (p. 36); L33 "use literacy uncritically as a metaphor" exact (p. 35). "safeguard" does not occur in the essay, so the L139 **narrower** verdict stands. All other verdicts confirmed.
+- Verified 2026-10-14.

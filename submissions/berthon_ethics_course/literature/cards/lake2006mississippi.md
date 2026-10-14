@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/cards/lake/c
 sha256: 393cbfdea0221170b6452d18b568406c287ff01b5eff1aaa464506eff6b2472e
 manuscript_lines: [71, 333]
 ledger_rows: [P3-012, P3-013, P3-069]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -84,3 +84,9 @@ dictation test, Immigration Restriction League, Colonial Office, whiteness, tran
   ANU Press." **narrower.** The chapter runs pp. 209-229 in the book PDF, which the entry omits (ledger
   P3-069). The imprint reads "ANU E Press" and "© 2005"; the year 2006 rests on the Crossref volume DOI.
   Author's call.
+
+## Verifier notes
+- Recomputed sha256 of `connected_worlds_book.txt`: matches. Crossref 10.22459/cw.03.2006 is the volume (edited book, ANU Press, 2006-03). The book PDF imprint reads "This edition © 2005 ANU E Press". Bib and manuscript say "ANU Press", 2006, and omit the chapter pages 209-229; the bib note (web sections 2-6 only) is stale.
+- Confirmed in the book PDF: chapter opens p. 209; test's changing form and "explicitly emulated an American Act of 1896" (p. 213); Mississippi 1890 read/understand/interpret (p. 215); Cape Colony 1892 (p. 216); Cleveland's veto (pp. 213, 219); "founded on the American Act. But it goes one step further", "in their own language or in some other language", "perfectly well able to read and write in their own language", "any European language", Chamberlain's recommendation, nn. 44-45 CO 179/198 (p. 221); "any prescribed passage of fifty words" and "maximum flexibility" (p. 226); "until 1958" (p. 228); "instrument of whiteness par excellence" (p. 229).
+- L71 quotation exact (p. 221). L71 Premier verdict **narrower** confirmed, with one note: Lake writes that Natal "had to 'go one step further than the American Bill'" because the targets could read their own language, so "would not do" is fair for the American test alone; it overstates only if read as rejecting the American model. L333 **narrower** confirmed.
+- Verified 2026-10-14.

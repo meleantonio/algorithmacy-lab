@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit3/lr4.t
 sha256: f8732cf38de67ad5e8616d154e7cd187411e3568c33d663079e02523df484872
 manuscript_lines: [97]
 ledger_rows: [P3-066, P3-067]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -44,3 +44,9 @@ non est factum, misrepresentation of a document's contents, illiterate and blind
 - l. 97, quotation: "English law gave a plea, *non est factum*, to the person who could not read and had 'a written contract falsely read over to him' (*Foster v. Mackinnon*, 1869, at 711)." Exact-string check: **exact** (OCR line break after "falsely"). At 711. **holds**. The rule covers "a blind man, or a man who cannot read, or who ... forbears to read". The name *non est factum* is not in this judgment, which grounds the rule in the deed cases.
 - l. 97: "in *Foster* the person who misdescribed the paper was the other party to it." pp. 704-705, 710. **narrower**: the misdescriber, Callow, was the bill's acceptor and so a party to the paper. He was not the party suing on it. The plaintiff, Foster, was a later indorsee for value without notice. "The other party" implies a two-party paper, and a bill has several parties. "Was a party to the bill" or naming Callow as acceptor would be exact (ledger P3-067).
 - l. 97: "each safeguard ... gave the bound party a way to undo it". p. 711. **holds** for the principle (the signature "is of no force"). In this case the direction was upheld but a new trial was ordered (p. 714).
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `audit3/lr4.txt`: matches. The report opens at head 704 (l. 49823) and ends at "Rule absolute" on p. 714 (l. 50431-50440).
+- Checked headnote, facts (Callow, "only shewed the defendant the back of the paper"), the 5 July judgment by Byles J. for the four judges, the blind/illiterate rule, Thoroughgood's Case, the Keilwey note, the extension to other written contracts, and the new-trial order: all present (OCR garbles "blind" as "liad" and "have" as "haye").
+- The l. 97 quotation "a written contract falsely read over to him" is exact; it sits between heads 710 and 712, so p. 711 is inferred from the head sequence, consistent with AUDIT_03. "non est factum" does not occur in the judgment. Verdicts (holds, narrower, holds) confirmed.
+- Bib disagreements: bib gives pages 704-712; the report runs to 714. Manuscript cites only the first page, which is correct.

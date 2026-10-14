@@ -4,7 +4,7 @@ title: Review of Kathryn Burns, Into the Archive: Writing and Power in Colonial 
 authors: Andrien, Kenneth J.
 year: 2012
 type: review
-doi: null
+doi: 10.1162/jinh_r_00366
 venue: Journal of Interdisciplinary History 43(1), 144-145 (MIT Press; JSTOR stable 41487910)
 source_basis: full-text
 pages_read: "all (pp. 144-145)"
@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/library/txt/
 sha256: 7250c413cdad0420efbcade18841e4e9e3f642886740b5e7d5cafc49df5d5788
 manuscript_lines: [97]
 ledger_rows: [P3-068, P5-053, P6-022, P6-045]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -42,3 +42,9 @@ Colonial Peru, Cuzco, notaries, notarial archives, protocolos, record manipulati
 ## Where the manuscript uses it
 - l. 97: "A reviewer of Burns's study of Cuzco reports that notaries 'could manipulate the legal record in the service of a powerful client or on their own account' (Andrien, 2012, p. 145)". Takes the reviewer's report of Burns's finding. Source p. 145. Exact-string check: EXACT (Andrien txt, l. 92–94). **holds**; the sentence correctly frames it as a reviewer's report.
 - l. 97 (context): "These safeguards were imperfect." Takes Cuzco as a case of the safeguard failing. Source pp. 144–145. **holds** as illustration; the review gives no case of an illiterate party bound by a falsified deed.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of the Andrien txt: matches. Re-read the whole review (JSTOR-stamped extraction, pp. 144-145).
+- Every key fact confirmed at the page given, including the book details (p. 144), "sites of negotiation" (p. 144), the sale of offices (p. 145), confianzas and exclamaciones (p. 145), and the "indigenous notaries" quotation of Burns p. 145.
+- Exact-string check of "could manipulate the legal record in the service of a powerful client or on their own account" (l. 97): EXACT after rejoining the line-break hyphen in "cli-ent". Both use verdicts confirmed.
+- Corrected the `doi` field from null: Crossref lists this review as 10.1162/jinh_r_00366 (Andrien, JIH 43(1), 144-145). Author, volume, issue and pages agree with the manuscript and references.bib; neither gives the DOI.

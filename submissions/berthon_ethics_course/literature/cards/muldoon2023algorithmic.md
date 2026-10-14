@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/N1_republica
 sha256: b0111e84b1a93eeb9be31b4b57d69b718989b9cd8c2074c2ae3704339c117043
 manuscript_lines: [43, 185]
 ledger_rows: [P2-004, P2-022, P2-023, P2-024, P2-025, P2-026, P5-042]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -54,3 +54,9 @@ republicanism, algorithmic domination, gig economy, algorithmic management, ride
 - **Line 43**, "They locate the dominating agent in owners and managers." pp. 587, 593–594. **holds**.
 - **Line 43**, "I follow them in holding the operator responsible, and I add the second party". Takes them as the baseline the paper extends. **narrower**: p. 598 already makes customers dominators of the worker through the platform's rating regime. The new element is that the intermediary's reading also binds the customer, employer or lender.
 - **Line 185**, "Contemporaries condemn the practice ... drivers, the scholars who study them, and legislators (Rosenblat & Stark, 2016; Dubal, 2023; Muldoon & Raekstad, 2023)". Takes them as scholars condemning algorithmic control. pp. 589, 594, 599. **holds**.
+
+## Verifier notes
+- 2026-10-14. sha256 recomputed: matches. Crossref 10.1177/14748851221082078: Muldoon, James; Raekstad, Paul; *EJPT* 22(4), 587-607; print 2023-10, online 2022-02-23. Matches bib and manuscript.
+- Journal pages read from the running heads. All nine key facts found verbatim on the pages given (590, 591, 594, 596, 598, 599, 601; n. 4 on p. 604). The "group agent" sentence is on p. 594, within the 593-594 range given.
+- Line 43: both quotations exact (pp. 596, 599); p. 599 sentence carries no citation, as noted. "I add the second party" **narrower** confirmed: p. 598 already places workers under "the uncontrolled power of consumers and bosses". Line 185 **holds** confirmed.
+- Bib disagreement: bib note says read in part; the card covers pp. 587-604.

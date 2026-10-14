@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C/douglass.t
 sha256: 4c2d575285300bb4f6d8aa2c03c2cff64260f799eebd099163dbafbd3d09c789
 manuscript_lines: [15, 37, 79, 136, 155, 245]
 ledger_rows: [P1-024, P1-025, P2-018, P3-032, P3-033, P3-034, P3-035, P4-049, P5-002, P6-047]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -51,3 +51,10 @@ slavery, anti-literacy laws, Maryland, withheld literacy, Hugh and Sophia Auld, 
 - l. 136 (table): "Laws against teaching (Douglass, 1845 ...)". p. 33. **holds**, as Douglass's report of Auld calling it "unlawful". The statute itself is not in this source (see facet C).
 - l. 155, quotation: reading gave him "a view of my wretched condition, without the remedy." Exact-string check: **exact**, including the period, which ends a sentence in the source. p. 40. **holds**. No page is given in the manuscript.
 - l. 245: "as Knox and Auld said they meant to" (exclude, keep people ignorant). This is an uncited reference to the Auld speech. p. 33. **holds** for Auld: "A [slave] should know nothing but to obey his master" and "there would be no keeping him". The third item, "to falsify a record", is not attributed to Auld in this source (see P6-047).
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `C/douglass.txt`: matches. Title page (Boston, Anti-Slavery Office, No. 25 Cornhill, 1845) confirmed in the text. Manuscript l. 291 and `references.bib` agree on author, title, publisher and year; the l. 291 entry omits the place (Boston), which is a style point, not an error. No DOI applies.
+- Ran every quotation on the card and every manuscript quotation (ll. 15, 79 twice, 79/155 "wretched condition") as exact-string checks against the DocSouth text: all match.
+- Located each quotation by the DocSouth "Page N" marks (which precede their page's text): Auld episode p. 33; "incompatible" p. 37; the street-boys passage p. 38; *Columbian Orator* p. 39; "wretched condition" p. 40. Every page and chapter locator on the card is right.
+- Re-read all ten use bullets against the manuscript lines; every verdict stands, including **narrower** for "Douglass taught himself" (he "converted into teachers" the white boys: "With their kindly aid ... I finally succeeded in learning to read", p. 38).
+

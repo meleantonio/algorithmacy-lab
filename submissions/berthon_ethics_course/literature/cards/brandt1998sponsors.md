@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C3_scholarly
 sha256: 490b8eab1dc5e7fd3bf8e22518467ff202976c1997e0e2c963ae5bb3c6c8baeb
 manuscript_lines: [21, 35, 277]
 ledger_rows: [P1-035, P2-013, P2-014]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -87,3 +87,10 @@ sponsors of literacy, political economy of literacy, access and stratification, 
   p. 169 ("conscript and ration the powers of literacy"). **holds**.
 - v2 l. 277 (reference list): CCC 49(2), 165-185. The copy's pages run 165 to 185 and p. 165 prints "CCC
   49.2/May 1998". **holds**; the entry omits the DOI 10.58680/ccc19983181 (P6 reference-list row 10).
+
+## Verifier notes
+- 2026-10-14. Provenance: the journal text comes from a course-hosted copy whose source was not recorded, and no `source_url` exists. sha256 of the txt (490b8eab...) and of the pdf (c771e848...) both match the card. The copy is not an OCR scan. It carries native text, the typesetter's file slugs ("3brandt.fm Page 165 Wednesday, April 8, 1998"), NCTE's copyright line, the printed pages 165-185, and PDF metadata from Acrobat Distiller in 2001 with RC4 encryption. That pattern fits NCTE's own production PDF, not a retyped copy. I judge its wording trustworthy for quotation, but this is an inference about provenance, not a recorded fact.
+- Independent witness for the disputed definition: a CUNY City Tech course page (openlab.citytech.cuny.edu, 2019), fetched this session, quotes "...who enable, support, teach, model, ..." with a dash before "and gain". That is the course copy's wording and differs from the 1997 report's. The NCTE page itself (`pdfs/M1/brandt_ncte.html`) is a Cloudflare challenge, so I could not use it.
+- Crossref (10.58680/ccc19983181), fetched this session, gives CCC 49(2), 165-185, May 1998, Deborah Brandt, which matches. The manuscript's reference (v2 l. 277) omits the DOI; `references.bib` has it. The bib note "Metadata only" is now out of date, because the journal text has been read.
+- I string-checked all eight key facts and the summary quotations against the copy, with pages taken from the file slugs: definition p. 166; "set the terms..." spans pp. 166-167; pp. 167, 168, 169 and 183 as the card gives them. All confirmed. The l. 35 quotation does not match the journal (it does match the 1997 report: `brandt_eric.txt`, exact). I confirm the card's verdicts: l. 21 does not hold; l. 35 quotation does not hold; the other uses hold.
+- One minor point: the card's "interviews up to 1995" rests on "at the time of our interviews in 1995" (p. 169) and "our interview in 1995" (p. 175). It is accurate as far as the text goes.

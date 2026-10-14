@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M4/sep_repub
 sha256: cfc781f83694da85f1b185f9586b9afce5546bf2a7b37dd249d850bc0e47f67c
 manuscript_lines: [41, 235]
 ledger_rows: [P2-019, P2-020, P6-032]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -46,13 +46,13 @@ Lindblom (2019, p. 199): domination holds "whether or not it was consensual in o
 - Book's definition of domination, p. 52, three clauses: capacity to interfere, on an arbitrary basis, in
   certain choices (Gädeke 2020, n. 3; O'Shea 2019, n. 8).
 - Domination without interference: the slave lacks freedom "because he is vulnerable to the arbitrary power of
-  his master; whether his master happens to exercise that power is neither here nor there" (SEP §2.1, Lovett's
+  his master; whether his master happens to exercise that power is neither here nor there" (SEP §1.3, Lovett's
   words).
 - Benevolent master, pp. 73–4: "to have a master with an exceptionally benevolent disposition is to be
   reasonably secure ... but it is to have a master nonetheless" (SEP §2.1, Lovett paraphrasing Pettit 1997).
 - Consent no defence, p. 62: "Whether a relationship sprang originally from a contract or not, whether or not
-  it was consensual in origin, ..." (as quoted in Lindblom 2019, p. 199, per facet N1:49; I did not reopen
-  Lindblom).
+  it was consensual in origin, ..." (as quoted in Lindblom 2019, p. 199; verifier opened `lindblom2018.txt` and confirmed the
+  quotation, with Pettit's "(1997, 62)", on p. 199).
 - Contestation, pp. 186–7: reasons, equal openness, impartial "courts of appeal" (SEP §4.2, per facet N1:28).
 
 ## Critical notes from the literature
@@ -81,14 +81,22 @@ master, consent, contestation, courts of appeal
   cited: the year and work are wrong on Lovett's own attribution. The words stand; the citation should be
   Pettit (1999, p. 165), as quoted in Lovett (2026), with the chapter added to the references. Author's call.
 - **Line 41**, "domination is the standing capacity, whether or not anyone exercises it, which is why the slave
-  of a kindly master remains unfree." Takes: capacity, not exercise, and the benevolent master. Source: SEP §2.1
-  ("neither here nor there"; Pettit 1997, 73–4 via Lovett); p. 52 definition via Gädeke and O'Shea. **holds**,
+  of a kindly master remains unfree." Takes: capacity, not exercise, and the benevolent master. Source: SEP §1.3
+  ("neither here nor there") and §2.1 (Pettit 1997, 73–4 via Lovett); p. 52 definition via Gädeke and O'Shea. **holds**,
   at secondary depth: supported through Lovett's report of pp. 73–4; the book itself was not opened.
 - **Line 235**, "a person may consent to an arrangement and be dominated within it, as the slave of the kindly
   master is." No citation; "The republican point". Source: p. 62 via Lindblom (2019, p. 199), per facet N1:49.
-  **cannot check (reviews/secondary)**: the consent claim rests on a sentence I know only as facet N1 records
-  Lindblom quoting it; the SEP kindly-master passage concerns benevolence, not consent (ledger P6-032).
+  **narrower** (secondary; verifier-corrected from "cannot check"): Lindblom (p. 199) quotes Pettit (1997, 62)
+  that a relationship "consensual in origin" can still be domination, which supports the consent clause; the
+  kindly-master example concerns benevolence (pp. 73–4), not consent (ledger P6-032).
 - **Line 357, reference entry** "Pettit, P. (1997). *Republicanism: A theory of freedom and government*.
   Oxford University Press." **holds** as a record (Crossref DOI 10.1093/0198296428.001.0001, per bib note; SEP
   bibliography gives Oxford: Clarendon Press, 1997). The entry does not support the line 41 quotation; the
   reference list needs Pettit (1999) if that citation is corrected.
+
+## Verifier notes
+- 2026-10-14. sha256 of `sep_republicanism.txt` recomputed: matches. Crossref 10.1093/0198296428.001.0001: Pettit, Philip; title "Republicanism"; OUP; published-print 1999-09-16, online 2003-11-01. The bib note's "online date 1999" is the print date in Crossref; SEP bibliography gives Oxford: Clarendon Press, 1997.
+- Confirmed in SEP: the line 41 words are attributed to Pettit 1999, p. 165 (§1.2), so the **does not hold** verdict stands; pp. 73-4 kindly master (§2.1); pp. 186-7 three requirements, including "equally open to all" and "courts of appeal" (§4.2). Gädeke 2020 (n. 3) and O'Shea 2019 (p. 3, n. 8) both give the p. 52 definition, checked in the local PDFs' text.
+- Corrected locator: "neither here nor there" (the slave and the master) is in SEP §1.3, not §2.1. Fixed in Key facts and in the line 41 use.
+- Corrected verdict, line 235: I opened Lindblom (`pdfs/N1_republican_domination/lindblom2018.txt`), whose p. 199 quotes Pettit (1997, 62): "Whether a relationship sprang originally from a contract or not, whether or not it was consensual in origin, the fact that it gives one party the effective capacity to interfere more or less arbitrarily in some other's choices means that one person dominates or subjugates the other." The consent claim is now checkable at secondary depth. Verdict changed from **cannot check** to **narrower**: consent-and-domination holds via Lindblom's quotation; the kindly-master illustration is about benevolence (pp. 73-4), not consent.
+- Basis honesty: the card keeps to secondary depth throughout; the book was not opened.

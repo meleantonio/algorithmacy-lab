@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/uinl_905b
 sha256: d2cec81884de159c0d3595edcaf72b7511214c7509a7ec04460e0416ec990a3d
 manuscript_lines: [175]
 ledger_rows: [P5-032, P5-053, P6-022]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -84,3 +84,9 @@ professional ethics, notarial deeds, record-keeping
   historical office.
 - **Line 387, reference entry**: "Union Internationale du Notariat. (2005). *Principles of the notarial
   function*." Title and year match the page (Rome, 8 November 2005). **holds.**
+
+## Verifier notes
+- Opened `uinl_905bff.html`; sha256 matches. All eight key-fact quotations exact, including the "position of inferiority" sentence, which sits in Part IV (Notarial ethics), not Part I as ledger P5-032 says.
+- Paragraph numbers are the card's count of the page's paragraphs; the page itself does not number them.
+- Uses: line 175 holds; lines 199 and 225 narrower (a 2005 self-description, not a record of historical practice). I confirm all four verdicts.
+- Bib: the bib URL (`uinl.org/en_GB/principios-de-la-funcion`) differs from the canonical English URL; title and year agree. Date 2026-10-14.

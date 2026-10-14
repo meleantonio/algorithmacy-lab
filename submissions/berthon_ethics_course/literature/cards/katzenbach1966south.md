@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/D/us383_301.
 sha256: d88a33ceee89c134baff6f4e1b7a83415dda58921b209f82fd3a936d5dd7aafb
 manuscript_lines: [67, 135]
 ledger_rows: [P3-001, P3-004, P3-005, P3-006, P4-046]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -41,7 +41,7 @@ framed and administered to disenfranchise Black citizens, so suspending them for
   whites were unable to read or write"; alternate tests assured "white illiterates would not be deprived of the
   franchise" (p. 311).
 - Before the Civil War "most of the slave States made it a crime to teach Negroes how to read or write"
-  (p. 310, n. 10).
+  (p. 311, n. 10).
 - Discriminatory administration "has been found in all eight Alabama cases, in all nine Louisiana cases, and in
   all nine Mississippi cases which have gone to final judgment" (p. 312).
 - White applicants "have often been excused altogether ... or have been given easy versions, have received
@@ -88,3 +88,10 @@ Voting Rights Act of 1965, Fifteenth Amendment, literacy tests, understanding an
 - v2 line 135 (table, the gate): "Reading tests administered at a registrar's or officer's discretion
   (*Katzenbach*, 1966 ...)". pp. 311-313. **holds**. The "so vague and subjective" phrase at p. 313 (cited in the
   ledger at P4-046) describes the good-morals requirement, not the reading test.
+
+## Verifier notes
+- Recomputed sha256 of `us383_301.txt`: matches. No DOI; 383 U.S. 301 (1966) confirmed by the running heads. The bib note says pp. 310-314 read; the card also covers pp. 308 and 333-337.
+- Confirmed against the U.S. Reports pages: holding at p. 308; "specifically designed to prevent Negroes from voting" (p. 310, n. 9 Tillman); two-thirds/one-quarter and alternate tests (p. 311); eight/nine/nine cases, "excused altogether", "easy versions", "difficult versions ... without the slightest error", "principal method", nn. 12-13 (p. 312); "so vague and subjective" (p. 313); purpose/framing/administration sentence (pp. 333-334, with *Lassiter* at p. 333).
+- Corrected one locator: footnote 10 ("most of the slave States made it a crime to teach Negroes how to read or write") sits on p. 311, where its marker follows "unable to read or write", not p. 310.
+- L67 quotations ("FRDUM FOOF SPETGH"; Panola County "Chickasaw School Fund") exact at p. 312 nn. 12-13. All use verdicts confirmed, including L67 **narrower** (suits in three states; "easy versions", not passages).
+- Verified 2026-10-14.

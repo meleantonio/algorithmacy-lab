@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M4/sep_repub
 sha256: cfc781f83694da85f1b185f9586b9afce5546bf2a7b37dd249d850bc0e47f67c
 manuscript_lines: [41, 43, 45, 217]
 ledger_rows: [P2-019, P2-020, P2-021, P2-027, P2-028, P5-007, P5-045, P6-013, P6-014, P6-032]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -47,7 +47,7 @@ non-domination, republican freedom, Pettit, arbitrary power, procedural vs democ
 
 ## Where the manuscript uses it
 
-- **Line 41**, "a person is free to the extent that no one has 'the capacity to interfere in their affairs on an arbitrary basis' (Pettit, 1997, as quoted in Lovett, 2026)". Takes Pettit's definition. Exact-string check: **found**, verbatim, in §1.2. **narrower**: Lovett attributes the words to Pettit 1999, p. 165, with 1997 only as a "cf."; the parenthesis gives the wrong year.
+- **Line 41**, "a person is free to the extent that no one has 'the capacity to interfere in their affairs on an arbitrary basis' (Pettit, 1997, as quoted in Lovett, 2026)". Takes Pettit's definition. Exact-string check: **found**, verbatim, in §1.2. **does not hold as cited**: the words and the definition are Pettit's, but Lovett attributes them to Pettit 1999, p. 165, with 1997 only as a "cf."; the parenthesis "(Pettit, 1997, as quoted in Lovett, 2026)" names a source Lovett does not quote. Correct to Pettit (1999, p. 165), as quoted in Lovett (2026).
 - **Line 41**, "domination is the standing capacity, whether or not anyone exercises it, which is why the slave of a kindly master remains unfree". Takes the structural reading of domination. §1.3 ("whether his master happens to exercise that power is neither here nor there"; "no matter how benevolent"). **holds**.
 - **Line 43**, "Lovett (2026) notes that republicans define arbitrary power procedurally or by the absence of control, not as unjust power". §2.2. **narrower**: the "not as unjust power" half is close to verbatim, but Lovett's two answers are the procedural and the democratic; "uncontrolled" is common to both, not the second option.
 - **Line 45**, "On the procedural view, power is non-arbitrary when it follows rules that are common knowledge; on the democratic view, when those subject to it control it (Lovett, 2026)". §2.2. **holds** as a report of the entry. Lovett credits the procedural view to himself (Lovett 2010, 2022) and illustrates the democratic view from Pettit (2012).
@@ -55,3 +55,10 @@ non-domination, republican freedom, Pettit, arbitrary power, procedural vs democ
 - **Line 217**, "The envelope meets the procedural requirement of Section 2.2—rules that are common knowledge". §2.2. **holds**.
 - **Line 217**, "Lovett's caution applies: predictability does not end domination if the party who declared the rule can redeclare it at will". §2.2 (the coping sentence; constraints "must be resilient over a wide range of possible changes"). **narrower**: Lovett supports the claim that predictability does not end domination and sets a resilience condition on rules; "redeclare it at will" is the manuscript's application, and the sentence reads as his.
 - Lines 155, 187 and 235 rely on this entry only through cross-references to §2.2 (ledger rows P5-007, P5-045, P6-032). They are not counted above.
+
+## Verifier notes
+- Recomputed sha256 of `sep_republicanism.txt`: matches. The page prints "First published Mon Jun 19, 2006; substantive revision Wed Aug 12, 2026" and "Copyright © 2026 by Frank Lovett". The saved copy does not show the SEP editors, so the manuscript's "E. N. Zalta & U. Nodelman (Eds.)" could not be checked against it.
+- Confirmed every key-fact quotation and its section: Pettit definition with "(1999, 165; cf. Pettit 1997, 2001, 2012, 2014)" (§1.2) and the 1999 bibliography entry; slave and benevolent-master sentences (§1.3); "render him less of a master" (§2.1); coping sentence, procedural and democratic definitions, resilience, Pettit (2012, 57-58), both caveats (§2.2); workplace sentence with the missing "of" (§4.1).
+- Overturned the L41 verdict, **narrower → does not hold as cited**: the words are Pettit's, but the manuscript's "(Pettit, 1997, as quoted in Lovett, 2026)" names a work Lovett cites only as "cf."; Lovett quotes Pettit 1999, p. 165.
+- Other verdicts confirmed: L41 structural reading **holds**; L43 **narrower**; L45 both **hold** (coping sentence exact); L217 procedural requirement **holds**, "redeclare it at will" **narrower**.
+- Verified 2026-10-14.

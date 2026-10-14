@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M2/li2022.tx
 sha256: 256a1292f54e357e8c5fa04965cb5a7525b67e6ee87d64b7998e5568827dbfc6
 manuscript_lines: [223, 337]
 ledger_rows: [P6-016]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -74,3 +74,9 @@ sharing, GUI crawling, worker collective action, platform power
 - **Line 337, reference entry**: Li et al. (2022), *2022 Symposium on Human-Computer Interaction for Work*
   (pp. 1-10), ACM, DOI 10.1145/3533406.3533418. **holds**: the arXiv copy prints the ACM reference format with
   CHIWORK 2022, "10 pages" and this DOI (p. 1). The ten authors and their order match.
+
+## Verifier notes
+- Recomputed sha256 of `li2022.txt`: matches. Crossref (10.1145/3533406.3533418): ten authors in the card's order, *2022 Symposium on Human-Computer Interaction for Work*, pp. 1-10, ACM, 8 Jun. 2022. The bib booktitle adds "(CHIWORK)" and its note ("read in part") is stale; otherwise no disagreement.
+- The two-column layer interleaves; I checked each fact by page and line. Confirmed: technology and data divides, "network of end-user-programmable intelligent assistants" (p. 1); no platform "cooperation, access to additional data, or software access", "against their financial interests", "monopoly on data and algorithms", neither party knows the other's price, "optimize for platforms' best interests" (p. 2); six interviews and Chicago Rideshare Advocates (p. 3); "time needed, distance, proposed pay" shared "in real-time" (p. 4); Crepe, "listens to the worker's input", "owned by an individual worker" (p. 5); "contradicts directly their interests" and the "undesirable" customers risk (p. 7).
+- L223 and L337 verdicts confirmed (**hold**).
+- Verified 2026-10-14.

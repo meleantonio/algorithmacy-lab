@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/D/ira1901.tx
 sha256: 9fe1a7c1b72e96770a2a594f5146d660fdd1b17ca2cbcfa63b7ac880fc7de8a9
 manuscript_lines: [71, 135]
 ledger_rows: [P3-014, P3-015, P3-016, P4-047]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -48,3 +48,10 @@ Australian immigration restriction, White Australia policy, dictation test, lite
 - **L71**: "Australia's Immigration Restriction Act of 1901 followed Natal's". **holds**: the s. 3 margin reads "See Natal Act 1897, No. 1, s.3", and later sections carry "Natal ib." notes.
 - **L71**: "the test remained in law until 1958". **cannot check (statute text)**: the 1901 Act cannot record its own repeal. The record rests on the Museum page (facet D:284). Cite that page or the Migration Act 1958 (Cth) (P3-016).
 - **L135** (table, "The gate"): "Reading tests administered at a registrar's or officer's discretion (… Immigration Restriction Act 1901)". **holds**: the test applies to a person "when asked to do so by an officer", in a language "directed by the officer" (s. 3(a)). s. 5(2) lets the officer ask within a year of entry, and s. 16 lets regulations empower officers to determine who is prohibited.
+
+## Verifier notes
+- Recomputed sha256 of `ira1901.txt`: matches. No DOI; bib note says "Read in part: sections 1-10", which is stale against this card's full reading. The reference entry matches the Act's short title and number.
+- Read the whole transcript (ss. 1-19 and Schedule). Confirmed s. 1, s. 2, s. 3(a) with the Natal/W.A. margin, s. 5(2), s. 6 (£100; thirty days), s. 7, s. 8, s. 16(1), s. 17 and the "Natal ib." notes at ss. 3(h), 6, 7, 9, 12-15. Assent 23 Dec. 1901 in the heading and the Schedule.
+- L71 s. 3(a) quotation: exact once marginal notes and spacing are removed. L71 "followed Natal's" and L135 "officer's discretion" confirmed.
+- L71 "until 1958" stays **cannot check (statute text)**. I confirmed that Lake (2006, p. 228) prints "The dictation test remained in immigration legislation until 1958" in `connected_worlds_book.txt`, so Lake is an available citation; facet D:284 (Museum page) also has it.
+- Verified 2026-10-14.

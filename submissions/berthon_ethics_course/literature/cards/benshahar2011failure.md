@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/benshahar
 sha256: d69c2ea5005d67f11b4e0d45ff078a895484f95aea72bcf846b7202a847b6e1e
 manuscript_lines: [211]
 ledger_rows: [P6-008, P6-009]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -44,3 +44,9 @@ Mandated disclosure, consumer protection, informed consent, contract boilerplate
 - l. 211: "Ben-Shahar and Schneider (2011, p. 672) quote ...: 'No matter how prominently [end-user license agreements] are disclosed, they are almost always ignored.'" Takes the quotation as evidence that disclosure fails. Source p. 672. Exact-string check: EXACT (benshahar_decoded.txt, footnote marker 130 removed and line breaks joined; the bracket is in the source). **holds** for wording and page.
 - l. 211: "quote the conclusion of that research" (that is, of Bakos et al.). Source pp. 671–672, nn. 127–130. **narrower**: the quoted conclusion is Marotta-Wurgler's (n. 129), drawn from her follow-up study; Bakos et al. are n. 127, for the one-in-a-thousand figure.
 - l. 211 (context): "The obvious remedy for withheld knowledge is disclosure, and disclosure fails." Source pp. 647, 651. **holds** as a summary of the article's thesis.
+
+## Verifier notes
+- 2026-10-14: sha256 of local_path recomputed, matches. Crossref has only the SSRN record (10.2139/ssrn.1567284: Ben-Shahar, Schneider, "The Failure of Mandated Disclosure", issued 2010), no journal record. Running heads confirm U. Pa. L. Rev. vol. 159, pp. 647–749 (last folio 749), matching MANUSCRIPT_v2.md l. 271 and references.bib; issue (3) remains unconfirmed and is absent from both.
+- Confirmed in the decoded text: abstract wording (p. 647), "chronically fails ... swamp its benefits" (p. 651), the 1-in-1000 and twenty-nine-second passage with n. 127 citing Bakos et al. as NYU Law & Econ. WP No. 195 (p. 671), Marotta-Wurgler's 8 of 11,184 and 40 of 120,545 (p. 671, n. 129), the quotation (p. 672, n. 130 "Id. (manuscript at 16)"), and the inequity passage (p. 742).
+- Exact-string check of the manuscript's quotation re-run: EXACT, begins on p. 672. Note the source spells "Marrota-Wurgler" in the text and n. 129 (a typo in the article; n. 129's author is Marotta-Wurgler).
+- All three use verdicts confirmed. The source itself calls Marotta-Wurgler "One of the authors of this study" (p. 671), which supports narrower, not does-not-hold, for "the conclusion of that research"; bakos2009does was aligned to this.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/N5_prior_wor
 sha256: 9598a44fc1f99910b0a8f98b070c61a124d9aca30df0288d778fa54eeddaafa9
 manuscript_lines: [13, 153, 329]
 ledger_rows: [P1-009, P5-001]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -77,3 +77,9 @@ machine learning, business ethics, ex post explanation
 - **Line 329, reference entry**: *Business Ethics Quarterly*, 32(1), 75-102. **holds**: the PDF footer prints
   "Business Ethics Quarterly 32:1 (January 2022), pp. 75-102. DOI:10.1017/beq.2021.3". The reference omits
   the DOI, which the bib entry gives.
+
+## Verifier notes
+- Recomputed sha256 of `kim2022why.txt`: matches. Crossref (10.1017/beq.2021.3): Kim and Routledge, *BEQ* 32(1), 75-102, online 5 May 2021, print Jan. 2022. The manuscript reference omits the DOI; the bib note ("read: Part (abstract, pp. 75-76)") is stale.
+- Confirmed: aim and "assurance of trust for incomplete transactions" (p. 75); GDPR data subjects list (p. 76); both premises and conclusion (p. 77); reasonable trust and "data subjects (users, employees, or applicants ...)" (p. 88); "firms likewise become trustees" and the board analogy (p. 99); "cannot fundamentally solve", "useful starting point", "alter the level of trust" (p. 101).
+- L13 **holds**; L153 **narrower** (trust enters through informed consent; trustors are data subjects, broader than customers and workers); L329 **holds**. All confirmed.
+- Verified 2026-10-14.

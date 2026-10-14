@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: [197]
 ledger_rows: [P5-046, P5-047, P5-048]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -97,3 +97,9 @@ structural injustice, social connection model, liability model, forward-looking 
   "Assigns no blame" is McKeown's gloss (P5-047). Something like "is not a model of blame" would stay inside
   Young's words. **cannot check (abstract)** against the 2006 body.
 - Reference entry (line 409): journal, volume, issue, pages and DOI match Crossref. **holds** (P5-048).
+
+## Verifier notes
+- Fetched the Crossref record for 10.1017/S0265052506060043: Young, *Social Philosophy and Policy* 23(1), 102-130, January 2006; the abstract contains the line 197 quotation and the five features verbatim.
+- Opened the 2005 *Anales* version (sha256 matches; PDF p. 1 = p. 709): "I do not aim to replace or reject the liability model" and "usually inappropriate to blame" (p. 719), "The point is not to blame, punish, or seek redress" (p. 722), "single agent" (p. 717), "ultimately political" (p. 723), the "all agents" sentence and the "shortened version"/"forthcoming" note (p. 709). All confirmed.
+- The card stays within its abstract basis and labels the 2005 and secondary material. The 2006 body and the quotation's page are not text-confirmed, hence writer-grounded. "Assigns no blame" narrower: confirmed.
+- Bib matches Crossref (DOI case aside). Date 2026-10-14.

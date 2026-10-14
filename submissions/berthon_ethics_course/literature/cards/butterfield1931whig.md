@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/X/butterfiel
 sha256: c0d50c348240b481faa9ede5380d4c6d0fc8f985dc36b015baa81ac70d92cdc3
 manuscript_lines: [49, 279]
 ledger_rows: [P2-029]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -72,6 +72,14 @@ whig history, presentism, anachronism, moral judgement in history, historian as 
   pp. 29-30; ch. 6, scan p. 79. **holds**. The manuscript paraphrases without quotation marks; the phrase
   "ratification ... of the present" matches the Preface (exact-string check of "ratification if not the
   glorification of the present": **exact match**). No page is cited, so the scan's page doubt does not bite.
-- v2 l. 279 (reference list): "G. Bell and Sons", 1931. **cannot check (partial-text, reprint scan)**: the scan
+- v2 l. 279 (reference list): "G. Bell and Sons", 1931. **holds (record basis; verifier 2026-10-14: WorldCat OCLC 217470144 and CiNii give London: G. Bell & Sons, 1931)**; originally **cannot check (partial-text, reprint scan)**: the scan
   is a Penguin reprint and shows neither the Bell imprint nor a 1931 imprint date; only the preface's "September
   1931" agrees.
+
+## Verifier notes
+- 2026-10-14. sha256 of `local_path` recomputed: matches.
+- I string-checked all seven key facts and the summary quotations against the OCR text: Preface definition, "psychology of historians", "avenger", "bygone generations" (near scan numeral 9), "one eye, so to speak" (between numerals 29 and 30), "judge ... detective" and "useless and unproductive" (on the opening page of ch. 6, above numeral 79), and "Lord Acton set such store" (after numeral 89). All confirmed. The OCR signs the Preface "HB. September 1931", which matches the card's "H.B." up to OCR noise. Ch. 6 is "Moral Judgements in History" per the contents. The card's caveat that page numbers may be off by one stands.
+- The l. 49 paraphrase and the "ratification if not the glorification of the present" check are confirmed. The verdict holds.
+- Imprint: the scan does not show it, but catalogue records seen this session in web-search results do. I did not open the records themselves. WorldCat (OCLC 217470144) gives London: Bell, 1931. The front matter of Meiner's German edition and an NII/CiNii record give "G. Bell & Sons, London, 1931". I upgraded the l. 279 verdict from cannot check to holds on that record basis.
+- Bib disagreements: `references.bib` gives "G. Bell" and the manuscript gives "G. Bell and Sons" (same firm). The bib `url` points to a Penguin reprint scan, not the 1931 edition.
+- Set to writer-grounded, not true: the text I opened confirms everything else, but the imprint rests on search-result catalogue records, and the scan page locators are uncertain by about one page.

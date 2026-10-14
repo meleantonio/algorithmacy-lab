@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/library/Marg
 sha256: 9dde1c3f77a77ac07fd82d08ecf144b9406a091a8fb80a064739562c2c85fc64
 manuscript_lines: [77, 85]
 ledger_rows: [P3-031, P3-047, P6-045]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -48,3 +48,9 @@ anti-literacy statutes, antebellum South, insurrection fear, African American se
 
 - **Line 77**, "A reviewer of Williams's history of Black education gives the legislators' ground in a phrase: 'Fearing insurrection, southern state legislatures made it a crime for persons to instruct slaves or free blacks to read and write' (Margo, 2005, p. 590)". Takes the stated motive. Exact-string check: **matches**, read from the rendered image of p. 590 (the text layer is clipped). **holds**. The manuscript correctly presents it as a reviewer's phrase.
 - **Line 85**, "the reviewer of Williams notes that she does not test whether they were effective (Margo, 2005, p. 591)". Takes the absence of any measured effect. p. 591: "were they effective in doing so? This question could have been addressed using the 1850 and 1860 ... census". **holds**. Margo frames the untested question around the teaching of free Black people.
+
+## Verifier notes
+- Recomputed sha256 of the library PDF: matches. No Crossref record for 10.2307/3875089 (confirmed today); *Journal of Economic History* 65(2), 590-591, per the page heads. Bib and manuscript agree.
+- I re-rendered both pages from the PDF myself (`pdfs/verify/margo/m-2.png`, `m-3.png`) and read them. Confirmed: 90 percent conjecture, 84/51/26 percent, legal appendix, the "Fearing insurrection" sentence with the Georgia printing-press example, "most slave owners ... foment rebellion or run away", the 1868 federal report on Black teachers (p. 590); common-school laws and the effectiveness question tied to free Black people and the 1850/1860 samples (p. 591).
+- L77 quotation exact (p. 590); L77 and L85 verdicts confirmed (**hold**).
+- Verified 2026-10-14.

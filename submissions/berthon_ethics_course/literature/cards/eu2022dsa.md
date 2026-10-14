@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit5/M2/32
 sha256: 78dbfc505e1c68357be3b2bff66f8ea075b025b8c3062d7ac7bf3202e4cdf4c0
 manuscript_lines: [167, 173, 177, 225, 237]
 ledger_rows: [P1-003, P5-017, P5-018, P5-021, P5-023, P5-028, P5-030, P5-031, P5-037, P6-024, P6-036, P6-037, P6-038]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -96,3 +96,9 @@ allocation, SME exemption
   party. Source: Arts 20, 21(2). **holds.**
 - **Line 369, reference entry** "Regulation (EU) 2022/2065 ... of 19 October 2022 (Digital Services Act).
   *Official Journal of the European Union*, L 277, 27.10.2022." **holds** against the OJ header.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `audit5/M2/32022R2065.txt`: matches. Header confirms OJ L 277/1, 27.10.2022, Regulation of 19 October 2022.
+- Checked Arts 19(1), 20(1), (4), (6), 21(1), (2), (3)(a), (4) (90/180 days), (5), and 93(2): all quotations exact.
+- Use verdicts confirmed: l. 167 (three uses) hold; l. 173 binding-settlement quotation exact at art. 21(2) third subpara.; l. 173 "cost falls on the weaker party" does not hold for the DSA bodies (Art 21(5)); l. 177, 225, 237 hold.
+- Bib disagreements: bib title abbreviated; bib note records an earlier read on springlex.eu. Manuscript entry matches the OJ header.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C1_historica
 sha256: 9399d085739996be70faf22fa11990db1d0a1e051800ba87a954456f52fc4337
 manuscript_lines: [83]
 ledger_rows: [P3-044, P3-045, P3-046, P3-070]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -91,3 +91,9 @@ primary education, compulsory schooling, Brahmin teachers, education cess, femal
   1884). **narrower** on the title: the volume prints it as "A Statement for the information of the Education
   Commission" under "Memorials addressed to the Education Commission". Author's call whether to keep the
   reprint's title.
+
+## Verifier notes
+- 2026-10-14. sha256 of the 1884-volume OCR recomputed: matches. No DOI; no Crossref record expected.
+- In the OCR: title page "EDUCATION COMMISSION, BOMBAY ... Vol. II"; heading "A Statement for the information of the Education Commission"; running folios 140-145 (folio precedes its page's text). Confirmed on p. 142: "Makars [Mahars], Mangs, and other lower classes are practically excluded from all schools owing to caste prejudices", special schools "only in large towns", one Poona school under 30 boys, the Queen's Proclamation sentence, compulsion "at least 1£ [12] years", Brahmin teachers. Girls' school c. 1854 and Mahar/Mang school on pp. 140-141. Signature "Idth October 1882" on p. 145.
+- Line 83 verdicts confirmed: quotation exact apart from OCR noise; date, Proclamation **holds**; "tolerated" **narrower** (Government opened some special schools). Reference line 359 verdicts confirmed.
+- Bib/manuscript disagreement: both give the title "Memorial Addressed to the Education Commission"; the 1884 volume prints "A Statement for the information of the Education Commission". The bib's howpublished names the Round Table India reprint as the source, while the manuscript cites the 1884 volume.

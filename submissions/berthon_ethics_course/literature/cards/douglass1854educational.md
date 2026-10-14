@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C/md.txt
 sha256: b6fe2772a3b3b1c1c5fd4028dec5742e1d4884991d86c113d9f8b72adaaf4019
 manuscript_lines: [81]
 ledger_rows: [P3-036, P3-037, P3-038]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -34,7 +34,7 @@ Margaret Douglass, a Southern white woman living in Norfolk, Virginia, gives a f
 - Imprint. The title page reads "Boston: Published by John P. Jewett & Co. Cleveland, Ohio: Jewett, Proctor & Worthington. 1854" (l. 40-44). The bib has "Jewett and Worthington", and the manuscript's entry has "John P. Jewett". The copyright notice is entered in the Eastern District of Pennsylvania.
 - The page for the address is inferred. AUDIT_01 C12 notes that the OCR page heads are damaged (`audit/AUDIT_01.md`:91), and ledger P3-037 infers p. 36 from the following head "37". The head just before the passage reads "3G EDUCATIONAL LAWS OF VIRGINIA" (l. 1237), which is an OCR rendering of an even-page head and fits p. 36.
 - AUDIT_01 C13 corrected facet C's attribution of a reprinted press passage (p. 41): it comes from the Norfolk *Argus* of 9 February 1854, not the Petersburg *Daily Express* (`audit/AUDIT_01.md`:92). The manuscript does not use that passage.
-- Her objection is limited. In the same address she says she would be a slaveholder again "if I felt so disposed" and promises to teach "the colored race humility ... their duty to their superiors" (l. 1145-1146; p. 36). She objects to the anti-teaching law, not to slavery.
+- Her objection is limited. In the same address she says she would be a slaveholder again "if I felt so disposed" (l. 1144-1146, p. 33) and promises to teach "the colored race humility ... their duty to their superiors" (l. 1240-1244, p. 36). She objects to the anti-teaching law, not to slavery.
 - Facet C counts her, with Frederick Douglass, as a named contemporary objector (`facets/C_literacy_withheld.md`:236). Facet M4 notes that a recorded objection shows the thought was available at the time, and also marks that standard's limit (`facets/M4_ethical_frameworks.md`:129).
 
 ## Key topics covered
@@ -44,3 +44,9 @@ anti-literacy laws, Virginia, Norfolk, free Black children, teaching to read, cr
 - l. 81: "Margaret Douglass, a white woman prosecuted in Norfolk in 1853 for teaching free Black children to read". Takes the fact of the prosecution. pp. 21-22 and the title page. **holds**: the presentment of June 1853 and the summons are reprinted. That she was white rests on her self-description and on the statute under which she was charged ("If a white person ...").
 - l. 81, quotation: she "told the court that she would be 'a single sufferer under the operation of one of the most inhuman and unjust laws that ever disgraced the statute book of a civilized community'" (M. Douglass, 1854, p. 36). Exact-string check: **exact in the words**. The raw OCR line carries marginal noise ("operation ei of one"), which is a scanning artefact, and the words run in the same order. p. 36, inferred from the page heads. **holds**. She addressed the jury in open court, so "told the court" is fair.
 - l. 81: "She served a month in jail." Title page; p. 44; the closing narrative (l. 1757-1762). **holds**.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `C/md.txt`: matches. Checked the title page and imprint (l. 1-56), pp. 10-11, 21-22, 33, 36-37, 44, 50 and the reprinted Sec. 32 against the OCR text; every key fact and quotation is present.
+- Corrected one locator in Critical notes: the "slaveholder ... if I felt so disposed" passage sits on p. 33 (OCR head "38" at l. 1133 is p. 33; heads 34-36 follow at l. 1168, 1203, 1238), not p. 36. Only the "humility ... superiors" passage is on p. 36.
+- The l. 81 quotation is exact in the words on p. 36 (head "3G" at l. 1238, next head 37 at l. 1273); "holds" confirmed for all three uses. Page 36 rests on OCR heads, not a page image.
+- Bib disagreements: bib title stops after "Mrs. Margaret Douglass" (subtitle omitted); bib publisher "J. P. Jewett; Cleveland: Jewett and Worthington" vs title page "John P. Jewett & Co. ... Jewett, Proctor & Worthington"; manuscript gives "John P. Jewett" (omits "& Co." and the Cleveland co-publisher).

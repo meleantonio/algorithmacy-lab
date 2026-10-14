@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C1_historica
 sha256: 4b1f3577c68c34b24a9f68c735c5d43f1ae7fd6e7682070b3ebfe43a949e7c8c
 manuscript_lines: [57]
 ledger_rows: [P2-043, P2-044]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -79,3 +79,9 @@ Reconstruction-era West Virginia, autobiography
 - **Line 395, reference entry** "Washington, B. T. (1901). *Up from slavery: An autobiography*. Doubleday,
   Page." **holds**: title page confirms Doubleday, Page & Co., New York, 1901, and p. 30 matches that edition.
   The bib entry (`references.bib:1947`) still gives Sun Dial 1937 and should be brought into line.
+
+## Verifier notes
+- Opened the 1901 Doubleday, Page text (sha256 matches): title page "DOUBLEDAY, PAGE & CO. / 1901", "Copyright, 1900, 1901"; Preface names the *Outlook*.
+- Chapter II "Boyhood Days" opens "AFTER the coming of freedom" on p. 23 (exact, case aside). Folio 29 precedes "This experience of a whole race ..."; folio 30 precedes "As I have stated, it was a whole race trying to go to school. Few were too young, and none too old". Bible and "intense longing to learn to read" quotations exact.
+- Line 57 quotation exact at p. 30 of the 1901 edition; verdict holds.
+- Bib disagreement: bib gives Sun Dial Press, 1937, and an archive ID for that printing; manuscript gives Doubleday, Page 1901, which the scan confirms. Date 2026-10-14.

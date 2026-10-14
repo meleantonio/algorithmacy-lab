@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/G/almeida.tx
 sha256: 7285a3321daa10cbc3c1d41f23e54e2c6143b5ce1ead853ffa40c3795865a526
 manuscript_lines: [97, 121]
 ledger_rows: [P3-063, P3-064, P4-039, P4-040, P5-024, P6-015, P6-050]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -46,3 +46,9 @@ Castilian notariat, Pragmática of Alcalá 1503, notarial registers, signatures 
 - l. 97: "and required a witness to sign for a party who could not". Source p. 24. **narrower**: the law allows "qual quiera de los testygos, o otro que sepa escrivir", any witness or another person who can write.
 - l. 121: "Illiterate people used notaries for their own ends". Source pp. 24–25, 29 (illiterate grantors executing acts, witnesses signing at their request). **narrower**: "for their own ends" is the manuscript's inference; the source records participation, not motive.
 - l. 121: "the Castilian registers Almeida Cabrejas studied are full of witnesses signing at the request of parties who could not (2019, p. 29)". Source p. 29 ("muy frecuente"). **narrower**: the frequency holds; the corpus is notarial documents in CODEA, not registers.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of almeida.txt: matches. Re-read pp. 21-30 and 38-39 in the text extraction.
+- Confirmed the 932 documents (p. 22), CODEA 2273 Ávila 1504 (p. 23), the Pragmática of 7 June 1503 and the "registro" (pp. 23-24), the Marchant Rivera quotation and the *Recopilación* ley XIII p. 877 (p. 24), the "falsas firmas" not meant to deceive (p. 27), "muy frecuente" (p. 29) and "aún insuficientes" (p. 39).
+- Exact-string check of "las lean presentes las partes e los testigos" (l. 97): EXACT after whitespace normalisation. All five use verdicts confirmed, including the two "narrower" ones (any witness or another literate person may sign; the corpus is CODEA documents, though the formulas themselves cite the notary's "registro").
+- Bibliographic: author, title, journal, 33(1), pp. 21-41 and DOI agree across the PDF running footer, the manuscript and references.bib. Crossref's record swaps volume and issue (volume "1", issue "33"); the PDF reads 33/1, so the manuscript is right.

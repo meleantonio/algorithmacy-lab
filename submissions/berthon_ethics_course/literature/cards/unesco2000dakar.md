@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/F/dakar_hrli
 sha256: accf887139d2ca382c5da71c05243bb289259ca60f223219a4359eaaaa843aa2
 manuscript_lines: [109]
 ledger_rows: [P4-019, P1-033]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -84,3 +84,9 @@ Education for All, Dakar goals, adult literacy target 2015, gender and literacy,
   obligation" (para. 2). **holds**. That the target was missed rests on UNESCO (2015), not on this text.
 - Reference entry (line 405): the title and author match the text. The publisher (UNESCO) matches facet F:197.
   **holds**.
+
+## Verifier notes
+- Opened `dakar_hrlib.txt` (sha256 matches) and the bice copy. All seven key-fact quotations exact at the line numbers given; para. 7 "collectively commit ourselves" confirmed at hrlib line 74.
+- Line 109 quotation "Achieving a 50 per cent improvement in levels of adult literacy by 2015": exact (goal 4 heading, capital A; para. 7(iv) lower case). Holds.
+- "Far short" (Expanded Commentary para. 4) refers to the Jomtien vision as a whole; confirmed. My arithmetic agrees: 1.5 x 81.12 = 121.68.
+- Bib, manuscript entry and card agree (World Education Forum, 2000, UNESCO). Mirror copies only; the unesdoc original was not reached. Date 2026-10-14.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/cards/unesco
 sha256: 4ed41384c1a1bf1fd1bd0a346c3c90f8863ce9263e9857c0456a4d3708f25509
 manuscript_lines: [109, 139]
 ledger_rows: [P4-020, P4-059]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -77,3 +77,9 @@ Education for All, Dakar Framework, EFA goals 1-6, adult literacy target, illite
   p. 31 (campaigns portray illiteracy as a "social illness" to be "eradicated"); pp. 6, 29 (target missed).
   **narrower**: the GMR records and criticises the cure framing and the missed target; it does not itself present
   literacy as a cure for a structural condition.
+
+## Verifier notes
+- Opened the official Summary PDF (sha256 matches) and re-extracted the cited pages with pdftotext; printed p. n = PDF p. n+1 confirmed from folios (pp. 6, 7, 13, 29, 30, 31).
+- Exact-string checks: line 109 quotation "which means the Dakar target of halving illiteracy was not achieved" and the 18%/14% figures at p. 6; "Only 17 out of the 73 countries" p. 7; cohort sentence p. 29; Malawi "remained constant at 49%" p. 30; "social illness"/"eradicated"/"stigmatize"/"major impact globally" p. 31; "qualified success" p. 13. All exact.
+- Uses: line 109 holds; line 139 narrower (the GMR criticises the cure framing, it does not adopt it). Confirmed.
+- Bib: entry still cites the blaetter.de reproduction and calls the official PDF walled; the official Summary is now read. Title, year and publisher agree. Date 2026-10-14.

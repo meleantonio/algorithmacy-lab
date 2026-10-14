@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M4/mittelsta
 sha256: 55bc8c06d101c2b74ac10e16894be2ef4ce210213922351fc09ec16755dbed94
 manuscript_lines: [229]
 ledger_rows: [P6-025]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -46,3 +46,10 @@ AI ethics principles, principlism, medical ethics, fiduciary duty, professional 
 ## Where the manuscript uses it
 
 - **Line 229**, "The duties are worth what their enforcement is worth. Mittelstadt (2019) argued that principles alone cannot guarantee ethical AI." Takes the thesis that principles need enforcement. The title, abstract and §2.4 ("Without complementary punitive mechanisms ... false assurances") support it. **holds**. No journal page is cited, and none can be checked in the preprint.
+
+## Verifier notes
+- 2026-10-14. sha256 of `mittelstadt2019.txt` recomputed: matches. Crossref 10.1038/s42256-019-0114-4: Mittelstadt, Brent; *Nature Machine Intelligence* 1(11), 501-507; 2019. Matches bib and manuscript.
+- All eight key-fact quotations found verbatim in the preprint text, in the sections given (abstract/§1; §2.1; §2.4 for the meta-analysis and "false assurances"; §3 for "costs developers nothing", recommendations 3-4 and "not been an unqualified success").
+- The "Word file dated 30 October 2019" claim confirmed from the local PDF metadata (Microsoft Word, CreationDate 30 Oct 2019).
+- Line 229 use re-read: **holds** confirmed.
+- Bib disagreement: bib note says read in part (abstract, intro, §2.1); the card and this check cover the full preprint text.

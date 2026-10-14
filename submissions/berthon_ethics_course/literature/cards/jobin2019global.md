@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit5/M4/jo
 sha256: 55b194a2240867dd6b8b8618d84d58c33b335b31b6b22076863a6fc9b6d1551e
 manuscript_lines: [13, 185]
 ledger_rows: [P1-001, P1-005, P1-006, P1-007, P1-008, P5-038, P5-039]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -49,3 +49,9 @@ AI ethics guidelines, scoping review, grey literature, principles convergence, t
 - **L185**: "The guidelines Jobin and colleagues counted are largely the industry's own". **does not hold**: companies and private-sector alliances issued 23 of 84 (about 27%) (p. 3), and the authors stress the "nearly equivalent proportion" of public and private documents (p. 13).
 - **L185**: "and non-maleficence leads them". **does not hold**: transparency leads (73/84). Non-maleficence ties with responsibility at 60/84 (p. 7). What the paper supports is that non-maleficence references outweigh beneficence's by a factor of 1.5 (p. 9).
 - **L7** (abstract, uncited, ledger P1-001): frameworks "routinely prescribe 'AI literacy' and explanation as the main safeguards". **narrower**: the paper supports transparency and explanation as the most frequent principle (pp. 7-8), but "literacy" does not occur in it.
+
+## Verifier notes
+- Recomputed sha256 of `jobin.pdf`: matches. Crossref (10.1038/s42256-019-0088-2): Jobin, Ienca, Vayena, *Nature Machine Intelligence* 1(9), 389-399, 2 Sep. 2019. There is no `jobin2019global` entry in `references.bib`, and the manuscript reference omits the DOI.
+- Confirmed in `jobin.txt` (preprint page = form-feed page): 84 documents and 88% after 2016 (p. 3); issuer counts and percentages (p. 3); Table counts 73/68/60/60/47/41 (p. 7); "most prevalent principle" (p. 7); "minimize harm", "increased disclosure", "'in non-technical terms'" (p. 8); "factor of 1.5" (p. 9); "nearly equivalent proportion" (p. 13); the gap sentence (p. 14, printed "crosssection"); limitations (p. 17). "literacy" does not occur.
+- All use verdicts confirmed: L13 first-duty and "scholars" **narrower**; 84 and 60/41 **hold**; L185 "largely the industry's own" **does not hold** (companies 19 + private alliances 4 = 23/84); "non-maleficence leads them" **does not hold**; L7 **narrower**.
+- The NMI version was not opened; pin cites remain preprint pages, as the card says. Verified 2026-10-14.

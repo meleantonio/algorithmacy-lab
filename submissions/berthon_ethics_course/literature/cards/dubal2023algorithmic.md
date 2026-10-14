@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M2/dubal.txt
 sha256: dedc180c557dffe226d47f83069d5fed0751c4795fe87381a65af66e977676bb
 manuscript_lines: [155, 185, 223, 229]
 ledger_rows: [P3-035, P5-003, P5-004, P5-042, P6-018, P6-029]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -46,3 +46,9 @@ algorithmic wage discrimination, ride-hail, on-demand labor, ethnography, GDPR A
 - l. 185: "Contemporaries condemn the practice ... drivers, the scholars who study them, and legislators (Rosenblat & Stark, 2016; Dubal, 2023; Muldoon & Raekstad, 2023)". Takes Dubal as a scholar who condemns opaque algorithmic pay. Abstract p. 1929 and p. 1989. **holds**: the practice "runs afoul of" wage-fairness precedent, and she proposes a ban.
 - l. 223: "Dubal (2023) reports what happens when workers try to build such records under present law: the data requests help contest individual errors and have not changed the firms' practices." pp. 1982, 1984-1986. **narrower**: the error-contesting benefit belongs to data cooperatives (Driver's Seat, WeClock, p. 1985), not to data requests. Of the requests she says they are "by themselves ineffectual" (p. 1984). "Have yet to change firm practices" (p. 1982) is said of transparency efforts generally. No page is given.
 - l. 229: "Some practices may warrant prohibition instead; Dubal (2023) argues as much for individualized pay." p. 1989 (also p. 1940). **holds**: "a statutory or regulatory nonwaivable ban on algorithmic wage discrimination, including ... a ban on compensation through digitalized piece pay". The manuscript gives no page; p. 1989 would serve.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `M2/dubal.txt`: matches. Checked every key-fact quotation (normalising ligatures and line-break hyphens) and its page from the running heads: pp. 1929, 1940, 1982, 1983, 1984, 1985, 1986, 1989 all confirmed; "most frequently proposed" opens Part III.A on p. 1979.
+- Bibliographic: Crossref resolves 10.2139/ssrn.4331080 to the SSRN record only (no journal data). The Columbia Law Review article page shows "Vol. 123 No. 7", so issue 7 is now confirmed from the publisher; the local copy's last page is 1992 (Conclusion, TOC), consistent with 1929-1992.
+- Bib disagreements: bib has no issue and an open page range ("1929--"); manuscript has 123(7), 1929–1992 and no DOI; the bib DOI is the SSRN one.
+- Use verdicts confirmed: l. 155 quotation exact (p. 1984), holds; l. 185 holds; l. 223 narrower (error-contesting is said of data cooperatives, p. 1985, not of data requests); l. 229 holds (p. 1989).

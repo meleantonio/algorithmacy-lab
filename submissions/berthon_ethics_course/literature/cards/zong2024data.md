@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C3_scholarly
 sha256: 3452b3409c4a1fd8bfa0ddf4fe80ce6de7baf4f9551fed6f3774b1238781e4ea
 manuscript_lines: [205]
 ledger_rows: [P6-004]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -89,3 +89,9 @@ data refusal, refusal from below, feminist standpoint theory, refusal as design,
 - Reference entry (line 411): authors, title, journal, volume, issue and DOI match Crossref and the article. ACM
   gives the article number (Article 10, 23 pages) rather than page numbers, and its pages print as 10:1-10:23.
   The entry's "1-23" follows Crossref. **holds**, but APA style for ACM journals would give "Article 10".
+
+## Verifier notes
+- Opened `zong2024matias.pdf` (sha256 of the extraction also matches); PDF p. n = 10:(n-1) confirmed from running folios. Crossref: Zong and Matias, *ACM J. Responsible Computing* 1(1), pages 1-23, online 2024-03-20; CC BY 4.0 on the PDF.
+- Key facts exact at the locators given: 10:1 standpoint and "saying “no” to how data are collected or used"; 10:2 designers-and-policymakers critique and North American focus; 10:5 refusal as design; 10:8 consent criteria; 10:10 IBM; 10:12-10:13 placating offers; 10:14 small costs; 10:15 Benjamin's "coercive" sentence; 10:19 "actively and genuinely support".
+- Verdicts confirmed: line 205 narrower (the paper writes from below and warns that collector-designed opt-outs placate); the no-penalty support at 10:15 exists but is not cited.
+- Bib: `references.bib` has no entry for this work. Manuscript entry agrees with Crossref; ACM numbers the article as 10. Date 2026-10-14.

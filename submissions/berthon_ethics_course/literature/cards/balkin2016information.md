@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/balkin_ya
 sha256: 188d67b0a2a4f1f15ee4d807fcedde977f43f30a3478b0d455870351270bb91f
 manuscript_lines: [199]
 ledger_rows: [P5-049]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -42,3 +42,8 @@ Information fiduciaries, duty of loyalty, duty of care, First Amendment and priv
 ## Where the manuscript uses it
 - l. 199: "Balkin (2016) proposed treating platforms as information fiduciaries with duties of loyalty to their users." Takes the proposal and its loyalty duty. Source p. 1186 (thesis), pp. 1207–1209 (loyalty; definition), p. 1232 ("care and loyalty"). **holds**, with two qualifications from the source: Balkin's class is "online service providers and cloud companies", wider than platforms, and he says their loyalty duties may be "considerably narrower" than a professional's (p. 1225).
 - l. 199 (implied): an intermediary between a driver and a rider "cannot be loyal to both in the fiduciary's sense". Source pp. 1232–1234 (fiduciary model stops at non-users). **cannot check (basis)**: the sentence is the manuscript's own argument; Balkin does not discuss two-sided loyalty in the pages read.
+
+## Verifier notes
+- 2026-10-14: sha256 of local_path recomputed, matches. No Crossref record (title search returns nothing matching). Title page of the PDF reads UC Davis Law Review vol. 49, no. 4, April 2016, starting p. 1183; the last page (PDF p. 52) is 1234. Bib disagreement: MANUSCRIPT_v2.md l. 269 and references.bib omit the issue number (4) that the card gives; otherwise authors, year, title, volume and pages agree.
+- The text file has no page numbers; I mapped printed page = 1182 + PDF page (checked against the 1183 folio and the table of contents) and confirmed all eight key-fact quotations at the pages given (1186, 1207, 1207–08, 1209, 1221, 1225, 1227, 1226, 1233–34), plus the summary's "not an identity" (1225), "unexpected ways to the disadvantage" (1227), and "can only take us so far" (1233).
+- Use 1 (holds, with Balkin's wider class and narrower-duties qualification) confirmed. Use 2 (cannot check) confirmed: it is the manuscript's own argument; Balkin's Uber story (p. 1187) concerns tracking of drivers and riders, not two-sided loyalty.

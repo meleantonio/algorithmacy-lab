@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/F/jomtien_dj
 sha256: 3d86c916f0d7ded466480d9c2269c999e68304d40ee9c705d107bba766563489
 manuscript_lines: [109]
 ledger_rows: [P4-016, P4-017, P1-033]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -89,3 +89,9 @@ Education for All, basic learning needs, adult illiteracy, target setting, natio
   Jomtien, the conference proposed dimensions for national targets and did not set a world target (para. 8).
   **narrower**. The phrase fits Dakar's collective commitment better than Jomtien's proposal.
 - Reference entry (line 403): the title, year and "Inter-Agency Commission" match the ERIC record. **holds**.
+
+## Verifier notes
+- Opened `jomtien_djvu.txt` (sha256 matches). ERIC header: Inter-Agency Commission, New York; sponsors UNICEF, UNDP, UNESCO, World Bank; Apr 90; 39 pp.; Jomtien 5-9 March 1990. ERIC API confirms ED325962, 1990, same title.
+- All key-fact quotations exact (Preamble 960 million; one-third of adults; Article 1; paras 4, 8, 9 (OCR "g"), 15).
+- Line 109 quotations "may wish" and "to, say, one-half its 1990 level by the year 2000" exact; the source's subject is the adult illiteracy rate. Verdicts confirmed, including narrower for the world-rate yardstick and for line 21.
+- Bib note: ERIC lists the distributor as the WCEFA Liaison at the World Bank, Washington; the bib and manuscript give the Inter-Agency Commission, New York, which matches the ERIC institution field. Date 2026-10-14.

@@ -5,7 +5,7 @@ authors: "{Waitangi Tribunal}"
 year: 2014
 type: report
 doi: null
-venue: "Waitangi Tribunal report Wai 1040; Legislation Direct, Lower Hutt, New Zealand (ISBN: see last bullet)"
+venue: "Waitangi Tribunal report Wai 1040; Legislation Direct, Lower Hutt, New Zealand (ISBN 978-1-86956-308-0 per Open Library; the imprint misprints it, see last bullet)"
 source_basis: partial-text
 pages_read: "pp. xxii, 352, 355, 369 (section 7.6.5 heading), 373, 386, 414-415, 417, 421, 506, 514; imprint page"
 source_url: https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_85648980/Te%20Raki%20W.pdf
@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/G/waitangi_w
 sha256: 9ed580988b26b9cd7012554c6d9db53a39e8e841cdacc083e9190e2aa990b58c
 manuscript_lines: [93, 95, 137]
 ledger_rows: [P3-054, P3-055, P3-056, P3-057, P3-058, P3-059, P3-060, P3-061, P4-054, P6-040]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -106,3 +106,10 @@ Henry Williams, Hobson, Colenso, missionaries, consent and understanding, Māori
 - **Line 391, reference entry**: title, Wai 1040 and Legislation Direct match the imprint page. **holds.** The
   printed ISBN reads "978-1-986956-308-0" in my extraction, which has too many digits; the bib's 9781986956308
   and the printed form should be checked against the page image.
+
+## Verifier notes
+- Opened `waitangi_w1040.pdf` (sha256 matches); printed = PDF - 26 confirmed from folios on every page cited; p. xxii found at PDF p. 22.
+- All quotations exact ("sentence by sentence" p. 355, "did not cede their sovereignty" p. xxii, 500/39 p. 386, Ward p. 414, Belich p. 415 on article 2's "rangatiratanga", land holdings p. 417, Broughton p. 506, "may have been honest ... must, however, have known" p. 514, Colenso pp. 352/373, "morning of 6 February" p. 421). Two hits needed only a footnote numeral removed.
+- Verdicts confirmed, including narrower for "he held land", Belich's "choice of terms", and line 137.
+- ISBN resolved: the imprint page image also prints the misprint "978-1-986956-308-0". The bib's 9781986956308 fails the ISBN-13 check digit. Open Library records this report under 978-1-86956-308-0 (valid). I updated the venue field; the bib ISBN needs correcting (author's call).
+- Date 2026-10-14.

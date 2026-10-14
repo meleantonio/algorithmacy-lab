@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/D/us395-285.
 sha256: 182965eb600cc713930c34a65f60f5e1b36b0001a79021cf1205bc67ff045f95
 manuscript_lines: [69, 185]
 ledger_rows: [P3-009, P5-040]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -42,3 +42,9 @@ Voting Rights Act 1965 §4(a), literacy tests, North Carolina, segregated school
 - l. 69, quotation: "In *Gaston County v. United States* (1969), the Court refused to let a county reinstate a literacy test after it had maintained 'separate and inferior schools' for its Black residents." Exact-string check: **exact** ("separate and inferior schools", syllabus p. 285, pp. 287, 293). **holds**. Precisely, the Court affirmed the denial of the County's suit because it had not carried its §4(a) burden. The manuscript gives no pin cite, and "at 293" would serve (ledger P3-009).
 - l. 69: "The states that tested for reading had run the schools." pp. 293, 295-297. **holds** for this case, where the State's constitution set the test and the County ran the schools. The Court's formula is "the State or subdivision".
 - l. 185: "A firm that ... keeps a decision procedure its subjects can neither foresee nor contest stands where the state stood in *Gaston County*: it tests for a competence under conditions it has itself arranged." pp. 296-297. **holds** as an analogy to the Court's reasoning: "'Impartial' administration of the literacy test today would serve only to perpetuate these inequities". The party before the Court was the County, so "the state" is loose; l. 69 says "county" (ledger P5-040).
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `D/us395-285.txt`: matches. Header confirms No. 701, argued 23-24 April 1969, decided 2 June 1969, 395 U.S. 285.
+- Checked syllabus p. 285, pp. 287, 293, 294-295, 296-297 and the Black J. notice: all quotations present ("Impar-tial" hyphenated across a line).
+- Use verdicts confirmed: l. 69 quotation "separate and inferior schools" exact (pp. 285, 287, 293), holds; l. 69 "states ... ran the schools" holds; l. 185 holds as analogy, "the state" loose against the County.
+- Bib disagreements: none with the manuscript; the bib note says read in part (pp. 288, 293-296) where the card reads all.

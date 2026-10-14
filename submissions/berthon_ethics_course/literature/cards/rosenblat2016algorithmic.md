@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/v3_ledger/ro
 sha256: 1fab73a79546496c5bf0a9a4bd8613cebeffaf57f9c0b06e537d1d6220443788
 manuscript_lines: [17, 136, 137, 143, 185]
 ledger_rows: [P1-029, P1-030, P1-031, P1-032, P4-051, P4-055, P4-067, P5-041, P6-048]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -94,3 +94,9 @@ algorithmic management, Uber, ride-hail drivers, information asymmetry, blind ri
   2016, among others). Drivers' "strong distrust" of rate cuts and explanations (p. 3764), distrust over unilateral
   rates (p. 3765), "Uber's robots" (p. 3771), and the authors' own critique (p. 3777). **holds**, at the level of
   complaint and critique; the drivers do not use the paper's vocabulary.
+
+## Verifier notes
+- 2026-10-14. sha256 recomputed: matches. First page prints "International Journal of Communication 10(2016), 3758–3784"; no DOI on the article. Journal pages read from the running heads.
+- All key facts found on the pages given: 3759-3760 (data, "1,350", seven interviews, caveat), 3760 (commission), 3761 ("technology services provider"), 3762 (15 seconds; no destination or fare), 3763-3764 (undisclosed and opaque criteria), 3765 ("objective, third-party witness ... conclusive"), 3771 (template responses; Philippines), 3775 ("unable to protest successfully"), 3777 ("the equivalent effects").
+- Line 17, 136, 143 quotations exact; line 17 and 137 **narrower** verdicts confirmed (p. 3771 is about inquiries in general and silent on records). Line 185 **holds** confirmed.
+- Bib disagreement: `references.bib` has no entry for this work. The manuscript entry (IJOC 10, 3758-3784) matches the PDF.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C2_law/cap_w
 sha256: 57c47bbc0b40bf220d16ba5a2a6de554a99339d34dcb653462ba10117117b3ba
 manuscript_lines: [167, 235]
 ledger_rows: [P5-022, P6-031]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -87,3 +87,9 @@ signer, consumer credit, UCC § 2-302, installment sales, consent
   **exact** substring (at 449). **holds.**
 - **Line 397, reference entry**: 350 F.2d 445 (D.C. Cir. 1965) matches the reporter citation and court.
   **holds.** Pin cite 449 is available if the author wants it.
+
+## Verifier notes
+- Opened `cap_walker.txt` (sha256 matches). Star-page markers ([[PAGE *447]] etc.) checked programmatically: lease and "rather obscure" at 447; $218 stipend at 448; holding, definition, the "obvious education" question and "hardly likely ... consent" all at 449; "precisely where she stood" at 450.
+- Both line 167 quotations and the line 235 quotation exact at 449; verdicts hold. The court took UCC 2-302 as persuasive authority "in view of the absence of prior authority" (confirmed).
+- Header spells "J. SHELLY WRIGHT"; Skelly is correct.
+- Bib (350 F.2d 445, 1965, D.C. Cir.) agrees with the manuscript entry; bib URL is a different (uvm.edu) copy without star pages. Date 2026-10-14.

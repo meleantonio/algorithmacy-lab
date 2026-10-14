@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/E/trc_summar
 sha256: 4aa1e324f6c27fc5b352f5d9ae74d2740c825b4d14f499ec6df93918e06ad3bf
 manuscript_lines: [123]
 ledger_rows: [P4-041, P4-043, P4-044, P4-045]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -82,3 +82,9 @@ residential schools, cultural genocide, assimilation policy, child removal, abus
 - v2 line 123: "and one language of record was enforced". pp. 80-81. **narrower**: the TRC documents English (or
   French) imposed as the language of instruction and speech, with exceptions such as Onion Lake; it does not
   speak of a language of record.
+
+## Verifier notes
+- 2026-10-14. sha256 of `trc_summary.txt` recomputed: matches. ISBN 978-0-660-02078-5 and catalogue no. IR4-7/2015E-PDF found on PDF p. 3. Printed page = PDF page minus 7 confirmed (PDF 9 = p. 2; PDF 66 = p. 59; PDF 69 = p. 62).
+- Key facts confirmed on the pages given: abuse sentence (pp. v-vi), "cultural genocide" (p. 1), Macdonald and the TRC gloss (p. 2), Langevin (p. 58), languages "denigrated and suppressed" (p. 3) and "often prohibited" (p. 4), forced labour (p. 59), "no legal authority", the 1920 amendment, "never compulsory for all", 31.1% (p. 62), Dewdney's English-not-Cree directive (p. 80), Onion Lake (p. 81). No "literacy" or "illitera-" in the text.
+- Line 123 verdicts confirmed: harms and no-blame-on-reading **hold**; "compulsory" and "language of record" **narrower**.
+- Bib: no disagreement with the manuscript entry; bib omits ISBN.

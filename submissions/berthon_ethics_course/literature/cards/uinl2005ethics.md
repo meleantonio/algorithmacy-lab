@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/uinl_d96b
 sha256: e60c4f2975a1d036148d9e4ab915e692a50e0826850d8a5aca056caaec0f2d42
 manuscript_lines: [175]
 ledger_rows: [P5-032]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -77,3 +77,9 @@ notarial ethics, impartiality, independence, duty to both parties, advice and in
 - Reference-list entry (v2 line 385): "Union Internationale du Notariat. (2004). *Principles of notarial ethics*."
   The page's approval date is 17 October 2004. **holds**; the bib key `uinl2005ethics` and its missing year field
   disagree (see key note).
+
+## Verifier notes
+- Opened `uinl_d96bfb.html`; sha256 matches. Stripped the HTML and ran exact-string checks on all seven key-fact quotations (principles 6, 7, 9, 10, final considerations, approval footer): all exact.
+- Line 175 "both parties": principle 9 "safeguarding both parties" confirmed; the weaker-party duty is absent here and present in the 2005 *Principles of the notarial function* (Part IV), which I also opened. Verdict holds for the joint citation.
+- Bib: key year 2005 and missing `year` field disagree with the page (17 October 2004) and with the manuscript's 2004; the reference entry (2004) matches the page.
+- Basis honest: full text of a short web page. Date 2026-10-14.

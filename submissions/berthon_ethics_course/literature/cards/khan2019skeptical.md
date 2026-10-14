@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/khanpozen
 sha256: 41dc8c8e52cf405863a34cbfe05b770501b46f11c0a8e118710cfdf5cc681016
 manuscript_lines: [199, 327]
 ledger_rows: [P5-050, P5-051, P5-052]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -73,3 +73,9 @@ loyalty, divided loyalties, surveillance business models, antitrust, infrastruct
   "contradiction"). **holds.**
 - **Line 327, reference entry**: *Harvard Law Review*, 133, 497-541 (2019). **holds**: the PDF runs from the
   title page at p. 497 to the conclusion at p. 541, with running heads "[Vol. 133:497" and "2019]".
+
+## Verifier notes
+- Recomputed sha256 of `khanpozen.txt`: matches. No Crossref record (no DOI). *Harvard Law Review* 133:497-541 confirmed by running heads. The bib note ("read in part: pp. 498, 502-504") is narrower than this card's reading but not wrong.
+- Confirmed: "remarkably broad support and essentially zero critical pushback" (p. 497); duties "of care, confidentiality, and loyalty" and "more limited" (p. 500); "enervating complacency about issues of structural power" (p. 502); Delaware incorporation (nn. 26-27) and "treat stockholder welfare as the only end" (*Frederick Hsu*, n. 28) on p. 503; "teeters on the edge of contradiction" (n. 32 cites Miller) and "untenable position" (p. 504); "never squarely addressed" (p. 508); pollution model (p. 540); "significant role" (p. 541).
+- L199 quotation exact (p. 504); L199 and L327 verdicts confirmed.
+- Verified 2026-10-14.

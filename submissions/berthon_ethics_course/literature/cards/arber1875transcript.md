@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/B/arber1.txt
 sha256: 25cc92c9ad270656d293f01c53e1065842722ddde8da8389b4832a8958879847
 manuscript_lines: [101, 103, 138, 149, 231]
 ledger_rows: [P4-001, P4-002, P4-003, P4-004, P4-005, P4-010, P4-011, P4-012, P4-057, P4-076, P5-008, P6-030]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -52,3 +52,9 @@ Stationers' Company, 1557 charter, print monopoly, letters patent, search and se
 - l. 138: "A chartered monopoly of print (Arber, 1875)". Source pp. xxx–xxxi. **holds**, with the patentee qualification.
 - l. 149: "The Stationers held printing by a grant that anyone could read." Source p. xxxii (letters patent). **narrower**: a public grant by letters patent is shown; "anyone could read" is not in the source.
 - l. 231: "the form the Stationers' charter gave it". Source pp. xxx–xxxi. **holds** as a reference to the charter's monopoly.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of arber1.txt: matches. Re-read the title page ("PRIVATELY PRINTED. LONDON. 1 January 1875"), the contents table, the charter translation (pp. xxviii-xxxii), Arber's two dating passages, the 1557 arms grant, and the Addendum petition, all in the archive.org OCR with whitespace and line-break hyphens normalised.
+- Confirmed every key fact: the "seditious and heretical books" ground, the monopoly clause with the letters-patent alternative, search and seizure ("seize, take, hold, burn"), three months without bail and a hundred shillings, "the fourth day of May" with "Pat. 3 & 4 Phil. & Mar.", Arber's "4th May 1556", and his bracketed 1557 for "the iiijth and 5th yeares".
+- Page of the petition: I confirmed p. 583 independently. The contents table lists the January 1643 petition at "683" (OCR for 583) and the April 1643 remonstrance at 584-588, and the petition text falls between the markers "I. 582" and "I. 583".
+- Exact-string check of "Monopolizers of Printing the most vendable Bookes of worth and quantity now in use" (l. 103): EXACT. All ten use verdicts confirmed. Title, year, volume and "privately printed" agree with the manuscript and references.bib.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/simmel.tx
 sha256: 9a1228804b30e282d49ffea4f3c5561d726872ea23420b1ca5a6a42688975bb8
 manuscript_lines: [31, 175]
 ledger_rows: [P2-001, P2-002, P2-003, P5-034]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -79,3 +79,9 @@ triad, third party, mediator, arbitrator, non-partisan, impartiality, tertius ga
 - v2 line 175: "A platform that mediates between driver and rider is at once Simmel's third and the driver's
   counterparty". No page given; the chapter is pp. 145-169, the mediator pp. 145-153. **holds** for "Simmel's
   third"; the ledger (P5-034) asks for the page range, which is pp. 145-169.
+
+## Verifier notes
+- 2026-10-14. sha256 of `simmel.txt` recomputed: matches. Copyright page confirms "Copyright 1950 by The Free Press", Glencoe, Illinois. No DOI.
+- Page assignment checked from the OCR running heads (heads open each page; p. 145 has a bottom folio). All key-fact quotations found on the pages given: 145, 148 (mediator/arbitrator; "all cases of mediation"), 149 ("stands above"), 154 (opening of §3, both line 31 quotations; translator's gloss), 155 ("depend on certain conditions"), 162 (divide et impera).
+- Line 31 quotations exact on p. 154; **holds** confirmed (subject is "Both the mediator and the arbitrator"). Line 175 **holds** confirmed; the counterparty role is the manuscript's extension.
+- Bib: no place of publication (Glencoe, IL); otherwise matches the manuscript entry.

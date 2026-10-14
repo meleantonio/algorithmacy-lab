@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/C3_scholarly
 sha256: 45bb4955e4d973ba2745b0a8940d62ffa0d2e57deaeeea5ccd69ef4260a3486b
 manuscript_lines: [203]
 ledger_rows: [P6-001]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -47,3 +47,9 @@ exit, voice, loyalty, organizational decline and recuperation, economics vs poli
 ## Where the manuscript uses it
 - **L203**: "Hirschman (1970) taught a generation to see exit as the customer's first defense." This takes a characterization of Hirschman's teaching. **does not hold**: Hirschman reports exit as the economist's favored mechanism ("widely held to be uniquely powerful", p. 21) in order to criticize that "bias in favor of exit and against voice" (pp. 16-17). His "central point" is that available exit atrophies voice (p. 43). He does describe the exit customer as using "the market to defend his welfare" (p. 15), but he does not teach exit as the first defense. "Taught a generation" cannot be checked from the text.
 - **L203** (the next sentence): "Exit protects no one when every door leads to the same reader." This is offered as a rebuttal, but it restates Hirschman's own argument. In "Competition as Collusive Behavior" (pp. 26-27), exit fails when all firms decline at once and customers flit "from one deteriorating firm to another". The manuscript can cite him in support. **holds** as an idea attributable to Hirschman, not as a correction of him.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `C3_scholarly/hirschman1970_ch1-5_ucsd.pdf`: matches. Printed page numbers checked per PDF page with pdftotext (p. 4 = PDF 10; p. 15 = PDF 21; p. 17 = PDF 23; p. 21 = PDF 27; pp. 26-27 = PDF 32-33; p. 34 = PDF 40; p. 43 = PDF 49; p. 55 = PDF 61).
+- All ten key-fact quotations present at the stated pages, including "widely held to be uniquely powerful" (p. 21, OCR "\videly") and "This is a central point of this book" (p. 43).
+- Use verdicts confirmed: l. 203 first sentence does not hold (Hirschman reports exit-primacy as the economist's bias and criticises it, pp. 16-17, 43); l. 203 second sentence restates his own "Competition as Collusive Behavior" argument (pp. 26-27).
+- Bib disagreements: references.bib has no Hirschman entry; the manuscript entry (Harvard University Press, 1970) matches the title page.

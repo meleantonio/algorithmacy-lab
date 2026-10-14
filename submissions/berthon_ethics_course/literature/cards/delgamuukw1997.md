@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/A/delgamuukw
 sha256: 4780bb0092a9c49d356ae57fb9dcdc3fa19e2eb2d596626c5eaf1910ebfb23d7
 manuscript_lines: [91, 287]
 ledger_rows: [P3-053, P6-040]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -74,3 +74,10 @@ aboriginal title, oral history as evidence, adaawk and kungax, rules of evidence
   **holds**; the case is about proof of land claims, not treaty promises (the treaty point rests on *Marshall*).
 - v2 l. 287 (reference list): "[1997] 3 S.C.R. 1010 (Supreme Court of Canada)". Matches the decision page.
   **holds**.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `A/delgamuukw.txt` (matches) and `A/delg.html` (2fdf6bcf..., matches the source note). The decision-page header in the text gives Date 1997-12-11, Report [1997] 3 SCR 1010, Case number 23799.
+- Bibliographic: manuscript l. 287 and `references.bib` (`delgamuukw1997`, SCC decisions URL item 1569) agree with the card; no disagreement. No DOI applies.
+- Ran every quotation on the card as an exact-string check: all match, and each sits in the paragraph the card gives (para. 6 "nearly 400 pages long"; para. 7 58,000 sq km; para. 87; para. 93; para. 98 three quotations; para. 99; para. 209 McLachlin J. "I concur with the Chief Justice"). The para. 93 phrase "repeated, performed and authenticated at important feasts" is Lamer C.J. quoting the trial judge (at p. 164); the card's wording does not misattribute it.
+- l. 91 quotation: exact match at para. 98. All three use verdicts stand (holds), including the card's caution that the case concerns oral history as proof of title, not treaty interpretation.
+

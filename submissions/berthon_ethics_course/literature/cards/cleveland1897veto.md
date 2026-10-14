@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/cards/clevel
 sha256: c3ac62ca8879d63146ab9f3b8aa2a4061aade2cbddaf9fe18f381462e7d9ae6f
 manuscript_lines: [73, 285]
 ledger_rows: [P3-021, P3-022, P6-043]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -87,3 +87,10 @@ immigration restriction, literacy test, presidential veto, Lodge bill, H.R. 7864
 - v2 l. 285 (reference list): "Cleveland, G. (1897, March 2). Veto message [on a bill to amend the immigration
   laws]. The American Presidency Project." Matches the page title, date and bill title. **holds**; the entry has no
   URL, and the page's permalink is https://www.presidency.ucsb.edu/node/205983.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `cleveland1897_app.txt`: matches. Re-fetched the live APP page (veto-message-31): it carries "March 02, 1897", "House bill No. 7864", the quoted sentence and the node/205983 permalink.
+- Bibliographic: no DOI or Crossref record applies; date, title and bill match manuscript l. 285. `references.bib` has no Cleveland entry (confirmed by grep), as the card says. Disagreement: the l. 285 entry gives no URL.
+- Recounted the message's paragraphs (24, salutation and signature excluded, the two quoted bill sections included); every paragraph locator on the card is right. Checked all eight Key facts against the text: confirmed. (The summary's "unruly agitator" is a substring of the source's "unruly agitators".)
+- l. 73 quotation: exact-string match (para. 8). The three l. 73/l. 285 verdicts stand. The message itself does not date Congress's passage; the card already says so and leans on facet D:469 for 1896-97.
+

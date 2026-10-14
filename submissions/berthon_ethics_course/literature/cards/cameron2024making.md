@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/cards/camero
 sha256: 22effa4a8fa8d9568fb44e58e748526b05938d3e9a6ef7315966c8574d8bb335
 manuscript_lines: [155, 281]
 ledger_rows: [P5-005, P5-006, P6-048]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -77,3 +77,9 @@ algorithmic management, manufactured consent, ride-hailing, gig economy, engagem
   knowledge or about terms the worker cannot alter.
 - v2 l. 281 (reference list): ASQ 69(2), 458-514, DOI 10.1177/00018392241236163. Crossref record: title, author,
   volume 69, issue 2, pages 458-514. **holds**.
+
+## Verifier notes
+- 2026-10-14. sha256 of `local_path` matches. I re-fetched the Crossref record anonymously (`pdfs/verify/cameron2024_crossref.json`): Cameron, Lindsey D.; ASQ 69(2), 458-514; online 2024-03-14, print June 2024. This matches the card, the manuscript (v2 l. 281) and `references.bib`.
+- All 13 abstract quotations on the card were string-checked against the abstract. All match except one character: the abstract reads "human–algorithm" with an en dash, and the card has a hyphen.
+- I confirm the use verdicts. At l. 155, "use that knowledge in tactics of engagement" is narrower, because the abstract describes engagement as following nudges, not as using knowledge. "Elicit consent" holds. The synthesis sentence cannot be checked at abstract depth.
+- Writer-grounded, not true: the card stays within its abstract basis, but the l. 155 uses still need the full text (SAGE paywall; no OA copy found).

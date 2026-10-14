@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/X/johansson1
 sha256: 02e5737c60191d4263de26c5d148c93343c3dd5af295e434414cf1ade1131c18
 manuscript_lines: [57, 121, 323]
 ledger_rows: [P2-041, P2-042, P4-034, P4-035, P4-036, P4-037, P6-042]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -39,8 +39,9 @@ no tables.
   visitation and Catechetical Examination Registers (p. 63).
 - Rural resistance to "costly school systems": reading "had no obvious practical use" and "should not cost
   anything" (p. 63).
-- More than 300 religious titles, mostly translated from German, appear in Västerbotten household inventories;
-  some books occur in about 80 per cent of probate inventories (p. 63).
+- More than three hundred religious titles, mostly translated from German and printed before 1800, "could at
+  that time be found in the homes" of Västerbotten county; some books appear in about 80 per cent of "all the
+  inventories of the deceased" (p. 63).
 - "All Scandinavians could be tested in reading at the time of confirmation, communion, marriage, or
   migration" (p. 64).
 - "confirmation and Holy Communion opened the road to marriage and other social privileges" (p. 64).
@@ -85,3 +86,10 @@ confirmation and marriage, home instruction, Danish-Norwegian rural schools, com
 - **Line 323, reference entry**: *Historical Social Research* 10(2), 60-64, DOI
   10.12759/hsr.10.1985.2.60-64. **holds**: the SSOAR PDF prints this citation and DOI
   (`johansson1985.txt:17-18`).
+
+## Verifier notes
+- Recomputed sha256 of `johansson1985.txt`: matches. DataCite (not Crossref) holds 10.12759/hsr.10.1985.2.60-64: Johansson, *Historical Social Research* 10(2), 60-64, 1985. Bib, manuscript and PDF agree.
+- Mapped every quotation to the printed page markers ("- 6x -"): home instruction, "teacher", Catechetical Examination Registers, "costly school systems", "no obvious practical use" (p. 63); testing at confirmation etc., "opened the road to marriage", "worldly compulsion", "coercion and legalism", "everybody's calling and right" (p. 64). The note on the 1981 congress is on p. 64.
+- Corrected one key fact: the card said the 300+ titles "appear in Västerbotten household inventories". Johansson says they "could at that time be found in the homes"; only the 80 per cent figure is tied to "inventories of the deceased" (p. 63). The bullet now quotes him.
+- All use verdicts confirmed (L57 "Swedish church program" **narrower**: the abstract frames the essay as Sweden but the quoted sentence states Lutheran theology generally; L57/L121 quotations exact; L121 compulsion and marriage **hold**; L323 reference **holds**).
+- Verified 2026-10-14.

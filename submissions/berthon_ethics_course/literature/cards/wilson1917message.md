@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/D/wilson17.t
 sha256: 5f15cf172c96220abcec06c75c83f9c8cc5e5eed3c1534bff6759dd6466b516a
 manuscript_lines: [73]
 ledger_rows: [P3-023, P3-024, P6-043]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -74,3 +74,8 @@ religious persecution exemption, contemporary objection
   (this source)**; supported by the statute text, as ledger P3-024 notes, which also asks for a citation.
 - **Line 401, reference entry**: date 29 January 1917, title and American Presidency Project all match the
   page. **holds.**
+
+## Verifier notes
+- Opened `wilson17.txt` (sha256 matches). All key-fact quotations exact, including the line 73 quotation, H.R. 10384, the date line, "tests of opportunity", the second ground and "even if this test might be equitably insisted on".
+- Override: confirmed in `st39_full.txt` at 39 Stat. 874 (House two-thirds, 1 February 1917; Senate two-thirds, 5 February 1917). The message itself cannot support "Congress enacted it over his veto"; card's "cannot check (this source)" stands.
+- Bib and manuscript entry agree with the page (29 January 1917; American Presidency Project). Date 2026-10-14.

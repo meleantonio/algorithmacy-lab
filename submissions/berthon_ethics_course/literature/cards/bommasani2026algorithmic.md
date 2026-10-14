@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/v3_ledger/bo
 sha256: 46c3e40ba2c41dcac61fd21e4744358f0a87af50beccf202fd0c102df9d989af
 manuscript_lines: [17, 135, 141, 275]
 ledger_rows: [P1-004, P1-028, P4-048, P4-062, P4-063, P4-064, P4-065, P4-066, P6-002, P6-048]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -98,3 +98,9 @@ algorithmic monoculture, outcome homogenization, systemic rejection, hiring algo
 - v2 l. 275 (reference list): FAccT 2026, pp. 6351-6382, DOI 10.1145/3805689.3812400. The PDF's ACM reference
   block gives the title, five authors, FAccT '26 and the DOI (p. 1). **holds**; the page range rests on the
   Crossref record cited in P4-065, which I did not re-fetch.
+
+## Verifier notes
+- 2026-10-14. sha256 of `local_path` (txt) recomputed: matches. The PDF's sha256 also matches the card's prefix (3605725f...).
+- Crossref (10.1145/3805689.3812400), fetched this session: title, the five authors, FAccT 2026 proceedings, pp. 6351-6382, issued 2026-06-25. These match the card and the manuscript's reference (v2 l. 275). `references.bib` still has no entry, as the card says.
+- Every key fact was string-checked against the arXiv text, with the page taken from the form-feed page breaks: dataset counts (p. 2); 156 employers and 11 industries (p. 2); "42 pymetrics models" (p. 3); 4%-of-ten (pp. 1, 3); 10.62% (p. 2) and 25.87% (pp. 1-2); 25 vs 10 applications (p. 3); "pro-actively debias" (p. 3); "may not generalize" and "very likely" (p. 15; "very likely" also on p. 8); Recommendations 1-4 (pp. 13-14). All confirmed.
+- The l. 141 quotation is an exact match (p. 1). I confirm all the use verdicts, including the two narrower ones and the cannot-check on applicant contestation.

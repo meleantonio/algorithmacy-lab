@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M3/bakos.txt
 sha256: 4e3606accfced691346a7982184f18fa2416be91162f6e2127e831c8abdbcd7e
 manuscript_lines: [211]
 ledger_rows: [P6-007, P6-009]
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -40,6 +40,12 @@ An empirical test of the "informed minority" hypothesis in contract law and econ
 Standard form contracts, end-user license agreements, informed minority hypothesis, clickstream data, consumer reading of terms, mandated disclosure, software market, law and economics
 
 ## Where the manuscript uses it
-- l. 211: "Bakos, Marotta-Wurgler, and Trossen (2009) tracked visitors to software retailers". Source pp. 3, 17–19. **narrower**: the visits tracked were to 66 software companies' own sites, 56 sellers and 10 freeware providers; the reported rate is for the sellers.
+- l. 211: "Bakos, Marotta-Wurgler, and Trossen (2009) tracked visitors to software retailers". Source pp. 3, 17–19, 26. **holds** (verifier: was narrower): the panel covered 66 companies, 56 retailers and 10 freeware providers, but the authors themselves report the rate for "visits to software retailers" (p. 26), which is what the manuscript describes.
 - l. 211: "and found that between one and two in a thousand opened the license agreement". Source abstract p. 1 ("only one or two out of every thousand retail software shoppers chooses to access the license agreement"); p. 28 (0.17% at most). **holds**; "opened" means a view of at least one second (p. 26).
-- l. 211: Ben-Shahar and Schneider "quote the conclusion of that research". Source: Bakos et al. pp. 4, 37 state a related conclusion in their own words; the quoted sentence is not in the pages read here. **does not hold** as attribution: the quoted sentence is Marotta-Wurgler's (see benshahar2011failure card).
+- l. 211: Ben-Shahar and Schneider "quote the conclusion of that research". Source: Bakos et al. pp. 4–5, 36–37 state a related conclusion in their own words ("Shoppers do not access EULAs regardless of how accessible they are", pp. 4–5); the quoted sentence occurs nowhere in the working paper (whole-file search). **narrower** (verifier: was does not hold): Ben-Shahar and Schneider introduce the quotation as from "One of the authors of this study, Florencia Marotta-Wurgler" (p. 671), her follow-up paper (n. 129) on the same clickstream visits (120,545 retail visits, as in Bakos p. 26); it is the conclusion of that line of research by a co-author, not of this paper.
+
+## Verifier notes
+- 2026-10-14: sha256 of local_path recomputed, matches. Bibliographic data (NET Institute WP #09-04, August 2009, three authors, title) confirmed on the PDF title page; matches MANUSCRIPT_v2.md l. 267 and references.bib. No Crossref record for the working paper (published version is bakos2014does, not opened).
+- Page convention checked: printed page = PDF page minus 1; the abstract sits on the unnumbered p. 1. All eight key-fact bullets confirmed at the pages given (45,091 and 66 firms pp. 1, 3; 92,411 and January 2007 p. 17; 56 + 10 p. 19; 55 of 120,545, 29 s, one-second access rule, 2,277 words p. 26; 0.17% p. 28; "call into question" p. 4). Minor: source says "8 or 10 minutes", card "8–10".
+- Use 1 overturned narrower → holds: the paper's own phrasing is "visits to software retailers" (p. 26), and the 1–2 per thousand figure is for retail shoppers.
+- Use 3 overturned does not hold → narrower, for consistency with benshahar2011failure: Ben-Shahar and Schneider (p. 671) present the quotation as a co-author's follow-up on the same visits; the sentence is not in this working paper.

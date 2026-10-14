@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M1/vee2013.p
 sha256: 911e2db31ddada504820cf5b2d0726951362c96b56970abfcbb1733cbde6f354
 manuscript_lines: [13, 37]
 ledger_rows: [P1-018, P1-019, P2-015, P2-016, P2-017]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -90,3 +90,9 @@ power and literacy, literacy education, transformative access, Clanchy, Street's
   holding power; the contrast holds best as "Vee does not treat the position as a wrong" (AUDIT_05:192).
 - **Line 389, reference entry**: *Literacy in Composition Studies* 1(2), 42-64, DOI 10.21623/1.1.2.4 matches
   the PDF (first page numbered 42). **holds.**
+
+## Verifier notes
+- Opened `vee2013.pdf` (sha256 matches); PDF p. n = printed 41+n confirmed from folios (42, 54, 55). Crossref (10.21623/1.1.2.4): Vee, *Literacy in Composition Studies* 1(2), 42-64, 2013. Bib, manuscript entry and card agree.
+- Key facts exact at the pages given: Selfe's "rhetorically opportunistic" and "more than just rhetorical flourish" (p. 43), "material intelligence, not yet a literacy" (p. 46), "still call the shots" and the nineteenth-century institutions (p. 49), land laws (p. 50), "power began to shift towards those who could" (p. 51), Graff (p. 54), quotation at p. 55. The van Rossum epigraph sits on p. 42.
+- Line 37 quotation exact at p. 55. Verdicts confirmed: line 13 "already on the table" narrower (programming, not living with algorithms); line 13 "institutional positions ... unexamined" does not hold for Vee (pp. 49-51); line 37 contrast narrower.
+- Date 2026-10-14.

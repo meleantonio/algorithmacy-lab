@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/library/txt/
 sha256: 64f748c4a856a3642556c0c8d1422b30d01099ccf71e6c7d531b440a978ccccf
 manuscript_lines: [57, 111, 113, 139]
 ledger_rows: [P2-045, P2-046, P2-047, P4-023, P4-024, P4-025, P4-026, P4-029, P4-030, P4-031, P4-059]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -55,3 +55,10 @@ literacy myth, nineteenth-century Ontario, Hamilton/London/Kingston, literacy an
 - **L113**: quotes Hodgson through Graff: "the power to read does not in the least determine the use to which it is put" (p. 301), warned "in 1868". Exact-string check: **present, exact**, p. 301 (`chapter7.txt`:1479-1480). The 1868 date comes from Graff's n. 25 ("London, 1868"). **holds**. Hodgson's own text has not been opened.
 - **L113**: "A contemporary named the overselling while it was under way, so the first benchmark is met". **holds** as an inference from p. 301. Hodgson wrote in London, not Ontario (ledger P4-031).
 - **L139** (table, "The promise"): "Literacy as the cure for a structural condition (Graff, 1979…)". Takes the promise and its failure from pp. 320-321 ("contradicted the promoted promises"; "not the benefit to individuals that it was promised to be"). **holds**. The word "cure" is the manuscript's.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `library/txt/chapter7.txt`, `library/chapter7.pdf` (302674b5...) and `library/intro-original.pdf` (de3865f1...): all match.
+- Edition: the pages come from the 1991 Transaction reissue, not a 1979 Academic Press printing. The scans carry the running head "INTRODUCTION TO THE ORIGINAL EDITION" (a label a 1979 printing would not use), sit beside `intro.pdf` (the 1991 "Introduction to the Transaction Edition", pp. xiii-xxxiii), and match the file names of the WAC Clearinghouse posting, which describes its text as the 1991 Transaction "updated edition" (page fetched this session; the PDFs themselves sat behind a bot challenge and were not re-downloaded).
+- Do the pages match 1979? Probably, but not text-confirmed. OpenLibrary records give 1979 Academic Press as "xxii, 352 p." and 1991 Transaction as "xliv, 352 p.": same body extent, with only the front matter enlarged, which fits a reprint of the 1979 body pages. The archive.org copy of the 1979 edition (literacymythlite0000graf) is lending-restricted, so I could not compare pp. 2, 17-19, 301-302, 320-321 against it. Hence writer-grounded.
+- Every quotation and page in the card checked in the 1991 copy: p. 2, pp. 17-18 ("mid-nineteenth century"; Hamilton, London, Kingston), p. 19, p. 287 n. 25 ("London, 1868"), p. 301 with n. 47, p. 302, pp. 320-321. Use verdicts confirmed (cannot check, holds, holds, narrower, holds, holds, narrower, holds, holds, holds, holds).
+- Bib disagreements: the key says 1991 but year and title are the 1979 ones; the 1991 Transaction edition carries a different subtitle ("Cultural Integration and Social Structure in the Nineteenth Century"), and the bib URL (WAC Clearinghouse) serves that 1991 edition. The manuscript cites 1979 Academic Press with the 1979 subtitle; if the pages are kept, citing the 1991 reissue, or stating that its pagination follows 1979, would match what was read.

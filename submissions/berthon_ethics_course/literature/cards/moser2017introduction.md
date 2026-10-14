@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/audit5/M5/mo
 sha256: 2d2ab33676fde17dad4bc5ce499cfdc582e89cec4ec50db5776db325bf89852f
 manuscript_lines: [83, 136]
 ledger_rows: [P3-041, P3-042, P3-043, P4-038, P4-050]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -48,3 +48,8 @@ Valuev Directive 1863, Ems Ukaz 1876, Ukrainian language, Russian imperial censo
 - **Line 83**, "the Ems decree of 1876 tightened the ban until 1905". p. 3 ("an even more rigorous ban"; "stayed in force until the Russian Revolution of 1905", "with minor amendments"). **holds**.
 - **Line 136** (table, "The withheld competence"), "Laws against teaching (Douglass, 1845; Moser, 2017)". **narrower**: Moser documents bans on publishing in Ukrainian and on the language (p. 3), and Russian as the language of instruction (p. 3). He reports no law against teaching anyone to read.
 - Line 121 ("Bans leaked, as Section 3.2 noted") relies on Moser's p. 6 report of Remy only through §3.2 (ledger P4-038). It is not counted above.
+
+## Verifier notes
+- 2026-10-14. sha256 of `moser.txt` recomputed: matches. Crossref 10.21226/T2DK9B: Moser, Michael; *East/West* 4(2), first page 3 (Crossref gives no end page; the PDF runs to p. 7). No disagreement with bib or manuscript.
+- All key facts found on the pages given: directive wording, dates (30/18 July 1863; 30/18 May 1876, Aleksandr II), "even more rigorous ban", "with minor amendments ... 1905", the Miller-sourced quotation and n. 1, the instruction/"peasant language" sentences (p. 3, above the page footer); the Remy passages straddle pp. 5-6 ("frequently prohibited" opens p. 6).
+- Line 83 quotation: matches with Moser's "[i.e., Ukrainian]" replaced by an ellipsis; verdicts **holds** confirmed. Line 136 **narrower** confirmed: no law against teaching anyone to read in Moser.

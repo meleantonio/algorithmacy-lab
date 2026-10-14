@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M2/edwardsve
 sha256: 9569cdc0fce698d0ee3922e706ec80802a78e8a6e52bdcb200f4abf813933ac6
 manuscript_lines: [13, 147]
 ledger_rows: [P1-011, P1-012, P4-073]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -42,3 +42,9 @@ GDPR, right to explanation, Article 22, Article 15(h), machine-learning explaina
 - l. 13: "Edwards and Veale (2017, p. 67) call reliance on individual rights to explanation a 'transparency fallacy'". p. 67. **holds**. Their wording is that such reliance "risks creating a similar 'transparency fallacy'", which is hedged where the manuscript is flat, but the attribution is fair. Exact-string check on "transparency fallacy": **exact**.
 - l. 13, quotation: "Individual data subjects are not empowered to make use of the kind of algorithmic explanations they are likely to be offered." Exact-string check: **exact in the words, but the source sentence continues** ("... offered even if (unlikely as it seems) the problems identified in section III are overcome."). The manuscript closes the quotation with a period that is not in the source. p. 67. **holds**. An ellipsis would mark the cut.
 - l. 147: "Edwards and Veale (2017) show that the explanation a person is offered is one she is poorly placed to use". p. 67. **holds**: "Individuals are mostly too time-poor, resource-poor, and lacking in the necessary expertise". No page is given here; p. 67 would serve.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `M2/edwardsveale.txt`: matches. Running heads ("No. 1] DUKE LAW & TECHNOLOGY REVIEW", pp. 18-84) confirm volume 16, issue 1, pp. 18-84.
+- Checked all six key facts: abstract p. 19 ("at best distracting", restated p. 81), p. 67 (three passages), p. 81 ("group harms"), p. 82 ("creating better systems"). All present; footnote markers 189 and 192 interrupt two strings in the raw text.
+- l. 13 quotation exact in the words but cut mid-sentence, as the card says; l. 13 and l. 147 verdicts (holds) confirmed. "acting for users" is indeed absent.
+- Bib disagreements: bib DOI is the SSRN record (Crossref title for it is garbled: "Why a  Right to Explanationn"); manuscript gives no DOI. Authors, title, venue, volume, issue and pages agree.

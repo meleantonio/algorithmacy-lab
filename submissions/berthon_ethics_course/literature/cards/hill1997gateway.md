@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/cards/hill19
 sha256: 005a8cb116866d867c8ccbc1ec338d4bf5f10881b776cf194d5f6f663f1def32
 manuscript_lines: [171]
 ledger_rows: [P5-025, P4-056]
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -45,3 +45,9 @@ shrinkwrap/"terms in the box" contracts, contract formation by conduct, arbitrat
 - **L171**: quotes "A contract need not be read to be effective". Exact-string check: **present, exact**, as the first clause of a longer sentence ("…; people who accept take the risk…"). No pin cite (unpaginated copy). **holds**.
 - **L171**: quotes "Competent adults are bound by such documents, read or unread". Exact-string check: **present, exact**. No pin cite. **holds**.
 - **L171** (framing): "The notary read the instrument to the parties before they were bound. The modern rule runs the other way". **narrower**: *Hill* is a Seventh Circuit holding, and *Specht* (2d Cir. 2002) conditions assent on reasonable notice (facet M3; P4-056). The opinion does reject pre-contract reading aloud in plain terms ("Cashiers cannot be expected to read legal documents to customers"; recitation "would anesthetize rather than enlighten"). That passage is a closer foil to the notary than the two lines the manuscript quotes.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 of `cards/hill1997_lro.html` (and `M3/hill.txt`): both match. Header confirms No. 96-3294, argued 10 Dec. 1996, decided 6 Jan. 1997, rehearing denied 3 Feb. 1997, Easterbrook J.
+- Checked all nine key facts against the opinion text: every quotation exact, including both l. 171 quotations and the "Cashiers ..." and "anesthetize" passages.
+- Use verdicts confirmed (holds, holds, narrower). Pin cites remain unconfirmed (no star pagination in either copy).
+- Writer-grounded because the cert-denied citation (522 U.S. 808) rests on a secondary record; I could find it only in a case-brief listing, not in a primary record. Bib disagreements: bib URL is the Harvard Cyberlaw copy; otherwise bib and manuscript agree.

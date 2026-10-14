@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/E/fibsi1.pdf
 sha256: cd5966dde4016a3c979cfe19d705cd5bd2e78e682da48e5feef6cc134d26e3ee
 manuscript_lines: [123, 203]
 ledger_rows: [P4-042, P4-043, P4-044, P4-045, P6-003]
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -97,3 +97,9 @@ institutions, Alaska, Hawai'i
 - **Line 355, reference entry** "Newland, B. (2022). *Federal Indian Boarding School Initiative investigative
   report* (Vol. 1). U.S. Department of the Interior." **holds**: cover gives the title, May 2022 and Assistant
   Secretary Bryan Newland. The PDF carries no "Vol. 1" label; the label distinguishes it from Vol. II (2024).
+
+## Verifier notes
+- 2026-10-14. sha256 of `fibsi1.pdf` recomputed: matches. I re-extracted the text (pdftotext) and located each fact by printed page (= PDF page minus 4, confirmed).
+- Confirmed on the pages given: 408 schools / 431 sites / 37 states (pp. 6, 91); "After 1871 ..." and the 1893 ration Act (p. 35); "coerced, induced, or compelled" and "without their parents' consent" (p. 36); languages (p. 7; finding p. 92); labour (pp. 8, 59, 92); "Rampant ... abuse" (p. 56); burial sites at ~53 schools (p. 8); over 500 deaths at ~19 schools (p. 9); "common medium" (p. 40). "literacy" and "forced labor" absent; "read and write" only pp. 65, 71.
+- Cover reads "May 2022"; the transmittal letter carries the date stamp "APR - 1 2022". Line 123 and 203 verdicts (two **narrower**, one **holds**) confirmed; reference line 355 **holds**.
+- Bib disagreements: bib note says "cover and transmittal letter dated 1 April 2022", but the cover reads May 2022 (only the letter is stamped 1 April); bib title and manuscript add "Vol. I"/"Vol. 1", which the PDF does not print.
