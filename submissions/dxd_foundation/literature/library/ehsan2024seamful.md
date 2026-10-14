@@ -1,0 +1,33 @@
+# Ehsan, U., Liao, Q. V., Passi, S., Riedl, M. O., & Daumé III, H. (2024). Seamful XAI: Operationalizing seamful design in explainable AI. *Proceedings of the ACM on Human-Computer Interaction, 8*(CSCW1), Article 119.
+
+**Identifier:** doi:10.1145/3637396 · **Read depth:** partial (arXiv:2211.06753v2, 5 March 2024, 28 pages; I read the introduction, background, design process, study method and §5.1 in full, the discussion and conclusion in full, and sampled §5.2–5.4 and the appendices; page locators are section numbers because the arXiv layout differs from the CSCW version; the version of record may differ in wording) · **Source-tier:** peer-reviewed article (preprint read) · **Evidence basis:** direct_read · **Design and sample:** a three-step design process, built with 4 focus groups of 11 practitioners, then a scenario-based co-design interview study with 43 AI practitioners and end-users (65 minutes each, 2,796 minutes of transcripts, grounded-theory coding) · **Parties modeled:** person–system (a loan officer and a decision-support tool; the applicant is the third party, but the study treats the officer as "the user") · **Facets:** H · **Read:** 2026-10-13
+
+## What it argues
+Ehsan and colleagues carry "seamful design" from ubiquitous computing into explainable AI. They define seams in AI as "mismatches and cracks between assumptions made when designing and developing the AI system and the reality of its deployment context" (§1). Their example: a lending model trained when applicants could hold three active loans refuses a customer with four after a rule change allowed five; the officer who knew of the lag could trigger a manual review (§1). They argue this "why not" understanding "exceeds what is offered by algorithmic explanations" (§1).
+
+The three-step process: envision breakdowns ("what could go wrong?"), anticipate seams by adversarial role-play and a six-stage AI lifecycle, and design with seams by choosing which to reveal on a "Reflection Card" and which to conceal. The filter asks of each seam whether it supports actionability, contestability or appropriation (§3). Strategic concealment is part of the method, not a failure of it (§2.1, citing Inman and Ribes 2019).
+
+Study. 43 participants (24 female; 22 in the US; roles from product manager to loan officer) generated 85 seams; every participant crafted at least one, though only one had known seamful design before; participants chose to reveal 47 of them, 35 of the 47 in deployment stages (§5.1.1). The most-chosen breakdown was "Over-reliance on AI, automation bias, and potential de-skilling" (17 participants). Participants reported the process as teachable and said seams gave them a way to say why the AI could not consider something; the evidence is their quotations. The authors state that the findings "should be interpreted as formative rather than evaluative" (§6, limitations).
+
+## Relation to the argument
+Facet H places seams in candidate move B2. The full text shows what the evidence is: practitioners' reports about a design method, scored by their own comments. No end-user used a seamful interface, and no measure of user action, accuracy or reliance appears. The paper therefore cannot support a claim that seams change what people do; it supports the narrower claim that practitioners find the method workable and expect it to help.
+
+Two features cut against the author's line. First, seams are disclosures of the system's gaps, so under ruling D3 they are literacy-side (reading) interventions, which the author calls a different kind from algorithmacy. Ehsan et al. say so themselves when they define the aim as "user understanding and their agency to take actions" (§2.3). Second, the designers choose what to show, and the paper's "strategic revelation and concealment" leaves that choice with the builder. Under P10 this is a convention the owner holds alone. The paper makes no claim about interests that diverge between builder and user; its premise is that the builder wants the user to act well.
+
+Facet check: facet H lists five authors and gives the CSCW citation; the arXiv v2 text confirms five authors. I found no number in the facet to contradict.
+
+## In conversation with
+The paper's own reference list builds on the ubicomp seamful-design papers (Chalmers 2003; Chalmers et al. 2003, 2004; Broll and Benford 2005) and on Inman and Ribes 2019, "Beautiful Seams". In `references.bib`: `inman2019beautiful` (the concept of strategic revelation and concealment, §2.1). The bib's `chalmers2004seamful` (Chalmers and Galani, DIS 2004) is not in this paper's reference list; the paper cites other Chalmers papers instead; `poursabzi2021manipulating` (cited, with others, for over-trust risk from explanations, §2.2); `lyons2021conceptualising` (contestability, §2.2, ref. 54). The paper also cites Ehsan et al. 2021 on social transparency and Ehsan and Riedl 2021 on explainability pitfalls, which I did not match to bib keys. Leads outside the bib: Rubambiza et al. 2022; Vertesi 2014; Hengesbach 2022.
+
+## Caution
+A formative qualitative study, not a test; participants were self-selected from 258 sign-ups and paid $50; the scenario is one lending case; the end-user is the loan officer, not the person affected. §5.2–5.4 and the appendices were sampled, not read line by line.
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** corrected
+
+**What I checked:** arXiv:2211.06753v2 PDF (5 Mar 2024), pdftotext layout; 12 quotations (all match); about 20 numbers and facts (4 FGDs with 11 practitioners; 43 participants, 24 female, 22 US, US $50, 258 sign-ups; 65 minutes, 2,796 minutes; 85 seams, 47 revealed, 35 of 47 in deployment stages 4-6; N=17 for the de-skilling breakdown; one participant with prior knowledge; three-to-five-loan example; six lifecycle stages; the three filter questions); and the cited works (Inman and Ribes [42], Lyons et al. [54], Poursabzi-Sangdeh et al. [68], Chalmers [11, 12, 13] and Broll and Benford [10] are all in the reference list).
+
+**Findings:** Numbers, quotations and relations match. One change: Read depth said full_text while stating that sections 5.2-5.4 and the appendices were only sampled; changed to partial. Minor: the user-understanding quotation sits in the introduction's contributions discussion, not strictly §2.3 (section 2.3 is "Responsible AI in Practice" and the sentence is at its end or just after); I left the locator and flag it as approximate. Note the paper's "Chalmers 2004" in the bib key is a different paper than the Chalmers 2004 in the reference list (Social Navigation and Seamful Design, by Chalmers, Dieberger, Hook and Rudstrom), as the card says.

@@ -1,0 +1,41 @@
+# Allouah, A., Besbes, O., Figueroa, J. D., Kanoria, Y., & Kumar, A. (2026). What is your AI agent buying? Evaluation, biases, model dependence, & emerging implications of agentic e-commerce. *Proceedings of the ACM Web Conference 2026*, 8697–8700. [Card is of the longer arXiv:2508.02630v3 preprint, not of this four-page companion item.]
+
+**Identifier:** doi:10.1145/3774904.3792943 (version of record, not read); arXiv:2508.02630v3 (read) · **Read depth:** full_text of the arXiv v3 preprint (dated 15 Dec 2025, stamped 17 Dec 2025; 68 pages, all read including appendices, regression tables and prompts; page numbers below are that PDF's printed numbers). **The text read is the longer arXiv version and not the version of record.** The four-page ACM companion item (pp. 8697–8700) was not available, and its wording and figures may differ. The preprint's title reads "...Emerging Implications for Agentic E-Commerce" · **Source-tier:** preprint (the companion is proceedings) · **Evidence basis:** direct_read · **Design and sample:** randomized experiments in a mock shop (ACES) with LLM buyer agents. Eight product categories, eight products each, a 2×4 grid, one-shot choice, temperature 1.0, low or no reasoning budget. Six buyer models in two generations: Claude Sonnet 4, GPT-4.1, Gemini 2.5 Flash (Aug 2025); Claude Opus 4.5, GPT-5.1, Gemini 3 Pro Preview (Dec 2025). No humans · **Parties modeled:** two parties plus a third (buyer agent, platform, seller), with the user's delegation off-stage and no human in the choice · **Facets:** H · **Read:** 2026-10-13
+
+## What it argues
+Autonomous shopping agents will choose products, so the authors build ACES and ask what the agent buys and why (p. 2). They report five findings.
+
+**Rationality.** Older models miss small differences: a +0.1 rating step fails 71.7% for GPT-4o, 28.7% for Claude Sonnet 4 and 15.1% for GPT-4.1, while a 1% price cut fails 63.7% for Claude 3.5 Sonnet and 9.3% for GPT-4.1 (Tables 8–9, pp. 43–44). The December models fail under 1.7% on the rating test (p. 13).
+
+**Market shares.** In 1,000 shuffled runs per category the agents "collapse the demand distribution onto a smaller set of 'modal products'" in some categories (p. 13). Upgrades swing shares: the Fitbit Inspire's share goes from 45% (Claude Sonnet 4) to 77% (Claude Opus 4.5), and from 25% (GPT-4.1) to 6% (GPT-5.1) (p. 4). GPT-4.1 picks Mikeke covers 62.6% of the time and GPT-5.1 picks it 5% (p. 14).
+
+**Biases.** From 500 randomized scenarios per category, a conditional logit gives a large, model-specific position effect (Tables 2–3, pp. 17, 19): "the preferred position by one is the least preferred by the other" for GPT-4.1 and GPT-5.1 (p. 5). A product at 10% baseline falls to 8.9%, 8.0% and 7.9% with a Sponsored tag, and rises to 24.3%, 19.9% and 42.6% with an Overall Pick tag, for the three August models (p. 18). Price elasticities run from −1.6 to −2.2 (p. 18). A "headless" JSON list with no images keeps the effects: Claude Sonnet 4 at position 1 is selected 30.2% of the time against 4.1% at position 8 (pp. 27–28). Telling the agent to "ignore position" leaves the visual-interface coefficients for Claude Sonnet 4 and GPT-4.1 not significantly changed (p. 28); a price-sensitive prompt steepens the price coefficient sharply (p. 29).
+
+**Drift.** Between early August and late September 2025, Claude Sonnet 4 and GPT-4.1 show no significant drift; Gemini 2.5 Flash's top-row coefficient rises (p. 25; Table 14). A preview-to-release swap of Gemini 2.5 Flash moves the top-row coefficient from −0.071 to 0.586 (Table 20, p. 66).
+
+**Seller response.** A GPT-4.1 or GPT-5.1 seller agent rewrites one product's title after one iteration. Share gains average +3.66 to +14.89 percentage points for five of six buyers and +0.32 (not significant) for Gemini 3 Pro (Table 4, p. 22). Yet 67% of category-model pairs show no significant change, and a few fall (pp. 22–24). The largest case, an office lamp whose title moved "Office" to the front, goes from 9.5% to 89.9% for GPT-5.1 (p. 54).
+
+## Relation to the argument
+**Closest measured triad, with the person absent.** Buyer agent, platform and seller each have a lever. The study never measures a person, so it cannot test the contrast between mediator rules and reading aids (the argument map's exposed point 5). It can show what a mediated task is like when the mediator changes under it.
+
+**P7 and P10.** The seller's inference problem is P7 in miniature. Sellers "cannot treat their listings as static assets" and must "continuously audit how their listings are 'perceived'" (p. 14). The authors also write that a model update works like "an exogenous demand shock" (p. 14). Nobody holds a convention: no party in this setting can rely on stable behaviour from the mediator, which is the project's D8 point that no holder of a convention is named.
+
+**D3 and D7.** The authors' remedies are external, not user-side: continuous auditing and public "ACES-like choice profiles" (pp. 30–31), plus "disclosure of impactful updates" (p. 66). Their one user lever, prompting, shows limits: price re-weights strongly while position remains (p. 29). That favours D7's reading of the engagement layer as thin.
+
+**Facet check:** The facet's list of findings matches the text. Two omissions matter for citing it. First, the seller gain is not general: it occurs in 33% of category-model pairs and sometimes reverses (p. 22). Second, the authors report that basic rationality has become near-perfect (p. 13); the instability is in preferences and position, not in competence. The facet's line that these are "properties the person can no longer see" is the project's inference, since no person appears in the study. The headless replication used three August-generation models only.
+
+## In conversation with
+None of its 51 references is in `references.bib` (I checked Ursu, Ghose, Lill, Goli, Kleinberg, Greenwood, Gaarlandt by surname). The source engages: Ursu (2018) and Ghose et al. (2014) on ranking effects and Lill et al. (2024) on badges, for the human baselines; Goli & Singh (2024), Horton (2023) and Toubia et al. (2025) on LLMs standing in for humans, which the authors set aside because they treat the agent as a "distinct delegated economic actor" (p. 9); and Greenwood et al. (2025) on algorithmic delegates (p. 9). Leads outside the bib: Ursu (2018), *Marketing Science*; Lill et al. (2024), SSRN 4935668; Greenwood, Levy, Barocas, Heidari & Kleinberg (2025), arXiv:2506.03102; Gaarlandt et al. (2025), *Harvard Business Review*; Ghose, Ipeirotis & Li (2014), *Management Science*.
+
+## Caution
+Do not cite this card as evidence about people, or as the published four-page paper. The experiment is a one-shot choice from a static grid with no product pages, generic prompts, temperature 1.0 and reduced reasoning, so sensitivities may not hold with personalisation or full reasoning (pp. 12, 29). Model snapshots date quickly, as the authors note (p. 6). The paper has no human comparison (p. 30). Two authors list MyCustomAI, which hosts the ACES code (p. 1, p. 31). The text has small inconsistencies: the introduction gives GPT-4.1's failure on the +0.1 rating test as 16% (p. 4), Table 9 gives 15.1% (p. 44). The preprint's findings may not match the companion item's.
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** confirmed
+
+**What I checked:** Opened arXiv:2508.02630v3 PDF (68 pp., 17 Dec 2025; card correctly says it is the preprint, not the four-page ACM item). Checked 10 quotations and about 40 numbers (failure rates 71.7/28.7/15.1/63.7/9.3%, Fitbit 45/77/25/6%, Mikeke 62.6%/5%, position 30.2/4.1%, tag effects 8.9/8.0/7.9 and 24.3/19.9/42.6, seller gains +3.66 to +14.89 and +0.32, 67%/33%, 9.5 to 89.9% (GPT-5.1, SUNMORY), Table 20 coefficients, 1,000 experiments per category, 200 trials in the seller step, reference-list entries) plus page markers.
+
+**Findings:** No issues found. Two items not independently confirmed: the 'five findings' framing is the card's summary of the abstract and introduction; the count of 51 references matches the final numbered entry [51]. The companion four-page ACM paper was not available, as the card already says.
