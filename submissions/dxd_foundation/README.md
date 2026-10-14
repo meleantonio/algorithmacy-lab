@@ -4,7 +4,9 @@
 ten decisions on 2026-10-13 and then asked Claude for an abstract, an introduction and a section outline:
 Claude drafted one, the author replaced it with a Gemini-written version in a Google Doc, and
 [`DRAFT.md`](DRAFT.md) is a snapshot of that doc with Claude's edits and citation bullets marked. The
-author writes the rest. Claude wrote every file in this arm, and
+author then supplied a full draft; [`REVIEW_v2_2026-10-13.md`](REVIEW_v2_2026-10-13.md) reviews it and
+[`DRAFT_v2.md`](DRAFT_v2.md) is the repaired version, with a rebuilt reference list and a table of every
+change. The target journal is *Human–Computer Interaction* ([`venue/`](venue/)). Claude wrote every file in this arm, and
 none of the wording is the author's unless quoted.
 
 **Where the research stands.** [`literature/facets/T_adjudication.md`](literature/facets/T_adjudication.md)
