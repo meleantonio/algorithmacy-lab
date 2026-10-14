@@ -380,8 +380,7 @@ The state acts are cited as "Georgia, Acts of 1829", "Virginia, Acts of 1831", "
   the heuristic did not match were checked by hand: Graff 1979/1991 and South Carolina 1740/1840 (year forms);
   Pettit 1999 "as quoted in Lovett", Natal Act "as described in Keith" and the Pragmática "quoting … Marchant Rivera"
   (secondary citations, listed under the source read).
-- Length (markers stripped): v2 11,768 words in all (body 10,143; references 1,623). v3 13,783 in all (body 11,205;
-  references 2,576). Over BEQ's 12,000 if references count, under if they don't. **This needs settling against the
+- Length (markers stripped): v2 11,768 words in all (body 10,143; references 1,623). v3 at assembly 13,783 in all (body 11,205;  references 2,576). Over BEQ's 12,000 if references count, under if they don't. **This needs settling against the
   BEQ guidelines.**
 
 ## Fix-check revisions
@@ -468,3 +467,43 @@ Checks after the pass:
 | --- | --- | --- | --- | --- |
 | FC3-1 | General Assembly of Georgia. (1830). *Acts passed by the General Assembly of Georgia* (session of 1829). J. Johnston. | General Assembly of Georgia. (1830). *Acts of the General Assembly of the State of Georgia, passed in Milledgeville at an annual session in November and December, 1829*. Camak & Ragland. | Title page of the archive.org scan (card georgia1830acts, verifier notes); "J. Johnston" came only from the catalogue record | apply |
 | FC3-2 | (s. 6, 84 Stat. 315) | (s. 6, 84 Stat. 314, 315) | Pin cite with first page, so the in-text citation matches the entry (card usstat1970voting) | apply |
+
+## For the author: decisions and sources to supply
+
+**Changes you can reverse.** v3 carries 228 change markers. 70 of them are marked `AUTHOR`: they change the argument or
+pick between options, and each is the recommended fix. Search the file for `AUTHOR` and reverse any you reject. The
+weightiest are:
+- §1: "they leave the institutional positions … unexamined" recast, because Vee and Kamperman and Graff do examine them.
+- Abstract: the past safeguards narrowed to notaries.
+- §2.2: "I add the second party" became "I extend", after Muldoon and Raekstad p. 598.
+- §4.4: the EU credit directives as an exception to "no rule requires anyone to … explain", plus the art. 26(8) notary.
+- §5.1: the ground of the duties now meets both of Lovett's views.
+- §5.2: Hirschman as ally, not foil; the wording on Zong and Matias.
+- The Knox objection; "language of record"; the 1917 Act as a counter-case; the Alabama 1901/1940 dating.
+
+**Held: not applied until you supply the source.** P1-001, P1-010 (Long and Magerko 2020); P1-N02 (Nichols and LeBlanc
+2021; Jerasa and Jones 2026); P2-N01 (Aneesh 2009; the "algocracy" distinction); P2-N02 (Jerasa and Jones 2026); P2-047
+(a 1979 copy of Graff); P3-N09 (Kousser 1974); P5-005 (Cameron 2024); P5-N09 (Martin 2019, printed pages); P6-N02 (the
+US Blueprint for an AI Bill of Rights); P6-N09 (Keaney and Berthon 2025).
+
+**PDFs or pages that would raise a card above abstract or second-hand level:**
+- Rahman 2021, *ASQ* pp. 945–988.
+- Pettit 1999 (*Democracy's Value* ch. 9, p. 165); Pettit 1997; Pettit 2012.
+- Young 2006, *SPP* 23(1) pp. 102–130.
+- Cameron 2024 (free to read at doi.org/10.1177/00018392241236163, but blocked to agents).
+- Miller 2003, pp. 240–241.
+- Natal Act No. 1 of 1897.
+- The North Carolina 1830–31 session laws (page image).
+- Marchant Rivera 2015 (print pages).
+- Hänska 2021, chs. 6–8, before claiming the domination + print + algorithms combination is new.
+
+**Choices left open.**
+- Lake: 2005 (imprint) or 2006 (DOI date).
+- Graff: kept as 1979/1991 (the reissue read) unless you have the 1979 book.
+- Length: whether BEQ's 12,000 words includes references.
+- The Berthon line in §1: Berthon, Pitt and Campbell (2019) treat informing as a first step, not a failure.
+
+| id | before | after | source | decision |
+| --- | --- | --- | --- | --- |
+| FC3-3 | …and I use it only to say who else must act. | …and I use it only to say who else must act, though she keeps the liability model alongside her own (Young, 2005, p. 719). | Young 2005 p. 719, "I do not aim to replace or reject the liability model" (card young2005responsibility) | AUTHOR |
+| FC3-4 | Young (2005) entry without DOI | adds https://doi.org/10.30827/acfs.v39i0.1040 | Crossref | apply |
