@@ -6,7 +6,8 @@ Claude drafted one, the author replaced it with a Gemini-written version in a Go
 [`DRAFT.md`](DRAFT.md) is a snapshot of that doc with Claude's edits and citation bullets marked. The
 author then supplied a full draft; [`REVIEW_v2_2026-10-13.md`](REVIEW_v2_2026-10-13.md) reviews it and
 [`DRAFT_v2.md`](DRAFT_v2.md) is the repaired version, with a rebuilt reference list and a table of every
-change. The target journal is *Human–Computer Interaction* ([`venue/`](venue/)). Claude wrote every file in this arm, and
+change. [`DRAFT_v3.md`](DRAFT_v3.md) (2026-10-14) applies the claim check in `literature/audit/claims/`
+and reties the essay to one argument in three moves. Version 2 is left in place so those line numbers still match. The target journal is *Human–Computer Interaction* ([`venue/`](venue/)). Claude wrote every file in this arm, and
 none of the wording is the author's unless quoted.
 
 **Where the research stands.** [`literature/facets/T_adjudication.md`](literature/facets/T_adjudication.md)
