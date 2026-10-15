@@ -1,5 +1,7 @@
 # Facet Z: gap search (prior arguments from the literacy transition to AI; current AI-literacy rules; "algorithmacy" and its cousins; Berthon's record)
 
+*Note added by the lead, 2026-10-13: this facet is a dated record. Full texts supplied later were read in `L2_graff_fulltext.md`, which lists the statements here that they correct; where the two differ, `L2_graff_fulltext.md` and `T_adjudication.md` §9 govern.*
+
 *Facet Z, 2026-10-13. Agent-drafted. The author has not reviewed it, and none of the text is the author's.*
 
 ## What this facet covers
