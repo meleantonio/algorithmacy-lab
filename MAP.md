@@ -95,7 +95,7 @@ Run the relevant generator after adding content, then verify with its `--check`.
 | count | what | source |
 |---|---|---|
 | 170 | questions | `org_frontier/questions/q*_*/` |
-| 134 | probes | `org_frontier/probes/probe_*.py` |
+| 135 | probes | `org_frontier/probes/probe_*.py` |
 | 127 | studies | `org_frontier/studies/*/` |
 | 22 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
