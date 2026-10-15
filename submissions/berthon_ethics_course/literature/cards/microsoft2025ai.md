@@ -20,7 +20,7 @@ written: 2026-10-14
 **Key made for this facet.** Authorship: the 2025 Transparency Report (PDF p. 26) says the Office of Responsible AI released it; the PDF says "Microsoft's Office of Responsible AI has curated a list" (p. 1).
 
 ## Summary
-A short guide, dated January 2025, that Microsoft offers to customers and vendors as "a starting point to help you comply" with the AI Act's literacy requirement, which it quotes in full in its 2024 wording (footnote 1, p. 1). It defines the aim as knowledge: "AI literacy promotes knowledge so that we can make informed decisions regarding AI systems" (p. 1). The guide is a curated list of Microsoft learning resources ("blog posts to webpages to modular coursework with video lectures") sorted by level (fundamentals, intermediate, technical/advanced) and by category ("Using AI", "Developing AI", "Responsible AI") (pp. 1–2). The fundamentals outcomes are to "Describe and define common terms", "Understand basic concepts relating to responsible AI", and "Apply and practice concepts learned through these trainings" (p. 2). It is training about AI, delivered as courses and readings separate from any product a person uses.
+A short guide, dated January 2025, that Microsoft offers to customers and vendors as "a starting point to help you comply" with the AI Act's literacy requirement, which it quotes in full in its 2024 wording (footnote 1, p. 1). It defines the aim as knowledge: "AI literacy promotes knowledge so that we can make informed decisions regarding AI systems" (p. 1). The guide is a curated list of Microsoft learning resources ("blog posts to webpages to modular coursework with video lectures") sorted by level (fundamentals, intermediate, technical/advanced) and by category ("Using AI", "Developing AI", "Responsible AI") (pp. 1–2). The fundamentals outcomes are to "Describe and define common terms", "Understand basic concepts relating to responsible AI", and "Apply and practice concepts learned through these trainings" (p. 3). It is training about AI, delivered as courses and readings separate from any product a person uses.
 
 ## Key facts it relies on
 - p. 1: "AI literacy promotes knowledge so that we can make informed decisions regarding AI systems."
@@ -28,7 +28,7 @@ A short guide, dated January 2025, that Microsoft offers to customers and vendor
 - p. 1, n. 1: quotes Art 4 of the AI Act in its 2024 wording ("ensure, to their best extent, a sufficient level of AI literacy").
 - p. 1: materials range "from blog posts to webpages to modular coursework with video lectures".
 - p. 2: levels Fundamentals, Intermediate, Technical/Advanced; categories Using AI, Developing AI, Responsible AI.
-- p. 2: after Fundamentals learners can "Describe and define common terms used when discussing AI".
+- p. 3: after Fundamentals learners can "Describe and define common terms used when discussing AI".
 
 ## Critical notes from the literature
 - The Article 4 wording it quotes was replaced by Regulation (EU) 2026/1744 (`euomnibus2026`).
@@ -38,4 +38,4 @@ A short guide, dated January 2025, that Microsoft offers to customers and vendor
 AI literacy, EU AI Act Article 4 compliance, curated courses, learning levels, responsible AI education
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — Microsoft's literacy answer is a reading list and courses, outside the experience (pp. 1–2): training, not scaffolding. Holds.
+- v4 (not yet drafted): proposed use — Microsoft's literacy answer is a reading list and courses, outside the experience (pp. 1–3): training, not scaffolding. Holds.

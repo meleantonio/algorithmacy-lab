@@ -40,5 +40,5 @@ Solove names the US regime of "rights to notice, access, and consent" regarding 
 Privacy self-management, notice and choice, consent, consent dilemma, paternalism, cognitive limits, scale, aggregation, opt-in, Fair Information Practice Principles, responsibility shifted to individuals, substantive privacy norms
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — the plainest statement in the literature of wrong (a), that notice-and-consent "cedes substantial responsibility for preserving privacy to individuals" (p. 1893) and "is being tasked with doing work beyond its capabilities" (p. 1880); and of the claim that the burden persists for a perfect reader (pp. 1888-1889).
-- v4 (not yet drafted): proposed use in the objections section — the consent dilemma (pp. 1881-1882, 1894) and "should not be abandoned" (p. 1899), so the paper says disclosure is insufficient, not worthless.
+- v4 (not yet drafted): proposed use — the plainest statement in the literature of wrong (a), that notice-and-consent "cedes substantial responsibility for preserving privacy to individuals" (p. 1893) and "is being tasked with doing work beyond its capabilities" (p. 1880); and of the claim that the burden persists for a perfect reader (pp. 1888-1889). Holds.
+- v4 (not yet drafted): proposed use in the objections section — the consent dilemma (pp. 1881-1882, 1894) and "should not be abandoned" (p. 1899), so the paper says disclosure is insufficient, not worthless. Holds.

@@ -13,14 +13,14 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/ncpr1987_
 sha256: e3670208c5e5f1997cefdc53287f847f42b3f175c3141b51572bde2798b679c5
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
 The key is new. I read both the as-made text (`ncpr1987_r13.html`, sha256 7adc1c5c…) and the latest text. I read only rule 13, not the rest of the rules or the case law on "knowledge and approval".
 
 ## Summary
-Rule 13 governs proving in the probate registry a will that appears to have been signed by a blind or illiterate testator, or by another person at the testator's direction. It also covers any will that "for any other reason raises doubt as to the testator having had knowledge of the contents". Before admitting such a will to proof, the district judge or registrar "shall satisfy himself that the testator had such knowledge." The words "district judge or" were inserted in 1991. The rule does not prescribe a form of attestation or a reading over. It puts on a judicial officer the duty to reach a positive finding of knowledge. In practice that risk falls on the person who propounds the will.
+Rule 13 governs proving in the probate registry a will that appears to have been signed by a blind or illiterate testator, or by another person at the testator's direction. It also covers any will that "for any other reason raises doubt as to the testator having had knowledge of the contents". Before admitting such a will to proof, the district judge or registrar "shall satisfy himself that the testator had such knowledge." The words "district judge or" were inserted in 1991. The rule does not prescribe a form of attestation or a reading over. It puts on a judicial officer the duty to reach a positive finding of knowledge. (Verifier: a sentence here said that "in practice" the risk falls on the person who propounds the will. The rule does not say so, and the card did not read the case law, so I removed it.)
 
 ## Key facts it relies on
 - Heading: "Execution of will of blind or illiterate testator".
@@ -39,3 +39,9 @@ probate, wills, blind and illiterate testators, knowledge and approval, marks, r
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. Where the law did more than disclose, it required an officer to be "satisf[ied] ... that the testator had such knowledge" (r. 13). Compare the contract rule in `lestrange1934graucob`.
+
+## Verifier notes
+- 2026-10-14. sha256 of `ncpr1987_r13_latest.html` and `ncpr1987_r13.html` (7adc1c5c…) match.
+- Checked all five key facts: heading; latest text with "[district judge or]"; as-made text with "the registrar" alone; the 1991 amendment note (S.I. 1991/1876, rr. 1(1), 7(1), 14.10.1991); commencement 1.1.1988. All exact.
+- Corrected for basis honesty: the summary's claim about the propounder's burden comes from the knowledge-and-approval case law, which the card says it did not read. I removed it.
+- The proposed v4 use holds; "satisf[ied]" is a bracketed alteration of "shall satisfy himself". Bib agrees with the V3 facet entry.

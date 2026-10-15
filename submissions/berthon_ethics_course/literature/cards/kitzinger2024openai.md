@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -41,4 +41,10 @@ poorly understood, demonstrably flawed, and reliant on laborious human intervent
 Plato's Phaedrus, writing as pharmakon, Derrida, LLMs, technology analogies, adoption of commercial AI
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — O5 (history as analogy only): cite as the strongest warning that oral-to-written analogies are used to excuse adoption ("people feared writing too"), and distinguish v4's use (the transition's distribution of burden among people) from the Phaedrus use. cannot check (abstract only; no v4 text yet).
+- v4 (not yet drafted): proposed use — O5 (history as analogy only): cite as the strongest warning that oral-to-written analogies are used to excuse adoption ("people feared writing too"), and distinguish v4's use (the transition's distribution of burden among people) from the Phaedrus use. cannot check (abstract only; no v4 text yet). Verifier (2026-10-14), against the abstract: **holds, narrower** — the abstract warns about the *Phaedrus* analogy specifically, not oral-to-written analogies in general; v4 should name it as such.
+
+## Verifier notes
+- 2026-10-14: no local file or open copy (OpenAlex: closed, no repository copy); checked against the Crossref abstract field.
+- Crossref agrees on author (Kitzinger, Chloë), title, Critical AI 2(1), 1 Apr 2024. Neither Crossref nor OpenAlex records page numbers; the V6 bib also has none, so the author must supply pages from the article.
+- All four abstract quotations found verbatim. Set writer-grounded because the basis is the abstract only; the Derridean argument and any page-level claim are unchecked.
+- Proposed use: holds within the abstract, narrower in scope (see the use bullet).

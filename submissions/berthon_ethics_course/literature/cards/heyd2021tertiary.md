@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/heyd2021t
 sha256: 820453d4a3750609f10f5e74404fdfe9dde4ecfed82c495502a4af170a5973b9
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -49,4 +49,10 @@ machine" (p. 142). The article predates LLM chat and says nothing about ethics, 
 secondary orality, tertiary orality, spoken CMC, conceptual vs medial orality (Koch and Oesterreicher), digital assistants, posthumanist linguistics, YouTube, algorithmic optimization of talk
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — state the orality counterargument in its strongest scholarly form (talk *with* machines, voice assistants, p. 131, p. 138), then answer it with Heyd's own distinction: typed LLM chat is conceptually oral but medially written (p. 133), and even oral platform talk is "structured toward being read ... by a machine" (p. 142). cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — state the orality counterargument in its strongest scholarly form (talk *with* machines, voice assistants, p. 131, p. 138), then answer it with Heyd's own distinction: typed LLM chat is conceptually oral but medially written (p. 133), and even oral platform talk is "structured toward being read ... by a machine" (p. 142). cannot check (no v4 text yet). Verifier (2026-10-14), against pp. 131, 133, 138, 142: **narrower** — p. 133 describes how earlier CMC research framed *typed* CMC (Murray; Koch/Oesterreicher), and Heyd argues that this framing has hidden genuinely spoken CMC; applying it to LLM chat is v4's extension, not hers. On p. 142 "read and recommended by a machine" means algorithmic ranking; the ellipsis must not drop "and recommended" so as to make it a claim about literacy.
+
+## Verifier notes
+- 2026-10-14: sha256 recomputed, matches. Crossref (10.33675/angl/2021/2/10) gives title "Tertiary Orality?" only, author "Heyd, T.", container "Anglistik", 32(2): 131-147, 2021; the subtitle and the journal's subtitle come from the PDF (already noted on the card). No other disagreement.
+- Pagination confirmed (PDF page n = p. 130+n). All eight key-fact quotations found verbatim at the stated pages (131, 133 x2, 136 x2, 138, 139, 142).
+- Proposed use checked against the source pages: narrower (see the use bullet).
+- Basis honest: full text; the card correctly says Heyd predates LLM chat.

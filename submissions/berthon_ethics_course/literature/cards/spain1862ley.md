@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/ley_notar
 sha256: ae0ba3deecac244fe97f2bd0e7d2b0557c8df4dc158be82d80fbb780b6eb81c8
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -39,3 +39,9 @@ civil-law notariat, reading of deeds, right to read, Castilian language requirem
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. In 1862 the notarial duty was disclosure by reading, with the person's own reading as an option and a right (para. 3).
 - v4 (not yet drafted): proposed use. In 2021 the law changed the medium (easy-read, pictograms, multimedia, interpreters; para. 4), 159 years later and only for persons with disabilities.
+
+## Verifier notes
+- 2026-10-14. sha256 of `ley_notariado.html` and `ley1862_a25_orig.html` (bcccfe5e…) match. BOE: Gaceta de Madrid núm. 149, 29/05/1862, in force 19/06/1862.
+- Art. 25 in the "Texto original" version has three paragraphs (Castilian; no numerals; the reading duty) identical to paras 1-3 today. Para. 4 was added by art. 1.2 of Ley 8/2021, in force 03/09/2021 (published 03/06/2021). All four quoted passages exact.
+- The card's description of Ley 8/2021 matches its BOE title (BOE-A-2021-9233): "por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica".
+- Both v4 uses hold (1862 to 2021 is 159 years). Bib agrees with the V3 facet entry.

@@ -39,5 +39,5 @@ Selbst and Barocas ask what makes machine-learning decisions hard to explain and
 Explainable AI, inscrutability, nonintuitiveness, transparency, secrecy, expertise, accountability, FCRA, ECOA, GDPR, normative evaluation, process explanation
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — the located statement that transparency places the work of understanding on the observer: accountability "requires preexisting knowledge that allows observers to appreciate the significance of a disclosure" (p. 1094); with the quoted Ananny and Crawford "chain of logic" (p. 1094, n. 48).
-- v4 (not yet drafted): proposed use, narrowing — "the problem of expertise ... is not unique to algorithms" (p. 1094) supports the paper's historical parallel with earlier documentary regimes.
+- v4 (not yet drafted): proposed use — the located statement that transparency places the work of understanding on the observer: accountability "requires preexisting knowledge that allows observers to appreciate the significance of a disclosure" (p. 1094); with the quoted Ananny and Crawford "chain of logic" (p. 1094, n. 48). Holds.
+- v4 (not yet drafted): proposed use, narrowing — "the problem of expertise ... is not unique to algorithms" (p. 1094) supports the paper's historical parallel with earlier documentary regimes. Narrower: the sentence says only that expertise is not unique to algorithms; it offers no history.

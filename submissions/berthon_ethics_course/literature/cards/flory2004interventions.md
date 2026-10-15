@@ -5,7 +5,7 @@ authors: Flory, James and Emanuel, Ezekiel
 year: 2004
 type: review
 doi: 10.1001/jama.292.13.1593
-venue: JAMA 292(13), 1593
+venue: JAMA 292(13), 1593-1601
 source_basis: abstract
 pages_read: none
 source_url: https://doi.org/10.1001/jama.292.13.1593
@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -40,3 +40,9 @@ informed consent, comprehension, multimedia, enhanced consent forms, extended di
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. Better texts improved understanding less reliably than a person who talks the participant through ("a study team member or a neutral educator ... one-on-one"). Abstract only.
+
+## Verifier notes
+- 2026-10-14. No local copy (abstract card). I checked every abstract bullet against the PubMed record (PMID 15467062): 30 studies / 42 trials; multimedia 3 of 12; enhanced forms 6 of 15 with 5 of 6 limited quality; extended discussion 3 of 5 plus two trends (P=.054, P=.08); test/feedback rote-memorisation caveat; lower education; the conclusion sentence. All exact.
+- The proposed v4 use holds on the abstract's conclusion and stays within an abstract basis.
+- Critical-note figures checked against PubMed abstracts: Nishimura 2013 SMD 1.73 (enhanced forms) and 0.53 (extended discussion); Glaser 2020 3/3 verbal discussion with test/feedback or teach-back, 6/14 written. Note that Glaser covers clinical, not research, consent.
+- Bib: Crossref gives the title without the subtitle ("A Systematic Review" is in Crossref's subtitle field) and the first page only; PubMed gives pp. 1593-601. I added the last page to `venue`; the V3 bib still has `pages = {1593}`.

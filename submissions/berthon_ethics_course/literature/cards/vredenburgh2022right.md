@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/vredenbur
 sha256: d23ad719174556ee6b514ef00c43558515985b957ca430f36a965a13fd32bad8
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -50,4 +50,10 @@ individuals with free experts – human or algorithmic" (AAM p. 22).
 right to explanation, informed self-advocacy, institutional opacity, free experts and advocates, epistemic support, knowledge hoarding, algorithmic decision-making
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — O2 (disclosure respects autonomy): state the strongest defence of explanation (AAM p. 5), then use her own concession that explanation fails "absent support" (AAM p. 18) and her call for companies to fund free experts (AAM p. 22) as support for wrongs (a) and (c). cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — O2 (disclosure respects autonomy): state the strongest defence of explanation (AAM p. 5), then use her own concession that explanation fails "absent support" (AAM p. 18) and her call for companies to fund free experts (AAM p. 22) as support for wrongs (a) and (c). cannot check (no v4 text yet). Verifier (2026-10-14), against AAM pp. 5, 18, 22: **holds for (a); narrower for (c)** — p. 22 is hedged ("may need to"), and her remedy is an intermediary expert, not the person's own competence (as the card's critical note says). AAM p. 21's AI free experts apply "since the stakes for any particular decision are lower", not generally.
+
+## Verifier notes
+- 2026-10-14: sha256 recomputed, matches. File is the LSE Accepted Version (eprint 121185); PDF page n = AAM footer page n-1, confirmed.
+- Crossref: J. Political Philosophy 30(2): 209-229, online 31 Aug 2021, issue June 2022; title field "The Right to Explanation*" (asterisk = footnote mark). Agrees with the V6 bib (OpenAlex year 2021 already noted); key not in `references.bib`.
+- Accepted-manuscript vs journal pages: the published version is closed (OpenAlex), and the AAM's 23 text pages do not map linearly onto the journal's 21, so no journal page can be inferred. Every locator must stay "AAM p." until the author supplies the published PDF.
+- All six key-fact quotations found verbatim at the stated AAM pages (5, 18, 19, 19, 21, 22).

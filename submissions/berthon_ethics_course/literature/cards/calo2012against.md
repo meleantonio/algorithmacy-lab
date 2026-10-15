@@ -39,5 +39,5 @@ Calo defends mandatory notice against "extreme skepticism" (p. 1030) by proposin
 Mandatory notice, notice skepticism, visceral notice, design psychology, privacy policies, autonomy, regulatory alternatives, nudges, First Amendment, safe harbors
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use in the objections section — notice as respect for autonomy (p. 1049) and as the least bad tool (p. 1047).
-- v4 (not yet drafted): proposed use for wrong (b) — the best-known defender of notice concedes that text, tables and icons barely help (p. 1033) and saves notice only by moving it out of "language or its symbolic equivalent" into experience (pp. 1033, 1071-1072).
+- v4 (not yet drafted): proposed use in the objections section — notice as respect for autonomy (p. 1049) and as the least bad tool (p. 1047). Holds.
+- v4 (not yet drafted): proposed use for wrong (b) — the best-known defender of notice concedes that text, tables and icons barely help (p. 1033) and saves notice only by moving it out of "language or its symbolic equivalent" into experience (pp. 1033, 1071-1072). Holds.

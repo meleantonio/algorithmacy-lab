@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/marz2026r
 sha256: 7b38b8a001238c2e30d844dd24ddc06f571dd702cbfdd7e1c6fee3a1129bf1b3
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -49,4 +49,10 @@ taken hostage".
 return to orality, Ong, secondary literacy, post-literate society discourse, LLMs and prompting as writing, Brandt
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — name the popular form of the orality counterargument (Thompson, Weisenthal, Marriott) and give the reply that prompting is writing ("a new type of writing that comes in the form of the prompt"). cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — name the popular form of the orality counterargument (Thompson, Weisenthal, Marriott) and give the reply that prompting is writing ("a new type of writing that comes in the form of the prompt"). cannot check (no v4 text yet). Verifier (2026-10-14), against the web text: **holds** — the three writers are named in the opening paragraphs and the prompt sentence is verbatim; Marz raises "You could call LLMs oral" only to reject it.
+
+## Verifier notes
+- 2026-10-14: sha256 recomputed, matches. The work exists as cited: the live URL returns 200; page metadata gives og:title "The Return to Orality", byline Megan Marz, article:published_time 2026-04-20, "Issue 17"; no DOI. Agrees with the V6 bib.
+- The saved text runs through the author's bio at the end, so the essay looks complete despite the site's paywall plugin.
+- All six key-fact quotations found verbatim (the "to use Ong ..." quotation opens with "But" in the source).
+- Basis honest: the 1996 Ong interview is second-hand, as the card says.

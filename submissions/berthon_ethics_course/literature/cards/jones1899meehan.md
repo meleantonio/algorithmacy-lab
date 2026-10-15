@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/cap_jones
 sha256: 26d0ba7cc5f4bdaa0108c18f32d6ed99336e37b146ddc243056dfba03f098bc5
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -42,4 +42,10 @@ Indian treaties, canons of construction, interpreters, marks in place of signatu
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. A court held that interpretation by the drafter's own interpreter did not bind people who could not read to the text's technical meaning, and it moved the risk onto the drafter (pp. 10-11).
-- v4 (not yet drafted): proposed use. Marshall's observation, quoted at p. 11, that every chief "makes his mark" and the treaty was "probably ... interpreted to them".
+- v4 (not yet drafted): proposed use. Marshall's observation, quoted at p. 11, that every chief "makes his mark" and "It is probable the treaty was interpreted to them".
+
+## Verifier notes
+- 2026-10-14. sha256 of `cap_jones_meehan.html` matches. CAP metadata and CourtListener confirm 175 U.S. 1-32, decided 1899-10-30 (parallel 20 S. Ct. 1; 44 L. Ed. 49).
+- Checked all eight key facts against the CAP star pages: syllabus p. 1; pupilage/ward p. 10; the long canon sentence begins on p. 10 ("In construing any treaty between the United States and an") and continues on p. 11; Worcester and McLean J. passages p. 11; "Mr. Justice Gray delivered the opinion" p. 2. All exact.
+- Corrected: the second use bullet put "probably ... interpreted to them" in quotation marks, but the source reads "It is probable the treaty was interpreted to them" (p. 11). I replaced it with the exact words. The first use holds.
+- The McLean J. concurrence quotation is at 6 Pet. 582 per the opinion. Bib agrees with the V3 facet entry.

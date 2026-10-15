@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/pd32.html
 sha256: 26a0381b15fe661db711c70598ec78b7e08fe0cff33cb6f389b42a7d1e2964bf
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -39,3 +39,9 @@ affidavits, jurats, marksmen, reading over, apparent understanding, statements o
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. Reading over survives as a certified ritual: the text was read, and the person "appeared to understand it" (para 7.1; Annex 1). A third party attests to disclosure and to an impression of understanding, and nobody checks the understanding.
+
+## Verifier notes
+- 2026-10-14. sha256 of `pd32.html` and `pd22.html` match. Both pages say "Updated: Sunday, 1 October 2023".
+- Checked para 7.1 (all three limbs), para 7.2, the Annex 1 affidavit form (including the bracketed exhibits clause) and the affirmation form, and PD 22 para 2.4. All quotations exact. Annex 1 also has an alternative: a witness to the mark, first sworn, attests the reading over.
+- The proposed v4 use holds: both 7.1 and 7.2 stop at "appeared to understand".
+- Bib: agrees with the V3 facet entry. The year 1998 is the CPR's; the PD itself came into force with the CPR in 1999, and the card does not say otherwise.

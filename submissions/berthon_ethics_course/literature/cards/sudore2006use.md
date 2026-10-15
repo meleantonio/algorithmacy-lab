@@ -4,16 +4,16 @@ title: "Use of a modified informed consent process among vulnerable patients: a 
 authors: Sudore, Rebecca L. and Landefeld, C. Seth and Williams, Brie A. and Barnes, Deborah E. and Lindquist, Karla and Schillinger, Dean
 year: 2006
 type: article
-doi: 10.1007/bf02743161
-venue: Journal of General Internal Medicine 21(9), 1009 (first page per Crossref)
+doi: 10.1111/j.1525-1497.2006.00535.x
+venue: Journal of General Internal Medicine 21(8), 867-873 (erratum at 21(9), 1009)
 source_basis: abstract
 pages_read: none
-source_url: https://doi.org/10.1007/bf02743161
+source_url: https://doi.org/10.1111/j.1525-1497.2006.00535.x
 local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -39,4 +39,10 @@ The study describes a modified research-consent process used with 204 ethnically
 informed consent, health literacy, reading aloud, teach-to-goal, comprehension, vulnerable populations, older adults
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use. Reading a simplified text aloud left 72% of older, often low-literacy adults short of full comprehension on the first pass. Iterated teaching with checks brought 98% to full comprehension (abstract). This is modern evidence for the claim that scaffolding, not disclosure, produces understanding.
+- v4 (not yet drafted): proposed use. Reading a simplified text aloud left 72% of older, often low-literacy adults short of full comprehension on the first pass. Iterated teaching with checks brought 98% to full comprehension (abstract). Verifier: **narrower**. The 98% is of "participants who engaged in the consent process", and the abstract does not give the denominator. Say so in v4. This is modern evidence for the claim that scaffolding, not disclosure, produces understanding.
+
+## Verifier notes
+- 2026-10-14. Corrected the citation. DOI 10.1007/bf02743161 (JGIM 21(9):1009, PMC1831587) is the **erratum**, which carries the article's title. The article is JGIM 21(8):867-873, August 2006, DOI 10.1111/j.1525-1497.2006.00535.x, PMID 16881949, PMC1831581 (Crossref, PubMed and the PMC ID converter agree). The note above about PMC1831587 refers to the erratum's record. I did not read the erratum, so I do not know what it corrects.
+- Checked every abstract bullet against PubMed: design, 204 subjects, mean age 61, 40% limited literacy (s-TOHFLA<23), 28% first pass, 80% after second, 98% with teach-to-goal, P=.04 and P=.03, the bivariate-only language effect. All exact.
+- The use is narrower (note added to it). The local `V3/sudore2006.txt` is a 150-byte Europe PMC error page, not the paper.
+- Bib disagreement: the V3 facet entry still has the erratum's DOI, volume/issue 21(9) and page 1009. It should read 21(8), 867--873, doi 10.1111/j.1525-1497.2006.00535.x.

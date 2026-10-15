@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/arato2024
 sha256: bf4b49f42192432f91e29497b980deabd04a4374f87b1552f4de956b8361f0e0
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -44,4 +44,10 @@ Hungarian judiciary, and the paper closes by asking what tertiary communication 
 tertiary orality, tertiary literacy, secondary orality, ChatGPT, text generation, AI in the judiciary, Hungarian linguistics
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — one refereed source classing LLM output as a new literacy, not a return to orality (p. 607), in the reply to the orality counterargument. cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — one refereed source classing LLM output as a new literacy, not a return to orality (p. 607), in the reply to the orality counterargument. cannot check (no v4 text yet). Verifier (2026-10-14), against p. 607: **narrower** — p. 607 classes computer-generated text as "tertiary literacy", but the same paper posits "tertiary verbality" (pp. 606-607) and "tertiary orality" alongside tertiary literacy (p. 609); cite it for generated text as literacy, not as denying an orality strand.
+
+## Verifier notes
+- 2026-10-14: sha256 recomputed, matches. Crossref (10.38143/nyr.2024.5.601) agrees with the card and the V6 bib on authors, title, Magyar Nyelvőr 148(5): 601-617, 2024; no disagreement.
+- Pagination confirmed from running heads (PDF page n = p. 600+n). All five key-fact quotations found verbatim at the stated pages (601, 604, 607, 607, 609); the Ong 1982: 136 reference is on p. 604.
+- Proposed v4 use checked against p. 607: holds for generated text, narrower as phrased (see the use bullet); verdict added.
+- Basis honest: full text read; nothing claimed beyond it.

@@ -39,5 +39,5 @@ An experimental survey (N = 500) of adults aged 50 and over who were invited to 
 Privacy policies, terms of service, clickwrap, online consent, older adults, privacy paradox, gotcha clauses, reading time, burden on the individual, interface design
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — the measured scale of non-reading (74% and 98% in 2020, p. 4784; 77.6% and 83.4% in 2022, p. 4779) for wrong (a).
-- v4 (not yet drafted): proposed use — the authors' own diagnosis, "the impossible burden placed on the individual" (p. 4780), and their placing of the remedy on providers (p. 4796).
+- v4 (not yet drafted): proposed use — the measured scale of non-reading for wrong (a): 74% took the clickwrap and 98% missed the gotcha clauses in 2020 (p. 4784, the authors' restatement); 77.6% took the clickwrap in 2022, and 91.4% and 83.4% accepted a privacy policy and terms containing gotcha clauses (p. 4779). Narrower: the 2022 acceptance rates measure acceptance of planted clauses, not non-reading, and the 2020 figures are a restatement not checked against the 2020 article.
+- v4 (not yet drafted): proposed use — the authors' own diagnosis, "the impossible burden placed on the individual" (p. 4780), and their placing of the remedy on providers (p. 4796). Holds.

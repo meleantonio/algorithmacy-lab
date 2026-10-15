@@ -40,5 +40,5 @@ A five-page brief paper arguing that automating a process does not remove the hu
 Automation, human operator, monitoring, vigilance, deskilling, manual take-over, human-computer collaboration, training, simulator practice, process control, flight deck
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use for wrong (a) — the person left to read and monitor an automated system "has been given an impossible task" (p. 776); relevant to the post's P15 (human-readable evidence) as an internal-oversight task.
-- v4 (not yet drafted): proposed use for wrong (c) — the remedy is scaffolded practice (hands-on control each shift, simulators, p. 777) and the irony that the best automation needs "the greatest investment in human operator training" (p. 777). The setting is industrial; say so.
+- v4 (not yet drafted): proposed use for wrong (a) — the person left to read and monitor an automated system "has been given an impossible task" (p. 776); relevant to the post's P15 (human-readable evidence) as an internal-oversight task. Narrower: her impossible task is real-time checking of a computer that uses more dimensions and finer criteria than the operator (p. 776), in plant control.
+- v4 (not yet drafted): proposed use for wrong (c) — the remedy is scaffolded practice (hands-on control each shift, simulators, p. 777) and the irony that the best automation needs "the greatest investment in human operator training" (p. 777). The setting is industrial; say so. Holds, with that limit.

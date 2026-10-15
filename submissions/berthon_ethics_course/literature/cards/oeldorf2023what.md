@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/N3_literacy_
 sha256: 70ed780eebe43240f9f18fb4ed2e9153404b5db54ce00e15bdf2c4a3682edb85
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -51,4 +51,9 @@ that individuals must endure most of effort in improving literacy" (p. 23), and 
 algorithmic literacy definitions, awareness and knowledge, folk theories, measurement, responsibility of users and developers, algorithmic divide
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — §on algorithmacy: cite the DeVito and Dogruel definitions (p. 6) as the individual-competence constructs algorithmacy departs from, with DeVito's "capacity and opportunity" as the hook for a firm's duty to provide opportunity; and p. 23 for wrongs (a) and (c). cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — §on algorithmacy: cite the DeVito and Dogruel definitions (p. 6) as the individual-competence constructs algorithmacy departs from, with DeVito's "capacity and opportunity" as the hook for a firm's duty to provide opportunity; and p. 23 for wrongs (a) and (c). cannot check (no v4 text yet). Verifier (2026-10-14), against preprint pp. 6, 23: **holds for (a), narrower for (c)** — p. 23 continues "Therefore, it seems commendable to develop and customize interventions that increase users' engagement in their own literacy", i.e. their remedy is user-side, not an operator duty.
+
+## Verifier notes
+- 2026-10-14: sha256 recomputed, matches. Crossref: New Media & Society 27(2): 681-701, online July 2023, issue Feb 2025; agrees with the V6 bib. Disagreement: `references.bib` lacks volume, issue and pages.
+- Preprint (Authors' Original Version, Updated May 2023) page numbers = PDF pages. Opened pp. 2, 6, 10, 21, 23 myself: 96 reviewed, 50 included (p. 6); both definitions (p. 6); first direction and "the new algorithmic divide" (p. 2); Rader and Gray (p. 10); users-and-creators responsibility (p. 21); "must endure most of effort" (p. 23). The "via N3/M2" items are now directly confirmed.
+- Quotations carry preprint pages; check against the journal before print, as the card says.

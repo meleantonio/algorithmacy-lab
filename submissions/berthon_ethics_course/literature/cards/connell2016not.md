@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/G/connell.pd
 sha256: 7828f35ee6bb565ff4782ed300e953749558935c65993aae28bd5720ba3b6332
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -43,3 +43,9 @@ non est factum, illiterate and blind signers, carelessness, burden of proof, inn
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. The plea for the person who could not read arose when "a large proportion of the population was unable to read" (p. 249). Courts then narrowed it to protect reliance on signed paper (pp. 249, 251).
 - v4 (not yet drafted): proposed use. The burden stayed on the signer, who must prove no carelessness (p. 251). In *Saunders* the widow who relied on a false explanation lost to the lender (p. 253).
+
+## Verifier notes
+- 2026-10-14. sha256 of `G/connell.pdf` and of `connell.txt` (4883547…) match. Crossref confirms Connell, title, VUWLR 47(2) 245-266, 2016, DOI.
+- Checked all eight key facts against the extracted text with its page heads: abstract p. 245; p. 249 and n. 18 (Lord Reid at 1016, both passages); p. 250 n. 19 (Lord Wilberforce at 1025); p. 251 and n. 23, n. 26; p. 253 (spectacles, failure of the plea, Viscount Dilhorne). All exact. The p. 253 quotation's ellipsis bridges a sentence break ("of non est factum. Her case was lacking"), which is acceptable.
+- Both v4 proposed uses hold. The Saunders lender was a third party to the explanation, as the card's summary says.
+- Bib: card, `references.bib` (l. 2098) and the V3 facet agree on all bibliographic fields; only their read-scope notes differ (245-253 vs 248-250 vs 248-253).

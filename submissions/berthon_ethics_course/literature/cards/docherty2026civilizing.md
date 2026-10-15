@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/docherty2
 sha256: 5ee227c25afaed5ce0b1f342d1a6bca8af448005460e391d5f2f62147799173d
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -51,4 +51,10 @@ primary responsibility of the individual" (p. 18).
 corporate digital literacy curricula, Meta, responsibilization, corporate social responsibility, Elias's civilizing process, critical digital literacy, Freire
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — the strongest objection to wrong (c): firm-provided literacy can be responsibilization and CSR performance (pp. 2, 11, 17); v4 must distinguish scaffolding built into the system and owed by the operator from a curriculum handed to users. cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — the strongest objection to wrong (c): firm-provided literacy can be responsibilization and CSR performance (pp. 2, 11, 17); v4 must distinguish scaffolding built into the system and owed by the operator from a curriculum handed to users. cannot check (no v4 text yet). Verifier (2026-10-14), against pp. 2, 11, 17: **holds** — all three quoted passages are verbatim at those online-first pages.
+
+## Verifier notes
+- 2026-10-14: sha256 recomputed, matches. The work exists as cited: Crossref (10.1177/13678779261425695) gives Docherty, Niall and Valderrama Barragán, Matías, International Journal of Cultural Studies 29(4): 555-575, online 25 Mar 2026, issue July 2026; the White Rose cover page (eprint 239579, Published Version, CC BY-NC) gives the same. No disagreement with the V6 bib.
+- Confirmed PDF page n = online-first page n-1 (running heads). All seven key-fact quotations found verbatim at the stated pages, including the three p. 17 quotations ("the growing appropriation ...", "by placing on individuals the burden ...", "seek to maintain user presence ...") and pp. 11, 18.
+- Elias (abstract; pp. 3-5, 15-17) and Freire (p. 17) present as summarised. Locators are online-first; convert to 555-575 before print.
+- Proposed use holds; basis (partial-text) honest.

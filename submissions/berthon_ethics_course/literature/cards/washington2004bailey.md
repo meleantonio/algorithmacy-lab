@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/ca5_02-60
 sha256: fc202f880341dcfb10c6fc00642a9c415b360c2afed1730db90bb42cf24830eb
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -34,7 +34,7 @@ Borrowers who said they were illiterate signed loan and credit-insurance papers 
 - Slip p. 13: the agreement "was printed on a separate document headlined by the following phrase in prominent, all-caps print: 'ALTERNATIVE DISPUTE RESOLUTION AGREEMENT.'"
 
 ## Critical notes from the literature
-- The holding applies Mississippi law. Other states treat illiterate signers differently, as *Morales* (`morales2008sun`, dissent) shows for the Third Circuit.
+- The holding applies Mississippi law. *Morales* (`morales2008sun`) does not show a different rule: the Third Circuit majority applied the same rule under the Restatement, and only the dissent (Fuentes J.) would have relieved a signer who relied on the other party's translator.
 - Slip p. 6: the court did not decide whether the borrowers were in fact illiterate. It held that illiteracy "even if established, was insufficient". The case is therefore a statement of law, not a finding about the borrowers.
 - The court decided the misrepresentation claim itself rather than sending it to the arbitrator (slip p. 12, n. 4 and text). The borrowers said they told WM Finance they could not read and asked what they were signing, and were told it was insurance and finance paperwork. The court held that this "general response" was "not plainly misleading" (slip pp. 11-12). The case does not hold that a lender may misdescribe a document to an illiterate borrower; it holds that a generic oral answer is not a misdescription.
 
@@ -42,5 +42,11 @@ Borrowers who said they were illiterate signed loan and credit-insurance papers 
 duty to read, illiteracy, arbitration, procedural unconscionability, oral disclosure, Federal Arbitration Act, Mississippi contract law, consumer credit
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use. The burden fell on the person who could not read: "[a] person who cannot read has a duty to find someone to read the contract to him" (slip p. 10).
+- v4 (not yet drafted): proposed use. The burden fell on the person who could not read: "[a] person who cannot read has a duty to find someone to read the contract to him" (slip p. 10). Verifier: holds, but the words are the Fifth Circuit's parenthetical quoting *Dixon v. First Family Fin. Servs.*, 2003 WL 21788959, at *3 (S.D. Miss. 2003), "(citations and quotations omitted)". Attribute them as quoted, not as the Fifth Circuit's own words.
 - v4 (not yet drafted): proposed use. The court removed a duty of oral disclosure that the trial court had tried to impose (slip pp. 3, 10-11). The law required less than disclosure, not disclosure as enough.
+
+## Verifier notes
+- 2026-10-14. sha256 of the slip PDF matches. Page numbers print at the foot of each page (PDF page n = slip p. n). CourtListener confirms 364 F.3d 260, filed 2004-03-19, Fifth Circuit. Panel: Garwood, Jolly and Clement; opinion by E. Grady Jolly.
+- Disposition: the Fifth Circuit **reversed**. "We conclude the district court erred and REVERSE" (p. 3); the order granting the motion to dismiss is "REVERSED" (p. 14); final line "REVERSED and REMANDED FOR ENTRY OF JUDGMENT" (p. 18). Case-brief sites that say "affirmed" are wrong.
+- The Dixon quotation "[a] person who cannot read has a duty to find someone to read the contract to him" is exact on slip p. 10. Also confirmed: p. 3 question and disposition; p. 6 n. 3 "even if established"; p. 9 Mixon and Runnels; pp. 10-11 the oral-disclosure holding and "no authority"; pp. 11-12 the borrowers' inquiry and "general response ... not plainly misleading"; p. 12 n. 4; p. 13 "indisputably", the all-caps heading and "Had the Illiterate Appellees had someone read the document to them".
+- Corrected a critical note that misdescribed *Morales*: its majority bound the signer by the same rule. Both uses hold; I added an attribution note to the first. Bib agrees with the V3 facet entry.

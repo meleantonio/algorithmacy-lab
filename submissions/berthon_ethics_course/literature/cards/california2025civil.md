@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/ca1632_pu
 sha256: efa47b4b8ac2fb8d96b71b57cafa9f563fbc76c0d7c108a6cc2c84db320e15ee
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -42,3 +42,9 @@ consumer protection, translation, language access, interpreters, rescission, non
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use. A modern reform that moves the burden of the language gap onto the business and gives a remedy ((b), (k), (l)), while keeping the cure a text to be read.
 - v4 (not yet drafted): proposed use. The "own interpreter" rule ((h)(2)) recognises that an intermediary supplied by the stronger party is not a safeguard.
+
+## Verifier notes
+- 2026-10-14. sha256 of `ca1632_publaw.html` matches. leginfo.legislature.ca.gov still returns 403 (JavaScript challenge), so the official text could not be opened; all checks are against the public.law mirror, which cites leginfo "updated Jan. 1, 2025".
+- Checked all seven key facts against the mirror text: (a)(1), (a)(3) (3.8 million; 3.5 million; ACS 2009-2011), (b), (b)(2), (h)(1)-(2), (k)(1) and (l). All quotations exact.
+- Both v4 proposed uses hold against (b), (h)(2), (k) and (l). The list in (b) also covers legal-services contracts, reverse mortgages, foreclosure consulting and, from 1 January 2025, qualified commercial tenancies; the summary's "certain others" covers these.
+- Bib: agrees with the V3 facet entry (facet author "State of California"). Status is writer-grounded only because the basis is a secondary mirror, not the official site.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V3/boe_regla
 sha256: 8fe39539759edd69b1702908f985421a9bd23dbda7e7ee7d8d90b08647a58e57
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -40,5 +40,11 @@ The Notarial Regulation implements the 1862 law. Article 193 restates the readin
 notarial reading, informed consent, communication calibrated to the person, special assistance, deaf and blind grantors, interpreters, impartiality, Spain
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use. A civil-law system redefined "reading" as communication sufficient for "cabal conocimiento ... atendidas las circunstancias de los comparecientes" (art. 193). This is a standard of understanding fitted to the person, not of disclosure.
+- v4 (not yet drafted): proposed use. A civil-law system redefined "reading" as communication sufficient for "cabal conocimiento ... atendidas las circunstancias de los comparecientes" (art. 193). This is a standard of understanding fitted to the person, not of disclosure. Verifier: **narrower**. Art. 193 sets a standard for the notary's communication, aimed at full knowledge. What the notary then attests is the parties' own declaration that they are "debidamente informados" (para. 3). No step tests their understanding.
 - v4 (not yet drafted): proposed use. A neutral official carries the burden: "asistencia especial al otorgante necesitado de ella" (art. 147).
+
+## Verifier notes
+- 2026-10-14. sha256 of `boe_reglamento_notarial.html` matches. Read arts. 147 and 193 in the BOE consolidated text with their version notes.
+- Art. 193: all four paragraphs quoted on the card match exactly. Version note: modified by art. 1.97 RD 45/2007, in force 30/01/2007 (earlier by Decreto 2310/1967); the card's dates are right.
+- Art. 147: the BOE HTML marks in bold, as annulled by STS 20 May 2008, the whole second paragraph and the phrase "siempre que su contenido no vulnere el ordenamiento jurídico". Neither quoted passage (para. 1, last para.) is annulled, as the card says.
+- Use 2 holds. Use 1 is narrower (note added to it). The card's fact bullets are all correct; the correction is to the use verdict only. Bib agrees with the V3 facet entry.

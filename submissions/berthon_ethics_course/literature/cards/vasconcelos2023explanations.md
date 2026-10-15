@@ -38,5 +38,5 @@ Earlier studies found that explanations do not reduce overreliance on AI, define
 Explainable AI, overreliance, cost-benefit framework, verification cost, task difficulty, written versus visual explanations, monetary incentives, cognitive effort discounting
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use against an overstated thesis — some explanations reduce overreliance (pp. 129:15, 129:21), so the paper should not say disclosure never helps.
-- v4 (not yet drafted): proposed use for wrong (b) — the same path written as text did nothing while a visual highlight helped (pp. 129:15, 129:18): the form of the disclosure, not its content, decided the effect.
+- v4 (not yet drafted): proposed use against an overstated thesis — some explanations reduce overreliance (pp. 129:15, 129:21), so the paper should not say disclosure never helps. Holds; note the highlight explanation helped only in the hard maze (p. 129:15) and the 0% salient result is exploratory (p. 129:21).
+- v4 (not yet drafted): proposed use for wrong (b) — the same path written as text did nothing while a visual highlight helped (pp. 129:15, 129:18): the form of the disclosure, not its content, decided the effect. Narrower: the highlight helped only in the hard maze (p. 129:15); the written-versus-prediction "no difference" result comes from exploratory analyses (p. 129:18); the authors explain it as the cost of engaging with the explanation, not form as such.
