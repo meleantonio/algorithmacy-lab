@@ -65,7 +65,7 @@ them. Including them would push the body past 12,000 words.
 
 ## Length
 
-Body 10,303 words, references 1,827 (12,130 in all). The paper is under BEQ's 12,000 if references are excluded and
+Body 10,369 words, references 1,864 (12,233 in all) after the 2026-10-15 fixes. The paper is under BEQ's 12,000 if references are excluded and
 just over if they count.
 
 ## How it was checked
@@ -84,4 +84,14 @@ just over if they count.
   understanding is an impression" point twice in a row; §5.3 "A second form of the duty… One form is…"; §5.4's
   "independent party able to hear disputes" is no longer introduced anywhere in v4; §3.3 opens two sentences in a
   row with "Oviedo"; §4.2 "Its 2026 note" after "Inside it" points at the organisation, not Microsoft.
+- Thin-source pass (`V4_THIN_SOURCES.md`, 2026-10-15) applied to the manuscript: Goody p. 106 and Nussbaum p. 20
+  added; Clanchy narrowed ("in many of" the proceedings; pp. 3, 27; "abandoned in the 1290s"); Sudore narrowed (patients
+  aged 50 and over, read along on their own copy, seven-item standard, re-reading not "teaching"; note the authors
+  conclude "little additional education was required"); Willis narrowed ("a necessary corollary" is the policymakers'
+  view she reports; "for some consumers"); Cross's "indictable" claim now paired with its likely source, Pike (1873,
+  p. 300), which says judges punished *gaolers* who taught prisoners letters, and §3.3's conditional replaced with
+  Pike's narrower fact. Pike added to the references (card `pike1873history`).
+- Still to check in a library copy before print: Goody p. 106, Nussbaum p. 20, Clanchy pp. 3 and 27 (all from
+  archive.org text search of lending-only scans); Willis's published pages; Vredenburgh's journal pages (30(2)
+  209–229, published version closed); Docherty p. 571 against SAGE's PDF; the Liber Assisarum behind Pike.
 - Not yet done: your read-aloud.

@@ -11,7 +11,7 @@ pages_read: "pp. 551-556 read closely; pp. 544-565 skimmed"
 source_url: https://archive.org/details/jstor-1842649
 local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/cross1917.pdf
 sha256: 9e49b2e8fed119a36e40bb2495223a899115ecf032bc42150d25edffd69fbcc6
-manuscript_lines: []
+manuscript_lines: [73, 93, 111]
 ledger_rows: []
 verified: corrected
 written: 2026-10-14
@@ -49,3 +49,9 @@ benefit of clergy, neck verse, Psalm 51, reading test, branding, peers and women
 - Corrected the date note: the Statutes of the Realm note at vol. 2 p. 524 places chs. X-XXIV in the session ending 27 Feb. 1489/90 (see `statute1489clergy`).
 - Proposed v4 use: each element (test, harder verse, indictable teaching, peers, Anne's abolition) is on the page named; the "indictable" claim stays Cross's unsourced assertion, as the card says.
 
+
+## Second-pass notes (2026-10-15)
+- **No note on the sentence.** Re-read p. 552 with its footnotes (local PDF, sha256 unchanged). The clause "though it was an indictable oYfense [offense] at common law to teach a felon to read that he might claim his clergy" closes a sentence that carries no note number. The notes nearest it are n. 37 (after "such grew to be the usage of the courts") and n. 38 (after the next sentence, on Henry VI). N. 37 reads: "However, one judge as late as 1352 held that tonsure was necessary for a successful assertion of benefit of clergy, though the ordinary was willing to go further. Pike, History of Crime, I. 300. Cf. Makower, Church of England, p. 403, note 32." N. 38: "Ibid., I. 460; Makower, p. 405; Pike, House of Lords, p. 261".
+- **Probable source: Pike (1873), vol. 1, p. 300**, the page Cross cites in n. 37. I read it in the public-domain scan (archive.org `historyofcrimein01pikeuoft`, djvu text; local `berthon_ethics_local/pdfs/v4thin/pike/pike1.txt`, sha256 9e6fe8b5…). On p. 300, directly after the 1352 tonsure case Cross also takes from him, Pike writes: "If not already, it was very soon afterwards a part of the duty of the judges to enquire whether gaolers had aided prisoners to gain a knowledge of letters, and to punish them when detected in the offence." On p. 301 he adds that tenants of church lands "were taught to read in prison and claimed at the trial". Pike's note (vol. 1, p. 483, "References and Notes" to ch. IV) gives the authority: "the 'Liber Assisarum,' 26 Edward III., p. 122 ... the same book, p. 138, where the judges are instructed (Article 11) to enquire what gaolers had aided their prisoners to learn letters".
+- **What this changes.** Pike's claim is narrower than Cross's: an article of inquiry, from the 1350s, directing judges to find and punish *gaolers* who helped prisoners learn letters. Cross generalises it to "an indictable offense at common law to teach a felon to read". I have not read the Liber Assisarum (26 Edw. III) itself, so the primary record is still unseen. Stephen (1883, vol. 1, ch. XIII; archive.org `historyofcrimina01stepuoft`) has no such claim (full-text search for "teach", "taught", "indict" near "read"/"clergy").
+- v4 line 73 ("Cross records, without a source, that ..."): **narrower than accurate** — Cross gives no note *at that sentence*, but the adjacent note cites Pike, whose p. 300 is the likely source and says something narrower. v4 line 93 ("if Cross's unsourced report is right that teaching a felon to read for his clergy was itself an offence"): **narrower**; see `v4/V4_THIN_SOURCES.md` for the smallest corrections.

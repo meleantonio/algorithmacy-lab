@@ -7,11 +7,11 @@ type: book
 doi: null
 venue: Belknap Press of Harvard University Press, Cambridge, MA
 source_basis: partial-text
-pages_read: "none in sequence; one-line snippets from archive.org full-text search over the lending scan creatingcapabili0000nuss (not borrowed; no printed pages)"
+pages_read: "pp. 20-22 reconstructed from about 100 overlapping archive.org full-text-search highlights (lending scan creatingcapabili0000nuss, not borrowed); page breaks fixed by OCR running heads"
 source_url: https://archive.org/details/creatingcapabili0000nuss
 local_path: null
 sha256: null
-manuscript_lines: []
+manuscript_lines: [183]
 ledger_rows: []
 verified: writer-grounded
 written: 2026-10-14
@@ -73,3 +73,10 @@ capabilities approach, central capabilities, threshold, literacy and education, 
   borrowed copy.
 - Bib: archive.org metadata confirms Belknap Press of Harvard University Press, Cambridge MA, 2011; no
   disagreement with V5 bib.
+
+## Second-pass notes (2026-10-15)
+- **Page found: p. 20.** archive.org's search-inside endpoint for this lending item returns HTTP 403, and Google Books redirected to a bot-challenge page (not pursued). I therefore chained the public full-text-search API (generic User-Agent): each query is the last or first five words of the previous highlight, so consecutive highlights overlap and the text can be read continuously. The OCR keeps running heads in the text stream. Even pages carry "NN | THE CENTRAL CAPABILITIES"; the recto head on p. 21 is garbled ("| 21 | CC RAE APF LENG ..."), which is why a plain search for "21" found nothing.
+- Sequence observed (scripts in the session scratchpad `thin/chain.py`; outputs `nuss_b.txt`, `nuss_f.txt`): "… To make the complexity of | **20** | THE CENTRAL CAPABILITIES | capabilities clear, I refer to these 'substantial freedoms' as combined capabilities. …" → about 180 words → "Why is it important to distinguish internal capabilities from com-bined capabilities? The distinction corresponds to two overlapping but distinct tasks of the decent society. **A society might do quite well at producing internal capabilities but might cut off the avenues through which people actually have the opportunity to function in accordance with those capabilities.** Many societies educate people so that they are capable of free speech on political matters—internally—but then deny them free expression in practice through re-pression of speech. Many people who are internally free to exercise a | **21** | [garbled head] | religion do not have the opportunity to do so …".
+- So the quoted sentence is on **p. 20**. The definition "Because combined capabilities are defined as internal capabilities plus the social/political/economic conditions in which functioning can actually be chosen" is on **p. 21**, and p. 22 begins "choose not to vote."
+- v4 line 183: the quoted words "might do quite well at producing internal capabilities but might cut off the avenues through which people actually have the opportunity" are **exact**; v4 completes the clause with its own "to use them" outside the quotation marks, where Nussbaum has "to function in accordance with those capabilities". **Holds**; add "p. 20". The paraphrase "distinguishes the internal capability a person develops from the conditions that let her exercise it" is a fair compression of pp. 20-21, though her contrast term is "combined capabilities" (internal capabilities *plus* conditions), not the conditions alone.
+- Caveat: OCR text from highlights, not the page image; read once in a library copy if the author wants certainty.

@@ -7,7 +7,7 @@ type: book
 doi: null
 venue: Cambridge University Press (Studies in Literacy, Family, Culture and the State); ISBN 0521332680, 0521337941
 source_basis: partial-text
-pages_read: "none; archive.org full-text search highlights only (a few lines each, no page numbers); the book is lending-only"
+pages_read: "p. 106 reconstructed from about 60 overlapping archive.org full-text-search highlights (lending-only scan); page fixed by OCR running heads"
 source_url: https://archive.org/details/interfacebetween00good
 local_path: null
 sha256: null
@@ -70,3 +70,10 @@ orality, literacy, great divide, Goody and Watt 1963, Finnegan, binary shift, or
 - v4 line 263 (reference list): "Goody, J. (1987). *The interface between the written and the oral*. Cambridge
   University Press." **holds** against the archive.org catalogue record (title, author, CUP, 1987). cannot check
   (record only) beyond that.
+
+## Second-pass notes (2026-10-15)
+- **Page found: p. 106**, in ch. 3, "Africa, Greece and oral poetry" (Part II, "The influence of early forms of writing"; contents read from the scan's front matter by the same method). Method: the public full-text-search API, chained so that each query is five words from the edge of the previous highlight and consecutive highlights overlap (generic User-Agent; outputs `goody_b.txt`, `goody_f.txt`, `goody_sonf.txt` in the session scratchpad `thin/`). The OCR keeps running heads: verso "NNN | The influence of early forms of writing", recto "Africa, Greece and oral poetry | NNN".
+- Sequence observed: "… these shifts are multiple | **106** | The influence of early forms of writing | rather than single in kind. It is not a question of a simple division between oral and literate; the introduction of logographic scripts had different implications for human intercourse than the introduction of the alphabet. But secondly, factors other than immediately 'technological' ones are critical in defining the mode (as distinct from the means) of communication; … Thirdly, writing provides a new way of accumulating as well as presenting communicative acts, … Fourthly, and this is the important point for our present purpose, **the division between 'literacy' and 'orality' is never a question of crossing a single frontier, a simple binary shift.** If it were only a matter of the way poetry is presented, in writing or in recitation, there would perhaps be some reason to entertain a sharp division of this kind … No one, I think, would take the sonnet form to be typical of or even conceivable in a purely oral situation. … to produce a more formal | Africa, Greece and oral poetry | **107** | oneness …". No page break falls between the p. 106 head and the quoted sentence, and the p. 107 head comes after it, so the sentence is on **p. 106**.
+- The other "simple binary shift" passage ("we should not think of a simple binary shift between oral and literate, but a whole sequence of changes …") is elsewhere in the book; its page is still unknown and v4 does not use it.
+- v4 line 57 now reads: Goody "later wrote that the division between 'literacy' and 'orality' 'is never a question of crossing a single frontier, a simple binary shift' (Goody, 1987)." The quoted words are **exact** and the subject is now Goody's own. **Holds**; add "p. 106". Context worth knowing: the point is the fourth of a numbered list arguing that changes in the means of communication are "multiple rather than single in kind".
+- Caveat: OCR text from highlights, not the page image.

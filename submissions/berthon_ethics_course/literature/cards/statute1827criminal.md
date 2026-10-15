@@ -68,3 +68,8 @@ benefit of clergy, abolition, felony, capital punishment, Peel's Acts, criminal 
   jurisdiction. Source: preamble (p. 85, "in that Part of the United Kingdom called England") and s. XVI (p. 87, not
   to extend to Scotland or Ireland). **does not hold** for "(Great Britain)": the Act applies to England only; the
   chapter number and regnal year hold.
+
+## Second-pass notes (2026-10-15)
+- Re-checked the local OCR (sha256 unchanged) of the printed *Statutes of the United Kingdom* vol. 11 (archive.org `np212725_0011`, full view). s. VI, p. 86: "VI. And be it enacted, That Benefit of Clergy, with respect to Persons convicted of Felony, shall he abolished ; hut thnt nothing herein contained shall prevent the Joinder in any Indictment of any Counts which might have been joined before the passing of this Act." (OCR "he/hut/thnt" for "be/but/that".) Title, p. 85: "An Act foe [for] further improving the Administration of Justice in Criminal Cases in England. [21st June 1827.]"
+- v4 now quotes no words of the Act; it says Parliament "abolished the privilege for felony in 1827 (Criminal Law Act 1827, s. 6)" (line 73), and the reference list gives the printed long title and "7 & 8 Geo. IV c. 28 (1827)" (line 215). Both **hold** against the printed text. The earlier "(Great Britain)" problem is gone from v4.
+- Not checked (from memory, unverified): peers' benefit of clergy is often said to have survived until 4 & 5 Vict. c. 22 (1841). If the author wants "abolished the privilege" without qualification, that later Act should be checked; "for felony" as v4 has it matches s. VI.
