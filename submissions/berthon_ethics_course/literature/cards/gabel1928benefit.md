@@ -1,0 +1,41 @@
+---
+citekey: gabel1928benefit
+title: "Benefit of Clergy in England in the Later Middle Ages"
+authors: Gabel, Leona C.
+year: 1928
+type: book
+doi: null
+venue: "Smith College Studies in History 14 (1928-1929); reprint New York: Octagon Books, 1969"
+source_basis: partial-text
+pages_read: "full-text-search snippets only (no page view); index entry 'Neck-verse, 72'"
+source_url: https://archive.org/details/benefitofclergyi0000gabe
+local_path: null
+sha256: null
+manuscript_lines: []
+ledger_rows: []
+verified: pending
+written: 2026-10-14
+---
+
+New key. The archive.org copy (1969 Octagon reprint, x + 146 pp., "Originally published 1928-1929") is lending-only. I read search highlights of about 20 words returned by the archive.org full-text-search API; they show no page numbers. Wording at the edges of each snippet is unknown.
+
+## Summary
+Gabel's monograph studies benefit of clergy in England in the later Middle Ages; its record citations in the snippets are to gaol delivery rolls ("G. D."). The snippets show its treatment of the reading test: the test was introduced gradually as a way of ascertaining "clergy" and "towards the close of the century" (which century the snippet does not show) it "was commonly administered by the court"; any passage might be set, but the first verse of Psalm 51 became known as the "neck-verse" from its common use; and the rolls record prisoners who could not read or spell out syllables yet knew passages by rote, prisoners who learned to "read" in gaol before execution, and one illiterate layman taught in gaol by two boys from Appleby. One record has a judge hand the book upside down to a prisoner, who "read" as before. The snippets also show the Ordinary (the bishop's officer) deciding whether to claim a prisoner as a clerk.
+
+## Key facts it relies on
+- Snippet (index places "Neck-verse" at p. 72): "Although any passage might be chosen at random, the first verse of the fifty-first Psalm came to be known as the 'neck-verse,' no doubt because of its common use for the purpose."
+- Snippet: a prisoner "could neither read nor 'sillabicare,' yet seemed to know certain passages by rote. At this point the secular judge gave him the book upside down, but the prisoner 'read' as before, in nowise disturbed by the altered circumstance."
+- Snippet: "When the Ordinary refused to claim him, John was given another chance to plead as a layman, but stood fast by his claim of clergy."
+- Snippet: one prisoner "had improved his last days or hours by a diligent study of the 'neck-verse'"; another "may have learned to 'read' while awaiting the day of execution".
+- Snippet: a prisoner "was discovered to have been a layman and illiterate at the time of his arrest, but had been taught what he knew by two boys from Appleby, who had been admitted to the gaol through" (cut off).
+- Snippet: "Towards the close of the century the reading-test was commonly administered by the court".
+
+## Critical notes from the literature
+- Snippet evidence only; every quotation needs its page and full sentence from a library copy before it enters the paper (facet V2, leads).
+- Cross (1917, `cross1917english`, p. 552) and Blackstone (facet A) corroborate the Psalm 51 neck verse and the reading test.
+
+## Key topics covered
+benefit of clergy, reading test, neck verse, Psalm 51, rote memorisation, gaol teaching, the Ordinary, gaol delivery rolls
+
+## Where the manuscript uses it
+- v4 (not yet drafted): proposed use — the gaming of the test by memorisation (book upside down) and the capacity built only by fellow prisoners and outsiders in gaol. Cannot check (not yet drafted); pages must be supplied.
