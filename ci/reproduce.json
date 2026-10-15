@@ -6884,6 +6884,84 @@
       ],
       "timeout": 300,
       "source": "org_frontier/studies/m3_subset_fidelity_v4/FINDINGS.md"
+    },
+    {
+      "name": "q220-observation-process-robustness",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.probe_observation_process_robustness",
+      "expect": [
+        "CONTROL faithful triad: structure=triadic max_phi=2.000 core=(0, 1, 2) cc_pick=1 -> PASS",
+        "H0 dose-0 identity: PASS",
+        "H1 (BN drop m=0->0.3 <= 0.10): drop=0.172 REFUTED",
+        "H2 (TD drop m=0->0.3 >= 0.10): drop=0.003 REFUTED",
+        "H3 (TD MAR-BURST at 0.3 >= 0.05): gap=0.013 REFUTED",
+        "H4 (BN drop OFFSET2 > MAR0.3): -0.022 vs 0.172 REFUTED",
+        "H5 (TD at every g>=2 within 0.05 of null 0.556): max excess=0.028 CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "q220-stage1-audit",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.audit_original",
+      "expect": [
+        "rule as executed (one-sided, max excess <= 0.05): max excess +0.0281 -> CONFIRMED",
+        "hypothesis sentence (|TD_g - null| <= 0.05 at every g): max |dev| 0.0875 at g=5 -> REFUTED",
+        "uniform-random pick (per-form |B|/n), corpus mean: 0.6667",
+        "NULL cell picks node 0 in 283/320 runs (argmax tie-break on all-zero or near-zero centrality)",
+        "clean BN: ICC 0.813, design effect 16.44, effective n 19.5 of 320 runs",
+        "BN drop clean -> MAR 0.3, paired, form-clustered: 0.172 [0.037, 0.334]; forms dropping 5, rising 0, sign-test p=0.062"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "q220-stage2-gap-aware-crqa",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.probe_stage2",
+      "expect": [
+        "R2 corpus: n=3: 15 included of 35 draws, n=4: 15 included of 15 draws",
+        "S0 equivalence with original q220 per-run BN hits (CLEAN and gap-closed A): PASS (1920/1920 runs match)",
+        "stage2_runs.csv sha256 dc1c5da6850f6329fe82a0605a5b2598e0bdf8961c37146fdb1d3db7e2bf1144",
+        "S2-H1 (B - A, MAR 0.3): +0.204 [+0.015, +0.417] CONFIRMED | forms +4/-1, sign p=0.375, dz=0.57",
+        "S2-H2 (CLEAN - B, MAR 0.3): -0.002 [-0.058, +0.052] CONFIRMED | forms +1/-1, sign p=1.000, dz=-0.03",
+        "S2-H3 (CLEAN - LEN, MAR 0.3): +0.000 [-0.035, +0.035] CONFIRMED | forms +2/-1, sign p=1.000, dz=0.00",
+        "S2-H4 (B - C, MAR 0.3): +0.108 [-0.017, +0.233] INCONCLUSIVE | forms +5/-1, sign p=0.219, dz=0.50",
+        "S2-H5 (B - A, BURST 0.3): +0.021 [-0.031, +0.096] INCONCLUSIVE | forms +2/-3, sign p=1.000, dz=0.19",
+        "S2-H6a (B - A, MAR 0.3, R2): -0.007 [-0.082, +0.078] INCONCLUSIVE | forms +9/-12, sign p=0.664, dz=-0.03",
+        "S2-H6b (CLEAN - |B|/n, R2): +0.136 [-0.001, +0.272] INCONCLUSIVE | forms +19/-11, sign p=0.200, dz=0.34",
+        "S2-H7a (CLEAN - |B|/n): +0.230 [+0.078, +0.358] CONFIRMED | forms +9/-3, sign p=0.146, dz=0.88",
+        "S2-H7b (CLEAN - NULL-CLEAN): +0.239 [+0.083, +0.372] CONFIRMED | forms +9/-3, sign p=0.146, dz=0.88",
+        "S2-H8 (B - |B|/n, MAR 0.3): +0.232 [+0.094, +0.351] CONFIRMED | forms +10/-2, sign p=0.039, dz=0.96",
+        "Mechanism (preregistered rule): reconstruction distortion",
+        "Segment-at-gaps recommendation supported: False (C - A +0.096 [-0.054, +0.244]; S2-H4 INCONCLUSIVE)"
+      ],
+      "timeout": 1500,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "q220-stage2-exploratory-td",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.explore_td",
+      "expect": [
+        "  form-level AUC of normalised spread for triadic vs dyadic: 0.619 (7 triadic, 9 dyadic)",
+        "  form-level AUC of normalised spread for triadic vs dyadic: 0.185 (3 triadic, 27 dyadic)",
+        "(a) R1 leave-one-form-out normalised-spread threshold: accuracy 0.459, balanced accuracy 0.488 (majority-class 0.5625, balanced 0.500)",
+        "(b) trained on all R1 (threshold 0.367), tested on R2: accuracy 0.138, balanced accuracy 0.329 (R2 majority-class accuracy 0.900, balanced 0.500)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "q220-stage2-margin-audit",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.margin_audit",
+      "expect": [
+        "S2-H1   superiority     0.10   +0.204 [+0.015, +0.417]    CONFIRMED     INCONCLUSIVE  | +0.204 [-0.052, +0.513]    INCONCLUSIVE  INCONCLUSIVE ",
+        "all 10 published 95% intervals and verdicts reproduced exactly: PASS",
+        "Mechanism (preregistered rule), rule as run: reconstruction distortion (S2-H1 CONFIRMED, S2-H2 CONFIRMED, S2-H3 CONFIRMED)",
+        "Mechanism (preregistered rule), margin reading: mixed or inconclusive (S2-H1 INCONCLUSIVE, S2-H2 CONFIRMED, S2-H3 CONFIRMED)",
+        "Verdicts that differ between the two readings at 95%: S2-H1",
+        "CONFIRMED (rule as run) verdicts that do not survive Bonferroni 99.5%: S2-H1"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     }
   ]
 }

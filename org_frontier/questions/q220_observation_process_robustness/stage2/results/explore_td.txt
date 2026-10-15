@@ -1,0 +1,58 @@
+EXPLORATORY — TD diagnosis (clean runs, 600 steps, flip 0.08). Not a confirmatory result.
+
+R1 per form: label, mean normalised spread, q161 threshold as a fraction, original TD accuracy
+  chat_dyad                    n=3 dyadic   spread 0.333  thr 0.667  TD acc 1.00
+  gig_dyadic_model             n=3 dyadic   spread 0.517  thr 0.667  TD acc 0.60
+  ats_strict_bottleneck        n=3 triadic  spread 1.000  thr 0.667  TD acc 1.00
+  ats_feedback_factors         n=3 dyadic   spread 0.783  thr 0.667  TD acc 0.00
+  gig_false_dyad               n=3 dyadic   spread 0.500  thr 0.667  TD acc 0.50
+  two_sided_match              n=3 triadic  spread 1.000  thr 0.667  TD acc 1.00
+  hierarchy_backchannel        n=3 dyadic   spread 0.983  thr 0.667  TD acc 0.00
+  pool_all_required            n=4 triadic  spread 1.000  thr 0.583  TD acc 1.00
+  substitutable_counterparts   n=4 dyadic   spread 1.000  thr 0.583  TD acc 0.00
+  one_counterpart_constitutive n=4 triadic  spread 1.000  thr 0.583  TD acc 1.00
+  decoupled_control            n=4 triadic  spread 0.583  thr 0.583  TD acc 0.20
+  mediator_chain               n=4 dyadic   spread 0.800  thr 0.583  TD acc 0.25
+  deep_pool_all                n=5 triadic  spread 0.710  thr 0.450  TD acc 0.60
+  deep_substitutable           n=5 dyadic   spread 0.990  thr 0.450  TD acc 0.00
+  multihome_either             n=4 dyadic   spread 1.000  thr 0.583  TD acc 0.00
+  multihome_both               n=4 triadic  spread 0.408  thr 0.583  TD acc 0.40
+  form-level AUC of normalised spread for triadic vs dyadic: 0.619 (7 triadic, 9 dyadic)
+  original decoder: accuracy 0.472, balanced accuracy 0.502; majority-class accuracy 0.562
+
+R2 per form: label, mean normalised spread, q161 threshold as a fraction, original TD accuracy
+  r2_n3_d001                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d003                   n=3 dyadic   spread 0.667  thr 0.667  TD acc 0.00
+  r2_n3_d006                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d008                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d010                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d011                   n=3 dyadic   spread 0.683  thr 0.667  TD acc 0.00
+  r2_n3_d012                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d015                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d022                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d024                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d025                   n=3 triadic  spread 0.333  thr 0.667  TD acc 0.00
+  r2_n3_d028                   n=3 dyadic   spread 0.300  thr 0.667  TD acc 0.95
+  r2_n3_d032                   n=3 dyadic   spread 1.000  thr 0.667  TD acc 0.00
+  r2_n3_d033                   n=3 dyadic   spread 0.700  thr 0.667  TD acc 0.10
+  r2_n3_d035                   n=3 dyadic   spread 0.367  thr 0.667  TD acc 0.90
+  r2_n4_d001                   n=4 dyadic   spread 0.800  thr 0.583  TD acc 0.00
+  r2_n4_d002                   n=4 dyadic   spread 0.842  thr 0.583  TD acc 0.00
+  r2_n4_d003                   n=4 dyadic   spread 0.958  thr 0.583  TD acc 0.00
+  r2_n4_d004                   n=4 triadic  spread 0.633  thr 0.583  TD acc 0.55
+  r2_n4_d005                   n=4 dyadic   spread 1.000  thr 0.583  TD acc 0.00
+  r2_n4_d006                   n=4 dyadic   spread 0.692  thr 0.583  TD acc 0.45
+  r2_n4_d007                   n=4 triadic  spread 0.792  thr 0.583  TD acc 0.95
+  r2_n4_d008                   n=4 dyadic   spread 0.675  thr 0.583  TD acc 0.45
+  r2_n4_d009                   n=4 dyadic   spread 0.892  thr 0.583  TD acc 0.00
+  r2_n4_d010                   n=4 dyadic   spread 1.000  thr 0.583  TD acc 0.00
+  r2_n4_d011                   n=4 dyadic   spread 0.750  thr 0.583  TD acc 0.00
+  r2_n4_d012                   n=4 dyadic   spread 0.450  thr 0.583  TD acc 0.85
+  r2_n4_d013                   n=4 dyadic   spread 0.975  thr 0.583  TD acc 0.00
+  r2_n4_d014                   n=4 dyadic   spread 0.708  thr 0.583  TD acc 0.00
+  r2_n4_d015                   n=4 dyadic   spread 0.708  thr 0.583  TD acc 0.05
+  form-level AUC of normalised spread for triadic vs dyadic: 0.185 (3 triadic, 27 dyadic)
+  original decoder: accuracy 0.175, balanced accuracy 0.319; majority-class accuracy 0.900
+
+(a) R1 leave-one-form-out normalised-spread threshold: accuracy 0.459, balanced accuracy 0.488 (majority-class 0.5625, balanced 0.500)
+(b) trained on all R1 (threshold 0.367), tested on R2: accuracy 0.138, balanced accuracy 0.329 (R2 majority-class accuracy 0.900, balanced 0.500)
