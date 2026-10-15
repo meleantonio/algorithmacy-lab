@@ -6962,6 +6962,22 @@
       ],
       "timeout": 600,
       "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "probe-voting-robustness",
+      "cmd": "python -m org_frontier.probes.probe_voting_robustness",
+      "expect": [
+        "H1 baseline reproduction: SUPPORTED",
+        "H2 (all collapse to dyadic): SUPPORTED",
+        "H3 (all collapse under sequential): SUPPORTED",
+        "H4 (no differential robustness): SUPPORTED",
+        "unanimity (AND)              triadic  Phi=3.000  core=['W', 'C1', 'C2']",
+        "any (OR)                     triadic  Phi=3.000  core=['W', 'C1', 'C2']",
+        "majority (2of3)              dyadic   Phi=0.000  core=[]",
+        "H2 (all collapse to dyadic): SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/probes/probe_voting_robustness.py"
     }
   ]
 }
