@@ -1,0 +1,249 @@
+R1/S0 corpus: 16 forms, 12 with |B| < n (primary)
+R2 corpus: n=3: 15 included of 35 draws, n=4: 15 included of 15 draws
+R2 labels: 3 triadic, 27 dyadic; mean |B|/n 0.450
+runs: 55680 rows from 2440 units
+S0 equivalence with original q220 per-run BN hits (CLEAN and gap-closed A): PASS (1920/1920 runs match)
+
+S0 primary forms (12): tie-aware BN score, form-clustered 95% CI; gain = score - |B|/n
+  chance |B|/n = 0.556
+  mask   dose  method score                      gain over chance          
+  NONE   0     CLEAN  0.790 [0.583, 0.954]       +0.234 [+0.084, +0.359]   
+  NONE   0     NULL-CLEAN 0.551 [0.467, 0.635]       -0.005 [-0.025, +0.016]   
+  MAR    0.1   A      0.760 [0.562, 0.929]       +0.205 [+0.068, +0.319]   
+  MAR    0.1   B      0.769 [0.554, 0.944]       +0.213 [+0.058, +0.340]   
+  MAR    0.1   C      0.769 [0.577, 0.929]       +0.213 [+0.082, +0.322]   
+  MAR    0.1   LEN    0.783 [0.585, 0.948]       +0.228 [+0.086, +0.348]   
+  MAR    0.1   THIN   0.783 [0.587, 0.946]       +0.228 [+0.087, +0.347]   
+  MAR    0.1   NULL-A 0.556 [0.476, 0.637]       +0.000 [-0.033, +0.033]   
+  MAR    0.1   NULL-B 0.545 [0.461, 0.629]       -0.010 [-0.041, +0.022]   
+  MAR    0.1   NULL-C 0.482 [0.363, 0.611]       -0.074 [-0.146, +0.000]   
+  MAR    0.2   A      0.600 [0.404, 0.806]       +0.044 [-0.098, +0.186]   
+  MAR    0.2   B      0.760 [0.550, 0.938]       +0.205 [+0.057, +0.329]   
+  MAR    0.2   C      0.727 [0.542, 0.892]       +0.172 [+0.046, +0.281]   
+  MAR    0.2   LEN    0.783 [0.596, 0.944]       +0.228 [+0.088, +0.342]   
+  MAR    0.2   THIN   0.769 [0.565, 0.942]       +0.213 [+0.065, +0.336]   
+  MAR    0.2   NULL-A 0.537 [0.450, 0.624]       -0.019 [-0.062, +0.020]   
+  MAR    0.2   NULL-B 0.545 [0.447, 0.651]       -0.010 [-0.059, +0.042]   
+  MAR    0.2   NULL-C 0.497 [0.356, 0.635]       -0.059 [-0.158, +0.030]   
+  MAR    0.3   A      0.560 [0.358, 0.775]       +0.005 [-0.150, +0.156]   
+  MAR    0.3   B      0.781 [0.575, 0.946]       +0.226 [+0.079, +0.346]   
+  MAR    0.3   C      0.662 [0.479, 0.846]       +0.107 [-0.004, +0.221]   
+  MAR    0.3   LEN    0.792 [0.594, 0.954]       +0.236 [+0.090, +0.358]   
+  MAR    0.3   THIN   0.765 [0.567, 0.933]       +0.209 [+0.072, +0.322]   
+  MAR    0.3   NULL-A 0.560 [0.449, 0.671]       +0.004 [-0.048, +0.054]   
+  MAR    0.3   NULL-B 0.558 [0.438, 0.674]       +0.003 [-0.055, +0.060]   
+  MAR    0.3   NULL-C 0.525 [0.408, 0.637]       -0.031 [-0.118, +0.056]   
+  MAR    0.5   A      0.537 [0.331, 0.765]       -0.018 [-0.182, +0.145]   
+  MAR    0.5   B      0.723 [0.531, 0.900]       +0.167 [+0.036, +0.290]   
+  MAR    0.5   C      0.630 [0.446, 0.813]       +0.075 [-0.045, +0.191]   
+  MAR    0.5   LEN    0.781 [0.581, 0.942]       +0.226 [+0.078, +0.344]   
+  MAR    0.5   THIN   0.700 [0.512, 0.875]       +0.144 [+0.014, +0.264]   
+  MAR    0.5   NULL-A 0.578 [0.465, 0.699]       +0.023 [-0.048, +0.090]   
+  MAR    0.5   NULL-B 0.500 [0.367, 0.631]       -0.056 [-0.147, +0.039]   
+  MAR    0.5   NULL-C 0.553 [0.436, 0.671]       -0.002 [-0.085, +0.083]   
+  BURST  0.3   A      0.787 [0.581, 0.950]       +0.232 [+0.081, +0.351]   
+  BURST  0.3   B      0.787 [0.592, 0.950]       +0.232 [+0.089, +0.350]   
+  BURST  0.3   C      0.792 [0.590, 0.958]       +0.236 [+0.087, +0.363]   
+  BURST  0.3   LEN    0.781 [0.583, 0.946]       +0.226 [+0.084, +0.347]   
+  BURST  0.3   THIN   0.765 [0.554, 0.938]       +0.209 [+0.053, +0.339]   
+  BURST  0.3   NULL-A 0.553 [0.450, 0.663]       -0.003 [-0.055, +0.054]   
+  BURST  0.3   NULL-B 0.541 [0.435, 0.654]       -0.015 [-0.084, +0.063]   
+  BURST  0.3   NULL-C 0.549 [0.428, 0.677]       -0.007 [-0.082, +0.073]   
+
+R1 primary forms (12): tie-aware BN score, form-clustered 95% CI; gain = score - |B|/n
+  chance |B|/n = 0.556
+  mask   dose  method score                      gain over chance          
+  NONE   0     CLEAN  0.785 [0.581, 0.958]       +0.230 [+0.078, +0.358]   
+  NONE   0     NULL-CLEAN 0.547 [0.469, 0.631]       -0.009 [-0.039, +0.017]   
+  MAR    0.1   A      0.738 [0.546, 0.904]       +0.182 [+0.055, +0.288]   
+  MAR    0.1   B      0.765 [0.556, 0.942]       +0.209 [+0.057, +0.338]   
+  MAR    0.1   C      0.760 [0.554, 0.933]       +0.205 [+0.056, +0.326]   
+  MAR    0.1   LEN    0.785 [0.581, 0.954]       +0.230 [+0.075, +0.358]   
+  MAR    0.1   THIN   0.781 [0.581, 0.946]       +0.226 [+0.080, +0.348]   
+  MAR    0.1   NULL-A 0.531 [0.449, 0.611]       -0.025 [-0.061, +0.010]   
+  MAR    0.1   NULL-B 0.535 [0.449, 0.623]       -0.021 [-0.062, +0.019]   
+  MAR    0.1   NULL-C 0.525 [0.411, 0.643]       -0.030 [-0.099, +0.040]   
+  MAR    0.2   A      0.608 [0.412, 0.804]       +0.053 [-0.098, +0.197]   
+  MAR    0.2   B      0.787 [0.592, 0.956]       +0.232 [+0.096, +0.349]   
+  MAR    0.2   C      0.725 [0.537, 0.896]       +0.169 [+0.042, +0.286]   
+  MAR    0.2   LEN    0.808 [0.615, 0.971]       +0.253 [+0.116, +0.374]   
+  MAR    0.2   THIN   0.756 [0.554, 0.929]       +0.201 [+0.049, +0.322]   
+  MAR    0.2   NULL-A 0.559 [0.470, 0.650]       +0.003 [-0.029, +0.036]   
+  MAR    0.2   NULL-B 0.555 [0.450, 0.670]       -0.001 [-0.048, +0.051]   
+  MAR    0.2   NULL-C 0.503 [0.383, 0.633]       -0.052 [-0.131, +0.033]   
+  MAR    0.3   A      0.583 [0.377, 0.783]       +0.028 [-0.131, +0.174]   
+  MAR    0.3   B      0.787 [0.594, 0.954]       +0.232 [+0.094, +0.351]   
+  MAR    0.3   C      0.679 [0.496, 0.858]       +0.124 [-0.010, +0.239]   
+  MAR    0.3   LEN    0.785 [0.583, 0.946]       +0.230 [+0.083, +0.350]   
+  MAR    0.3   THIN   0.796 [0.608, 0.950]       +0.240 [+0.106, +0.349]   
+  MAR    0.3   NULL-A 0.565 [0.468, 0.663]       +0.009 [-0.032, +0.051]   
+  MAR    0.3   NULL-B 0.551 [0.439, 0.668]       -0.005 [-0.066, +0.059]   
+  MAR    0.3   NULL-C 0.579 [0.458, 0.698]       +0.024 [-0.054, +0.101]   
+  MAR    0.5   A      0.571 [0.360, 0.781]       +0.015 [-0.150, +0.170]   
+  MAR    0.5   B      0.710 [0.512, 0.896]       +0.155 [+0.018, +0.283]   
+  MAR    0.5   C      0.640 [0.452, 0.821]       +0.084 [-0.038, +0.198]   
+  MAR    0.5   LEN    0.767 [0.567, 0.940]       +0.211 [+0.062, +0.336]   
+  MAR    0.5   THIN   0.746 [0.554, 0.912]       +0.190 [+0.056, +0.304]   
+  MAR    0.5   NULL-A 0.559 [0.445, 0.671]       +0.003 [-0.057, +0.060]   
+  MAR    0.5   NULL-B 0.520 [0.388, 0.658]       -0.035 [-0.121, +0.051]   
+  MAR    0.5   NULL-C 0.572 [0.459, 0.688]       +0.017 [-0.054, +0.090]   
+  BURST  0.3   A      0.787 [0.592, 0.948]       +0.232 [+0.103, +0.340]   
+  BURST  0.3   B      0.808 [0.627, 0.965]       +0.253 [+0.122, +0.365]   
+  BURST  0.3   C      0.779 [0.588, 0.938]       +0.224 [+0.090, +0.334]   
+  BURST  0.3   LEN    0.785 [0.585, 0.954]       +0.230 [+0.084, +0.354]   
+  BURST  0.3   THIN   0.765 [0.567, 0.929]       +0.209 [+0.073, +0.324]   
+  BURST  0.3   NULL-A 0.539 [0.448, 0.638]       -0.016 [-0.075, +0.040]   
+  BURST  0.3   NULL-B 0.532 [0.417, 0.649]       -0.023 [-0.083, +0.040]   
+  BURST  0.3   NULL-C 0.555 [0.446, 0.665]       -0.001 [-0.069, +0.067]   
+
+R2 primary forms (30): tie-aware BN score, form-clustered 95% CI; gain = score - |B|/n
+  chance |B|/n = 0.450
+  mask   dose  method score                      gain over chance          
+  NONE   0     CLEAN  0.586 [0.439, 0.732]       +0.136 [-0.001, +0.272]   
+  NONE   0     NULL-CLEAN 0.467 [0.401, 0.533]       +0.017 [+0.002, +0.031]   
+  MAR    0.1   A      0.590 [0.452, 0.731]       +0.140 [+0.006, +0.273]   
+  MAR    0.1   B      0.580 [0.435, 0.726]       +0.130 [-0.007, +0.268]   
+  MAR    0.1   C      0.596 [0.452, 0.733]       +0.146 [+0.013, +0.276]   
+  MAR    0.1   LEN    0.582 [0.440, 0.728]       +0.132 [-0.003, +0.267]   
+  MAR    0.1   THIN   0.585 [0.444, 0.730]       +0.135 [-0.003, +0.266]   
+  MAR    0.1   NULL-A 0.465 [0.397, 0.531]       +0.015 [-0.003, +0.032]   
+  MAR    0.1   NULL-B 0.470 [0.403, 0.535]       +0.020 [-0.000, +0.042]   
+  MAR    0.1   NULL-C 0.466 [0.386, 0.545]       +0.016 [-0.030, +0.062]   
+  MAR    0.2   A      0.588 [0.454, 0.716]       +0.138 [+0.007, +0.260]   
+  MAR    0.2   B      0.584 [0.443, 0.721]       +0.134 [+0.004, +0.263]   
+  MAR    0.2   C      0.596 [0.473, 0.722]       +0.146 [+0.025, +0.259]   
+  MAR    0.2   LEN    0.591 [0.448, 0.735]       +0.141 [+0.002, +0.278]   
+  MAR    0.2   THIN   0.593 [0.453, 0.731]       +0.143 [+0.008, +0.273]   
+  MAR    0.2   NULL-A 0.475 [0.401, 0.548]       +0.025 [+0.001, +0.048]   
+  MAR    0.2   NULL-B 0.468 [0.395, 0.538]       +0.018 [-0.013, +0.051]   
+  MAR    0.2   NULL-C 0.470 [0.384, 0.560]       +0.020 [-0.039, +0.076]   
+  MAR    0.3   A      0.597 [0.474, 0.721]       +0.147 [+0.020, +0.264]   
+  MAR    0.3   B      0.591 [0.448, 0.723]       +0.141 [+0.012, +0.271]   
+  MAR    0.3   C      0.583 [0.462, 0.696]       +0.133 [+0.023, +0.241]   
+  MAR    0.3   LEN    0.594 [0.454, 0.741]       +0.144 [+0.009, +0.282]   
+  MAR    0.3   THIN   0.612 [0.482, 0.742]       +0.162 [+0.037, +0.288]   
+  MAR    0.3   NULL-A 0.473 [0.400, 0.542]       +0.023 [-0.005, +0.054]   
+  MAR    0.3   NULL-B 0.466 [0.385, 0.545]       +0.016 [-0.023, +0.058]   
+  MAR    0.3   NULL-C 0.438 [0.355, 0.524]       -0.012 [-0.067, +0.041]   
+  MAR    0.5   A      0.569 [0.451, 0.683]       +0.119 [+0.011, +0.223]   
+  MAR    0.5   B      0.581 [0.461, 0.705]       +0.131 [+0.018, +0.242]   
+  MAR    0.5   C      0.563 [0.453, 0.675]       +0.113 [+0.021, +0.204]   
+  MAR    0.5   LEN    0.571 [0.429, 0.713]       +0.121 [-0.011, +0.252]   
+  MAR    0.5   THIN   0.553 [0.432, 0.681]       +0.103 [-0.010, +0.213]   
+  MAR    0.5   NULL-A 0.490 [0.416, 0.564]       +0.040 [-0.011, +0.096]   
+  MAR    0.5   NULL-B 0.452 [0.371, 0.532]       +0.002 [-0.062, +0.062]   
+  MAR    0.5   NULL-C 0.441 [0.361, 0.520]       -0.009 [-0.052, +0.036]   
+  BURST  0.3   A      0.578 [0.434, 0.721]       +0.128 [-0.011, +0.263]   
+  BURST  0.3   B      0.586 [0.443, 0.731]       +0.136 [+0.003, +0.271]   
+  BURST  0.3   C      0.585 [0.442, 0.726]       +0.135 [+0.003, +0.264]   
+  BURST  0.3   LEN    0.588 [0.444, 0.731]       +0.138 [+0.001, +0.274]   
+  BURST  0.3   THIN   0.588 [0.448, 0.728]       +0.138 [+0.006, +0.269]   
+  BURST  0.3   NULL-A 0.468 [0.400, 0.535]       +0.018 [-0.007, +0.045]   
+  BURST  0.3   NULL-B 0.472 [0.401, 0.543]       +0.022 [-0.012, +0.057]   
+  BURST  0.3   NULL-C 0.468 [0.390, 0.543]       +0.018 [-0.017, +0.053]   
+
+Confirmatory hypotheses (paired per-run differences in tie-aware BN score; two-stage CI)
+S2-H1 (B - A, MAR 0.3): +0.204 [+0.015, +0.417] CONFIRMED | forms +4/-1, sign p=0.375, dz=0.57
+S2-H2 (CLEAN - B, MAR 0.3): -0.002 [-0.058, +0.052] CONFIRMED | forms +1/-1, sign p=1.000, dz=-0.03
+S2-H3 (CLEAN - LEN, MAR 0.3): +0.000 [-0.035, +0.035] CONFIRMED | forms +2/-1, sign p=1.000, dz=0.00
+S2-H4 (B - C, MAR 0.3): +0.108 [-0.017, +0.233] INCONCLUSIVE | forms +5/-1, sign p=0.219, dz=0.50
+S2-H5 (B - A, BURST 0.3): +0.021 [-0.031, +0.096] INCONCLUSIVE | forms +2/-3, sign p=1.000, dz=0.19
+S2-H6a (B - A, MAR 0.3, R2): -0.007 [-0.082, +0.078] INCONCLUSIVE | forms +9/-12, sign p=0.664, dz=-0.03
+S2-H6b (CLEAN - |B|/n, R2): +0.136 [-0.001, +0.272] INCONCLUSIVE | forms +19/-11, sign p=0.200, dz=0.34
+S2-H7a (CLEAN - |B|/n): +0.230 [+0.078, +0.358] CONFIRMED | forms +9/-3, sign p=0.146, dz=0.88
+S2-H7b (CLEAN - NULL-CLEAN): +0.239 [+0.083, +0.372] CONFIRMED | forms +9/-3, sign p=0.146, dz=0.88
+S2-H8 (B - |B|/n, MAR 0.3): +0.232 [+0.094, +0.351] CONFIRMED | forms +10/-2, sign p=0.039, dz=0.96
+Mechanism (preregistered rule): reconstruction distortion
+Segment-at-gaps recommendation supported: False (C - A +0.096 [-0.054, +0.244]; S2-H4 INCONCLUSIVE)
+
+Secondary readings, R1 MAR 0.3
+  all 16 forms, tie-aware, B - A: +0.153 [+0.008, +0.331]
+  all 16 forms, tie-aware, CLEAN - B: -0.002 [-0.045, +0.039]
+  all 16 forms, legacy argmax, B - A: +0.166 [+0.022, +0.341]
+  all 16 forms, legacy argmax, CLEAN - B: -0.003 [-0.047, +0.041]
+  12 primary forms, tie-aware, B - A: +0.204 [+0.015, +0.417]
+  12 primary forms, tie-aware, CLEAN - B: -0.002 [-0.058, +0.052]
+  12 primary forms, legacy argmax, B - A: +0.221 [+0.046, +0.429]
+  12 primary forms, legacy argmax, CLEAN - B: -0.004 [-0.062, +0.050]
+  R1 clean: ICC 0.754, design effect 15.33, effective n 15.7 of 240 runs; seed-only CI 0.785 [0.756, 0.815] vs form-clustered 0.785 [0.581, 0.958]
+
+Controls at MAR 0.3 (paired differences, R1 primary / R2)
+  R1 CLEAN - THIN   -0.010 [-0.071, +0.040]
+  R1 THIN  - B      +0.008 [-0.054, +0.079]
+  R1 C     - A      +0.096 [-0.054, +0.244]
+  R1 CLEAN - A      +0.202 [+0.008, +0.421]
+  R1 B     - NULL-B +0.237 [+0.078, +0.386]
+  R1 A     - NULL-A +0.018 [-0.129, +0.156]
+  R1 C     - NULL-C +0.100 [-0.050, +0.233]
+  R1 BURST 0.3 B     - A     +0.021 [-0.031, +0.096]
+  R1 BURST 0.3 B     - C     +0.029 [-0.004, +0.075]
+  R1 BURST 0.3 CLEAN - B     -0.023 [-0.096, +0.025]
+  R1 MAR 0.1 B - A +0.027 [-0.044, +0.106]
+  R1 MAR 0.2 B - A +0.179 [+0.010, +0.360]
+  R1 MAR 0.5 B - A +0.140 [-0.027, +0.329]
+  R2 CLEAN - THIN   -0.026 [-0.087, +0.026]
+  R2 THIN  - B      +0.021 [-0.019, +0.067]
+  R2 C     - A      -0.015 [-0.094, +0.070]
+  R2 CLEAN - A      -0.011 [-0.102, +0.079]
+  R2 B     - NULL-B +0.124 [+0.003, +0.248]
+  R2 A     - NULL-A +0.124 [+0.002, +0.237]
+  R2 C     - NULL-C +0.144 [+0.013, +0.273]
+  R2 BURST 0.3 B     - A     +0.008 [-0.014, +0.032]
+  R2 BURST 0.3 B     - C     +0.001 [-0.020, +0.025]
+  R2 BURST 0.3 CLEAN - B     +0.000 [-0.028, +0.028]
+  R2 MAR 0.1 B - A -0.010 [-0.056, +0.032]
+  R2 MAR 0.2 B - A -0.003 [-0.063, +0.063]
+  R2 MAR 0.5 B - A +0.012 [-0.081, +0.108]
+
+Mechanism diagnostics (means over runs; R1 primary and R2)
+  R1 NONE  0.0 CLEAN      lag0-peak share 0.195 | pairs lag1  599.0 lag10  590.0 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 NONE  0.0 NULL-CLEAN lag0-peak share 0.040 | pairs lag1  599.0 lag10  590.0 | insufficient pairs/run 0.00 | no-evidence 0.742
+  R1 MAR   0.1 A          lag0-peak share 0.224 | pairs lag1  539.1 lag10  530.1 | insufficient pairs/run 0.00 | no-evidence 0.000 | fabricated share lag1 0.100, mean lag1-10 0.416
+  R1 MAR   0.1 B          lag0-peak share 0.195 | pairs lag1  485.4 lag10  477.3 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.1 C          lag0-peak share 0.194 | pairs lag1  485.4 lag10  182.6 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.1 THIN       lag0-peak share 0.193 | pairs lag1  485.4 lag10  477.3 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.2 A          lag0-peak share 0.240 | pairs lag1  477.2 lag10  468.2 | insufficient pairs/run 0.00 | no-evidence 0.000 | fabricated share lag1 0.205, mean lag1-10 0.652
+  R1 MAR   0.2 B          lag0-peak share 0.199 | pairs lag1  379.6 lag10  372.4 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.2 C          lag0-peak share 0.167 | pairs lag1  379.6 lag10   45.6 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.2 THIN       lag0-peak share 0.190 | pairs lag1  379.6 lag10  372.4 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.3 A          lag0-peak share 0.251 | pairs lag1  413.9 lag10  404.9 | insufficient pairs/run 0.00 | no-evidence 0.000 | fabricated share lag1 0.313, mean lag1-10 0.783
+  R1 MAR   0.3 B          lag0-peak share 0.178 | pairs lag1  284.6 lag10  280.6 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.3 C          lag0-peak share 0.152 | pairs lag1  284.6 lag10   11.2 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.3 THIN       lag0-peak share 0.173 | pairs lag1  284.6 lag10  280.6 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.5 A          lag0-peak share 0.285 | pairs lag1  293.9 lag10  284.9 | insufficient pairs/run 0.00 | no-evidence 0.000 | fabricated share lag1 0.504, mean lag1-10 0.899
+  R1 MAR   0.5 B          lag0-peak share 0.157 | pairs lag1  146.3 lag10  142.2 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.5 C          lag0-peak share 0.164 | pairs lag1  146.3 lag10    0.1 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 MAR   0.5 THIN       lag0-peak share 0.158 | pairs lag1  146.3 lag10  142.2 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 BURST 0.3 A          lag0-peak share 0.214 | pairs lag1  404.0 lag10  395.0 | insufficient pairs/run 0.00 | no-evidence 0.000 | fabricated share lag1 0.045, mean lag1-10 0.218
+  R1 BURST 0.3 B          lag0-peak share 0.189 | pairs lag1  385.9 lag10  296.5 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 BURST 0.3 C          lag0-peak share 0.184 | pairs lag1  385.9 lag10  249.7 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R1 BURST 0.3 THIN       lag0-peak share 0.185 | pairs lag1  385.9 lag10  296.5 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R2 NONE  0.0 CLEAN      lag0-peak share 0.091 | pairs lag1  599.0 lag10  590.0 | insufficient pairs/run 0.00 | no-evidence 0.005
+  R2 NONE  0.0 NULL-CLEAN lag0-peak share 0.058 | pairs lag1  599.0 lag10  590.0 | insufficient pairs/run 0.00 | no-evidence 0.788
+  R2 MAR   0.1 A          lag0-peak share 0.124 | pairs lag1  540.4 lag10  531.4 | insufficient pairs/run 0.00 | no-evidence 0.007 | fabricated share lag1 0.099, mean lag1-10 0.410
+  R2 MAR   0.1 B          lag0-peak share 0.093 | pairs lag1  486.9 lag10  479.6 | insufficient pairs/run 0.00 | no-evidence 0.005
+  R2 MAR   0.1 C          lag0-peak share 0.081 | pairs lag1  486.9 lag10  186.6 | insufficient pairs/run 0.00 | no-evidence 0.003
+  R2 MAR   0.1 THIN       lag0-peak share 0.090 | pairs lag1  486.9 lag10  479.6 | insufficient pairs/run 0.00 | no-evidence 0.007
+  R2 MAR   0.2 A          lag0-peak share 0.156 | pairs lag1  478.8 lag10  469.8 | insufficient pairs/run 0.00 | no-evidence 0.007 | fabricated share lag1 0.204, mean lag1-10 0.649
+  R2 MAR   0.2 B          lag0-peak share 0.084 | pairs lag1  381.4 lag10  375.5 | insufficient pairs/run 0.00 | no-evidence 0.007
+  R2 MAR   0.2 C          lag0-peak share 0.061 | pairs lag1  381.4 lag10   48.2 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R2 MAR   0.2 THIN       lag0-peak share 0.085 | pairs lag1  381.4 lag10  375.5 | insufficient pairs/run 0.00 | no-evidence 0.003
+  R2 MAR   0.3 A          lag0-peak share 0.178 | pairs lag1  418.2 lag10  409.2 | insufficient pairs/run 0.00 | no-evidence 0.008 | fabricated share lag1 0.305, mean lag1-10 0.780
+  R2 MAR   0.3 B          lag0-peak share 0.079 | pairs lag1  290.8 lag10  286.9 | insufficient pairs/run 0.00 | no-evidence 0.003
+  R2 MAR   0.3 C          lag0-peak share 0.063 | pairs lag1  290.8 lag10   10.9 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R2 MAR   0.3 THIN       lag0-peak share 0.078 | pairs lag1  290.8 lag10  286.9 | insufficient pairs/run 0.00 | no-evidence 0.002
+  R2 MAR   0.5 A          lag0-peak share 0.223 | pairs lag1  297.8 lag10  288.8 | insufficient pairs/run 0.00 | no-evidence 0.030 | fabricated share lag1 0.500, mean lag1-10 0.902
+  R2 MAR   0.5 B          lag0-peak share 0.065 | pairs lag1  149.2 lag10  146.1 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R2 MAR   0.5 C          lag0-peak share 0.085 | pairs lag1  149.2 lag10    0.1 | insufficient pairs/run 0.00 | no-evidence 0.005
+  R2 MAR   0.5 THIN       lag0-peak share 0.064 | pairs lag1  149.2 lag10  146.1 | insufficient pairs/run 0.00 | no-evidence 0.000
+  R2 BURST 0.3 A          lag0-peak share 0.096 | pairs lag1  437.9 lag10  428.9 | insufficient pairs/run 0.00 | no-evidence 0.005 | fabricated share lag1 0.037, mean lag1-10 0.184
+  R2 BURST 0.3 B          lag0-peak share 0.082 | pairs lag1  421.9 lag10  340.4 | insufficient pairs/run 0.00 | no-evidence 0.005
+  R2 BURST 0.3 C          lag0-peak share 0.081 | pairs lag1  421.9 lag10  293.9 | insufficient pairs/run 0.00 | no-evidence 0.003
+  R2 BURST 0.3 THIN       lag0-peak share 0.081 | pairs lag1  421.9 lag10  340.4 | insufficient pairs/run 0.00 | no-evidence 0.005
+
+Sensitivity (R1 primary, MAR 0.3; descriptive)
+  min_pairs=10   B - A +0.204 [+0.015, +0.417] | CLEAN - B -0.002 [-0.058, +0.052] | CLEAN 0.785 [0.581, 0.958]
+  min_pairs=100  B - A +0.204 [+0.015, +0.417] | CLEAN - B -0.002 [-0.058, +0.052] | CLEAN 0.785 [0.581, 0.958]
+  flip=0.05      B - A +0.175 [+0.025, +0.350] | CLEAN - B +0.048 [-0.021, +0.131] | CLEAN 0.798 [0.608, 0.948]
+  flip=0.12      B - A +0.146 [+0.010, +0.308] | CLEAN - B +0.029 [-0.035, +0.098] | CLEAN 0.783 [0.542, 1.000]
+  max_lag=5      B - A -0.019 [-0.119, +0.108] | CLEAN - B +0.015 [-0.054, +0.087] | CLEAN 0.585 [0.385, 0.783]
