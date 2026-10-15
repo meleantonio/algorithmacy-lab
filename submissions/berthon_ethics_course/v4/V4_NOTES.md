@@ -76,4 +76,12 @@ just over if they count.
 - Two independent fact checks of the whole draft: `V4_CHECK_A.md` (Abstract–§3: 138 rows, 20 fails) and
   `V4_CHECK_B.md` (§4–§7 and references: 115 rows, 36 fails; 83 entries, 2 fails). Every fail's corrected sentence
   was applied to `MANUSCRIPT_v4.md`. Most fails were hedges dropped when a source's claim was carried into the text.
-- Not yet done: a second check of the corrected sentences, and your read-aloud.
+- Second check (`V4_CHECK_C.md`, 2026-10-15): all 60 corrected rows re-checked against the sources. 54 pass, 4
+  fail-ref, 2 cannot-check (Clanchy has no page; Docherty's p. 571 is worked out from the online-first page). The four
+  reference fails were fixed: the last "Oviedo, 1853" citation, para. 9.2 added to the PD 32 entry, and notes on the
+  Kaiser and Fernandes entries that pages cite the working papers.
+- Prose seams the second check reported, left for your read-aloud (not edited): §3.2 makes the "test of
+  understanding is an impression" point twice in a row; §5.3 "A second form of the duty… One form is…"; §5.4's
+  "independent party able to hear disputes" is no longer introduced anywhere in v4; §3.3 opens two sentences in a
+  row with "Oviedo"; §4.2 "Its 2026 note" after "Inside it" points at the organisation, not Microsoft.
+- Not yet done: your read-aloud.

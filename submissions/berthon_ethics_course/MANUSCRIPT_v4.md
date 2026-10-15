@@ -16,7 +16,7 @@ Read for what it asks of people, the essay offers two kinds of safeguard. The fi
 
 Microsoft's product documentation shows where that leaves the person at the other end. The current note for Microsoft 365 Copilot tells end users to "always review and verify AI-generated responses," and on the risk of overreliance it says: "we help mitigate this risk by adding disclaimers to our products but users should still make sure to review the accuracy of the answers" (Microsoft, 2026). The firm's 2024 transparency report calls responsible use "a shared responsibility between application developers and application users" (Microsoft, 2024, p. 34). In this design the disclosure is the firm's part, and the reading is the user's.
 
-This paper asks what ethical design owes a person when a new competence becomes a condition of standing and the person does not yet have it. The question is old. When agreements, title, and proof moved from speech to writing, institutions faced it repeatedly, and their characteristic answer is preserved in a document drafted by the Castilian jurist Palacios Rubios and carried ashore by a Spanish expedition at Santa Marta on 14 June 1514 (Las Casas, 1876, pp. 156–157; Oviedo, 1853, p. 29). The Requerimiento was a text to be read aloud, in Spanish, to Indigenous peoples before a Spanish force attacked them. It told its hearers that the papal grant of their lands was contained "in certain writings which passed upon the subject as aforesaid, which you can see if you wish" (Helps, 1855, p. 380). It asked them to "take the time that shall be necessary to understand and deliberate upon it" (p. 381). It declared that "the deaths and losses which shall accrue from this are your fault," and it ended by asking the notary present for written testimony that it had been read (p. 382). Gonzalo Fernández de Oviedo, who carried the paper on the expedition, wrote that showing it to the Indians "poco hacia al caso"—did little good (Fernández de Oviedo, 1853, pp. 27–28).
+This paper asks what ethical design owes a person when a new competence becomes a condition of standing and the person does not yet have it. The question is old. When agreements, title, and proof moved from speech to writing, institutions faced it repeatedly, and their characteristic answer is preserved in a document drafted by the Castilian jurist Palacios Rubios and carried ashore by a Spanish expedition at Santa Marta on 14 June 1514 (Las Casas, 1876, pp. 156–157; Fernández de Oviedo, 1853, p. 29). The Requerimiento was a text to be read aloud, in Spanish, to Indigenous peoples before a Spanish force attacked them. It told its hearers that the papal grant of their lands was contained "in certain writings which passed upon the subject as aforesaid, which you can see if you wish" (Helps, 1855, p. 380). It asked them to "take the time that shall be necessary to understand and deliberate upon it" (p. 381). It declared that "the deaths and losses which shall accrue from this are your fault," and it ended by asking the notary present for written testimony that it had been read (p. 382). Gonzalo Fernández de Oviedo, who carried the paper on the expedition, wrote that showing it to the Indians "poco hacia al caso"—did little good (Fernández de Oviedo, 1853, pp. 27–28).
 
 Nadella's essay is not the Requerimiento. It threatens no one, and its author asks for more care than most of his industry offers. But it shares the Requerimiento's structure at three points, and the history of the passage from speech to writing shows that each is a mistake. I argue, first, that the essay places the burden of understanding on the person who must read: the staff member who must make sense of "human readable evidence" after the fact, and the person affected, who receives a disclosure. Second, it keeps that person in a literacy-based experience—a regime of records, notes, and notices—when the thing to be understood is an adaptive process that no record captures. Third, it does nothing to scaffold the person's growth into *algorithmacy*, the competence of coordinating with others through a system that reads all parties and acts on them. Each of these mistakes has a long record in the transition from oracy to literacy, and so does each of the remedies that eventually corrected it.
 
@@ -246,7 +246,7 @@ Edwards, L., & Veale, M. (2017). Slave to the algorithm? Why a "right to an expl
 
 Elish, M. C. (2019). Moral crumple zones: Cautionary tales in human-robot interaction. *Engaging Science, Technology, and Society, 5*, 40–60. https://doi.org/10.17351/ests2019.260
 
-Fernandes, D., Lynch, J. G., Jr., & Netemeyer, R. G. (2014). Financial literacy, financial education, and downstream financial behaviors. *Management Science, 60*(8), 1861–1883. https://doi.org/10.1287/mnsc.2013.1849
+Fernandes, D., Lynch, J. G., Jr., & Netemeyer, R. G. (2014). Financial literacy, financial education, and downstream financial behaviors. *Management Science, 60*(8), 1861–1883. https://doi.org/10.1287/mnsc.2013.1849 (Page citations are to the working paper of June 2, 2013.)
 
 Fernández de Oviedo y Valdés, G. (1853). *Historia general y natural de las Indias, islas y tierra-firme del mar océano* (J. Amador de los Ríos, Ed.; Vol. 3). Real Academia de la Historia.
 
@@ -280,7 +280,7 @@ Johansson, E. (1985). Popular literacy in Scandinavia about 1600–1900. *Histor
 
 *Jones v. Meehan*, 175 U.S. 1 (1899).
 
-Kaiser, T., Lusardi, A., Menkhoff, L., & Urban, C. (2022). Financial education affects financial knowledge and downstream behaviors. *Journal of Financial Economics, 145*(2), 255–272. https://doi.org/10.1016/j.jfineco.2021.09.022
+Kaiser, T., Lusardi, A., Menkhoff, L., & Urban, C. (2022). Financial education affects financial knowledge and downstream behaviors. *Journal of Financial Economics, 145*(2), 255–272. https://doi.org/10.1016/j.jfineco.2021.09.022 (Cited from NBER Working Paper No. 27057, 2020, https://doi.org/10.3386/w27057.)
 
 Kulesza, T., Burnett, M., Wong, W.-K., & Stumpf, S. (2015). Principles of explanatory debugging to personalize interactive machine learning. In *Proceedings of the 20th International Conference on Intelligent User Interfaces* (pp. 126–137). ACM. https://doi.org/10.1145/2678025.2701399
 
@@ -304,7 +304,7 @@ Microsoft. (2024). *Responsible AI transparency report: How we build, support ou
 
 Microsoft. (2026, October 5). *Application card: Microsoft Copilot (for organizations)* [Transparency note for Microsoft 365 Copilot]. Microsoft Learn.
 
-Ministry of Justice. (1998). *Civil Procedure Rules, Practice Direction 32: Evidence* (paras. 7.1–7.2 and Annex 1; as updated October 1, 2023).
+Ministry of Justice. (1998). *Civil Procedure Rules, Practice Direction 32: Evidence* (paras. 7.1–7.2, 9.2 and Annex 1; as updated October 1, 2023).
 
 Moody-Adams, M. M. (1994). Culture, responsibility, and affected ignorance. *Ethics, 104*(2), 291–309. https://doi.org/10.1086/293601
 
