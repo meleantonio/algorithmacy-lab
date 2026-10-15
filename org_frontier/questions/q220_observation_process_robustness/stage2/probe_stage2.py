@@ -11,6 +11,9 @@ Run (repo root):
 """
 
 import csv
+import gzip
+import hashlib
+import io
 import multiprocessing as mp
 import os
 import sys
@@ -53,6 +56,31 @@ FIELDS = ["set", "form", "n", "seed", "variant", "mask", "dose", "method", "n_ob
           "pairs_lag1", "pairs_lag10", "fab_lag1", "fab_mean"]
 
 CORPORA = {}
+RUNS_FILE = "stage2_runs.csv.gz"
+
+
+def runs_csv_bytes(rows):
+    """The per-run table as CSV bytes (csv module defaults, CRLF line ends, UTF-8). Its SHA-256 is printed
+    so the full table is verified by `ci/reproduce.py`, independent of the gzip implementation."""
+    buf = io.StringIO(newline="")
+    w = csv.DictWriter(buf, fieldnames=FIELDS)
+    w.writeheader()
+    w.writerows(rows)
+    return buf.getvalue().encode("utf-8")
+
+
+def write_runs(rows, path):
+    """gzip with mtime 0 and no stored file name, so the file is reproducible with a given zlib."""
+    with open(path, "wb") as raw:
+        with gzip.GzipFile(filename="", mode="wb", fileobj=raw, compresslevel=9, mtime=0) as gz:
+            gz.write(runs_csv_bytes(rows))
+
+
+def read_runs(path=None):
+    """Read the per-run table back as a list of dicts (strings, as csv.DictReader gives them)."""
+    path = path or os.path.join(RESULTS, RUNS_FILE)
+    with gzip.open(path, "rt", newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
 
 
 def mask_of(kind, dose, seed):
@@ -368,11 +396,10 @@ def main():
                     tasks.append(("R1", fi, seed, name, opts))
     with mp.get_context("fork").Pool(WORKERS) as pool:
         rows = [r for chunk in pool.map(run_unit, tasks, chunksize=8) for r in chunk]
-    with open(os.path.join(RESULTS, "stage2_runs.csv"), "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=FIELDS)
-        w.writeheader()
-        w.writerows(rows)
+    write_runs(rows, os.path.join(RESULTS, RUNS_FILE))
     log("runs: %d rows from %d units" % (len(rows), len(tasks)))
+    log("stage2_runs.csv sha256 %s (uncompressed bytes; stored as %s)"
+        % (hashlib.sha256(runs_csv_bytes(rows)).hexdigest(), RUNS_FILE))
     analyse(rows, log)
     with open(os.path.join(RESULTS, "stage2_stdout.txt"), "w") as fh:
         fh.write("\n".join(lines) + "\n")

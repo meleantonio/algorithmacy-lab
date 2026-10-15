@@ -2,6 +2,7 @@ R1/S0 corpus: 16 forms, 12 with |B| < n (primary)
 R2 corpus: n=3: 15 included of 35 draws, n=4: 15 included of 15 draws
 R2 labels: 3 triadic, 27 dyadic; mean |B|/n 0.450
 runs: 55680 rows from 2440 units
+stage2_runs.csv sha256 dc1c5da6850f6329fe82a0605a5b2598e0bdf8961c37146fdb1d3db7e2bf1144 (uncompressed bytes; stored as stage2_runs.csv.gz)
 S0 equivalence with original q220 per-run BN hits (CLEAN and gap-closed A): PASS (1920/1920 runs match)
 
 S0 primary forms (12): tie-aware BN score, form-clustered 95% CI; gain = score - |B|/n

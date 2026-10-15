@@ -6920,6 +6920,7 @@
       "expect": [
         "R2 corpus: n=3: 15 included of 35 draws, n=4: 15 included of 15 draws",
         "S0 equivalence with original q220 per-run BN hits (CLEAN and gap-closed A): PASS (1920/1920 runs match)",
+        "stage2_runs.csv sha256 dc1c5da6850f6329fe82a0605a5b2598e0bdf8961c37146fdb1d3db7e2bf1144",
         "S2-H1 (B - A, MAR 0.3): +0.204 [+0.015, +0.417] CONFIRMED | forms +4/-1, sign p=0.375, dz=0.57",
         "S2-H2 (CLEAN - B, MAR 0.3): -0.002 [-0.058, +0.052] CONFIRMED | forms +1/-1, sign p=1.000, dz=-0.03",
         "S2-H3 (CLEAN - LEN, MAR 0.3): +0.000 [-0.035, +0.035] CONFIRMED | forms +2/-1, sign p=1.000, dz=0.00",
