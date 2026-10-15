@@ -41,3 +41,13 @@ Do not cite it for Tetris sample size (not stated in the text I read) or as evid
 **What I checked:** The 36-page OCR PDF (pdf page n = journal page 512 + n; running heads confirm). Fourteen verbatim quotations and about 25 numbers: 1.5 expected rotations, "400 to 600 ms", before 100 ms, false-start cost 75-750 ms, 150-300 ms earlier exposure, 100 ms vs 800-1200 ms and the 3-player pilot with 8 presentations per pair (the 200 ms key-press allowance is p. 532), about 1% translate-to-wall routine, Table 1 means (13.18/13.69/15.65 vs 19.04/19.33/20.05, alpha .05), decision-tree depth two (Figures 12-13), "totally determinate" (p. 543), chess piece (p. 545), "Experts keep their costs lower" (p. 547); and the in-text citations of Hutchins 1990 and Norman 1988 (p. 514), Tarr & Pinker (p. 533), Stigler (p. 547), Ambros-Ingerson & Steel (p. 524), Reason (p. 518).
 
 **Findings:** One locator error: the pragmatic-action definition ("closer to his or her physical goal") is on p. 515, not p. 513; the epistemic definition is p. 513 and "own computational state" is on p. 514. Fixed. The facet-E check now cites pp. 513-514. All other quotations and numbers match. "Already knows" is a facet phrase and was not checkable here.
+
+---
+
+## Also used by facet V (2026-10-15)
+
+The abstract now names "epistemic action (Kirsh & Maglio, 1994)" as one of three means by which people would "decide within irreducible triads". Facet V takes from this card the condition on p. 543, that epistemic rotation works because "the local effects of an action are totally determinate. There are no hidden states, exogenous influences, or other agents", and sets it against the one shared-display experiment the facet found, `kayongo2022visualization`, where the same chart lost a third of its power to guide choice once every player could see it. The facet reads the pair as support for a narrower claim than the abstract's: acting to see is cheaper than computing in the head, and skilled agents do more of it (p. 547), but in a triad the result of the action moves with the other parties. `kirsh2010thinking` (p. 453) supplies the bridge the abstract needs, that outcomes depending on n participants must be run to be known, with its own limits noted on that card.
+
+## S2 adversarial verification (2026-10-15, facet V section)
+
+**Facet V section, verdict: confirmed.** The quoted condition, "the local effects of an action are totally determinate. There are no hidden states, exogenous influences, or other agents", is on the page headed 543 of `dxd_foundation_local/pdfs/E/kirshmaglio1994.txt`. Nothing changed.

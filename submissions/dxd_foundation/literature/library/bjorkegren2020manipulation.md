@@ -47,3 +47,11 @@ Working paper, not peer reviewed as far as I found. The targets (income, Raven's
 2. Corrected a quotation: "terrible decisions en route" is not in the text. The paper says the industry approach "can make poor decisions en route to convergence, or may not converge at all" and "continues to make terrible decisions over several iterations" (p. 14). Also corrected "retraining a secret rule": in that simulation each rule is announced and people best-respond to it.
 3. Corrected an overstatement: the card said disclosure "changes behaviour a great deal". The authors call the transparent response "still noisy" (p. 29), and the Table 5 coefficients are all within about 1.3 standard errors (p. 30). The line-451 verdict now cites Table 5 as imprecise directional evidence and Table 6's prediction-error rise as the firmer evidence.
 4. Added the not-cited note. The line-314 and line-455 verdicts otherwise hold.
+
+## Also used by facet U (2026-10-15)
+
+Facet U takes from this card the only field-experimental manipulation of rule disclosure found: shown the rule, Nairobi participants moved "closer to the direction incentivized by the algorithm" (p. 29), and a standard rule lost about 23% of predictive performance under transparency against about 8% for the manipulation-robust rule (p. 5). For the abstract's sentence this is direct support that disclosure channels gaming rather than removing it, with the card's own caution that the transparent response was "still noisy" and the Table 5 coefficients imprecise. Facet U notes that Consensus lists a 2026 *American Economic Review* version ("Manipulation-robust prediction", doi:10.1257/aer.20241087), not opened; the card rests on the 2020 preprint.
+
+## S2 adversarial verification of the facet U section (2026-10-15)
+
+Checked against the card's S2-verified text: "closer to the direction incentivized by the algorithm" (p. 29), 23% vs 8% (p. 5), "still noisy" (p. 29), Table 5 imprecision (p. 30) all match the card. The AER 2026 version was not opened by either facet. Confirmed; nothing changed.

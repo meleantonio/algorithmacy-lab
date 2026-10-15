@@ -42,3 +42,9 @@ Two pilot samples of 184 frequent Amazon shoppers using desktop Chrome in the US
 
 1. All quotations are verbatim (pp. 2, 7). 46.5%, 72.1% and "only half of the products on a full page" (p. 3); 1.3% and 19.7% (p. 4); 228,281 results, 3,019 searches, 184 US-resident users in two 2022 pilots (pp. 2–3); Table 2 (p. 6): −6.16 vs −7.09 (col. 1), −3.84 vs −6.55 (col. 2), major brand −0.662 n.s. (col. 3). The controls include relevance, availability, quality, price and delivery (p. 5).
 2. No change to the body except the not-cited note in "Use in DRAFT_v2". The card's unverified mention of a later draft by the same authors is already flagged as unconfirmed; it should not be used.
+
+## Also used by facet T (2026-10-15)
+
+Facet T reads this with `chen2016empirical`, the 2014–2015 audit of the Buy Box, in which "Is Amazon the Seller?" carried a random-forest weight of 0.10 and the authors declined to call it bias (their pdf p. 5). The two papers bracket the case: the earlier one shows third-party sellers repricing by algorithm to win a default slot chosen by an undocumented rule; this one shows the platform's own brands ranked higher in search. Both are the platform optimizing on its own account inside a nominally two-sided market, which `hagiu2015multi` (p. 21) would classify as a hybrid of marketplace and reseller.
+
+*S2 check of this section (2026-10-15):* Checked: the Buy Box weight for "Is Amazon the Seller?" is 0.10 in Chen et al.'s Table 1, which is on pdf p. 6 of the author copy (the host-card reference "their pdf p. 5" follows the Chen card's earlier, now corrected, locator; the caution against calling it bias is on p. 6 too). `hagiu2015multi` p. 21 (hybrid of MSP and reseller) confirmed. Locator corrected in this note only.

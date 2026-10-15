@@ -44,3 +44,7 @@ Abstract only. Every number beyond "approx. 50%" (N, language, effect sizes, lan
 2. The abstract says "In two experiments"; the card's "two, per the abstract" is right.
 3. Use in DRAFT_v2, line 113: both verdicts stand. The ~50% figure pools space-removed and x-filled conditions, and the identification-speed gloss is an inference from a larger frequency effect. Neither can be checked against the body.
 4. The read depth (abstract only, ⚠ Not read in full) is accurate. Nothing to correct.
+
+## Also used by facet W (2026-10-15)
+
+Facet W did not reach the full text either (ScienceDirect returned HTTP 403 to a plain request on 2026-10-15; no repository copy found). It adds the restatement in `perea2015colours` (p. 8): "the lack of spaces between words in English hinders the process of word identification (e.g., lexical effects such as word-frequency are magnified in unspaced sentences relative to spaced sentences) as well as eye movement guidance (e.g., landing sites are closer to the beginning of the word than to the centre of the word ...)" (S2 correction of page and wording, 2026-10-15). Perea et al. reproduce the design with Spanish and report the one-colour unspaced cost as 3,701 against 2,188 ms (69%), which is the nearest open-text number to the "approx. 50%" of this abstract.

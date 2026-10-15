@@ -42,3 +42,11 @@ A law-review argument that reads the evidence to make a case; the authors choose
 1. "Miranda comprehension of 38.5% at the easiest reading level" was loose: the figure is the share of detainees reaching "good comprehension" at the below-sixth-grade level, in a passage the authors quote from Rogers. Reworded.
 2. All other quotations and page locators match. The verdicts for lines 162 and 164 hold. Line 162's "finance, healthcare, and consumer contracts" is narrower than the abstract's list (consumer and borrower protection, informed consent, contract formation, constitutional rights) but not wrong.
 3. The issue number (159(3)) is still unverified; the offprint shows none.
+
+## Also used by facet U (2026-10-15)
+
+Facet U re-read the conclusion (pp. 743–749) for the abstract's sentence on mandated disclosure. Two points carry over. First, the authors' three remedies are all on the discloser's or lawmaker's side of the relation ("symbols instead of sentences", advice and ratings, defaults and prohibition); none asks the disclosee to read better, which fits the author's ruling D3 that disclosure is a literacy intervention and the abstract's search for a change on the system's side. Second, the paper never treats a setting in which the disclosee must act *through* the discloser to reach a third person, so its evidence on "do not read, do not understand, do not use" (p. 665) does not by itself establish the abstract's stronger claim that disclosure leaves people "having to game the mediator"; that step rests on the platform studies carded in facet U (`jhaver2018algorithmic`, `eslami2019user`, `bucher2020pacifying`, `curchod2020working`) and on `eu2020ranking`, pts 13 and 94.
+
+## S2 adversarial verification of the facet U section (2026-10-15)
+
+Checked against the card's own S2-verified text: pp. 743–749 are the conclusion, the three remedies and "symbols instead of sentences" (p. 743) and the three-step sentence (p. 665) are as the card records them. The section claims nothing beyond the card. Confirmed; nothing changed.
