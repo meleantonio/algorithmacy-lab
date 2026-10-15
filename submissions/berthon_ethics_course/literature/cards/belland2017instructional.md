@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V5/belland20
 sha256: 0be4f8872e7c8c802469f18f81765028ae83dea1c767d7dc5894877f95be9161
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -64,8 +64,21 @@ instructional scaffolding, definition, contingency, dynamic assessment, fading, 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — define scaffolding and exclude disclosure from it: telling and job aids are
   not scaffolds (pp. 5-6, 18-19). Supports the reading that the insider post's readable evidence (P15) is not a
-  scaffold.
+  scaffold. narrower: Belland never discusses disclosure; he excludes telling because it "does not elicit and build
+  off of what students already know" (p. 6) and job aids because they are "not meant to lead to learning" (p. 19).
+  The exclusion reaches disclosure only by that reasoning.
 - v4 (not yet drafted): proposed use — attribute "fading" correctly to Collins et al., not Wood, Bruner and Ross
-  (p. 21).
+  (p. 21). holds for the term only: on p. 18 Belland cites Wood et al. (1976) alongside Collins et al. for reducing
+  support ("faded"), so the practice predates the name.
 - v4 (not yet drafted): proposed use — the limit: support that "continues indefinitely" is not scaffolding (p. 18),
-  so the paper must separate scaffolding from permanent design aids.
+  so the paper must separate scaffolding from permanent design aids. holds (p. 18).
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Re-extracted the PDF; printed page = PDF page - 9 for ch. 1-2. All ten quotations
+  are exact at the pages given (pp. 5, 6, 18, 19, 21, 22, 27, 28). Exclusions confirmed: calculator (p. 5), instruction
+  before the problem (pp. 5, 18), telling (p. 6), indefinite support (p. 18), job aid (p. 19).
+- The calculator quotation's ellipsis drops "(i.e., without the use of a calculator) more effectively"; the
+  meaning holds, but quote it in full if used.
+- Verdicts added to the three proposed uses (use 1 narrower, uses 2-3 hold). None overturned.
+- Bib: Crossref gives the title without the subtitle; the PDF title page has "Strategies and Efficacy Evidence"
+  and the CC BY-NC 4.0 licence. No disagreement with V5 bib.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/helps_spa
 sha256: fd94ca6609d242b212e6e49dedd07dc1e95618da102924518be1685a6065cef4
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -39,3 +39,10 @@ Requerimiento English translation, Palacios Rubios, Pedrarias Dávila, Caribs, c
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — English of the burden clause (p. 382) and the writings clause (p. 380) beside the Spanish from Las Casas. Cannot check (not yet drafted).
+
+## Verifier notes
+- 2026-10-14: sha256 matches. Title page in the scan: "The Spanish Conquest in America and its Relation to the History of Slavery and to the Government of Colonies … The First Volume … London: John W. Parker and Son, West Strand, 1855" (OCR "■855"). Agrees with the V2 facet bib.
+- All six key-fact quotations pass an exact-string check at the pages given (380, 381, 382, 383, 383, 387); page heads read from the OCR running heads. The aside about Tiberius and Nero is on p. 380 as noted; another aside, "(hard words in a New World!)", sits inside the translation on p. 382.
+- Helps's translation follows the Las Casas form of the text (e.g. "Senora y Superiora del universo mundo", and "we" throughout except "I certify to you"), not Oviedo's first-person Pedrarias version, so pairing it with `lascasas1876historia` is right.
+- Proposed v4 use (burden clause p. 382, writings clause p. 380 beside the Spanish) is supported; not checkable against v4.
+

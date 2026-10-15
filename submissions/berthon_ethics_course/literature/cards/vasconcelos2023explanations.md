@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/dxd_foundation_local/pdfs/cards/vascon
 sha256: a3e3e19b701043b86ab407ec0b279d9a1f303a874f38458580ba41013be0c15d
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -40,3 +40,9 @@ Explainable AI, overreliance, cost-benefit framework, verification cost, task di
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use against an overstated thesis — some explanations reduce overreliance (pp. 129:15, 129:21), so the paper should not say disclosure never helps. Holds; note the highlight explanation helped only in the hard maze (p. 129:15) and the 0% salient result is exploratory (p. 129:21).
 - v4 (not yet drafted): proposed use for wrong (b) — the same path written as text did nothing while a visual highlight helped (pp. 129:15, 129:18): the form of the disclosure, not its content, decided the effect. Narrower: the highlight helped only in the hard maze (p. 129:15); the written-versus-prediction "no difference" result comes from exploratory analyses (p. 129:18); the authors explain it as the cost of engaging with the explanation, not form as such.
+
+## Verifier notes
+- 2026-10-14. sha256 matches (arXiv v2, 38 pp., with 129:n running heads). Crossref 10.1145/3579605 confirms PACM HCI 7(CSCW1), pp. 1-38, 2023, and the six authors.
+- Exact-checked every Key-facts quotation and number (129:1, 129:11, 129:12, 129:15 = 1.74 [0.889, 2.76], 129:18, 129:21, 129:32; N = 731; 80% accuracy). All pass.
+- Corrected use 2 to narrower. The highlight helped only in the hard maze, and the written-versus-prediction "no difference" result is exploratory. Use 1 holds, with those limits noted.
+- Bib: agrees with the V4 facet .bib.

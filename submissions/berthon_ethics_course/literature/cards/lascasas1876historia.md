@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/lascasas_
 sha256: f9c95943b87eb48f5273461a1d4ff230d69914a66e08efa697b5cda1113656dd
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -42,3 +42,11 @@ Requerimiento, Palacios Rubios, Pedrarias Dávila, papal donation, burden of fau
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the burden clause (p. 156) as the historical paradigm of disclosure that transfers fault to the hearer; the demand to understand and the offer of "escripturas … que podéis ver si quisiéredes" (p. 155) as disclosure by reference to records; the critique that a command in a language the hearer does not understand has no force (pp. 162-163) as a contemporary standard; the reading to the trees (pp. 198-199) for the record-for-the-discloser point. Cannot check (not yet drafted).
+
+## Verifier notes
+- 2026-10-14: sha256 matches. Title page in the OCR: "Historia de las Indias … por Fray Bartolomé de las Casas … ahora por primera vez dada á luz por el Marqués de la Fuensanta del Valle y D. José Sancho Rayón. Tomo IV. Madrid, Imprenta de Miguel Ginesta … 1876". Agrees with the V2 facet bib.
+- Exact-string checks against the OCR, page by page: the burden clause on p. 156 reads "protestamos que las muertes y daños que dello se recrecieren sea á vuestra culpa y no de Sus Altezas, ni nuestra, ni destos caballeros que con nosotros vienen: y de como lo decimos y requerimos pedimos al presente escribano que nos lo dé por testimonio signado" (singular "sea", accent on "á"); the demand to understand runs pp. 155-156; "ciertas escripturas … que podéis ver si quisiéredes" p. 155; "bien mi amigo" pp. 156-157 (p. 157's head misread "167", as the card says); pp. 162-163, 167 and 198-199 quotations all match.
+- Ch. 57 p. 154 opening ("en requerir á los indios … el cual se envió después á todas las Indias") and the ch. 58 argument (pp. 158-159: no proof offered even if the language were understood) confirmed.
+- For comparison: Oviedo's printed text (t. III p. 29) differs: first person singular for Pedrarias, "sean á vuestra culpa é no á la de Sus Altezas, ni mia", and no request for witnesses. Quote the burden clause from the edition actually cited.
+- Proposed v4 uses (burden clause, escripturas, force of a command in an unknown language, reading to the trees) are on the pages named; not checkable against v4.
+

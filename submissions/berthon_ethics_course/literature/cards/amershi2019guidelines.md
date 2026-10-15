@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/amersh
 sha256: 82fff584c6b986f573608361478e93447538c6ce707e4b9b04d45d584272ea03
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -40,3 +40,9 @@ human-AI interaction design, disclosure of capability, explanation, correction, 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — Microsoft's own design canon gives users controls (correction, dismissal, feedback, global controls; G8, G9, G15–G17, p. 3), not only disclosures; the insider post uses none. Narrows the "disclosure only" charge to the post. Holds on Table 1.
 - v4 (not yet drafted): proposed use — no guideline concerns the user's growth; "Learn from user behavior" (G13) is the system's learning. Holds on Table 1.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Crossref 10.1145/3290605.3300233 confirms the title, the CHI 2019 proceedings, pp. 1-13 and all 13 authors in order. Weld is the one University of Washington affiliation (p. 1).
+- Exact-checked the abstract (p. 1) and the G1, G2, G9, G11, G13 and G15-G17 wording in Table 1 (p. 3). All match. Some table cells interleave in extraction, and fi-ligatures drop ("efcient"); I read those cells by eye.
+- Both uses hold on Table 1. The "no guideline concerns the user's growth" verdict is the card's reading. G1's description ("Help the user understand what the AI system is capable of") is about understanding the system, not building competence.
+- Bib: card `type: article` against the facet's @inproceedings. No other disagreement.

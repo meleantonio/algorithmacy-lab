@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/elevat
 sha256: 49eeee74034b15a8ca5371c7080d1c7602a1c9728809551c1ad44dd9b5813961
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -38,3 +38,9 @@ AI skilling, fluency, credentials, philanthropy, education partnerships, Microso
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use (narrows (c)) — Microsoft invests heavily in AI skilling and uses "fluency"; the paper's charge must be that this is training outside the experience, not that Microsoft ignores competence. Holds.
+
+## Verifier notes
+- 2026-10-14. Hashed elevate.html (49eeee74…), which matches. Page metadata: author Brad Smith, published 2025-07-09.
+- Exact-checked every quotation ($4 billion, 20 million credentials, "putting people first", LinkedIn and GitHub, Hour of AI, AFT, North Rhine-Westphalia, "five years"). All pass. The 20 million figure is "In the next two years".
+- Minor: the page calls Elevate "the successor to and expands upon" Microsoft Philanthropies and Tech for Social Impact. The summary's "merges" is a fair gloss, so I left it.
+- The use holds. Bib: agrees with the V1 facet .bib.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/morris188
 sha256: 7c83264b31504a473cb5c008b2bf0d320d982a0c18d26b2f24b619dcce8968ac
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -41,3 +41,10 @@ Treaty 6, Fort Carlton, Peter Erasmus, interpreters, read and explained, medicin
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — a treaty read and explained by interpreters whose written text nonetheless narrowed the spoken promise (p. 218 against p. 355); the Cree request for school teachers (p. 185) as hearers asking for capacity. Cannot check (not yet drafted).
+
+## Verifier notes
+- 2026-10-14: sha256 matches. Title page in the OCR: "The Treaties of Canada with the Indians of Manitoba and the North-West Territories, including the Negotiations on which they are based, and other Information relating thereto. By the Hon. Alexander Morris, P.C., late Lieutenant-Governor … Toronto: Willing & Williamson"; no year on the title page in this scan, so 1880 rests on the preface date, as the card says.
+- Bib disagreement: the V2 facet bib title omits the subtitle "Including the Negotiations on Which They Are Based" that the card (correctly, per the title page) carries.
+- All six key-fact quotations pass an exact-string check; pages confirmed from the running heads: p. 185 (Erasmus reads the requests; "felt too ignorant"), p. 218 (medicine chest "in case of sickness amongst you"), p. 353 (schools clause), p. 355 (medicine chest "at the discretion of such Agent"), p. 357 ("first read and explained by Peter Erasmus, Peter Ballendine and the Rev. John McKay").
+- Proposed v4 use (spoken promise on p. 218 narrowed by "at the discretion of such Agent" on p. 355; Cree request for school teachers, p. 185) holds on the text; not checkable against v4.
+

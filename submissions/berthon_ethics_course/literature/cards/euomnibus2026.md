@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/eurlex/32
 sha256: 139b2b57b56647c70d398729bca76136eb3d67e724d7eace59c504812e2017c7
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -41,3 +41,9 @@ AI literacy duty, simplification, compliance burden, SMEs, application dates, ge
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the law's literacy duty, already confined to organisations' own staff, was weakened in July 2026 from "ensure ... a sufficient level" to "support the development of", with no guaranteed level, for reasons of compliance burden (Art 1(5); recital 8). Three months before Nadella's post. Holds on the OJ text.
+
+## Verifier notes
+- 2026-10-14. Fetched the Official Journal page live from EUR-Lex (`legal-content/EN/TXT/?uri=OJ:L_202601744`; saved under `pdfs/verify/eurlex/`). It confirms Regulation (EU) 2026/1744 of 8 July 2026 (Digital Omnibus on AI), OJ L 2026/1744 of 24.7.2026, ELI http://data.europa.eu/eli/reg/2026/1744/oj, status "In force", done at Strasbourg on 8 July 2026.
+- Exact-string checks against the live page all pass: the new Art 4(1), including "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual."; Art 4(2) "support and facilitate" and "practical examples"; Art 4(3); recital 8 (the "compliance burden", "strategic priority" and "could take into account" phrases); Art 113(c) dates (2 December 2027, 2 August 2028); new Art 111(4) ("by 2 December 2026"); Art 50(7) replaced at point (20); Art 4 entry into force "on the third day following". sha256 of the local copy matches.
+- The v4 use holds. Signature (8 July) is about three months before the 10 October post; publication (24 July) is about 2.5 months before it.
+- Bib: matches the V1 facet .bib and references.bib. The references.bib note says the ELI URL was not opened; the EUR-Lex page itself lists that ELI.

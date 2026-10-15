@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V4/solove201
 sha256: 8a8cabc43b7fbe5414957101f3836ec24c87f342ae50ab290384d2e741864adf
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -42,3 +42,9 @@ Privacy self-management, notice and choice, consent, consent dilemma, paternalis
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the plainest statement in the literature of wrong (a), that notice-and-consent "cedes substantial responsibility for preserving privacy to individuals" (p. 1893) and "is being tasked with doing work beyond its capabilities" (p. 1880); and of the claim that the burden persists for a perfect reader (pp. 1888-1889). Holds.
 - v4 (not yet drafted): proposed use in the objections section — the consent dilemma (pp. 1881-1882, 1894) and "should not be abandoned" (p. 1899), so the paper says disclosure is insufficient, not worthless. Holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches; 24 pp. = 1880-1903.
+- Exact-checked every Key-facts quotation at its page (1880, 1885, 1888, 1889, 1893, 1898-1899, 1899, 1900, 1903). All pass. The opt-in quotation runs across pp. 1898-1899. n. 41 cites McDonald and Cranor at 564, as the card says.
+- Added verdicts: both uses hold.
+- Bib: agrees with the V4 facet .bib.

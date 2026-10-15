@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V5/collins19
 sha256: 6da9fdb19b58a257324feec6cb5f2f0012b949f76c951849976bea1060fe2026
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -56,6 +56,14 @@ cognitive apprenticeship, modelling, coaching, scaffolding, fading, externalisat
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — reading itself had to be scaffolded because the expert's process is
-  invisible (pp. 2, 4); the operator of an adaptive system is the only party able to externalise its process.
+  invisible (pp. 2, 4); the operator of an adaptive system is the only party able to externalise its process. narrower:
+  Collins et al. support the invisibility and externalisation premise for school subjects (pp. 2, 4); the claim
+  about the operator is the paper's own step.
 - v4 (not yet drafted): proposed use — source for modelling, coaching and fading as the scaffolder's sequence
-  (pp. 2-3, 7).
+  (pp. 2-3, 7). holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Re-extracted; report page = PDF page - 2. All seven quotations confirmed at pp. 2,
+  2-3, 3, 4, 4, 7 (OCR slips "pedagosica!", "gasp", "processe" are the scan's, as the card says).
+- ERIC resume confirms Technical Report No. 403, Jan 1987, BBN and the Center for the Study of Reading, ED 284 181.
+- Verdicts added: use 1 narrower, use 2 holds. No bib disagreement with V5 bib.

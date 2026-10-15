@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/2025-R
 sha256: e1a64cb0ffc1f0b1747671404d1b9e4d23095240cb5187e1eb37b9ca80d18e3b
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -40,3 +40,8 @@ AI literacy, EU AI Act compliance, employee training, public courses, older adul
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — Microsoft meets the literacy duty with courses, learning paths and a starting guide, outside the product, and treats it as a customer compliance question (PDF p. 26). Holds.
 - v4 (not yet drafted): proposed use (narrows) — Microsoft research does name in-the-interaction aids such as "cognitive forcing functions" (PDF p. 28); the paper should concede they exist as research, not as commitments. Holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches; 35 PDF pp. Exact-checked every quotation on PDF pp. 7, 26 and 28. All pass. Printed folios confirmed: p. 7 = 11, p. 26 = 49, p. 28 = 53.
+- Confirmed the recital-20 misattribution. The report's quoted words (PDF p. 26, n. 74) appear in recital 20 with "AI literacy should provide ..." as their subject, and the report presents them as a requirement on deployers and providers.
+- Both uses hold. Bib: agrees with the V1 facet .bib.

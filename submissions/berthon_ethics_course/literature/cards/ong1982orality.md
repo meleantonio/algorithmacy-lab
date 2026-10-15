@@ -5,7 +5,7 @@ authors: Ong, Walter J.
 year: 1982
 type: book
 doi: 10.4324/9780203328064
-venue: "Methuen (New Accents); read in a later Routledge printing with New Accents pagination"
+venue: "Methuen (New Accents), 1982; read in the Routledge edition of 2002 (Taylor & Francis e-Library, 2005), whose pagination may differ from 1982"
 source_basis: partial-text
 pages_read: "pp. 2-3, 10-11, 132-134 (the secondary-orality passages)"
 source_url: https://archive.org/details/OngWalterOralityAndLiteracy
@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/ong_djvu.
 sha256: 14abd4a7ea629e3768002aeecb159e449b62f223896dcb43194ee1b9af4f9ea4
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -21,7 +21,7 @@ Key `ong1982orality` is from `references.bib` (where it is marked Record). This 
 secondary-orality passages. A fuller, S2-verified card for chapters 3-5 exists in the sister arm at
 `submissions/algorithmacy_design_ethics/literature/library/ong1982.md` (same archive.org copy); use it for
 anything outside these pages. Page numbers come from the running heads in the djvu text, which sit at the top
-of each page. Heyd (2021) cites the first definition as p. 3; in this copy it falls on p. 2.
+of each page. Heyd (2021) cites the first definition as p. 3; in this copy it falls on p. 2, a sign that this edition's pages may not be the 1982 Methuen pages. The imprint reads "First published in 1982 by Methuen & Co. Ltd / This edition first published 2002 … Taylor & Francis e-Library, 2005" (verifier, 2026-10-14).
 
 ## Summary
 Ong's book synthesises the orality-literacy research of Parry, Lord, Havelock, Goody and others. The pages read
@@ -53,3 +53,10 @@ secondary orality, primary orality, electronic media, computer and the spatializ
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the reply to the "AI is a return to orality" objection: Ong's own secondary orality rests "permanently on the use of writing and print" (p. 133), and the computer intensifies the commitment of the word to space (p. 133), so a conversational interface leaves the governance layer textual. cannot check (no v4 text yet).
+
+## Verifier notes
+- 2026-10-14: sha256 matches. All six key-fact quotations, and the summary's "participatory mystique" and "plan our happenings" sentences, pass an exact-string check (line-break hyphens joined); pages confirmed from the running heads: p. 2 (before "INTRODUCTION 3"), pp. 10-11, p. 132, p. 133, p. 134.
+- Corrected the venue line: the copy is the 2002 Routledge edition in its 2005 Taylor & Francis e-Library form, not "a later printing with New Accents pagination". Nothing in the copy shows that its pages match the 1982 Methuen pages, and Heyd's p. 3 suggests they do not. Cite the edition read, or check pages against a 1982 copy.
+- Bib: Crossref for 10.4324/9780203328064 is a Taylor & Francis monograph record ("Orality and Literacy", issued 1982), the e-book of the edition read; `references.bib` gives publisher Routledge, the V2 facet bib and this card give Methuen. The DOI belongs to the Routledge e-book, not to the 1982 Methuen print. The V2 facet bib's note also points to a different local file (`V2/ong1982.pdf`, the same 2002 edition).
+- Proposed v4 use: Ong does say secondary orality is "based permanently on the use of writing and print" and that the computer "maximizes commitment of the word to space" (p. 133). He wrote of telephone, radio and television, so applying this to conversational AI is the paper's extension, not Ong's claim (narrower).
+

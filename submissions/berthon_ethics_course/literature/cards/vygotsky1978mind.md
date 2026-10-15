@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -50,4 +50,18 @@ zone of proximal development, learning and development, more capable peers, adul
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the ZPD requires a more capable other; for an adaptive proprietary system
-  the only party that knows its workings is the operator (snippets, ch. 6). Cannot check page (snippet basis).
+  the only party that knows its workings is the operator (snippets, ch. 6). Cannot check page (snippet basis). holds for the premise only: the definition names "adult
+  guidance or ... more capable peers"; the step to the operator is the paper's own.
+
+## Verifier notes
+- 2026-10-14. Re-ran every phrase through archive.org FTS (be-api.us.archive.org/fts/v1/search, restricted to
+  identifier mindinsocietydev0000vygo). All snippets reproduce: "distance between the actual developmental level as
+  de-termined by independent ...", "level of potential development as determined through problem solving under
+  adult guidance or in collaboration with more capable peers", "functions that have not yet matured but are in the
+  process of maturation", "buds"/"flowers"/"fruits", "good learning" ... "in advance of development", "awakens a
+  variety of internal developmental processes"; the contents line gives ch. 6 at p. 79.
+- The joined definition is consistent with the overlapping snippets, but the API gives no printed page; p. 86
+  remains unverified, as the card says. Basis is honest: no page-level claim is made.
+- Belland (2017, p. 28) "did not link scaffolding to a particular theoretical foundation" confirmed in the Belland
+  PDF.
+- Bib: archive.org metadata gives Harvard University Press, Cambridge, 1978; no disagreement with V5 bib.

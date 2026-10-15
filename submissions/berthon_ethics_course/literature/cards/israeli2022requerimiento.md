@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/israeli20
 sha256: ba49bfe364288cb1347d98dcd4676ad0310a9509d169b37087fc94a4dd84bfec
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -39,3 +39,10 @@ requerimiento, Castilian legal culture, notarial testimonio, performativity, dia
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the mechanism for wrong (b): a procedure built for addressees who understand and can answer (p. 47) kept when those conditions are gone; and the effect of the reading, that the addressee "could not pretend to be ignorant" (p. 46), as the historical form of disclosure that discharges the discloser. Cannot check (not yet drafted).
+
+## Verifier notes
+- 2026-10-14: sha256 matches. Crossref (10.1017/S0738248021000602): Israeli, Yanay; *Law and History Review* 40(1), 37-62, February 2022, CUP. Agrees with the card and the V2 facet bib (Crossref italicises *Requerimiento* in the title).
+- All six key-fact quotations pass an exact-string check (ligatures normalised) on the printed pages: p. 39 (ritual core; Seed as "the main proponent"; "Islamic rituals of war"), p. 46 (could not pretend to be ignorant; lack of a testimonio "meaningless"), p. 47 (Las Casas via Faudree; dialogical component; notary obliged to record the response).
+- The p. 47 critique is Israeli reporting Faudree's reading of Las Casas ("According to Faudree … authors like Bartolome de Las Casas argued"); cite it as Israeli's summary, not as Las Casas's words.
+- Proposed v4 use (mechanism for wrong (b); "could not pretend to be ignorant") is supported at pp. 46-47; not checkable against v4.
+

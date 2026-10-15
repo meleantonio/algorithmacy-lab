@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/web/sudji
 sha256: 3933fd28f41e1597858c5dc53529dd25358d5927d6407023a101dac9443b766a
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -40,3 +40,8 @@ insider risk, verification, audit trails, emergency stop, model risk management,
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the first commentary on the post, from inside its enterprise frame, says its oversight presumes a competence it does not build, and that reading records does not build it ("An experienced model validator does not become experienced by reading validation reports"). Supports (c) for staff; says nothing about those affected. Holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Page metadata: author Agus Sudjianto, datePublished 2026-10-10T17:24:59Z.
+- Exact-checked all quotations, including the recommendations ("First, ...", "Fourth, ...") and the planted-errors passage. All pass.
+- The use holds. Bib: agrees with the V1 facet .bib.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/eurlex/32
 sha256: d89a8a4d454a034742eb0249258c9e19b8158770304ef7fdeae8785f87cf7543
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -46,3 +46,9 @@ AI literacy, transparency to deployers, notice of AI interaction, human oversigh
 - v4 (not yet drafted): proposed use — the law's version of the disclosure move: every duty toward the affected person is a notice or an explanation (Arts 26(11), 50(1), 50(5), 86(1)); the "reasonably well-informed, observant and circumspect" person of Art 50(1) as the law's model reader. Holds on the OJ text read.
 - v4 (not yet drafted): proposed use — the only competence duty binds organisations for "their staff" (Art 4), with affected persons in the definition (Art 3(56)) and recital 20 only. Holds.
 - v4 (not yet drafted): proposed use — contrast with Nadella P20: the Act's incident reports go to authorities (Art 73(1)), not to those affected. Holds for Art 73(1)-(2) and the paragraphs read; the whole of Art 73 was not read line by line.
+
+## Verifier notes
+- 2026-10-14. Recomputed sha256 (match). Exact-string checked every quotation against the local OJ text: Arts 3(56), 4 (as enacted), 13(1)-(2), 14(4)(b) and (e), 26(2) and (11), 50(1) and (5), 73(1), 85, 86(1), and recital 20. All pass at the articles given. The OJ header gives L 2024/1689 of 12.7.2024, signed 13 June 2024.
+- Art 113(a) (2024 text) applies Chapters I-II, which include Art 4, from 2 February 2025. This is confirmed.
+- Uses: all three hold. Note: Arts 13, 14 and 26 sit in Chapter III, now postponed to 2 December 2027 for Annex III systems (`euomnibus2026`), so the paper should say these duties are enacted but not yet applicable.
+- Bib: the references.bib entry carries a shortened title and a stale note ("applies from 2 August 2026 (later amendments not checked)"). The duplicate key `euaiact2024` remains. The V1 facet .bib agrees with the card.

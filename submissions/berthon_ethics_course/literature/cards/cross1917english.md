@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/cross1917
 sha256: 9e49b2e8fed119a36e40bb2495223a899115ecf032bc42150d25edffd69fbcc6
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -25,14 +25,14 @@ Cross, an American historian of England, surveys benefit of clergy from its medi
 ## Key facts it relies on
 - P. 552: "This was apparently interpreted to mean all who could read … A verse in the Psalter was commonly selected (usually the 51st Psalm) which came to be known as the 'neck-verse', and if the accused was able to 'read like a clerk' he was handed over to the ordinary, though it was an indictable offense at common law to teach a felon to read that he might claim his clergy."
 - P. 552: the Henry VII statute (n. 39: "4 Hen. VII., c. 13"), dated by Cross "in 1487", branding lay readers "with an M on the brawn of his left thumb" for murder, "for any other felony with a T".
-- P. 553: peers to be held as clerks convict "'though he cannot read'"; n. 47 (Pike): "a Peer who could or who could not read might still have robbed one church or committed one highway robbery with impunity, though an ignorant peasant would have been hanged."
+- P. 553: peers to be held as clerks convict "'though he cannot read'"; n. 47 (Pike, printed at the foot of p. 554): "a Peer who could or who could not read might still have robbed one church or committed one highway robbery with impunity, though an ignorant peasant would have been hanged."
 - P. 554: Gibbs (1640) "was found guilty and put to read for his life. Petitioner desired to read the Psalm of Mercy, but Farwell so incensed the judge against him, that there was not only a clear bar made to prevent promptings, but the judge turned him unto one of the hardest verses to read".
 - P. 555: "8.54 per cent. out of 117 convicted of capital offenses could read and pleaded their clergy: in the reign of James I. there was an amazing increase to 38.83 per cent. out of 1725 cases."
 - P. 555: "At length Parliament came to realize the rank injustice of discriminating between lettered and unlettered criminals, so in the reign of Anne the reading test was taken away"; the Act: "shall not be required to read, but without any reading shall be allowed, taken and reported to be and punished as a clerk convict." N. 55: "6 Anne, c. 9, s. 4" in *Statutes of the Realm*, "usually cited as 5 Anne, c. 6".
 
 ## Critical notes from the literature
 - Cross gives no source in the text I read for the claim that teaching a felon to read was indictable (p. 552); treat it as Cross's assertion until a primary source is found.
-- Cross dates 4 Hen. VII c. 13 to 1487; *Statutes of the Realm* vol. 2 p. 538 heads the session "A.D. 1488-9" (`statute1489clergy`).
+- Cross dates 4 Hen. VII c. 13 to 1487; *Statutes of the Realm* vol. 2 p. 538 heads the page "A.D. 1488-9", and the volume's note on the Parliament (p. 524) says chapters X-XXIV were passed in the session of 25 January-27 February 1489/90, so c. 13 dates to early 1490 (new style). Cross's 1487 is wrong on either reading (`statute1489clergy`).
 - "Rank injustice" is Cross's 1917 characterisation of Parliament's reasoning, not a quotation from the Act or the debates; Blackstone gives the ground as learning being "no extenuations of guilt" (facet A).
 - Benefit of clergy was a mercy literacy unlocked, not a penalty on illiteracy (facet A); the wrong is unequal mercy.
 
@@ -41,3 +41,11 @@ benefit of clergy, neck verse, Psalm 51, reading test, branding, peers and women
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — a literacy test deciding life or death (p. 552), with the tester able to raise its difficulty (p. 554), capacity-building treated as an offence (p. 552), the exemption of peers (p. 553), and Parliament's removal of the test (p. 555). Cannot check (not yet drafted).
+
+## Verifier notes
+- 2026-10-14: sha256 matches. Crossref (10.2307/1842649): Cross, Arthur Lyon; *The American Historical Review* 22(3), first page 544, April 1917; the scan ends on p. 565. Agrees with the V2 facet bib.
+- All six key-fact quotations pass an exact-string check against the PDF text at the pages given (pp. 552, 553, 554, 555), including the Gibbs petition, the Middlesex percentages and n. 55.
+- Corrected one locator: Pike's n. 47 is printed at the foot of p. 554, not p. 553.
+- Corrected the date note: the Statutes of the Realm note at vol. 2 p. 524 places chs. X-XXIV in the session ending 27 Feb. 1489/90 (see `statute1489clergy`).
+- Proposed v4 use: each element (test, harder verse, indictable teaching, peers, Anne's abolition) is on the page named; the "indictable" claim stays Cross's unsourced assertion, as the card says.
+

@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -39,3 +39,10 @@ benefit of clergy, reading test, neck verse, Psalm 51, rote memorisation, gaol t
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the gaming of the test by memorisation (book upside down) and the capacity built only by fellow prisoners and outsiders in gaol. Cannot check (not yet drafted); pages must be supplied.
+
+## Verifier notes
+- 2026-10-14: no local file; I re-ran every quotation through the archive.org full-text-search endpoint for `benefitofclergyi0000gabe` (generic User-Agent, no e-mail). All six key-fact snippets are returned verbatim (neck-verse sentence; "sillabicare … book upside down … in nowise disturbed"; the Ordinary refusing to claim John; "diligent study of the 'neck-verse'"; "awaiting the day of execution"; the two boys from Appleby, "admitted to the gaol through the good offices of the gaoler"; "Towards the close of the century the reading-test was commonly administered by the court").
+- The summary's "gradual introduction of the reading-test as a mode of ascertaining 'clergy'" is also in a snippet. Index entry "'Neck-verse,' 72" confirmed; a nearby note reads "For a discussion of the reading-test as proof of clergy, see infra, pp. 64 et seq.", which is consistent with p. 72 but does not fix the page of any quoted sentence.
+- Bibliographic: the scan shows "Smith College Studies in History; Vol. XIV, Nos. 1-4", preface dated Northampton, November 1928, and "1969 Octagon Books … Originally published 1928-1929". Agrees with the V2 facet bib.
+- The card claims no page beyond the index entry, so the snippet basis is honestly stated. Proposed v4 use (book upside down; teaching inside the gaol) is supported in substance; pages still needed from print.
+

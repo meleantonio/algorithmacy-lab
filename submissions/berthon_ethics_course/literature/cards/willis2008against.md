@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -53,4 +53,14 @@ financial literacy education, disclosure regulation, responsibilization, consume
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the strongest objection to wrong (c): competence-building is the disclosure
   model's companion and blames the person (abstract). Answer it, do not cite it as support. Cannot check pages
-  (abstract only).
+  (abstract only). holds at abstract level.
+
+## Verifier notes
+- 2026-10-14. Abstract re-read from OpenAlex (W1554208063, landing page the Penn Law repository record, which now
+  redirects to a search page). Every quoted phrase on the card is an exact substring of that abstract.
+- The card claims nothing beyond the abstract.
+- Venue not confirmed from a primary record: OpenAlex gives no journal, volume or page, and Crossref has no record
+  (sister arm `L_disclosure_and_choice.md`, line 28). "94 Iowa L. Rev. 197" rests on the secondary citation the card
+  names, so writer-grounded.
+- Bib: OpenAlex titles it "Against Financial Literacy Education" (no hyphen); the card and V5 bib hyphenate.
+  Check the printed title.

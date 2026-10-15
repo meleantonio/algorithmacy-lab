@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/ms_ai_
 sha256: c0525ffdc9a4235a6f970111898555428407b20eb9173952a509522e4b81ffae
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -39,3 +39,8 @@ AI literacy, EU AI Act Article 4 compliance, curated courses, learning levels, r
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — Microsoft's literacy answer is a reading list and courses, outside the experience (pp. 1–3): training, not scaffolding. Holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches; 11 pp., PDF created 13 January 2025, "January 2025" printed on p. 1. Exact-checked the p. 1 quotations, including the n. 1 Art 4 wording. All pass.
+- Corrected: the three Fundamentals learning outcomes are on p. 3 ("Getting started with AI Fundamentals"), not p. 2. I changed the Summary and the Key-facts locator. Page 2 holds the levels and categories table, as the card says.
+- The use holds (now pp. 1-3). Bib: agrees with the V1 facet .bib.

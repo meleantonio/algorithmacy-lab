@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V4/calo2012.
 sha256: cffe1071cd21ac8b6ece1e3ec0a7951ca59340d4b67137c5af5da241585916ee
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -41,3 +41,9 @@ Mandatory notice, notice skepticism, visceral notice, design psychology, privacy
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use in the objections section — notice as respect for autonomy (p. 1049) and as the least bad tool (p. 1047). Holds.
 - v4 (not yet drafted): proposed use for wrong (b) — the best-known defender of notice concedes that text, tables and icons barely help (p. 1033) and saves notice only by moving it out of "language or its symbolic equivalent" into experience (pp. 1033, 1071-1072). Holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. The production file has 46 pp. = journal pp. 1027-1072, header 12-APR-12.
+- Exact-checked every quotation at the journal page given (1027, 1028, 1030, 1033, 1047, 1049, 1070, 1071-1072). All pass. The pp. 1071-1072 quotation runs across an SSRN footer.
+- Added verdicts (the card had none): both uses hold.
+- Bib: agrees with the V4 facet .bib (87(3) 1027-1072, no DOI).

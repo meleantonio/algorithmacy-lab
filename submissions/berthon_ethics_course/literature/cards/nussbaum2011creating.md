@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: writer-grounded
 written: 2026-10-14
 ---
 
@@ -51,6 +51,25 @@ capabilities approach, central capabilities, threshold, literacy and education, 
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — literacy as part of a central capability, and the duty to secure a threshold
-  (snippets). Cannot check pages (snippet basis).
+  (snippets). Cannot check pages (snippet basis). holds: "a decent political or-der must secure to all citizens
+  at least a threshold level of these ten Central Capabilities" (snippet).
 - v4 (not yet drafted): proposed use — internal capability without avenues to act is not a combined capability; so
-  scaffolding (wrong c) needs the avenues that wrongs (a) and (b) concern (snippets).
+  scaffolding (wrong c) needs the avenues that wrongs (a) and (b) concern (snippets). holds for the premise (combined =
+  internal capabilities plus conditions; a society "might cut off the avenues"); the mapping to wrongs (a)-(c) is
+  the paper's.
+
+## Verifier notes
+- 2026-10-14. Re-ran every phrase through archive.org FTS restricted to creatingcapabili0000nuss. All reproduce:
+  "a decent political or-der must secure to all citizens at least a threshold level of these ten Central
+  Capabilities"; "4. Senses, imagination, and thought"; "informed and cultivated by an adequate education,
+  in-cluding, but by no means limited to, literacy and basic mathemati-cal and scientific"; "internal capabilities
+  plus the social/political/economic conditions"; "(not fixed, but fluid and dy-namic)"; "trained or developed
+  traits"; "might cut off the avenues through which people actually have the opportunity to function";
+  "tends to promote other related capabilities"; "Corrosive disadvantage is the flip side of fertile capability".
+- The card does not claim more than its basis: no pages, and it flags that context must be checked. The
+  "Following Wolff and De-Shalit" attribution is confirmed by the snippet "Wolff and De-Shalit introduce two
+  further concepts of great interest: fertile functioning and corrosive disadvantage".
+- Running heads in snippets ("20 THE CENTRAL CAPABILITIES") suggest printed pages are recoverable with a
+  borrowed copy.
+- Bib: archive.org metadata confirms Belknap Press of Harvard University Press, Cambridge MA, 2011; no
+  disagreement with V5 bib.

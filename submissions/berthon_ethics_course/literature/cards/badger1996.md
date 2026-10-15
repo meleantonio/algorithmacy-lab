@@ -13,14 +13,14 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V2/badger199
 sha256: c73d8300094fa1066fe3112fd29895c85bbbcbf751ca0300015e65a691473f50
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
 New key, in the arm's form for cases (`marshall1999`, `delgamuukw1997`). Text from the Court's official site, converted from HTML.
 
 ## Summary
-Three Cree men with status under Treaty 8 (1899) were charged under Alberta's Wildlife Act for hunting on privately owned land. The Court held that the treaty right to hunt for food continued on private land not put to a visible use incompatible with hunting, and then asked whether the provincial licensing scheme infringed it. Its interpretive reasoning is the part this facet uses. Treaties are to be construed liberally, ambiguities resolved in favour of the Indians, and in their context (¶ 52). The written treaties recorded agreements already reached orally and did not always record their full extent; they were drafted in English, not translated into Cree or Dene, and must be read as the Indians would naturally have understood them at the signing (¶ 52). The oral promises recorded in commissioners' reports, interpreters' affidavits and diaries, and the Treaty 8 nations' oral history, are of "great significance" (¶ 55). Badger's and Kiyawasew's appeals were dismissed and Ominayak's allowed.
+Three Cree men with status under Treaty 8 (1899) were charged under Alberta's Wildlife Act for hunting on privately owned land. The Court held that the treaty right to hunt for food continued on private land not put to a visible use incompatible with hunting, and then asked whether the provincial licensing scheme infringed it. Its interpretive reasoning is the part this facet uses. Treaties are to be construed liberally, ambiguities resolved in favour of the Indians, and in their context (¶ 52). The written treaties recorded agreements already reached orally and did not always record their full extent; they were drafted in English, not translated into Cree or Dene, and must be read as the Indians would naturally have understood them at the signing (¶ 52). The verbal promises made for the federal government, recorded in the commissioners' reports and in interpreters' and officials' affidavits and diaries, are of "great significance" (¶ 55); the Treaty 8 nations' oral history "reveals a similar understanding" (¶ 56). Badger's and Kiyawasew's appeals were dismissed and Ominayak's allowed.
 
 ## Key facts it relies on
 - ¶ 52: "The treaties, as written documents, recorded an agreement that had already been reached orally and they did not always record the full extent of the oral agreement" (citing Morris 1880, pp. 338-42).
@@ -38,3 +38,10 @@ Treaty 8, Numbered Treaties, oral promises, written treaty as incomplete record,
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — a modern court refusing to treat a written text read to signatories as the whole agreement (¶ 52) and giving the oral promises interpretive weight (¶ 55). Cannot check (not yet drafted).
+
+## Verifier notes
+- 2026-10-14: sha256 of the local text matches. Bibliographic data (1996-04-03, [1996] 1 SCR 771, Cory J. for La Forest, L'Heureux-Dubé, Gonthier, Cory and Iacobucci JJ.; Lamer C.J. and Sopinka J. concurring) confirmed on the Court's page; agrees with the V2 facet bib.
+- All five key-fact quotations (¶¶ 52, 54, 55) pass an exact-string check against the local text; ¶ 52 does cite Morris (1880) pp. 338-42.
+- Corrected the summary: ¶ 55 calls the *government's verbal promises* "of great significance"; the oral history of the Treaty 8 nations is ¶ 56 ("reveals a similar understanding"), not part of the ¶ 55 phrase.
+- Proposed v4 use: the source supports it (¶ 52 incomplete written record; ¶ 55 weight of oral promises). Not checkable against a manuscript line (v4 not drafted).
+

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V5/kaiser202
 sha256: 331a3415276106f75d111c491bdfd41aacdb6373e792ca35bed053f2494b7a8c
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -54,5 +54,21 @@ restriction to top journals, adequate power and publication-bias correction (abs
 financial education, randomised controlled trials, meta-analysis, effect sizes, decay, publication bias, replication of Fernandes et al. 2014
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — the correction to Fernandes et al.'s 0.1% figure: education has a small,
-  real effect (pp. 16-17), so the objection to wrong (c) is "small and contested", not "none".
+- v4 (not yet drafted): proposed use — the correction to Fernandes et al.'s RCT estimate: education has a small,
+  real effect (pp. 16-17), so the objection to wrong (c) is "small and contested", not "none". narrower: Kaiser et
+  al. overturn Fernandes et al.'s 0.018 SD estimate from 13 RCTs (p. 16); they never address the "0.1% of the
+  variance" figure, which Fernandes et al. computed over all intervention studies (87 effect sizes; Fernandes WP
+  p. 8). Do not present Kaiser et al. as correcting the 0.1% figure.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Printed page = PDF page - 1 confirmed from the page footers.
+- "Thus, one of the main findings of Fernandes et al. (2014) is not confirmed in this larger sample of RCTs" is an
+  exact string on printed p. 16 (PDF p. 17). Note the comparison there uses 64 RCTs with behavioural outcomes,
+  not all 76.
+- Also exact: abstract figures (76 RCTs, >160,000, "at least three times as large"); 13 RCTs, low-income and decay
+  (p. 3); 0.123 / 0.098 / 11.71 h / 30.4 weeks (p. 13); 0.065 vs 0.018 (p. 16); 0.1003 and "approximately 5.5 times
+  larger" (p. 17).
+- Corrected the use: it said "correction to Fernandes et al.'s 0.1% figure"; Kaiser et al. correct the RCT
+  estimate, not that figure.
+- Bib: Crossref matches V5 bib (JFE 145(2) 255-272, Aug 2022). The V5 bib note gives pages read as "1--5, 16--18,
+  22--23" (PDF pages) where the card gives printed pages; same pages, different numbering.

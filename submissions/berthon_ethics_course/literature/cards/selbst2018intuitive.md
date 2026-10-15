@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/M2/selbst.pd
 sha256: ce3fa076f8e41c3854ea3d37c9c63aa793988ef2953ce5e5f314917ca50c3cbb
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -41,3 +41,9 @@ Explainable AI, inscrutability, nonintuitiveness, transparency, secrecy, experti
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the located statement that transparency places the work of understanding on the observer: accountability "requires preexisting knowledge that allows observers to appreciate the significance of a disclosure" (p. 1094); with the quoted Ananny and Crawford "chain of logic" (p. 1094, n. 48). Holds.
 - v4 (not yet drafted): proposed use, narrowing — "the problem of expertise ... is not unique to algorithms" (p. 1094) supports the paper's historical parallel with earlier documentary regimes. Narrower: the sentence says only that expertise is not unique to algorithms; it offers no history.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Crossref 10.2139/ssrn.3126971 confirms the title and authors (SSRN, 2018). In the Fordham PDF, PDF p. 2 = 1085 and p. 56 = 1139, so the last page is 1139, which references.bib had left unchecked.
+- Exact-checked the abstract (pp. 1085-1086), p. 1086 and every p. 1094 quotation, with nn. 48 (Ananny and Crawford at 974) and 49 (Burrell at 4). All pass.
+- Added verdicts: use 1 holds; use 2 is narrower (no history in the source).
+- Bib: the card has `doi: null`, while references.bib gives the SSRN DOI. There is no V4 .bib entry (comment only).

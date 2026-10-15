@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V5/bhola1984
 sha256: 7fa90d0904cb4b67f5f85b836a124a331c148ab7831969f85be6c4722f07568a
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -63,7 +63,21 @@ mass literacy campaigns, Cuba 1961, brigadistas, tutor-learner ratio, follow-up 
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the historical case that a sponsor can scaffold adults at scale, one tutor
-  to two or three learners in their homes, with tests and follow-up (pp. 92, 97-98, 102-103).
+  to two or three learners in their homes, with tests and follow-up (pp. 92, 97-98, 102-103). holds.
 - v4 (not yet drafted): proposed use — the same case shows the sponsor writing its politics into the scaffold
-  (p. 100, p. 104).
-- v4 (not yet drafted): proposed use — MOBRAL as method without the emancipatory content (p. 130).
+  (p. 100, p. 104). holds; p. 103's adult-education objectives ("Marxist-Leninist conception of
+  the world") also support it.
+- v4 (not yet drafted): proposed use — MOBRAL as method without the emancipatory content (p. 130). narrower:
+  Bhola says the technical structure is Freire's and the chosen life-experience themes "set the two methods apart"
+  (p. 130); "without the emancipatory content" is the paper's gloss, not his.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Re-extracted the scan; printed page = PDF page + 3 in the Cuba chapter. Cuba
+  figures confirmed: closure for eight months and lodging with 2-3 adults (p. 92); force 120,632 + 13,016 + 100,000 +
+  34,772 = 268,420 (p. 97, sum checks); ten pesos and ratio 1:3 / 1:2 (p. 98); 707,212 made literate, 23.6 -> 3.9
+  per cent (p. 100; OCR prints the page as "1060"). The 23.6 per cent is of those over age 10.
+- Also confirmed: tests (p. 102), 586,000 and 65,500 (p. 103), files and "Ideological justifications" (p. 104;
+  OCR "Ideoiogical"), MOBRAL pp. 130, 134, mystification pp. 30-31.
+- Nuance: the p. 136 caveat opens "As in other literacy campaigns, critics have not always been convinced of the
+  validity of official statistics", so it is general, though the Cuba chapter itself has no specific caveat.
+- Verdicts added: uses 1-2 hold, use 3 narrower. Bib: archive.org metadata gives 1984; no disagreement with V5 bib.

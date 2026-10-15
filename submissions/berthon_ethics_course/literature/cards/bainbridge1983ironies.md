@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V4/bainbridg
 sha256: 5f26903a9c1ef2745aa94329174fda8ccfcd44780a987cf031458bb43019caec
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -42,3 +42,9 @@ Automation, human operator, monitoring, vigilance, deskilling, manual take-over,
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use for wrong (a) — the person left to read and monitor an automated system "has been given an impossible task" (p. 776); relevant to the post's P15 (human-readable evidence) as an internal-oversight task. Narrower: her impossible task is real-time checking of a computer that uses more dimensions and finer criteria than the operator (p. 776), in plant control.
 - v4 (not yet drafted): proposed use for wrong (c) — the remedy is scaffolded practice (hands-on control each shift, simulators, p. 777) and the irony that the best automation needs "the greatest investment in human operator training" (p. 777). The setting is industrial; say so. Holds, with that limit.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Crossref 10.1016/0005-1098(83)90046-8 confirms Automatica 19(6) 775-779, Nov 1983, sole author Bainbridge (Crossref title case "Ironies of automation").
+- Exact-checked all quotations on pp. 775-777. They pass, with OCR spacing ("h u m a n") ignored. "aquire" is in the original.
+- Added verdicts (the card had none): use 1 is narrower (the impossible task is real-time checking in plant control); use 2 holds with the industrial limit the card already states.
+- Bib: agrees with the V4 facet .bib.

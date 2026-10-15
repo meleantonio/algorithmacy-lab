@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/Respon
 sha256: 6df59458f15c677c8b48aaa7b12f02a962e445abe93de42787f98ec4053384bb
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -39,3 +39,9 @@ Transparency Notes, in-product disclosure, citations, disclaimers, overreliance,
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — Microsoft names the user as co-bearer of responsibility ("a shared responsibility between application developers and application users", p. 34) and offers the user disclosures, citations "to help users verify", and disclaimers (p. 25). Holds.
+
+## Verifier notes
+- 2026-10-14. sha256 matches; 40 pp. Exact-checked every quotation on pp. 4, 11, 25, 29 and 34.
+- Corrected: the p. 4 quotation ended at "platform services." with a full stop, but the source continues "like Azure OpenAI Service." I restored the full sentence.
+- "capabilities, limitations, and intended uses" is on p. 25, not p. 4. The summary already attributes it to p. 25. The 99 percent figure is dated "As of December 31, 2023" (p. 4), which is confirmed.
+- The use holds. Bib: agrees with the V1 facet .bib.

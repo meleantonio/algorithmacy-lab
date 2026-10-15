@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/m365_t
 sha256: 0f39c6be7a3aec0cd9b7573caf2dfa96b91b870b04a14c76755e480aae79c8b6
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -39,3 +39,8 @@ transparency note, application card, end-user responsibilities, verification, ov
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the clearest primary instance of the burden on the reader: users must "review and verify", the company's mitigation is "adding disclaimers", and users "need to be trained" (sections "End-users should", "Limitations"). Holds on the page as fetched 2026-10-14.
+
+## Verifier notes
+- 2026-10-14. sha256 of the local HTML matches. Re-fetched the live page: the meta tag is still ms.date 2026-10-05, and the title is "Application card: Microsoft Copilot (for organizations)".
+- Exact-checked every quotation against the saved page, including "Limitations" and the user-training passage, the grounding mitigations, "shared commitment", the "End-users should:" items, the disclaimer sentence and the admin feedback. All pass. Two differ only in case ("Best practices ...", "Exercise human oversight"), which is fine.
+- The use holds. Bib: agrees with the V1 facet .bib.

@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/dxd_foundation_local/pdfs/L/fernandes2
 sha256: 537dd72f6c94381df281d55eeee83fe80cfca9decb85ff1387814f38df2dd237
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -55,6 +55,20 @@ financial literacy, financial education, meta-analysis, decay of instruction, om
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — the strongest evidence against decontextualised training as the answer to
-  wrong (c) (published abstract; WP p. 14), cited with Kaiser et al.'s correction.
+  wrong (c) (published abstract; WP p. 14), cited with Kaiser et al.'s correction. holds.
 - v4 (not yet drafted): proposed use — the authors' own alternative is in-task support where needs differ (WP
-  p. 22), which matches scaffolding in Belland's (2017) sense.
+  p. 22), which matches scaffolding in Belland's (2017) sense only in part. narrower: "just-in-time" education
+  "tied to a particular decision", and coaching, fit scaffolding; but "decision support systems that help select
+  tailored options" and recommender systems (WP p. 22) are closer to what Belland (2017, p. 19) calls a job aid,
+  which is not scaffolding.
+
+## Verifier notes
+- 2026-10-14. sha256 matches. WP page = PDF page. All WP quotations exact (pp. 2, 14, 22); omitted-variable
+  point at pp. 2, 15. The published abstract (OpenAlex) confirms "168 papers covering 201 prior studies", the 0.1%
+  sentence with "weaker effects in low-income samples", and "a real but narrower role for 'just-in-time' financial
+  education".
+- Scope worth recording: the 0.1% is over all intervention studies (87 effect sizes, r = .033; WP p. 8), not RCTs
+  only. Kaiser et al. re-estimate the 13-RCT subset (0.018 SD), not this figure (see `kaiser2022financial`).
+- Corrected use 2: "matches scaffolding in Belland's sense" overstated it; now narrower, with the reason.
+- Bib: Crossref has "Lynch, John G." without "Jr."; otherwise matches V5 bib. The V5 bib note lists WP pp. 2, 14, 22
+  and omits p. 15, which the card uses.

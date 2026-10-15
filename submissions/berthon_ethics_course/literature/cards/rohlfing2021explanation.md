@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V6/rohlfing2
 sha256: 99820935d0758108b356dbff64750d054958bedf27c54126cb6806cbe4870334
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -51,4 +51,16 @@ must be careful, however, to not add the empowerment of persons to a number of a
 explainable AI, explanation as social practice, co-construction, scaffolding, monitoring, passive explainee, transparency and autonomy, burden on users
 
 ## Where the manuscript uses it
-- v4 (not yet drafted): proposed use — wrong (a): cite the named assumption that information availability suffices for action (p. 718); wrong (c): cite "Explaining Is Scaffolding" (p. 723) as the design form of scaffolding, and the p. 726 burden caution when answering the responsibilization objection. cannot check (no v4 text yet).
+- v4 (not yet drafted): proposed use — wrong (a): cite the named assumption that information availability suffices for action (p. 718); wrong (c): cite "Explaining Is Scaffolding" (p. 723) as the design form of scaffolding, and the p. 726 burden caution when answering the responsibilization objection. Against the source pages: holds for all three parts (pp. 718, 723, 726).
+
+## Verifier notes
+- 2026-10-14. sha256 matches. PDF p. 1 = p. 717. All quotations exact: three limitations and "monitoring and
+  scaffolding" (p. 717); "the mere availability of information will suffice to 3) warrant an understanding that
+  4) enables the explainee to act further" and the Felzmann quotation (p. 718); "The goal in scaffolding ...",
+  "temporary", "co-constructed by both partners" (p. 723); "understanding means clearly more ..." and the burden
+  sentence (p. 726). Ref. [86] is Matzner, Masur, Ochs and von Pape, "Do-It-yourself data protection—Empowerment
+  or burden?"; ref. [13] is Felzmann et al.
+- Use verdict set from "cannot check" to holds against the source pages.
+- Bib disagreements with V5 bib: its note says "Abstract only", but the card read pp. 717-718, 723, 726 of the
+  local PDF; it spells "Hab-Umbach" and "Hullermeier" (Crossref's ASCII), where the PDF has "Häb-Umbach" and
+  "Hüllermeier", as the card does. Crossref confirms vol. 13(3), 717-728, Sept 2021, CC BY.

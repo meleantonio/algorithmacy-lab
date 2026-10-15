@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/V1/ms/Micros
 sha256: 66a41b79c894791f1776fb2d8403f3e2b8e75db06ec8f7dbde615aa6972f2b6c
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -43,3 +43,9 @@ intelligibility, stakeholders subject to decisions, educational materials, autom
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — Microsoft's own 2022 standard already asked more than the post: test whether people subject to decisions can interpret outputs (T1.1–T1.3, p. 9) and whether overseers can oversee "in realistic conditions" (A5.4, p. 8). Holds.
 - v4 (not yet drafted): proposed use — even so, the competence it asks for is interpretation of the system, delivered by "educational materials" (T1.2, p. 9): the literacy frame. Holds as reading; the inference is the paper's.
+
+## Verifier notes
+- 2026-10-14. sha256 matches; the PDF has 27 pp. Exact-checked T1 ("Applies to"), T1.1, T1.2, T1.3 (p. 9), the Recommendation T1.2.1 (p. 10) and A5.3.1 (p. 8) wording, T2.2 and the Transparency Note sentence (p. 11), T3 (p. 12), A5.4 (p. 8) and "edited for external release" (p. 27). All pass.
+- The source uses double quotes for ("automation bias"). The card nests it as ('automation bias') inside its own quotation, which is a convention, not a misquote.
+- Both uses hold.
+- Bib: the card title adds "(For External Release)", which the facet .bib puts in its `type` field. No other disagreement.

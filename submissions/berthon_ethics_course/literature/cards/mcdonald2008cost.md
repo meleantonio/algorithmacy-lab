@@ -13,7 +13,7 @@ local_path: /Users/ludwitt/iit-playground/dxd_foundation_local/pdfs/L/mcdonald20
 sha256: f68d2f2ec49b3d2c53924a5a9411f760b82240f05a8093bfe2e7b0e8d1ec123b
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: corrected
 written: 2026-10-14
 ---
 
@@ -39,3 +39,9 @@ Privacy policies, reading time, opportunity cost, notice and choice, FTC self-re
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — a modelled measure of the reading burden that notice puts on the person: about 201 hours a year per person and $781 billion nationally (pre-press pp. 2, 19-20), set against the $21 billion advertising market (p. 20). Holds as a modelled estimate. Give journal pages after checking the version of record (Solove cites p. 564).
+
+## Verifier notes
+- 2026-10-14. sha256 matches. Exact-checked the quotations on pre-press pp. 2 and 18-20. All pass.
+- Corrected: the abstract runs across pp. 1-2, and every abstract fact the card cites (the research question, 75 sites, 250 wpm, 10 minutes, 212 participants, 119 sites, 25% / twice wages, $781 billion) is on p. 2, not p. 1. I fixed pages_read, the Summary, Key facts and the use locator.
+- Added a verdict to the use: holds as a modelled estimate.
+- Bib: vol. 4 and first page 543 are confirmed by Solove (2013) n. 41 ("4 I/S ... 543, 564 (2008)"). Issue 3 and last page 568 could not be confirmed (the formatted journal copy found returned 404).

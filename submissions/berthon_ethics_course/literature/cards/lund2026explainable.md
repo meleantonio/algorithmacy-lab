@@ -13,7 +13,7 @@ local_path: null
 sha256: null
 manuscript_lines: []
 ledger_rows: []
-verified: pending
+verified: true
 written: 2026-10-14
 ---
 
@@ -49,4 +49,13 @@ explainable AI, AI literacy, scaffolding, zone of proximal development, fading, 
 
 ## Where the manuscript uses it
 - v4 (not yet drafted): proposed use — cite as prior work for the design side of wrong (c), and claim only the
-  historical argument as the paper's own (abstract). Cannot check pages (abstract only).
+  historical argument as the paper's own (abstract). Cannot check pages (abstract only). holds at abstract level.
+
+## Verifier notes
+- 2026-10-14. Abstract re-read from Crossref (structured abstract) and OpenAlex; both are identical. Every quoted
+  phrase on the card is an exact substring ("as a mechanism for transparency and accountability"; "a developmental
+  learning support for end users remains underexplored", which the source frames as "its potential to be used
+  as ..."; "the gradual, in situ development of AI literacy skills"; the three principles; "calibrated trust").
+- The card claims nothing beyond the abstract. "No data" is a fair reading of "conceptual paper".
+- Crossref confirms the five authors, Journal of Documentation, pp. 1-14, online 3 Aug 2026; no disagreement with
+  V5 bib.
