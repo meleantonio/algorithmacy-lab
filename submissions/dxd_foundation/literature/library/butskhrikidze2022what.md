@@ -35,3 +35,7 @@ Three languages picked by the author, desk-study evidence only, and the author's
 **What I checked:** the Sciendo PDF (18 pages, journal pp. 821-838; running head prints 2021, vol. 72 no. 3, DOI 2022) from the cards folder; title and author match. About 12 quotations with page locators (PDF page + 820), the Saenger footnote 3 wording, footnote 12 (Latin and Greek), the sample caveat, Winskel (2011) and Winskel, Radach and Luksaneeyanawin (2009) in text and reference list, and section numbers 4.2, 4.5 and 7.
 
 **Findings:** One quotation was altered: the Winskel (2011) quote reads "functioning as salient word or syllable segmentation cues", not "function as"; fixed. The "might not be representative" caveat and "randomly chosen ... without prior knowledge" are both in footnote 5 on p. 822 as stated. Everything else matches.
+
+## Also used by facet W (2026-10-15)
+
+Facet W takes her untested but pointed typological claim: isolating, tonal languages with restricted phonotactics carry "word boundary markers" in the spoken language itself, so their scripts can go without spaces (pp. 823–825, 835–836), while inflectional Latin and Greek lack them (nn. 3, 12). Read with the speech-segmentation experiments (`matzinger2021influence`), this gives a linguistic reason why "sounding out" a Latin line would not by itself reveal word ends: the language supplies fewer audible boundary cues than Thai or Burmese do. The claim remains a desk hypothesis; the card's cautions stand.

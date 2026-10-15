@@ -35,3 +35,7 @@ Leads not carded here: Farooq and Grudin (2016) on human–computer integration;
 ## Caution
 
 Narrative and purposive, not a count of the field. No DOI was printed on the PDF. Do not cite the Frey and Osborne 47 percent figure, the WEF job totals, or the Stanford AI Index from this review as if this paper had read those sources. Do not say the review endorses Nadella. It does not mention him. "Civic AI literacy" is one transferred cell, not the review's title claim. The essay's use of Level 4b for a rider and a driver is an application, not a quotation.
+
+## Also used by facet S (2026-10-15)
+
+Facet S reads this review against the supervisory-control lineage it says it extends. Its own sentence that the classical models "were developed for supervisory control settings in which a human operator, clearly separated from the machine, allocates functions and monitors discrete levels of automation through external displays" (p. 2) is the dyad claim of the abstract's third sentence in the field's words, and the Level 4b row of Table 2 is the review's one acknowledgement that a person can face an institution's allocator rather than a tool. Facet S notes that even there the remedy offered is interpretable outputs, civic AI literacy and explicability, so the review supports the abstract's second sentence as well as its third. New cards that bear on the same question: `oneill2022human` (teaming), `klein2004ten` (joint activity), `rayo2023cognitive` (joint cognitive systems).

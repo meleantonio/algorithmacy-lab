@@ -56,3 +56,9 @@ Two cities, four weeks of spring 2015, UberX mostly, rider-side app only; the au
 6. Reference locators in "In conversation with": Lee et al. [18] and Eslami et al. [7, 8] are cited in §7 on p. 507 (not p. 506); Rosenblat [26] on phantom cars on p. 498 (not p. 497). Fixed.
 7. Use-in-DRAFT_v2 verdict on line 279 confirmed: the paper separates the designed 5-minute clock ("extremely noisy", p. 495; surges mostly one interval, p. 503) from the 20–30-second per-client jitter that Uber's engineers attributed to "a consistency bug" (p. 503). "Rapid fluctuation … was … a bug" is accurate only for jitter. The paper also says jitter "almost always reduces prices for passengers" (p. 503), which cuts against reading it as extraction. Batching delays and stochastic allocations are not in this paper. Read-depth claim (full text) is consistent with the copy.
 
+
+## Also used by facet T (2026-10-15)
+
+Facet T pairs this outside audit of surge with two inside accounts: `cohen2016using`, which uses the continuous "surge generator" that this paper could only infer, and `castillo2025matching`, which measures slack (idle to en-route drivers) and finds surge rising steeply only below 0.3. Together they show that the mediator's rule is partly observable from either counterpart's app, fully observable only from inside, and overridden by human business rules in about 11.5% of sessions (`cohen2016using`, p. 8).
+
+*S2 check of this section (2026-10-15):* Checked against `cohen2016using` (11.5% of sessions overridden by business rules, p. 8) and `castillo2025matching` (surge rising steeply only below slack 0.3, draft p. 21): both figures confirmed in the sources. No change.

@@ -23,3 +23,7 @@ Web edition, not the Official Journal; wording could differ in punctuation or in
 **What I checked:** The saved web page of artificialintelligenceact.eu Article 14 (text only; same page the card names, not EUR-Lex); 11 quotations (all verbatim, ellipses legitimate), the 14(1)-(5) paraphrases, the effective-date banner ("2 December 2027 ... 2 August 2028, according to Article 113(c)"), recitals 66 and 73 line, and the law-enforcement/migration/border/asylum exemption.
 
 **Findings:** No issues found. I did not compare against the Official Journal, as the card itself says; the "bib papers discuss it" relations in "In conversation with" are the card author's assignments, not claims made by the regulation, and I did not check them.
+
+## Also used by facet S (2026-10-15)
+
+Facet S reads Article 14 beside two legal analyses of its draft, `enqvist2023human` and `koulu2020proceduralizing`, and the facet's point is the one Enqvist makes: the overseer of 14(4)(a)–(c) is an interpreter of system output and of the Article 12 logs, so the statute's human role is reading, and what is shown is for the provider to decide. The five capabilities analysed by Enqvist from the 2021 draft (understand, stay aware of automation bias, interpret, disregard or override, stop) are the five that this card records in the enacted text, which lets the facet cite the draft analysis against the final wording. Koulu's warning that oversight is adopted because the button press and the tick box leave a verifiable record is the facet's gloss on 14(4)(e).

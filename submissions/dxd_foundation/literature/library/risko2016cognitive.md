@@ -44,3 +44,13 @@ A review of mostly laboratory studies with recall, rotation and reminder tasks, 
 **What I checked:** Opened the author manuscript PDF (pdftotext), confirmed title, authors, year. Checked all 13 quotations for exact wording and page locator (manuscript page headers), the 40% / two-items figure, each attributed result on pp. 4-14, Boxes 2-3, and the cited keys against the reference list (refs 5, 6, 16, 17, 19; absence of Kirsh 1995; in-press refs 32, 33, 99).
 
 **Findings:** One overstatement fixed: the card said "Using Google raised self-rated knowledge (p. 10)". The text says people who had used Google reported higher "cognitive self-esteem" and predicted better quiz scores; the "knowledge in-the-head" belief comes from a separate online-search study. Card rewritten to say that. All quotations and locators match; no other issues. The facet-check remark about Box 3 is accurate.
+
+---
+
+## Also used by facet V (2026-10-15)
+
+Facet V (offloading, representation, epistemic action) relies on this card as the lineage anchor and adds two uses. First, the abstract's new sentence makes the scribes' spacing an instance of "cognitive offloading (Risko & Gilbert, 2016)"; the definition on ms. p. 2 requires the person's own physical action, and only Box 3 (p. 33) extends the term to offloading "'built-in' to the task environment by design". The draft should cite Box 3, not the definition, for the scribes. Second, the framework's prediction of a self-reinforcing "drift away from reliance on internal capabilities" (p. 13) is now measured in the facet's new cards: the reminder bias of d > 0.8 in `gilbert2020optimal`, the memory trade-off in `grinschgl2021consequences`, and the endorsement failure in `risko2019offloading`. Those results sit against the abstract's claim that the representational change let readers "internalize" text; see the facet file, section "What this means for the abstract's sentence".
+
+## S2 adversarial verification (2026-10-15, facet V section)
+
+**Facet V section, verdict: confirmed.** In `dxd_foundation_local/pdfs/E/risko2016.txt` the running head carries the manuscript page: the definition "the use of physical action to alter the information processing requirements of a task" is on p. 2 (and in the glossary), "drift away from reliance on internal capabilities" on p. 13, and offloading "'built-in' to the task environment by design" on p. 33 (Box 3). Nothing changed.

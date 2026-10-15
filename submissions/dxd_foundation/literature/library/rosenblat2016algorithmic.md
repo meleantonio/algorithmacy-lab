@@ -38,3 +38,9 @@ Forum-based and non-representative by the authors' own statement; seven intervie
 **What I checked:** Opened the IJoC journal PDF (pages 3758-3784); title, authors, year match. Checked 21 quotations for exact wording and page, the sample figures (1,350 items, five forums, 700-1,000 visitors, about 5,100 members, seven interviews), the $3.20 fare arithmetic, 20% to 28% commission, 25% claim, 4.6 rating over last 500 trips, and the cited authors in the text and reference list (Lee et al., Irani, Scholz, Gillespie, Aneesh, Neff, Hall and Krueger, Stark and Levy, Diakopoulos).
 
 **Findings:** No issues found. The two quotations containing inner quotation marks matched once the quote style was normalised.
+
+## Also used by facet T (2026-10-15)
+
+Facet T takes the blind-acceptance design (about 15 seconds, no destination or fare, p. 3762) as the clearest field description of a mediator that *binds* the match on one side; `garg2022driver` (p. 9) confirms the practice from the pricing side and notes that showing the destination "is an important stepping stone" that incentive-compatible pay would make possible. The paper's passengers appear as raters and as the source of the fare, which makes it a two-party-plus-platform account; the third party's own objective is inferred from Uber's communications rather than modelled.
+
+*S2 check of this section (2026-10-15):* Checked against the host card (about 15 seconds, no destination or fare, p. 3762) and against `garg2022driver` n. 7, p. 9 ("an important stepping stone to showing this information"), both confirmed. No change.

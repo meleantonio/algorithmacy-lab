@@ -1,0 +1,29 @@
+# Kayongo, P., Sun, G., Hartline, J., & Hullman, J. (2022). Visualization equilibrium. *IEEE Transactions on Visualization and Computer Graphics, 28*(1), 465–474.
+
+**Identifier:** doi:10.1109/TVCG.2021.3114842 · **Read depth:** full_text (the authors' version from the Hullman lab site, 10 pp.; saved as `dxd_foundation_local/pdfs/V/kayongo2021.pdf`; locators are that version's pages, not the journal's 465–474; read in full including Table 1 and references; Figures 1–9 read through captions and the numbers reported in the text) · **Source-tier:** peer-reviewed article (IEEE VIS 2021 / TVCG) · **Evidence basis:** direct_read · **Design and sample:** pre-powered online experiment on Amazon Mechanical Turk, 606 recruited, 400 retained after attention checks; mixed design, visualization type (static bars vs hypothetical outcome plots) between, information access (private vs public) and signal (visualized proportion 0.10–0.50) within; two-location congestion game with 30 simultaneous players · **Parties modeled:** other: an information provider and many strategic agents who share one display · **Facets:** V · **Read:** 2026-10-15
+
+## What it argues
+
+In a congestion game the payoff of a location falls as more people choose it; the Nash share for location A is 2/9 ≈ 0.22 and the welfare optimum 4/9 ≈ 0.44 (p. 3). Players saw a chart of 30 prior choices. The paper asks what happens when the chart is public, so that each player knows the others see it too. Result: "when the visualized information is public, players were only two thirds as likely to make the decision that would result in a higher payoff according to the visualization" (p. 1); in the regression, 0.67 times as likely (−0.41 log odds), and 0.71 times with hypothetical outcome plots (p. 7). Even in private, 25–40% did not best-respond to the chart (p. 5). The authors define a visualization equilibrium, "the visualization for which the visualized outcome of agents' decisions matches the realized decisions of the agents who view it" (p. 1), and estimate it at a visualized proportion of 0.34 [0.32, 0.36] for bars and 0.35 [0.33, 0.37] for HOPs, between Nash and the optimum (p. 6). Reported strategies in the public condition: 32% (bars) and 24% (HOPs) anticipated others' reactions; 42% and 53% simply followed the chart (Table 1, p. 8). The warning for designers: "Visualizations that are not at the visualization equilibrium may result in unpredictable dynamics" (p. 9). The opening sentence credits visualizations' power to their "abilities to offload cognition to perception [24]", citing Larkin and Simon (p. 1).
+
+## Relation to the argument
+
+**D9 (the triad differs from the dyad).** This is the only experiment the facet found in which a representation is given by a provider to many agents who then act on one another. The same chart does different work when it is private and when it is shared, because the agents respond to one another's expected responses. That is the abstract's claim that platform settings are not dyadic, measured: moving from private to public cut following-the-display by a third.
+
+**Epistemic action and feedback (P9, D7).** Reading a display and acting on it is epistemic action in Kirsh and Maglio's sense only when "the local effects of an action are totally determinate" (existing card, p. 543). Here they are not; the display is performative, and the provider must design for the fixed point. That is a limit on carrying `kirshmaglio1994distinguishing` and `kirsh2010thinking` into triads, and support for the author's view that the feedback convention must be designed, not assumed.
+
+**P10 and D8.** The visualization equilibrium puts the convention (which number the display shows) in the provider's hands, since any other number is self-defeating. It is a formal statement of custody.
+
+## In conversation with
+
+- `larkin1987why` — cited [24] as the warrant for offloading cognition to perception (p. 1).
+- `li2017obviously` — not cited; the same concern with what untrained agents can act on.
+- Leads not in the bib: Zhang, Hartline and Hullman (2024), "Designing shared information displays for agents of varying strategic sophistication", *PACM HCI* 8 (CSCW1); Kayongo et al. (2025), "Behavioral study of dashboard mechanisms", arXiv 2507.20985; Bergemann and Morris (2019), information design; Perdomo et al. (2020), performative prediction; Arthur (1994), the El Farol bar.
+
+## Caution
+
+Author's version with no journal pagination. One game, with payoffs the participants had to compute from a conversion table, which the authors think pushed some to react to payoffs alone (p. 9). Probability estimates were noisy and compressed towards 50%. The provider here has no objective of its own; the paper studies accuracy, not an optimising mediator.
+
+## S2 adversarial verification (2026-10-15)
+
+**Verdict: confirmed.** Method: re-opened the local full text (`dxd_foundation_local/pdfs/V/`), searched every quoted string with whitespace and hyphenation normalised, mapped each locator to the printed or manuscript page by form-feed index, re-checked every number against the text, and pulled the Crossref record of the DOI for the bib fields. Index = page of the authors' version. Checked: the two-thirds sentence and the equilibrium definition (p. 1); Nash 2/9 ≈ 0.22 and optimum 4/9 ≈ 0.44 with N = 30 agents (p. 3); 606 recruited, 400 retained, 25–40% not best-responding in private, power for a 10-point effect at 80% (p. 5); 0.34 [0.32, 0.36] and 0.35 [0.33, 0.37] (p. 6); 0.67 (−0.41 log odds) and 0.71 (−0.33) (p. 7); Table 1 strategies 32%/24% anticipation and 42%/53% direct reaction (p. 8); "unpredictable dynamics in strategic environments", the conversion-table caveat and compression toward 50% (p. 9); Larkin and Simon as [24] (p. 1). Quotations verbatim. Crossref: Kayongo, Sun, Hartline, Hullman; *IEEE TVCG* 28(1), 465–474, Jan 2022; doi matches. Nothing changed.

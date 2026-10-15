@@ -29,3 +29,7 @@ Leads not carded here: their [13] Di Nardo, Forino, and Murino (2020) on the evo
 ## Caution
 
 Engineering review of manufacturing interfaces, 2021–2026, Scopus, subject area limited to engineering in the follow-up queries. Inaccessible publications were excluded (Section 3), so the 87 are not the full search. TRL scores are the authors' assignments, not a standard coding by the original papers. No DOI was printed on the PDF. Do not cite Siemens or Hyundai investments, or the sensor-market dollar figures, from this review without opening those sources. Do not treat the industrial metaverse as a finding about platform triads.
+
+## Also used by facet S (2026-10-15)
+
+Facet S pairs this review with two earlier reviews of the same devices, `demouracosta2022augmented` (32 papers on AR for human–robot collaboration, 2016–2021) and `quandt2021systematic` (33 papers on acceptance of industrial AR, 2011–2020). All three describe the headset's job as presenting information to the operator; de Moura Costa et al. add that most AR safety features are "for informational purposes only" and uncertified, and that the HMD showing the most information was rated least safe and hardest to understand in one experiment. That is the evidence behind the abstract's "factory headset" clause.
