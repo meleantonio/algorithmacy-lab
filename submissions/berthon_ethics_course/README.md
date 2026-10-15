@@ -67,11 +67,14 @@ before mass literacy and document no wrong done during the transition.
 | [`venue/`](venue/) | Journal research: the brief, two agent-drafted files, and [`VENUE_RECOMMENDATION.md`](venue/VENUE_RECOMMENDATION.md). Unaudited; AJG ratings unverified |
 | [`BERTHON_NOTES.md`](BERTHON_NOTES.md) | What Berthon's papers and Williams say, with locators, set against the three sentences of the draft passage that misstate them. Notes only |
 | [`MANUSCRIPT_v3.md`](MANUSCRIPT_v3.md) | **Version 3** (2026-10-14): v2 with every claim and citation verified. Each change is marked inline (`<!-- v3: id -->`); `AUTHOR` marks a change to the argument that the author can reverse. [`MANUSCRIPT_v3_CHANGES.md`](MANUSCRIPT_v3_CHANGES.md) logs each change with its before and after text, source and decision |
+| [`MANUSCRIPT_v4.md`](MANUSCRIPT_v4.md) | **Version 4** (2026-10-14): a new paper on the author's instruction (`v4/SOURCE_v4.md`). It opens on Nadella's insider-risk essay and reads it for three mistakes of the oral-to-written transition (burden on the reader, a literacy-based medium, no scaffold). Claude-drafted; 10,303 words of body. Plan, notes and fact checks in [`v4/`](v4/); research in facets V1–V6 |
 | [`review/v3/`](review/v3/) | The verification behind v3: `CLAIMS_LEDGER.md` (333 claims), `CLOSED_LEDGER.md` (377 rows with final status and fix), `resolutions/` (claim-driven research C1–C3), `FIX_CHECK_A–C.md` (every v3 change checked against its source), and the briefs |
 | [`literature/cards/`](literature/cards/) | One reference card per work v3 cites, each checked adversarially against its source; index in [`REFERENCES.md`](literature/cards/REFERENCES.md), built by `literature/build_cards_index.py` |
 | [`literature/audit/AUDIT_06.md`](literature/audit/AUDIT_06.md) | Independent audit of 205 ledger rows (14.6% disagreement; 40% of proposed fixes wrong in the random sample), the reason every v3 change was then source-checked |
 
 ## Open for the author
+
+- **v4:** read it aloud and decide the eight departures listed in [`v4/V4_NOTES.md`](v4/V4_NOTES.md), the main one being that Nadella's essay does not say disclosure is sufficient. It also lists the sources to get from a library before submission.
 
 - **v3:** read it aloud; reverse any `AUTHOR` change you reject; the decisions and the PDFs only he can supply
   are listed at the end of `MANUSCRIPT_v3_CHANGES.md` and in the 2026-10-14 report.

@@ -65,4 +65,15 @@ them. Including them would push the body past 12,000 words.
 
 ## Length
 
-See the README for the current count. BEQ's 12,000 is still unresolved: does it include references?
+Body 10,303 words, references 1,827 (12,130 in all). The paper is under BEQ's 12,000 if references are excluded and
+just over if they count.
+
+## How it was checked
+
+- 65 new cards from round 7, each verified against its source by an agent that did not write it (literature/cards,
+  `## Verifier notes`), plus four cards written for works the draft cited without one. Five cards are copied from the
+  sister arm's verified library (Nadella 2025 and 2026, Plato, Green, Elish).
+- Two independent fact checks of the whole draft: `V4_CHECK_A.md` (Abstract–§3: 138 rows, 20 fails) and
+  `V4_CHECK_B.md` (§4–§7 and references: 115 rows, 36 fails; 83 entries, 2 fails). Every fail's corrected sentence
+  was applied to `MANUSCRIPT_v4.md`. Most fails were hedges dropped when a source's claim was carried into the text.
+- Not yet done: a second check of the corrected sentences, and your read-aloud.
