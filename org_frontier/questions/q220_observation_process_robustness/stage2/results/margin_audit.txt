@@ -1,0 +1,21 @@
+Superiority rule audit and multiplicity check (reanalysis of the committed stage-2 run)
+rule as run: superiority CONFIRMED iff point >= margin and lo > 0
+margin reading: superiority CONFIRMED iff lo >= margin (REFUTED iff hi < margin in both)
+
+id      rule            margin 95% CI                     as run        margin read   | 99.5% CI (Bonferroni/10)   as run        margin read  
+S2-H1   superiority     0.10   +0.204 [+0.015, +0.417]    CONFIRMED     INCONCLUSIVE  | +0.204 [-0.052, +0.513]    INCONCLUSIVE  INCONCLUSIVE 
+S2-H2   noninferiority  0.10   -0.002 [-0.058, +0.052]    CONFIRMED     CONFIRMED     | -0.002 [-0.092, +0.073]    CONFIRMED     CONFIRMED    
+S2-H3   noninferiority  0.10   +0.000 [-0.035, +0.035]    CONFIRMED     CONFIRMED     | +0.000 [-0.048, +0.050]    CONFIRMED     CONFIRMED    
+S2-H4   superiority     0.05   +0.108 [-0.017, +0.233]    INCONCLUSIVE  INCONCLUSIVE  | +0.108 [-0.081, +0.281]    INCONCLUSIVE  INCONCLUSIVE 
+S2-H5   equivalence     0.05   +0.021 [-0.031, +0.096]    INCONCLUSIVE  INCONCLUSIVE  | +0.021 [-0.042, +0.129]    INCONCLUSIVE  INCONCLUSIVE 
+S2-H6a  superiority     0.05   -0.007 [-0.082, +0.078]    INCONCLUSIVE  INCONCLUSIVE  | -0.007 [-0.123, +0.120]    INCONCLUSIVE  INCONCLUSIVE 
+S2-H6b  positive               +0.136 [-0.001, +0.272]    INCONCLUSIVE  INCONCLUSIVE  | +0.136 [-0.053, +0.322]    INCONCLUSIVE  INCONCLUSIVE 
+S2-H7a  positive               +0.230 [+0.078, +0.358]    CONFIRMED     CONFIRMED     | +0.230 [+0.008, +0.397]    CONFIRMED     CONFIRMED    
+S2-H7b  positive               +0.239 [+0.083, +0.372]    CONFIRMED     CONFIRMED     | +0.239 [+0.006, +0.408]    CONFIRMED     CONFIRMED    
+S2-H8   positive               +0.232 [+0.094, +0.351]    CONFIRMED     CONFIRMED     | +0.232 [+0.011, +0.390]    CONFIRMED     CONFIRMED    
+all 10 published 95% intervals and verdicts reproduced exactly: PASS
+
+Mechanism (preregistered rule), rule as run: reconstruction distortion (S2-H1 CONFIRMED, S2-H2 CONFIRMED, S2-H3 CONFIRMED)
+Mechanism (preregistered rule), margin reading: mixed or inconclusive (S2-H1 INCONCLUSIVE, S2-H2 CONFIRMED, S2-H3 CONFIRMED)
+Verdicts that differ between the two readings at 95%: S2-H1
+CONFIRMED (rule as run) verdicts that do not survive Bonferroni 99.5%: S2-H1

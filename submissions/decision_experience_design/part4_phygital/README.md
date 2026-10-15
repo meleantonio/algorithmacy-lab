@@ -48,7 +48,8 @@
 
 | File | Use |
 | --- | --- |
-| `OUTLINE.md` | Thesis, rulings, section plan with per-claim status flags, evidence against, jargon table, ten open questions |
+| `OUTLINE.md` | Primary outline. Thesis, rulings, section plan with per-claim status flags, evidence against, jargon table, ten open questions |
+| `DETAILED_OUTLINE.md` | Secondary outline. Section-by-section drafting plan: what each section lands, the sources it may use, and the rulings that would rebuild it. `OUTLINE.md` governs where the two differ |
 | `ARGUMENT_MAP.md` | Each baseline argument from Parts 1–3 against the physical and phygital literature; what phygital researchers raise; the counter-case |
 | `literature/REUSE.md` | Sources the lab already holds that bear on Part 4, with read depth and where each sits |
 | `literature/facets/Z_gap_search.md` | Whether anyone already writes of decision design or choice architecture in phygital settings |
