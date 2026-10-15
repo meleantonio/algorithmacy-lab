@@ -14,13 +14,18 @@ An audit then found three problems with the original analysis:
 - the triadic/dyadic decoder had no signal on clean data, so its hypotheses could not be informative.
 
 A second, separately preregistered stage tested the mechanism on fresh seeds and on 30 independently drawn forms.
-- **Curated corpus.** A timestamp-aware estimator, which pairs observations only at their true time difference, recovers
-  the clean reading: CLEAN − B = −0.002 [−0.058, +0.052]. It beats gap-closing by +0.204 [+0.015, +0.417], and a
-  length-matched contiguous control loses nothing. The damage is caused by fabricated adjacency, not lost information.
-  The effect is concentrated in four or five of the 12 informative forms.
+- **Curated corpus.** A timestamp-aware estimator, which pairs observations only at their true time difference,
+  reproduces the clean CRQA reading: CLEAN − B = −0.002 [−0.058, +0.052]. It beats gap-closing by +0.204
+  [+0.015, +0.417], and a length-matched contiguous control loses nothing. The evidence favours fabricated adjacency
+  over lost information. The size of the penalty is imprecise, however:
+  - the CI does not clear the preregistered 0.10 margin, so S2-H1 is CONFIRMED only under the rule as run and is
+    INCONCLUSIVE under the margin reading;
+  - it does not survive a Bonferroni correction over the 10 confirmatory tests;
+  - the effect comes from four of the 12 informative forms.
 - **Segmenting at gaps.** The stage-1 recommendation is not supported: segmenting discards the long-lag pairs.
-- **Independent forms.** Gap-closing does no harm (B − A = −0.007 [−0.082, +0.078]), and the clean bottleneck pick is
-  itself only marginally above chance: +0.136 [−0.001, +0.272].
+- **Independent forms.** Inconclusive. No gap-closing harm is detected (B − A = −0.007 [−0.082, +0.078]), but the
+  interval neither shows equivalence nor rules out a penalty of 0.08. The clean bottleneck pick is not clearly above
+  chance there either: +0.136 [−0.001, +0.272].
 - **Triadic/dyadic.** The decoder fails because coupling breadth does not track Φ integration, not because of its threshold.
 
 ## Introduction
@@ -97,7 +102,7 @@ not a retrofit.
 
 | id | contrast | value [95% CI] | verdict |
 |---|---|---|---|
-| S2-H1 | B − A, R1, MAR 0.3 | +0.204 [+0.015, +0.417] | CONFIRMED |
+| S2-H1 | B − A, R1, MAR 0.3 | +0.204 [+0.015, +0.417] | CONFIRMED (rule as run); INCONCLUSIVE (margin reading) |
 | S2-H2 | CLEAN − B, R1, MAR 0.3 | −0.002 [−0.058, +0.052] | CONFIRMED |
 | S2-H3 | CLEAN − LEN, R1, MAR 0.3 | +0.000 [−0.035, +0.035] | CONFIRMED |
 | S2-H4 | B − C, R1, MAR 0.3 | +0.108 [−0.017, +0.233] | INCONCLUSIVE |
@@ -108,8 +113,20 @@ not a retrofit.
 | S2-H7b | CLEAN − matched null, R1 | +0.239 [+0.083, +0.372] | CONFIRMED |
 | S2-H8 | B − chance, R1, MAR 0.3 | +0.232 [+0.094, +0.351] | CONFIRMED |
 
-The preregistered interpretation rule returns *reconstruction distortion*. The segment-at-gaps recommendation is not
-supported: C − A = +0.096 [−0.054, +0.244].
+Verdicts are as printed by the run, with no multiplicity correction, as preregistered.
+
+**S2-H1 superiority rule.** The superiority rule that was run (`decision.superiority`) confirms when the point estimate
+reaches the margin and the CI excludes 0. The margin reading requires the CI lower bound itself to reach the margin.
+S2-H1 is the only test whose verdict differs: CONFIRMED vs INCONCLUSIVE. S2-H4 and S2-H6a are INCONCLUSIVE under both.
+
+The preregistered interpretation rule returns *reconstruction distortion* under the rule as run, and *mixed or
+inconclusive* under the margin reading. Under either reading the information-loss account fails its criterion.
+
+**Multiplicity sensitivity check.** With Bonferroni 99.5% intervals over the 10-test family (`stage2/margin_audit.py`):
+- B − A becomes [−0.052, +0.513];
+- S2-H2, S2-H3, S2-H7a, S2-H7b and S2-H8 keep their verdicts, the last three narrowly.
+
+The segment-at-gaps recommendation is not supported: C − A = +0.096 [−0.054, +0.244].
 
 Further results:
 - **Diagnostics.** Under gap-closing at MAR 0.3, 31% of lag-1 index pairs, and 78% of index pairs across lags 1–10, are at
@@ -126,14 +143,17 @@ judged from the paired contrasts in the table, not from overlapping bars.*
 
 ## Discussion
 
-On the curated forms the recorded samples still hold the bottleneck information after 30% random loss. The
-reconstruction destroys it. Concatenation re-pairs samples at the wrong time differences: synchronous pairs survive
+On the curated forms, the recorded samples after 30% random loss still hold the information clean CRQA uses, and
+the evidence points to the reconstruction as what removes it. This is restoration of the clean decoder's reading, not a
+validation of that decoder against Φ. Concatenation re-pairs samples at the wrong time differences: synchronous pairs survive
 whole-row deletion intact, while lagged ones are diluted. A decoder that ranks nodes by summed lead-lag prominence then
 misranks them on the forms whose bottleneck shows up mainly in lagged coupling. Pairing at true time differences fixes
 this without imputation. Splitting into segments throws away most long-lag pairs and does not.
 
 Two results limit how far this carries.
-- The effect is concentrated in four or five forms and is absent on 30 random forms, where gap-closing is harmless.
+- The effect is concentrated in four or five forms. On 30 random forms it is not detected, but that test is
+  inconclusive: it is not evidence that gap-closing is harmless there.
+- Its size is imprecise. The CI includes penalties below the 0.10 margin, and it does not survive a Bonferroni correction.
 - The bottleneck pick has an edge over chance on the curated forms but only a marginal, unresolved one on random forms,
   and it depends on the lag window.
 
@@ -150,6 +170,10 @@ the curated corpus.
 - 12 informative curated forms and 30 random forms. Absolute-score intervals are wide.
 - The R2 forms are dense random wirings (27 dyadic, 3 triadic), so they are not a representative sample of coordination
   forms.
+- Corpus selection: R1 is the hand-built corpus the bottleneck pick was developed on. Four of its 16 forms are
+  uninformative because every node is in B. R2 is filtered by exact-Φ inclusion rules.
+- Dependence: the form is the unit, and the 20 seeds per form are repeated measures. All intervals resample forms.
+- Ten confirmatory tests, uncorrected as preregistered. See the Bonferroni sensitivity check above.
 - Stage-2 hypotheses were chosen after seeing stage 1. Fresh seeds and new forms guard against reuse of data, not
   against the choice of what to test.
 

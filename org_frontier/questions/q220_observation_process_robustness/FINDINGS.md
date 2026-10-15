@@ -1,4 +1,4 @@
-# q220 — Gap-closing, not data loss, breaks the CRQA bottleneck pick on curated forms; on random forms neither harm nor edge holds
+# q220 — Gap-closing, not data loss, drove the bottleneck-pick drop on curated forms (4–5 of 12); the random-form test is inconclusive
 
 q220 has two stages, reported separately.
 
@@ -65,22 +65,41 @@ bootstrap 95% CIs.
 - **The new code reproduces stage 1 exactly.** On the original seeds (S0) it matches all 1920 original per-run BN hits for
   clean and gap-closed runs.
 
-## 3. What the controls establish about the mechanism (R1, MAR 0.3)
+## 3. What the controls indicate about the mechanism (R1, MAR 0.3)
 
 | estimator / control | BN score | paired contrast | value [95% CI] | verdict |
 |---|---|---|---|---|
 | CLEAN | 0.785 | — | — | — |
-| A gap-closed (reference) | 0.583 | B − A | +0.204 [+0.015, +0.417] | S2-H1 CONFIRMED |
+| A gap-closed (reference) | 0.583 | B − A | +0.204 [+0.015, +0.417] | S2-H1 CONFIRMED by the rule run; INCONCLUSIVE if the CI must clear the 0.10 margin |
 | B timestamp-aware | 0.787 | CLEAN − B | −0.002 [−0.058, +0.052] | S2-H2 CONFIRMED |
 | LEN contiguous, same length | 0.785 | CLEAN − LEN | +0.000 [−0.035, +0.035] | S2-H3 CONFIRMED |
 | THIN clean pairs at B's counts | 0.796 | THIN − B | +0.008 [−0.054, +0.079] | — |
 | C segment-only | 0.679 | B − C | +0.108 [−0.017, +0.233] | S2-H4 INCONCLUSIVE |
 | matched nulls A / B / C | 0.565 / 0.551 / 0.579 | B − NULL-B | +0.237 [+0.078, +0.386] | — |
 
-Under the preregistered interpretation rule, the supported mechanism is **reconstruction distortion**, not information loss.
+**S2-H1 under two readings** (`stage2/margin_audit.py`, `stage2/results/margin_audit.txt`). The preregistration states
+S2-H1 as "B beats A by ≥ 0.10", a superiority test with margin 0.10. The rule the run executed (`decision.superiority`,
+committed in `996be257` before the preregistration) confirms when the *point estimate* reaches the margin and the CI
+excludes 0. B − A = +0.204 [+0.015, +0.417] meets that rule. Its CI does not exclude gains smaller than 0.10, so under the
+margin reading (CI lower bound ≥ 0.10) S2-H1 is INCONCLUSIVE. The preregistered verdict line is unchanged; both readings
+are reported.
 
-- The observed samples still carry the bottleneck signal. Pairing them at their true lags recovers the clean score
-  (CLEAN − B ≈ 0).
+- Rule as run: S2-H1, S2-H2 and S2-H3 are CONFIRMED, and the preregistered interpretation rule returns **reconstruction
+  distortion**.
+- Margin reading: S2-H1 is INCONCLUSIVE, and the same rule returns **mixed or inconclusive**.
+- Under both readings, B beats A at the unadjusted 95% level, and the information-loss account fails its own preregistered
+  criterion: CLEAN − B is −0.002 with an upper bound of +0.052.
+- Neither reading establishes that the gap-closing penalty is at least 0.10, nor that B > A survives a multiplicity
+  correction (§5a).
+
+The defensible statement is narrower than "the mechanism is established". On these curated forms the evidence favours
+distortion from concatenation over loss of information. The size of the gap-closing penalty is imprecise, and the formal
+confirmation rests on the more lenient of the two readings.
+
+- The observed samples still carry the information clean CRQA uses. Pairing them at their true lags reproduces the clean
+  CRQA score (CLEAN − B ≈ 0). This is agreement with the clean decoder, not a new validation against exact Φ: B is only as
+  right as clean CRQA, which lands in the Φ bottleneck set 0.785 of the time on these 12 forms (chance 0.556) and has not
+  been shown to beat chance on R2.
 - Neither a shorter contiguous record (LEN) nor fewer pairs (THIN) costs anything at this dose.
 - What breaks the pick is concatenation. At MAR 0.3, 31% of the pairs gap-closing treats as lag-1 pairs are really at
   lag 2 or more, and 78% of index pairs at lags 1–10 are at the wrong true lag.
@@ -92,7 +111,8 @@ Limits on the mechanism claim:
 
 - **The effect sits in a few forms.** Per-form B − A is +0.85 (`substitutable_counterparts`), +0.80 (`deep_pool_all`),
   +0.60 (`deep_substitutable`), +0.40 (`one_counterpart_constitutive`) and −0.20 (`gig_false_dyad`). It is 0 on the other
-  seven forms. The sign test is p = 0.375 and form-level dz = 0.57.
+  seven forms. The sign test is p = 0.375 and form-level dz = 0.57. The mean of +0.204 describes these four forms, not a
+  typical form.
 - **The dose-response fits** the account, without a clean monotone pattern: B − A is +0.027 at m = 0.1,
   +0.179 [+0.010, +0.360] at 0.2, and +0.140 [−0.027, +0.329] at 0.5. At m = 0.5 the timestamp-aware estimator starts to
   lose ground too (0.710).
@@ -104,22 +124,27 @@ Limits on the mechanism claim:
 
 ## 4. Do gap-aware methods recover the lost performance?
 
-- **Timestamp-aware pairing does, on the curated corpus.** At 30% loss, B is within 0.002 of clean and keeps a gain over
-  chance of +0.232 [+0.094, +0.351] (S2-H8 CONFIRMED).
+- **Timestamp-aware pairing restores the clean CRQA reading on the curated corpus.** At 30% loss, B is within 0.002 of
+  clean (CLEAN − B upper bound +0.052) and keeps a gain over chance of +0.232 [+0.094, +0.351] (S2-H8 CONFIRMED). This
+  restores clean-CRQA performance; it does not make the decoder more valid against Φ than clean CRQA already was.
 - **Segmenting at gaps, the stage-1 recommendation, is not supported.** At MAR 0.3 the segments are short: lag 10 keeps
   about 11 pairs, below the 30-pair usability floor, against 281 for B. C gives 0.679, C − A is +0.096 [−0.054, +0.244], and the interval for C's gain
   over chance includes 0. B − C is positive in 5 forms and negative in 1, but the interval includes 0 (INCONCLUSIVE). The
   stage-1 advice to "segment at gaps instead of splicing" is withdrawn. The supported advice is **pair observations at
   their recorded time differences and never concatenate across gaps**.
-- **Out of corpus there is nothing to recover.** On the 30 R2 forms, gap-closing does not hurt: A at MAR 0.3 is 0.597,
-  B 0.591, clean 0.586. B − A = −0.007 [−0.082, +0.078], INCONCLUSIVE against the 0.05 margin (S2-H6a), with a point
-  estimate of zero. The lag-0 share again rises under gap-closing (0.178 against 0.079 for B), but on these densely wired
-  forms that does not change the pick. The mitigation's benefit is therefore shown for the curated corpus only.
+- **Out of corpus the comparison is inconclusive.** On the 30 R2 forms at MAR 0.3, A is 0.597, B 0.591 and clean 0.586.
+  B − A = −0.007 [−0.082, +0.078], INCONCLUSIVE against the 0.05 margin (S2-H6a). This shows no detectable gap-closing
+  harm. It does **not** show that gap-closing is harmless or that A and B are equivalent: the interval still includes a
+  gap-closing penalty of up to 0.08, and no equivalence test was preregistered for R2. R2 is also a weak test of the
+  mechanism, because clean CRQA is not clearly above chance there (S2-H6b), so there is little bottleneck signal for
+  gap-closing to destroy. The lag-0 share again rises under gap-closing (0.178 against 0.079 for B). The mitigation's
+  benefit is shown for the curated corpus only.
 
 ## 5. Does anything beat the baselines?
 
 - **On the curated corpus (R1), yes.** Clean BN beats both the size-adjusted chance level and its matched null (S2-H7a/b),
-  and B keeps that margin at 30% loss. For reference, the best *constant* node index, chosen with hindsight, scores 0.667
+  and B keeps that margin at 30% loss (S2-H8). These are the forms the bottleneck pick was developed and described on
+  (q161), so this is a within-corpus result. The form-level sign tests are weaker (p = 0.146 for H7a/b, 0.039 for H8). For reference, the best *constant* node index, chosen with hindsight, scores 0.667
   on the 12 forms against clean CRQA's 0.785.
 - **On the independent forms (R2), not convincingly.** Clean BN is 0.586 against a chance level of 0.450. The gain is
   +0.136 [−0.001, +0.272], INCONCLUSIVE (S2-H6b; 19 forms above chance, 11 below). The hindsight-best constant pick
@@ -134,9 +159,31 @@ Limits on the mechanism claim:
     trained on R1 and tested on R2.
   - Coupling breadth measures how much the parties co-vary, not whether their causal structure is irreducible.
 
+## 5a. Caveats that apply to every stage-2 claim
+
+- **Corpus selection.** R1 is q161's hand-built corpus of 16 forms. The 4 forms where every node is in B are excluded from
+  the primary analyses, as preregistered, because no pick can be wrong on them. R2 is `random_wiring` output filtered by
+  the preregistered exact-Φ inclusion rules (n = 3: 15 of 35 draws kept; n = 4: 15 of 15). It is densely wired and 27 of
+  its 30 forms are dyadic, so it is not a representative sample of coordination structures either.
+- **Dependence.** The form is the unit. The 20 seeds per form are repeated measurements of one structure (stage-1 ICC 0.81,
+  so 320 runs carry about 20 runs' worth of information). Every interval resamples forms, then seeds within forms; the sign
+  tests use per-form means. The evidence is 12 informative forms (R1) and 30 (R2).
+- **Concentration.** S2-H1's effect comes from four forms (and one in the other direction); seven forms show exactly 0.
+- **Multiple testing.** The confirmatory family is the 10 tests S2-H1 to S2-H8 (counting H6a/b and H7a/b). The
+  preregistration applied no correction, and the verdicts above are uncorrected. As a sensitivity check
+  (`stage2/margin_audit.py`), Bonferroni 99.5% intervals over the family:
+  - S2-H1 no longer excludes 0: B − A [−0.052, +0.513].
+  - S2-H2 and S2-H3 stay CONFIRMED: [−0.092, +0.073] and [−0.048, +0.050], both inside the 0.10 margin.
+  - S2-H7a, S2-H7b and S2-H8 stay above 0, narrowly: lower bounds +0.008, +0.006 and +0.011.
+
+  The 0.25% tails rest on about 5 of 2000 bootstrap draws, so these bounds are approximate. The descriptive contrasts
+  (controls, dose-response, sensitivity) are uncorrected and carry less weight than the confirmatory family.
+
 ## 6. What remains unknown
 
-- **Why the curated forms suffer from gap-closing and random forms do not.** One candidate is synchronous co-driven nodes,
+- **Whether the gap-closing penalty is material (≥ 0.10) and general.** Its CI includes values below 0.10, and it does
+  not survive a Bonferroni correction.
+- **Why the curated forms suffer from gap-closing and random forms show no detectable effect.** One candidate is synchronous co-driven nodes,
   as in common-parent wiring. It has not been tested.
 - **The pick's validity beyond the curated forms.** The evidence is 12 informative curated forms (the effect is
   concentrated in 4–5 of them) and 30 random forms, 3–5 nodes, one flip rate in the main run, 600 steps.
@@ -146,6 +193,7 @@ Limits on the mechanism claim:
 - **Any statement about organisations.** These are Φ structures of synthetic Boolean forms, their simulated dynamics, and
   CRQA measurements of those simulations. No causal claim about any real coordination follows.
 
-Files: `stage2/results/stage2_stdout.txt` (all numbers), `stage2/results/stage2_summary.csv`, `stage2/results/stage2_runs.csv`
-(one row per form × seed × condition), `stage2/results/stage2_per_form.txt`, `stage2/results/stage2_bn_by_dose.png`,
+Files: `stage2/results/stage2_stdout.txt` (all numbers), `stage2/results/stage2_summary.csv`,
+`stage2/results/stage2_runs.csv.gz` (one row per form × seed × condition; gzip of the CSV whose SHA-256 the probe prints),
+`stage2/results/margin_audit.txt`, `stage2/results/stage2_per_form.txt`, `stage2/results/stage2_bn_by_dose.png`,
 `stage2/results/audit_original.txt`, `stage2/results/explore_td.txt`, `stage2/results/constant_baselines.txt`.
