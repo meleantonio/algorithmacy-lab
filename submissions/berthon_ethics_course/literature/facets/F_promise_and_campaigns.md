@@ -1,5 +1,7 @@
 # F — What promoters promised literacy would do, what it did, and who was left out
 
+*Note added by the lead, 2026-10-13: this facet is a dated record. Full texts supplied later were read in `L2_graff_fulltext.md`, which lists the statements here that they correct; where the two differ, `L2_graff_fulltext.md` and `T_adjudication.md` §9 govern.*
+
 *Facet F of the Berthon ethics course paper. 2026-10-13. Agent-drafted. The author has not reviewed it, and none of the text is the author's.*
 
 **What this facet covers.** (1) Harvey Graff's *The Literacy Myth* and his later restatements, their critics, and the distinction between a society requiring literacy and literacy rewarding the literate; (2) mass compulsory schooling and the purposes its promoters stated; (3) the international campaigns: UNESCO's Experimental World Literacy Programme (EWLP, 1967–1973), the UNESCO/UNDP 1976 critical assessment of it, the 1990 Jomtien and 2000 Dakar targets and whether they were met; (4) Freire's critique of "banking" education; (5) the current count of adults who cannot read, by sex and region, from the UNESCO Institute for Statistics (UIS); (6) the historical world literacy series (Our World in Data and its underlying sources) and the caveats on how literacy was measured.
