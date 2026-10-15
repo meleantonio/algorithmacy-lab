@@ -1,0 +1,59 @@
+== H5 (binning erases the triadic signal)
+null TD 0.5563; BIN g=2 0.5844, g=3 0.4719, g=5 0.4688
+rule as executed (one-sided, max excess <= 0.05): max excess +0.0281 -> CONFIRMED
+hypothesis sentence (|TD_g - null| <= 0.05 at every g): max |dev| 0.0875 at g=5 -> REFUTED
+  BIN g=2 minus NULL, paired, form-clustered: 0.028 [-0.381, 0.453]
+  BIN g=3 minus NULL, paired, form-clustered: -0.084 [-0.497, 0.344]
+  BIN g=5 minus NULL, paired, form-clustered: -0.087 [-0.509, 0.341]
+clean TD 0.5000 vs null TD 0.5563: clean minus null, form-clustered -0.056 [-0.447, 0.347]
+majority-class TD baseline (always 'dyadic'): 9/16 = 0.5625
+NULL TD calls 'dyadic' in 318/320 runs, so the TD null is the majority-class baseline
+
+== Bottleneck baselines
+form                          n bottleneck set  |B|/n
+chat_dyad                     3 [0, 1]          0.667
+gig_dyadic_model              3 [0, 1]          0.667
+ats_strict_bottleneck         3 [0, 1, 2]       1.000
+ats_feedback_factors          3 [2]             0.333
+gig_false_dyad                3 [2]             0.333
+two_sided_match               3 [0, 1, 2]       1.000
+hierarchy_backchannel         3 [0, 2]          0.667
+pool_all_required             4 [0, 1, 2, 3]    1.000
+substitutable_counterparts    4 [0, 1]          0.500
+one_counterpart_constitutive  4 [0, 1, 2]       0.750
+decoupled_control             4 [0, 1, 2]       0.750
+mediator_chain                4 [1, 2]          0.500
+deep_pool_all                 5 [1, 2]          0.400
+deep_substitutable            5 [0, 1, 2]       0.600
+multihome_either              4 [0, 3]          0.500
+multihome_both                4 [0, 1, 2, 3]    1.000
+uniform-random pick (per-form |B|/n), corpus mean: 0.6667
+forms whose bottleneck set is every node (any pick scores 1): 4/16
+constant pick node 0: 0.7500 (over 16 forms with n > 0)
+constant pick node 1: 0.7500 (over 16 forms with n > 1)
+constant pick node 2: 0.7500 (over 16 forms with n > 2)
+constant pick node 3: 0.3333 (over 9 forms with n > 3)
+constant pick node 4: 0.0000 (over 2 forms with n > 4)
+NULL cell picks node 0 in 283/320 runs (argmax tie-break on all-zero or near-zero centrality)
+
+== Original cells: seed-only interval (as published) vs form-clustered interval; gain over chance
+cell    dose  BN seed-only             BN form-clustered        BN minus |B|/n (clust.) 
+BIN        1  0.819 [0.797, 0.841]     0.819 [0.634, 0.975]     0.152 [0.024, 0.275]    
+BIN        2  0.762 [0.741, 0.784]     0.762 [0.572, 0.931]     0.096 [-0.030, 0.226]   
+BIN        3  0.666 [0.628, 0.703]     0.666 [0.472, 0.850]     -0.001 [-0.111, 0.110]  
+BIN        5  0.684 [0.647, 0.725]     0.684 [0.497, 0.863]     0.018 [-0.104, 0.133]   
+BURST    0.1  0.822 [0.797, 0.844]     0.822 [0.641, 0.972]     0.155 [0.030, 0.273]    
+BURST    0.3  0.819 [0.800, 0.838]     0.819 [0.637, 0.969]     0.152 [0.024, 0.272]    
+MAR        0  0.819 [0.797, 0.841]     0.819 [0.634, 0.975]     0.152 [0.024, 0.275]    
+MAR      0.1  0.797 [0.772, 0.819]     0.797 [0.616, 0.947]     0.130 [0.009, 0.245]    
+MAR      0.2  0.675 [0.637, 0.709]     0.675 [0.481, 0.856]     0.008 [-0.105, 0.123]   
+MAR      0.3  0.647 [0.606, 0.684]     0.647 [0.447, 0.841]     -0.020 [-0.144, 0.104]  
+MAR      0.5  0.628 [0.603, 0.653]     0.628 [0.428, 0.819]     -0.039 [-0.164, 0.085]  
+NULL       0  0.703 [0.684, 0.722]     0.703 [0.491, 0.900]     0.036 [-0.099, 0.173]   
+OFFSET     0  0.819 [0.797, 0.841]     0.819 [0.634, 0.975]     0.152 [0.024, 0.275]    
+OFFSET     1  0.853 [0.838, 0.869]     0.853 [0.675, 0.988]     0.186 [0.058, 0.305]    
+OFFSET     2  0.841 [0.819, 0.859]     0.841 [0.659, 0.984]     0.174 [0.047, 0.295]    
+OFFSET     3  0.853 [0.834, 0.869]     0.853 [0.672, 0.988]     0.186 [0.057, 0.303]    
+clean BN: ICC 0.813, design effect 16.44, effective n 19.5 of 320 runs
+BN drop clean -> MAR 0.3, paired, form-clustered: 0.172 [0.037, 0.334]; forms dropping 5, rising 0, sign-test p=0.062
+informative forms only (|B| < n, 12 forms): clean BN 0.758 [0.525, 0.954], MAR 0.3 BN 0.529 [0.308, 0.758], chance 0.5556
