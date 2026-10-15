@@ -11,7 +11,8 @@ Every claim in section (c) carries a status flag:
   [none]      no source located; inference or open question
 Nothing flagged [abstract], [verify] or [none] may be copied into a draft. [full] claims need the citation
 audit before print. ARGUMENT_MAP.md indexes the arguments; literature/facets/T_adjudication.md holds the
-case-by-case test. -->
+case-by-case test. The secondary outline, a section-by-section drafting plan, is
+`DETAILED_OUTLINE.md`. This file remains the primary outline. Where the two differ, this file governs. -->
 
 **Working title.** *Decision Experience Design, Part 4: The Phygital Context* (placeholder; the author has not titled it)
 

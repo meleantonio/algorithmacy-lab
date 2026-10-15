@@ -11,7 +11,8 @@ published text governs. Part 2, "Decision Experience Design Ethics", is drafted 
 from the author's capstone pitch (`part2_ethics/PITCH.md`). Part 3, on decision markets, is in
 `part3_prediction_markets/`. The physical-space essay is archived in `physical_space/`, with the
 citation audit in `physical_space/CITATION_AUDIT.md`. Part 4, on physical and phygital decision
-experience design, is researched and outlined in `part4_phygital/`; it has no draft.
+experience design, is researched and outlined in `part4_phygital/` (`OUTLINE.md` is the primary outline;
+`DETAILED_OUTLINE.md` the secondary), and the draft is in `part4_phygital/DRAFT.md`; the author has posted Part 4.
 
 **Thesis (the author's, 2026-09-30).** UX design became a profession by importing cognitive science
 and human factors: how people read a screen, cognitive load, visual and haptic perception. As
