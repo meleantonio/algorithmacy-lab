@@ -49,3 +49,17 @@ A dissertation, not the refereed version, read in part. One platform, a pseudony
 4. Reference entry (line 661) gives no URL. The dissertation has no DOI; the purl could be added. This is a note for the author, not a card error.
 5. The read depth ("partial", itemised) is accurate. My keyword checks found nothing in the unread chapters that contradicts the card.
 
+
+## Also used by facet T (2026-10-15)
+
+The round-5 item list names `rahman2021invisible` (the *ASQ* version, in the bib, not opened); this card is the dissertation it grew from, and facet T takes from it two things. First, the platform acts as a party with its own objective and says so: it withheld the Work Success Score calculation because disclosure "would make it easier for some users to artificially boost their scores" (p. 89), which is the mediator pre-empting the gaming the abstract describes. Second, the triad is asymmetric and alliance-prone: clients supplied revenue and were spared the controls freelancers faced (p. 118), and Vallas and Schor (`vallas2020what`, 16.7) summarise Rahman's freelancers as "forming online alliances with clients to game the performance evaluation system," which this card did not itself read (§7.2 and ch. 8 beyond §8.1 unread). For the abstract's "having to game the mediator to coordinate with the other person," Rahman's case suggests the two are not always separate activities: coordinating with the client can *be* the way the mediator is gamed.
+
+*S2 check of this section (2026-10-15):* Checked against the host card: p. 89 (the platform's stated reason for withholding the calculation) and p. 118 (clients spared the controls) are as the card records; the Vallas and Schor alliance sentence is at 16.7. No change.
+
+## Also used by facet U (2026-10-15)
+
+The facet brief listed `rahman2021invisible` (the *ASQ* article) among existing cards; no such card exists in the library (the bib key does), so facet U used this dissertation card. The passage taken is the platform's stated reason for hiding the score's calculation, "Doing so would make it easier for some users to artificially boost their scores" (p. 89), together with the finding that partial disclosure of inputs produced "superstitious reactivity" (p. v). For the abstract's sentence this is the clearest primary-source statement that a platform withholds the rule *because* disclosure would enable gaming, and that what it does disclose still leaves workers gaming by guesswork. `bucher2020pacifying` finds the same pattern on the same platform (Upwork) from scraped forum comments in 2018.
+
+## S2 adversarial verification of the facet U section (2026-10-15)
+
+Checked against the card's S2-verified text: "Doing so would make it easier for some users to artificially boost their scores" (p. 89) and "superstitious reactivity" (abstract, p. v) match; the note that no `rahman2021invisible` card exists is correct (the bib key exists, the card does not). Confirmed; nothing changed.

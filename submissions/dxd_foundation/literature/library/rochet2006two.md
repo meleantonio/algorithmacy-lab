@@ -1,0 +1,34 @@
+# Rochet, J.-C., & Tirole, J. (2006). Two-sided markets: A progress report. *The RAND Journal of Economics, 37*(3), 645–667. https://doi.org/10.1111/j.1756-2171.2006.tb00036.x
+
+**Identifier:** doi:10.1111/j.1756-2171.2006.tb00036.x; read as the IDEI/Toulouse working paper dated 29 November 2005, 42 pp. (tse-fr.eu; the first page notes "The previous version of this article was entitled 'Two-Sided Markets: An Overview'"), local copy `dxd_foundation_local/pdfs/T/rochet2003.pdf` · **Read depth:** full_text of the working paper (whole text, appendix, references and the two figures); page numbers below are the working paper's; the RAND version I did not see and it may differ · **Source-tier:** peer-reviewed article (read as working paper) · **Evidence basis:** direct_read · **Design and sample:** none (theory; a definition and a canonical pricing model) · **Parties modeled:** two parties + third party (buyer, seller and a monopoly platform that charges each) · **Facets:** T · **Read:** 2026-10-15
+
+## What it argues
+
+The paper defines when a platform matters. "We define a two-sided market as one in which the volume of transactions between end-users depends on the structure and not only on the overall level of the fees charged by the platform" (pp. 2–3; Definition 1, p. 6). The starting assumption is an externality: "an end-user does not internalize the welfare impact of his use of the platform on other end-users" (p. 3). If the two sides could bargain the fee split away, "Markets are one-sided" (p. 8); but "the failure of the Coase theorem to apply does not imply that the market is two-sided" (p. 9), because under asymmetric-information bargaining the parties simply shift their offers by the fee change (p. 9). What makes the split non-neutral is transaction costs between end-users, or "Prohibition or constraint put by the platform on the pricing of transactions between end-users," such as a no-surcharge rule or "a price cap imposed by the platform (eg. the 99 cents pricing rule for iPod song downloads)" (p. 11), or fixed membership fees and costs (pp. 11–12).
+
+The canonical model (§5) has a monopoly platform with profit π = (p^B + p^S − c) n^B n^S (p. 17), a Lerner price level (p − c)/p = 1/η (p. 17) and a price structure set where the volume derivatives on the two sides are equal (eq. 7, p. 17). Proposition 1 (p. 21) collects the Rochet–Tirole and Armstrong formulas. The reading the authors give: "The price charged to side i depends on what that side can bear" and marginal cost becomes "an opportunity cost" (p. 24); hence the "topsy-turvy principle" and below-cost pricing on one side (p. 25). With payments between end-users (§5.3), Proposition 2 (pp. 32–33): under symmetric-information bargaining the platform passes through its cost (a* = c); under asymmetric information "the platform optimally subsidizes transactions" (a* < c). Multi-homing: "the multi-homing side receives a large share of the joint surplus while the single-homing one receives a small share" (p. 26). Footnote 8 (p. 7): a government levying VAT "can be viewed as a platform," and the Remark (p. 8) treats a firm as a platform between workers and consumers that, in competitive markets, has "little 'wriggle room' … to manipulate the price structure."
+
+## Relation to the argument
+
+**Question 1 (the platform as a party with its own objective).** This is the economics that gives the mediator an objective function. The platform maximises its own profit over both sides' prices, courting each "while attempting to make, or at least not lose, money overall" (p. 2). That is the abstract's "optimizes," stated formally.
+
+**Question 3 (what "irreducible" could mean operationally).** The paper's definition is, in effect, a non-decomposability test: a market is two-sided when the outcome depends on how the platform divides a fee between the two sides, not on the fee alone, which is exactly the case in which the two end-users cannot negotiate the mediator's choice away. One could state the abstract's "irreducible" in this form: the triad is irreducible when the platform's price structure is non-neutral. That is a narrower, testable claim than the author's, and it is the economists' own.
+
+**"Binds."** A constraint the platform puts on pricing between end-users (no-surcharge rules, price caps, p. 11) is one of the three *sources* of two-sidedness. Where the platform sets the transaction price itself (Uber), the end-users' bilateral bargaining is removed, which is the strong form of binding.
+
+**Where it cuts against the author.** The model is one of fees and volumes; nothing in it concerns what either end-user has to *read* or *understand*, and the mediator has no informational advantage of the kind the abstract's disclosure sentence presupposes. "Gaming the mediator" has no place in a model in which end-users respond to prices.
+
+## In conversation with
+
+- `hagiu2015multi`: discusses this paper's non-neutrality definition and finds it over-inclusive (their p. 5); offers "direct interaction" and "affiliation" instead.
+- `stark2020algorithmic`: cites Rochet and Tirole (2003) for cross-subsidy between end-user groups (p. 50).
+- `garg2022driver`, `castillo2025matching`: ride-hail pricing models in which the platform sets both sides' prices ("decoupled pricing").
+- Leads not in the bib: Armstrong (2006), "Competition in two-sided markets"; Caillaud and Jullien (2003), "Chicken and egg"; Parker and Van Alstyne (2005), *Management Science* (closed; see facet file); Myerson and Satterthwaite (1983) on efficient bilateral trade; Wright (2003) on card systems.
+
+## Caution
+
+Read as a 2005 working paper; the 2006 RAND text may differ in wording, numbering and pages. A monopoly-platform model with a non-rivalry assumption the authors flag as "not crucial" (p. 15). The examples are payment cards, consoles and media, not labour platforms. Nothing here is empirical.
+
+## S2 adversarial verification (2026-10-15)
+
+**Verdict: confirmed.** Re-read the 29 November 2005 working-paper text (`rochet2003.txt`, 42 pp.; pdf page = printed page). Every quotation found verbatim where cited: pp. 2–3 and Definition 1 (p. 6), "does not internalize" (p. 3), "Markets are one-sided" (p. 8), "wriggle room" and the firm-as-platform Remark (p. 8), footnote 8 VAT (p. 7), "failure of the Coase theorem to apply" (p. 9), the no-surcharge rule and "99 cents pricing rule for iPod song downloads" (p. 11), π = (pB + pS − c) nB nS and equation (7) (p. 17), Proposition 1 (p. 21), "what that side can bear" and "opportunity cost" (p. 24), "topsy-turvy principle" (p. 25), the multi-homing sentence (p. 26), Proposition 2 and "optimally subsidizes transactions" (p. 33), "not crucial" (p. 15), the earlier-title note (p. 1). Crossref matches the bib (RAND 37(3), 645–667, 2006). Nothing changed. Caution stands: the RAND text was not seen.

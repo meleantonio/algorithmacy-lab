@@ -44,3 +44,7 @@ The book was not opened. Every quotation above is from the 1978 article, a separ
 2. Read depth (partial, proxy, ⚠ Not read in full) is stated honestly; no claim is made about the book's own pages.
 3. Use in DRAFT_v2 (line 497): verdict stands. The general finding supports the caution against reading literacy as a monocausal cause of intellectual development; the book's own wording was not checked, as the card says.
 4. Not re-checked: the Ong pp. 83–87 lead (taken from another arm's card) and facet C's search-inside snippet from the 1981 book.
+
+## Also used by facet W (2026-10-15)
+
+Facet W uses the Vai case, through the 1978 proxy article, as the one field description of the mechanism the abstract asserts: readers of an unspaced syllabary resolve ambiguity "by experimentation in pronunciation", saying syllables aloud "until they click into meaningful units" (1978, p. 456). That is voiced boundary detection by lexical matching, in a script where (1978, p. 456) tone and vowel length are also unmarked, so the voicing does more than find word ends. It supports a narrow form of "scaffolding literacy with oracy" for an unspaced script learned informally, and it comes with the same authors' finding that this literacy produced no general cognitive change (1978, pp. 453, 457), which bears on "freed literacy".

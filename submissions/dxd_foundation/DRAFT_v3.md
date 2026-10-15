@@ -2,45 +2,55 @@
 
 > **Version 3, 2026-10-14.** The author's wording from version 2 is kept where a sourced fact still
 > holds. The 14 October claim check corrected contradicted and overstated sentences. A later pass the
-> same day retied the paper to one argument in three moves. New joining sentences are marked in the
+> same day retied the paper to one argument in three moves. A further pass the same day reads Grahn
+> et al. (2026) and Mourtzis and Tsakalos (2026) before the argument against Nadella, and puts the
+> oracy-to-literacy change after that argument. New joining sentences are marked in the
 > end notes. Version 2 is unchanged, so the claim ledgers' line numbers still match it. The notes at
 > the end are not part of the paper. The author's read-aloud is the last gate.
 
 ## Abstract
 
-Continuous script made sense read aloud. Without a space, the eye could not tell where a word ended, and the ear could. The space between words was the change that moved that work onto the page. This paper asks what the same kind of change would be for algorithmacy. People already coordinate through a third party, a rider and a driver, a buyer and a seller, and the remedy on offer is still to read. Nadella (2026) asks that every meaningful model action leave "tamper-proof human readable evidence," an unending chain of content. That is a literacy solution for a triadic situation. Decision Experience Design names two candidates for the space, strategic offloading and ecological feedback immediacy, and sets out what would count as finding it.
+Two reviews in the first issue of *Human-Machine Interaction* state where the field stands in 2026. Grahn, Wang, Wang, and Wang (2026) move the subject from interaction to integration, and the remedies they keep are oversight, interpretable outputs, and an education in working with machines. Mourtzis and Tsakalos (2026) trace the interface from levers to screens to extended reality, and the human in their model still receives information in order to decide. Nadella (2026) offers the enterprise version of that remedy: every meaningful model action should leave "tamper-proof human readable evidence," an unending chain of content. This paper argues that the vision is literacy, carried into a triadic platform. What it asks for is the change that occurred when oracy gave way to literacy: one alteration of the representation that took the finding of a boundary off the ear and put it on the page. Decision Experience Design names two candidates for that change and sets out what would count as finding it.
 
 ## 1. Introduction
 
-The paper is a search for the spaces-between-words moment in algorithmacy. *Scriptio continua* only really makes sense read aloud, so the ear can find the boundary the eye cannot. Follow Nadella (2026) and the remedy for a model is the same kind of thing: read an unending chain of content, the "tamper-proof human readable evidence" he asks every meaningful action to leave. We are already in a triadic platform, a rider and a driver, a buyer and a seller, a creator and an audience, and we are still using literacy to make sense of it. The question is what the space would be.
+Grahn, Wang, Wang, and Wang (2026) and Mourtzis and Tsakalos (2026) review human–machine interaction as it stands. Grahn et al. treat the classical model as a separated operator who monitors discrete levels of automation through an external display, and they say that model strains once there is no display to monitor and no stable boundary between person and machine. They order the field by what it costs to leave the coupling. At an external interface the person steps away from a screen. At what they call Level 4b, institutionally mandated AI, the person cannot decline the system without declining a role, and their examples include work allocation on labor platforms. The principles they set down for that future are meaningful human control, a stated human benefit, inclusion of people who do not adopt the technology, foresight, and an education in collaborating with machines. One educational obligation they transfer to that societal level is civic AI literacy. Mourtzis and Tsakalos date the same arc to the industrial revolutions. The human went from operator, to overseer, to supervisor, and is now to become a colleague. The interfaces that carry the arc are levers, buttons, screens, dashboards, decision-support tools, and extended reality. In the collaborative model they draw, the extended-reality interface "provides the human with the necessary information to perform tasks and make decisions in real-time" (Section 5.4). Both reviews are current. Both still hand the person something to take in. §2 reads them against the transparency record.
 
-The smoking gun, in this paper, is one change in the representation that takes a task off the person and puts it on the surface. On the written page, that change was the space between words. *Scriptio continua* made sense read aloud, because the ear found the boundary the eye could not (Saenger, 1997; Busch, 2002). The space moved that work onto the page, so the line could be taken in by looking. Modern readers of English deprived of the space lose about 30 to 50 percent of their reading rate (Rayner, Fischer, & Pollatsek, 1998; Oralova & Kuperman, 2021; McGowan, White, Jordan, & Paterson, 2014). Zhang and Norman (1994) named the general principle the representational effect: "different isomorphic representations of a common formal structure can cause dramatically different cognitive behaviors" (p. 88). Hutchins (1995) showed the same kind of change in a cockpit, where movable markers on the airspeed indicator let pilots reach "the same results" by "judgments of spatial proximity" (p. 282).
+Nadella's (2026) post is the argument this paper makes against that vision, read in §2.5. He asks organizations to "separate the supply of intelligence from the authority over it," to leave "tamper-proof human readable evidence" of every meaningful model action, and to let an authorized person halt the model. Containment and the brake are real. They are the oversight Grahn et al. still ask for, and the information Mourtzis and Tsakalos still route to a human, written for the firm that deploys the model. The human job the post leaves is to read a chain. The people the model acts on enter once, as readers of a notice after a failure. We are already in a triadic platform, a rider and a driver, a buyer and a seller, a creator and an audience, and the vision on offer is still literacy.
+
+The paper is a search for the spaces-between-words moment in that situation. *Scriptio continua* only really makes sense read aloud, so the ear can find the boundary the eye cannot. The transition from oracy to literacy was the moment that work moved. The smoking gun, in this paper, is one change in the representation that takes a task off the person and puts it on the surface. On the written page, that change was the space between words. The space moved the work onto the page, so the line could be taken in by looking (Saenger, 1997; Busch, 2002). Modern readers of English deprived of the space lose about 30 to 50 percent of their reading rate (Rayner, Fischer, & Pollatsek, 1998; Oralova & Kuperman, 2021; McGowan, White, Jordan, & Paterson, 2014). The question is what the space would be.
 
 The space is not the invention of literacy, and it was not a blank between every word from the late seventh century. Latin divided words with interpuncts until about AD 100, and continuous script after that lasted about six centuries, with learner texts still word-divided (Dickey, 2017; Busch, 2002). Irish manuscripts already show some separation in the second quarter of the seventh century; Insular scribes grouped prepositions with their nouns, and fully consistent separation is not found before the twelfth (Tunbridge, 1992). Mass literacy took centuries of institutional change beyond the space (Clanchy, 1993; Cressy, 1980). Those limits do not touch the claim. The smoking gun is the change in what the reader had to do. §3 states the history at that strength.
 
-That change has not been made for the decisions people now make through a third party. Riders and drivers, buyers and sellers, applicants and employers coordinate across a system that reads both sides and commits an allocation neither party directly controls. The remedy on offer is still a text: published rules, explanations, audit logs. Disclosure often fails to improve the decision, and where it helps it still asks for a reader, usually inside a dyad (§2, §4). A disclosure hands the person a text. Deciding through an adaptive third party draws on something else: algorithmacy, the sensibility to navigate irreducible triads, as literacy is the sensibility that reading and writing require.
+The paper makes that argument in three moves. First, the 2026 reviews, and the transparency record beside them, still hand people a text (§2). Second, Nadella's post is that remedy at enterprise scale: readers, a chain, and a brake held inside the firm (§2.5). Third, the change to look for is the one the transition from oracy to literacy already contains, and Decision Experience Design names two candidates and a test (§3, §5–§8). A candidate is the space only if it takes a task off the person in the triad and shows, on the surface, that the task is gone. Strategic offloading removes a tactical calculation and makes the removal plain. Ecological feedback immediacy returns a valid state as the person acts, rather than a log to be read afterward. Neither is announced here as the space.
 
-Nadella's (2026) post is the enterprise form of the literacy remedy, read in §4.3. He asks organizations to "separate the supply of intelligence from the authority over it," to leave "tamper-proof human readable evidence" of every meaningful model action, and to let an authorized person halt the model. Containment and the brake are real. They are not a space. The human job the post leaves is to read a chain. The people the model acts on enter once, as readers of a notice after a failure.
-
-The paper makes that argument in three moves. First, the space between words was the smoking gun, because it changed what the reader had to do (§3). Second, the post preserves literacy: it adds readers and a brake, and it does not add a space (§4). Third, Decision Experience Design offers two candidates for the algorithmacy version, and a test of them (§5–§8). A candidate is the space only if it takes a task off the person in the triad and shows, on the surface, that the task is gone. Strategic offloading removes a tactical calculation and makes the removal plain. Ecological feedback immediacy returns a valid state as the person acts, rather than a log to be read afterward. Neither is announced here as the space.
-
-The sections follow those three moves. §2 and the first part of §4 show that HCI and regulation still hand people a text. §3 is the history of the space. §4.3 is the reading of the post. §5 names the sensibility a space would call on. §6 holds the two candidates to the test taken from the history. §7 states the condition any candidate has to meet: a space the operator can withdraw is not a space. §8 is how we would know. §9 states the scope and returns to the question.
+The sections follow those three moves. §2 reads the two reviews and the HCI record that still hands people a text, and §2.5 is the reading of the post. §3 is the oracy-to-literacy change. §4 is the regulatory record of the same text. §5 names the sensibility a space would call on. §6 holds the two candidates to the test taken from the history. §7 states the condition any candidate has to meet: a space the operator can withdraw is not a space. §8 is how we would know. §9 states the scope and returns to the question.
 
 ## 2. Background: Transparency, Explanation, and Legibility in HCI
 
-### 2.1 The Transparency and Trust-Calibration Turn in HCI and CSCW
+### 2.1 Where the 2026 Reviews Leave the Field
 
-This section serves the second move. HCI's transparency turn hands people a text. For about twenty-six years, since Herlocker, Konstan, and Riedl (2000), a line of that work has treated opacity as an informational defect to be repaired by exposure. Herlocker et al. called recommender systems "black boxes, computerized oracles that give advice, but cannot be questioned" (p. 1). The remedy they proposed was an explanation. A scoping review of trust-calibration studies reports mixed and null findings (Wischnewski, Krämer, & Müller, 2023). The hope attached to the text is that an operator who can see the system's state will form an accurate mental model, calibrate trust, and decide better. Körber (2018) treats trust as a mainly affective response and notes that operators may not form a complete mental model.
+The two reviews are the context for the argument, and they do not yet contain it. Grahn et al. (2026) are explicit about the model they inherit. Parasuraman, Sheridan, and Wickens, and Endsley after them, describe "a human operator, clearly separated from the machine," who "monitors discrete levels of automation through external displays" (p. 2). Grahn et al. say that scaffolding should be extended, not presupposed. At a closed-loop neural interface "there is no discrete level of automation to select, no external display through which oversight is exercised, and no stable boundary at which the human ends and the machine begins" (p. 7). At infrastructural scale, "the classical assumption of a supervisory operator standing outside the system is least tenable" (p. 8). Between those two strains sits the case this paper is about. Their Level 4b is "institutionally mandated AI," and the examples include "work allocation on labor platforms" (Table 2). A person in that class cannot decline the system without declining the role.
+
+What they put in place of the strained display is still something a person takes in or authorizes. At the external interface, outputs should be "transparent and interpretable to human operators" (Table 1). Agency, as they use Santoni de Sio and van den Hoven, requires that behavior be traceable to a human's reasons, plus override, opt-out, and human authorization of critical decisions (Section 4). Of the educational obligations they map onto the societal level, one transferred cell is "civic AI literacy." In the discussion, explainable AI is "essential for maintaining the principle of human agency" (p. 16). They also record that most deployed collaboration is still asymmetric: "the AI proposes and the human merely approves" (p. 10). The review is a narrative synthesis, purposive rather than exhaustive, and it does not mention a two-sided allocation or Nadella. The inference is this paper's. A field that has seen the external display fail, and that answers with interpretable outputs, authorization, and literacy, has not yet changed what the person in the triad has to calculate.
+
+Mourtzis and Tsakalos (2026) supply the shop-floor history of the same habit. Across four industrial revolutions the human goes from operator, to overseer, to supervisor, to colleague (Section 2). The interfaces go with the role: levers and wheels, then buttons, then screens and graphical interfaces, then "visualization dashboards, Augmented Reality (AR), and decision-support tools" built "to assist humans in understanding machine behavior" (Section 2). Industry 4.0, on their account, makes the human's work "cognitive and supervisory," and names trust and situational awareness as what that work requires. Industry 5.0 is supposed to make the human a colleague, and extended reality is supposed to cut "manual effort and cognitive workload" (Section 2). The colleague in the model they then draw still decides from a display. The extended-reality interface "provides the human with the necessary information to perform tasks and make decisions in real-time" (Section 5.4). The conclusions give the three layers the same split: sensors let the robot perceive, "XR interfaces provide instructions and support decision-making for humans collaborating with robots," and the robot does the precision work. Their state of the art is 87 publications from 2021 to 2026, and the sensor papers in it mostly sit at technology readiness levels 3 to 4 (Section 5.1; Table 2). The review is about a worker and a machine, not a rider and a driver. What it shows is that the current interface program, even when it calls the human a colleague, still hands that human information and instructions.
+
+The transparency record below is the same remedy, measured. Disclosure often fails. Where a text helps, it still asks for a reader inside a dyad.
+
+### 2.2 The Transparency and Trust-Calibration Turn in HCI and CSCW
+
+HCI's transparency turn hands people a text. For about twenty-six years, since Herlocker, Konstan, and Riedl (2000), a line of that work has treated opacity as an informational defect to be repaired by exposure. Herlocker et al. called recommender systems "black boxes, computerized oracles that give advice, but cannot be questioned" (p. 1). The remedy they proposed was an explanation. A scoping review of trust-calibration studies reports mixed and null findings (Wischnewski, Krämer, & Müller, 2023). The hope attached to the text is that an operator who can see the system's state will form an accurate mental model, calibrate trust, and decide better. Körber (2018) treats trust as a mainly affective response and notes that operators may not form a complete mental model.
 
 Disclosure often fails, and where a text helps it still asks for a reader inside a dyad. Feature-based explanations can raise acceptance of a recommendation whether or not it is correct; example-based explanations in the same study reduced overreliance (Chen, Liao, Wortman Vaughan, & Bansal, 2023). Explanations reduce overreliance when the task is hard and the explanation is cheap to check (Vasconcelos et al., 2023). Confidence information shown with recommendations led to smaller performance decrements when the aid was wrong (Parasuraman & Manzey, 2010, reviewing McGuirl & Sarter, 2006). Verification of one code assistant's suggestions took 22.4% of session time, in a lab study of 21 programmers on short tasks (Mozannar, Bansal, Fourney, & Horvitz, 2024). Knowledge workers report reduced critical engagement with generative tools (Lee et al., 2025). In each of these settings the person is still reading, and the loop is still one person and one system.
 
-### 2.2 Situated Rationale vs. Post-Hoc Audit Trails and "Revealing Design"
+### 2.3 Situated Rationale vs. Post-Hoc Audit Trails and "Revealing Design"
 
 Friction at the moment of choice is still, in these studies, work a person does with a text inside a dyad. Buçinca, Malaya, and Gajos (2021) showed that cognitive forcing functions—such as requiring users to formulate an independent choice before viewing an AI recommendation—reduced overreliance compared with simple explanations on the questions where the AI was wrong. Disley and Khan (2026) reframe system representations as an active "design surface" and show that selectively suppressing a concept in a model can introduce friction. Horvath et al. (2022) studied annotation in browser documentation. The anchor carried context for later readers, and the annotator did not benefit (p = 0.78). Pucci, Piro, and Matera (2027) report tensions around verbosity, pacing, and control for language-model agents that fill web forms, in a study of 18 blind and visually impaired participants. The person is still working through a representation.
 
 Özçetin and Wiltse (2025) critique how Terms of Service rely on static, legalistic text to govern dynamic, asymmetric relations. They advocate for "revealing design," an approach aimed at making platform entanglements "legible" to participants. Their later moves design an interaction surface for contestation, including what they call appropriateness-adjustment buttons, and call for legislation to require the approach. Making an entanglement legible still begins by handing someone a text. Understanding that one is entangled does not, by itself, change the actions required to accept a dispatch or price a product. Contesting a penalty is one of the actions their design is built to change.
 
-### 2.3 From Human–Machine Dyads to Irreducible Algorithmic Triads
+### 2.4 From Human–Machine Dyads to Irreducible Algorithmic Triads
 
 The reader in the studies above sits in a dyad. A triad is the situation the space would have to change, and explaining an allocation to one party does not take the tactical calculation off them. Mejia and Parker (2021), Li, Liu, and Sundararajan (2026), and Ehsan et al. (2021) already take up settings with more than one person and a system. In the classic cognitive engineering literature, interaction is modeled as a two-node loop: a human operator paired with a machine aid (Sheridan & Verplank, 1978; Parasuraman, Sheridan, & Wickens, 2000). The pilot monitors the autopilot; the clinician reviews a diagnostic classifier; the driver takes over from an automated steering system (Matsuo et al., 2026). In a dyad, the machine's role is auxiliary. Its explicit functional purpose is to support, inform, or substitute for the human operator in executing an external task.
 
@@ -70,11 +80,45 @@ Irreducible Algorithmic Triad:
 
 This mediator is not an advisory instrument assisting one party. It reads inputs from both sides, filters information symmetrically or asymmetrically, applies an independent objective function (J_M)—such as platform profit maximization, throughput balancing, or dispute minimization—and commits an allocation that neither party directly controls. On a ride-hailing platform the driver can decline the allocation, at a cost (Lee, Kusbit, Metsky, & Dabbish, 2015). Party A's payoff depends directly on Party B's move, yet Party A can only perceive, probe, or influence Party B through the transformation imposed by M; in that sense the triad does not decompose into two independent dyads. Transplanting dyadic transparency tools into a triadic mediator yields incoherence: explaining to Party A why the algorithm made an allocation does not eliminate the tactical necessity for Party A to second-guess what Party B will do through that same mediator.
 
+### 2.5 The Post Preserves Literacy
+
+This is the argument against the vision the reviews leave in place. Grahn et al. (2026) and Mourtzis and Tsakalos (2026) still hand a person a display, an authorization, or an instruction. Nadella's (2026) post, "Models as Insider Risks in the Super Intelligence Era," is that remedy written for the firm that deploys the model. It is a literacy solution for a triadic situation. It is a personal essay, not a Microsoft policy document, and the "we" throughout is the deploying organization. The words user, customer, employee, and people do not occur. Paragraph numbers below are the project's.
+
+The post opens on an attribution gap. With traditional software, "we had the tools and capability to trace behaviors to a specific code path" (P1). For frontier models, "we can't attribute model behaviors and outputs to specific inputs of training data or configurations of model weights," and organizations still give them "access to our most sensitive data" and "mission-critical actions on our behalf" (P2). The remedy he reaches for is not a change in what a person in a triad has to calculate. It is containment. "We need to separate the supply of intelligence from the authority over it" (P5, before the seven principles). Models are to be treated as insider risks because a capable actor can make mistakes or be compromised (P7), in the tradition of insider-threat practice (CERT National Insider Threat Center, 2022).
+
+The human task that follows is reading. Chain-of-thought transparency is "a non-negotiable," and "Neuralese" cannot excuse opaque reasoning, but the chain "alone is not sufficient or dependable" (P9). Controls over access and action "must sit outside the model" (P11), and the model is separated from its harness and action space (P12). Among the seven principles of observability, "Observe everything" requires "tamper-proof human readable evidence" for every meaningful action, so an outcome can be reconstructed without the model's own attestation (P15). Verifiability, independent controls, and independent auditability are further principles (P16–P18). Independent auditability is not the evidence sentence. The evidence is a text. Someone inside the firm has to read the chain: the chain of thought, the logs, the record that can reconstruct an outcome.
+
+Containment is real, and it is not a space. An authorized person must be able to pause or stop a model in mid-task, "like an emergency brake" (P19). The brake is held inside the firm. Incident disclosure tells "those affected" after a failure (P20). That is the one place a party outside the deployer appears, and the party appears as a reader of a notice. The close asks for the system that "enables us to trust the model the least" (P21). Trusting the model least, on this design, means reading it more.
+
+```
+The chain stays inside the firm; the notice goes out:
+┌────────────────────────────────────────────────────────┐
+│                   Deploying Firm                       │
+│  ┌──────────────────┐           ┌───────────────────┐  │
+│  │ Intelligence     │           │ Authorized person │  │
+│  │ (the model)      │           │ holds the brake   │  │
+│  └────────┬─────────┘           └─────────▲─────────┘  │
+│           │                               │            │
+│           └──────► The chain: CoT, logs, ─┘            │
+│                    human-readable evidence             │
+└───────────────────────────┬────────────────────────────┘
+                            │ Allocation the model commits
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│          Parties the model acts on                     │
+│                                                        │
+│   They appear once: readers of a notice after a        │
+│   failure. They do not hold the brake.                 │
+└────────────────────────────────────────────────────────┘
+```
+
+*Scriptio continua* asked the ear to find a boundary the eye could not see. The post asks a reader to find, in a chain, what the model did. Containment and the brake do not take that task off the person and show, on the surface, that it is gone. They add readers, and a brake held inside the firm. A rider, a driver, a buyer, a seller still has to calculate through the mediator. The post does not change that calculation. The transition from oracy to literacy is the change that did, and §3 is that change.
+
 ## 3. Re-Representation: The Scribal Precedent in Human-Factors Terms
 
 ### 3.1 The Page Before and After Word Separation
 
-This section is the first move. The space between words was the smoking gun: one change in the representation that took the work of finding a word's boundary off the voice and put it on the page.
+The reviews and the post leave the person with something to read. This section is the change they do not contain. The transition from oracy to literacy put the finding of a word's boundary on the page. The space between words was the smoking gun: one change in the representation that took that work off the voice.
 
 In the main Greek tradition, texts were transcribed in *scriptio continua*, words strung together in unbroken lines. Because the line gave no spatial demarcation, Saenger (1997) argues, a reader identified words by pronouncing or subvocalizing the characters. Heilmann (2020) reports that the classical consensus follows Saenger. Busch (2002) defends reading aloud as the ancient norm and allows that fluent silent readers were an exception. *Scriptio continua* made sense read aloud, because the ear did the work the eye could not.
 
@@ -118,7 +162,7 @@ The page and the platform are not the same surface, and the difference matters f
 
 Carolingian rulers and church authorities ordered some books made correct. Charlemagne's letter *De litteris colendis* measures monasteries' written Latin and study against a standard of correctness (Charlemagne, trans. 1900; Boretius, 1883, no. 29). The *Admonitio generalis* of 789, chapter 72, orders books corrected and copied with care (Boretius, 1883, no. 22). Alcuin's *Carmen* XCIV instructs scribes to mark sense units for the lector (Dümmler, 1881). Only the capitulary and the poem concern books; the letter concerns written Latin and study. Westwell (2018) cautions that uniformity imposed from above can be overstated, and authority was distributed and negotiated. None of these texts concerns word separation, which the Insular scribes had adopted earlier. What they show is who stood behind some of the page: an authority with standing over the scribe, not a single court that held every copyist.
 
-An algorithmic intermediary is dynamic, adaptive, and governed by the commercial incentives of its owner. The platform controls the interface, observes user probes, and can rewrite its ranking rules, pricing multipliers, and allocation weights (Rosenblat & Stark, 2016; Lee et al., 2015; Rahman, 2019). The page, once dry, held the space. The platform can withdraw one. The remedy still on offer, in the HCI record and in the enterprise post that follows, is to hand the person a text. That is the second move.
+An algorithmic intermediary is dynamic, adaptive, and governed by the commercial incentives of its owner. The platform controls the interface, observes user probes, and can rewrite its ranking rules, pricing multipliers, and allocation weights (Rosenblat & Stark, 2016; Lee et al., 2015; Rahman, 2019). The page, once dry, held the space. The platform can withdraw one. The reviews and the post, already read, still hand the person a text. The space is the change they do not make.
 
 ## 4. Disclosure as a Literacy-Based Intervention
 
@@ -171,39 +215,7 @@ In platform governance, Jhaver et al. (2019) surveyed 907 Reddit users whose pos
 
 Nouwens, Liccardi, Veale, Karger, and Kagal (2020) showed in cookie consent interfaces that moving the reject button off the first page raised consent by 22 to 23 percentage points, in a sample of 40 participants in the United States. Users respond to the spatial architecture of the interface. The person is still choosing inside a notice.
 
-### 4.3 The Post Preserves Literacy
-
-This section is the second move. Nadella's (2026) post, "Models as Insider Risks in the Super Intelligence Era," is a literacy solution for a triadic situation. It is a personal essay, not a Microsoft policy document, and the "we" throughout is the deploying organization. The words user, customer, employee, and people do not occur. Paragraph numbers below are the project's.
-
-The post opens on an attribution gap. With traditional software, "we had the tools and capability to trace behaviors to a specific code path" (P1). For frontier models, "we can't attribute model behaviors and outputs to specific inputs of training data or configurations of model weights," and organizations still give them "access to our most sensitive data" and "mission-critical actions on our behalf" (P2). The remedy he reaches for is not a change in what a person in a triad has to calculate. It is containment. "We need to separate the supply of intelligence from the authority over it" (P5, before the seven principles). Models are to be treated as insider risks because a capable actor can make mistakes or be compromised (P7), in the tradition of insider-threat practice (CERT National Insider Threat Center, 2022).
-
-The human task that follows is reading. Chain-of-thought transparency is "a non-negotiable," and "Neuralese" cannot excuse opaque reasoning, but the chain "alone is not sufficient or dependable" (P9). Controls over access and action "must sit outside the model" (P11), and the model is separated from its harness and action space (P12). Among the seven principles of observability, "Observe everything" requires "tamper-proof human readable evidence" for every meaningful action, so an outcome can be reconstructed without the model's own attestation (P15). Verifiability, independent controls, and independent auditability are further principles (P16–P18). Independent auditability is not the evidence sentence. The evidence is a text. Someone inside the firm has to read the chain: the chain of thought, the logs, the record that can reconstruct an outcome.
-
-Containment is real, and it is not a space. An authorized person must be able to pause or stop a model in mid-task, "like an emergency brake" (P19). The brake is held inside the firm. Incident disclosure tells "those affected" after a failure (P20). That is the one place a party outside the deployer appears, and the party appears as a reader of a notice. The close asks for the system that "enables us to trust the model the least" (P21). Trusting the model least, on this design, means reading it more.
-
-```
-The chain stays inside the firm; the notice goes out:
-┌────────────────────────────────────────────────────────┐
-│                   Deploying Firm                       │
-│  ┌──────────────────┐           ┌───────────────────┐  │
-│  │ Intelligence     │           │ Authorized person │  │
-│  │ (the model)      │           │ holds the brake   │  │
-│  └────────┬─────────┘           └─────────▲─────────┘  │
-│           │                               │            │
-│           └──────► The chain: CoT, logs, ─┘            │
-│                    human-readable evidence             │
-└───────────────────────────┬────────────────────────────┘
-                            │ Allocation the model commits
-                            ▼
-┌────────────────────────────────────────────────────────┐
-│          Parties the model acts on                     │
-│                                                        │
-│   They appear once: readers of a notice after a        │
-│   failure. They do not hold the brake.                 │
-└────────────────────────────────────────────────────────┘
-```
-
-*Scriptio continua* asked the ear to find a boundary the eye could not see. The post asks a reader to find, in a chain, what the model did. Containment and the brake do not take that task off the person and show, on the surface, that it is gone. They add readers, and a brake held inside the firm. A rider, a driver, a buyer, a seller still has to calculate through the mediator. The post does not change that calculation. The third move asks what would.
+The reading of Nadella (2026) is in §2.5. What §4 adds is the regulatory record of the same remedy: a text handed to a person.
 
 ## 5. Algorithmacy: Epistemic Action in Irreducible Triads
 
@@ -481,7 +493,7 @@ Experimental Architecture (5-Arm Triadic Protocol):
 
 ### 9.1 Synthesis
 
-The argument has three moves. The space between words was the smoking gun, because it changed what the reader had to do (Zhang & Norman, 1994; Hutchins, 1995; Tunbridge, 1992). Vicente and Rasmussen (1992) write that no level of representation is globally superior. Nadella's post keeps the chain and the brake, and leaves the person in the triad to read. The two conventions are candidates for a change of the same kind. Neither has passed the test.
+The argument has three moves. Grahn et al. (2026) and Mourtzis and Tsakalos (2026) state the field, and the person in both reviews still takes something in. Nadella's post keeps the chain and the brake, and leaves the person in the triad to read. The space between words was the change the transition from oracy to literacy already contains, because it changed what the reader had to do (Zhang & Norman, 1994; Hutchins, 1995; Tunbridge, 1992). Vicente and Rasmussen (1992) write that no level of representation is globally superior. The two conventions are candidates for a change of the same kind. Neither has passed the test.
 
 Faced with opaque algorithmic intermediaries, a common response has been to demand more literacy: more documentation, more transparency dashboards, more explainability cards, and more post-hoc audit logs (Ben-Shahar & Schneider, 2011; Regulation (EU) 2019/1150, Art. 5; Regulation (EU) 2022/2065, Arts. 14 and 27). It is not the only response. The Digital Services Act already constrains interface design (Arts. 25, 38, and 40).
 
@@ -593,6 +605,8 @@ Global Foreign Exchange Committee. (2024). *FX Global Code: A set of global prin
 
 Gonczarowski, Y. A., Heffetz, O., Ishai, G., & Thomas, C. (2024). *Describing deferred acceptance and strategyproofness to participants: Experimental analysis* (Working Paper No. 33020). National Bureau of Economic Research. https://doi.org/10.3386/w33020
 
+Grahn, S., Wang, T., Wang, X. V., & Wang, L. (2026). From human–machine interaction to integration: A review of paradigms, principles, and prospects for a human-centric future. *Human-Machine Interaction, 1*(1), 1. https://www.sciltp.com/journals/hmi
+
 Heilmann, J. (2020). Reading early New Testament manuscripts: Scriptio continua, "reading aids", and other characteristic features. In *Material aspects of reading in ancient and medieval cultures* (pp. 177–196). De Gruyter. https://doi.org/10.1515/9783110639247-011
 
 Herlocker, J. L., Konstan, J. A., & Riedl, J. (2000). Explaining collaborative filtering recommendations. In *Proceedings of the 2000 ACM Conference on Computer Supported Cooperative Work* (pp. 241–250). ACM. https://doi.org/10.1145/358916.358995
@@ -672,6 +686,8 @@ Mejia, J., & Parker, C. (2021). When transparency fails: Bias and financial ince
 Mertens, S., Herberz, M., Hahnel, U. J. J., & Brosch, T. (2022). The effectiveness of nudging: A meta-analysis of choice architecture interventions across behavioral domains. *Proceedings of the National Academy of Sciences, 119*(1), Article e2107346118. https://doi.org/10.1073/pnas.2107346118 (Correction published 2022.)
 
 Metzger, U., & Parasuraman, R. (2001). The role of the air traffic controller in future air traffic management: An empirical study of active control versus passive monitoring. *Human Factors, 43*(4), 519–528. https://doi.org/10.1518/001872001775870421
+
+Mourtzis, D., & Tsakalos, D. (2026). Emerging technologies in human-machine interaction towards Industry 5.0 and industrial metaverse: Challenges and opportunities. *Human-Machine Interaction, 1*(1), 4. https://www.sciltp.com/journals/hmi
 
 Mozannar, H., Bansal, G., Fourney, A., & Horvitz, E. (2024). Reading between the lines: Modeling user behavior and costs in AI-assisted programming. In *Proceedings of the CHI Conference on Human Factors in Computing Systems* (pp. 1–16). ACM. https://doi.org/10.1145/3613904.3641936
 
@@ -833,6 +849,17 @@ as they were, inside code blocks; they still need redrawing as figures.
 
 **Not done.** The paper is not lengthened. The body runs to about 7,600 words excluding diagrams and references, against 9,000 to 17,000 in the four recent articles read from the journal. Sections
 2, 5 and 7 are the ones to grow.
+
+## Joins added to engage the 2026 HMI reviews (not part of the paper)
+
+Written 2026-10-14 after a full read of Grahn et al. and Mourtzis and Tsakalos, both in *Human-Machine Interaction* 1(1). Cards: `literature/library/grahn2026integration.md`, `literature/library/mourtzis2026emerging.md`.
+
+- Abstract and §1 now open on the two reviews, then the argument against Nadella (2026), then the oracy-to-literacy change.
+- New §2.1 is the engagement. Old §2.1–2.3 are now §2.2–2.4.
+- The Nadella reading moved from §4.3 to §2.5, so it follows the reviews and precedes the history. A pointer remains where §4.3 stood.
+- §3 now opens as the change the reviews and the post do not contain.
+
+The sourced limits inside those joins are the reviews' own: Level 4b and "work allocation on labor platforms"; the external-display sentence; civic AI literacy as one transferred cell; the Section 5.4 sentence about information for decisions; 87 publications; sensor readiness levels 3 to 4. The claim that these remedies are still literacy, and that a rider and a driver sit in Level 4b, is this paper's application.
 
 ## Joins added for the three-move argument (not part of the paper)
 

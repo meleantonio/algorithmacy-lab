@@ -1,0 +1,37 @@
+# Casas-Arce, P., Lourenço, S. M., & Martínez-Jerez, F. A. (2017). The performance effect of feedback frequency and detail: Evidence from a field experiment in customer satisfaction. *Journal of Accounting Research*, *55*(5), 1051–1088. https://doi.org/10.1111/1475-679X.12184
+
+**Identifier:** doi:10.1111/1475-679X.12184 · **Read depth:** full_text of the March 2016 working paper (52 pages; main text pp. 1–38 read in full, tables and references not read line by line; the *JAR* version of record was not opened; locators below are the working paper's; local copy dxd_foundation_local/pdfs/AA/casasarce2016performance_wp.pdf) · **Source-tier:** peer-reviewed article (read as working paper) · **Evidence basis:** direct_read · **Design and sample:** natural field experiment at Multiasistencia, a Spanish insurance-repair outsourcer; about 800 repair professionals randomly assigned to four feedback regimes for May–July 2013, monthly or weekly (M/W) crossed with aggregate or detailed (A/D); 25% monthly and 75% weekly at the firm's insistence (about 100, 100, 300, 300); four months of pre-period and four months of post-period data; outcome: share of "detractor" scores (0–6 on a 0–10 recommendation question), with a monthly bonus tied to detractors and two process metrics (WP pp. 12–15) · **Parties modeled:** person–system with a counterpart's judgment as the outcome (a professional, a firm's feedback report, and customers whose scores are the signal) · **Facets:** AA · **Read:** 2026-10-15
+
+## What it argues
+
+A Bayesian professional should do best with the most information, so weekly detailed feedback should win (Proposition 1, WP p. 20). The result is the reverse. The monthly-detailed group (MD) reached the lowest detractor share, 8.37% (WP p. 23); in the base regression MD was 2 percentage points below the monthly-aggregate control, "a sizeable 20% improvement relative to the 10% share of detractors in the control group," while "the professionals in the two weekly treatments (WA and WD) show no difference in performance with respect to the control group" (WP p. 25). In difference-in-differences with individual fixed effects, MD fell 3.4 points more than the control's 2.5-point drop, 46% against 19% of a 13% baseline (WP p. 26). The MD effect differed from WD (F-test, WP p. 27). Process metrics the professional can observe directly (on-time completion, PDA scheduling) showed no treatment differences, because "the professionals receive immediate feedback simply by executing these tasks" (WP pp. 3, 29).
+
+The mechanism the authors defend is salience, not rational abandonment of the bonus: weekly groups did worse than MD in the first week of a month after a bad last week, "despite the fact that both groups have the same amount of information" (WP p. 33), and their performance variance rose after bad news, consistent with acting on partial information (WP p. 34). After the experiment all groups moved to monthly detailed reports and the differences vanished (WP pp. 35–36). The frequency range is the authors' own caution: "In settings where timely information is a key feature (e.g. brokerage firms), our results for feedback frequency may not apply at all" (WP p. 37).
+
+## Relation to the argument
+
+**Q3, when immediacy hurts, in a setting close to a platform.** This is the closest analogue the facet found to a gig worker receiving ratings: outcome feedback on a noisy judgment by a counterpart, delivered by an intermediary that also pays the bonus. More frequent feedback did not help and in the detailed case hurt (WP p. 27). The explanation, overweighting the last report, is the one Kahneman and Klein would call acting on low-validity cues. The paper supports the author's second convention only in the form "plainly enough to learn from"; it cuts against "quickly."
+
+**The distinction the paper draws (WP pp. 3, 29) is the one the draft needs.** Where the person can see the result of her own act directly, the firm's feedback adds nothing and its timing is irrelevant. Where the result is another person's judgment, the feedback is a sample from a noisy distribution and its frequency sets the sample size the person acts on. A platform rating is the second kind.
+
+**P12.** The firm's managers "strongly preferred to provide more timely information" (WP p. 15) and were wrong by their own metric. The holder of the convention chose immediacy on belief, not evidence.
+
+## In conversation with
+
+- `kluger1996effects` — cited as the source of the view that feedback does not uniformly help (WP p. 4).
+- `kahneman2009conditions` — not cited by the paper; the "latest report is most salient" mechanism is a low-validity-cue story in their terms.
+- `gneezy1997experiment` — the other case where frequent feedback lowered an outcome, by a different mechanism (loss aversion rather than salience).
+- `hogarth2015two` — a weekly report of a few noisy scores is a small-sample learning setting; the paper does not use the kind/wicked language.
+- Leads not in the bib: Lurie & Swaminathan (2008) on feedback frequency in a lab task; Bordalo, Gennaioli & Shleifer (2012, 2013) salience theory; Northcraft, Schmidt & Ashford (2011); Ilgen, Fisher & Taylor (1979).
+
+## Caution
+
+Read in a 2016 working paper; numbers and wording in *JAR* 55(5) may differ and must be rechecked. Unbalanced design imposed by the firm (WP p. 15). One firm, one country, three months, with an incentive attached; the authors say results "may not be generalizable in settings where feedback is not linked to bonuses" (WP p. 37). The "frequency" contrast is weekly against monthly, not seconds against days. The salience and dynamic-incentive accounts are separated by indirect tests (WP pp. 30–34), and the authors "cannot completely rule out" the latter (WP p. 34).
+
+## S2 adversarial verification (2026-10-15)
+
+**Verdict: confirmed.** **Method.** Re-extracted the local PDF in reading order (the facet agent's `.txt` was a `-layout` extraction that interleaves columns), ran every quoted string in the card against it with whitespace, hyphenation and ligature normalisation, read the surrounding text for each hit, located every page or section locator from the form-feed page map, checked every number against the surrounding sentence, and compared the header against the Crossref record for the DOI (authors, year, title, venue, volume, issue, pages). No e-mail address was sent to any service.
+
+**Checked.** Against the March 2016 working paper (52 pages): 800 professionals (WP pp. 1, 3); May–July 2013 (WP p. 13); detractors scored 0–6 (WP p. 12); 25% monthly / 75% weekly and the managers who "strongly preferred to provide more timely information" (WP p. 15); 300 against 100 per group (WP p. 34); Proposition 1 (WP p. 20); MD at 8.37% (WP p. 23); 2 points below MA, "a sizeable 20% improvement relative to the 10% share of detractors in the control group", weekly treatments no different from control (WP p. 25); 3.4 against 2.5 points, 46% against 19% of a 13% baseline (WP p. 26); F-test MD ≠ WD (WP p. 27); "immediate feedback simply by executing these tasks" (WP pp. 3, 29); "despite the fact that both groups have the same amount of information" (WP p. 33); "cannot completely rule out" (WP p. 34); brokerage-firm caution and "not linked to bonuses" (WP p. 37); Kluger & DeNisi (WP p. 4); Lurie & Swaminathan (WP p. 7). Crossref: *JAR* 55(5), 1051–1088, 2017; DOI matches (Crossref capitalises the author names). The card's warning that the JAR text was not opened stands.
+
+**Changed.** Nothing.

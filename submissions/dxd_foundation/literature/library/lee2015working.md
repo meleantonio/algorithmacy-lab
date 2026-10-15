@@ -47,3 +47,11 @@ A small qualitative sample of US drivers in 2014, recruited by flyers and online
 4. Corrected: Mintzberg [29] is cited on pp. 1604 and 1610, not p. 1605.
 5. Corrected: Kellogg et al. cite this paper on more pages than "four times"; the cross-reference now lists them.
 6. The "Use in DRAFT_v2" verdicts stand: line 73 "mostly supported" (drivers cannot choose rides but can let requests lapse, so "binding" overstates; J_M is the draft's model); line 266 "partly supported" (forums were primary knowledge sources, but the company's published general rule fed drivers' strategies, and forum sensemaking about assignment and surge mostly failed to inform, p. 1609).
+
+## Also used by facet U (2026-10-15)
+
+Facet U uses two passages for the abstract's sentence on disclosure. The companies disclosed "only general rules of assignment" and that "general understanding helped drivers create their work strategies" (p. 1607): disclosure fed strategy rather than removing it, and the driver who knew Lyft widened the pickup radius turned the app off and on at traffic lights (p. 1607), which is gaming enabled by partial disclosure. And the authors' own forecast that companies "may also desire a degree of user ignorance to prevent the system from being gamed" (p. 1610) is the earliest statement in this library of the platform's anti-gaming rationale, later confirmed by Rahman's StarWorks help page and by `jhaver2018algorithmic` (Airbnb) and `eslami2019user` (Yelp).
+
+## S2 adversarial verification of the facet U section (2026-10-15)
+
+Checked against the card's S2-verified text: "only general rules of assignment", "general understanding helped drivers create their work strategies" and the traffic-light driver (p. 1607), "may also desire a degree of user ignorance to prevent the system from being gamed" (p. 1610) match the card. Confirmed; nothing changed.

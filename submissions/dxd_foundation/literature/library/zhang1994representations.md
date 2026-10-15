@@ -45,3 +45,13 @@ Four lab experiments on one puzzle family with student subjects; the paper repor
 **What I checked:** Opened the journal PDF (36 pp., Cognitive Science 18, 87-122, journal pagination; OCR text layer with run-together words, so I compared quotations after stripping spaces and punctuation). Checked 14 quotations (all present with the card's wording; locators checked against the PDF page order: p. 88, 106, 107, 110, 118, 119, 120), the Experiment 2 counts (16 of 18, 11 of 18, 10 of 18, all in the coffee-cup versions), the subject numbers (24, 24, 18, 36 at UCSD), the Experiment 1 and 3 result summaries, and the references to Larkin, Norman 1991, Hutchins and the Kirsh acknowledgment.
 
 **Findings:** No issues found. Two minor points: the paper counts the 16/11/10 as games (one per subject per condition, 18 each), which the card renders as subjects, equivalent here; the card's 'no longer required the training' and 'task the person keeps' are the argument map's phrases, not quotations from Zhang and Norman, and are framed as such. The OCR garbling of the p-value cells in Tables 1-3 means the card's decision to give directions, not p-values, is right.
+
+---
+
+## Also used by facet V (2026-10-15)
+
+Facet V's second question asked what the "representational effect" is and under what conditions it holds. From this card: the effect is defined for "isomorphic representations of a common formal structure" (p. 88), and every external rule in the experiments is enforced either by physics or by shared cultural knowledge, the coffee-cup rule being "an external rule grounded in cultural knowledge" (p. 106). Two consequences for the abstract. (1) Word separation is isomorphic in Zhang and Norman's sense only where an unspaced string has one lawful parse; where it has two, the space adds information and the effect is no longer representational but informational. (2) The cultural-knowledge rule is the one that resembles a convention held by someone, and the paper does not examine who holds it; `zhang2006distributed` later names this a "cognitive affordance" provided by convention. The facet also records that the strategic analogues it found (`chou2009control`, `crosetto2018representation`) keep the information fixed and vary accessibility, which is this paper's design carried into a two-player game, and that `martinezmarquina2019failures` is not a representational effect at all, since its two problems differ in substance.
+
+## S2 adversarial verification (2026-10-15, facet V section)
+
+**Facet V section, verdict: confirmed.** In `dxd_foundation_local/pdfs/E/zhangnorman1994.txt`, "common formal structure" is on the page headed 88 and "an external rule grounded in cultural knowledge" on p. 106 (index 20 = 87 + 19). Nothing changed.

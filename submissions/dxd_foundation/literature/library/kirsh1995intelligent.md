@@ -48,3 +48,13 @@ This is the author's web version, so check any quotation against the journal tex
 **What I checked:** The saved web page (interactivity.ucsd.edu AIJ1.html, text extracted; it is the author's web version, not the journal text, as the card says). About 35 quotations and section headings, the Tetris timings (1000-1800 ms mental, 200 ms physical in the text; 150 ms and "five to ten times" in the Figure 10 caption, 800-1800 ms burst), the chunking strings, the butter-knife, bicycle-newspaper and oracle passages, and the reference-list entries for Hutchins (in press a and b), Larkin & Simon 1987, Rasmussen 1980/1986, Reason 1990, Chambers & Reisberg 1985.
 
 **Findings:** One citation-form fix: the card put "Hutchins in press (b), Cognition in the Wild" in quotation marks, but the reference list reads "Hutchins, E. (in press b). Cognition in the Wild"; corrected. Everything else matches, including the 200 ms vs 150 ms discrepancy between text and caption. The Read depth line is honest (figures read through captions only). Zhang & Norman is indeed absent from the reference list.
+
+---
+
+## Also used by facet V (2026-10-15)
+
+Facet V takes the supermarket passage, in which arrangements cue processes "in himself or herself, or another agent" and managers bias "consumer choice" with displays (§"Using Space to Simplify Choice"), as the lineage's one explicit case of an arranger whose interest differs from the agent's. It is the nearest thing in the distributed-cognition canon to a mediator that arranges the space it does not share a goal with, and Kirsh does not develop it. The facet also uses the chunking contrast (KXTNJQXTARWOYE against IBMCIANBCDARPA, Introduction; PET TAPE APPLE SOCRATES, Conclusion) as the closest description of what a word space does, and notes with the existing card that the paper never mentions text.
+
+## S2 adversarial verification (2026-10-15, facet V section)
+
+**Facet V section, verdict: confirmed.** Checked against `dxd_foundation_local/pdfs/E/kirsh1995.txt`: "to cue cognitive events or processes in himself or herself, or another agent" and "store managers succeed in biasing consumer choice" (section "Using Space to Simplify Choice"); the strings KXTNJQXTARWOYE, IBMCIANBCDARPA and PET TAPE APPLE SOCRATES are present. Nothing changed.

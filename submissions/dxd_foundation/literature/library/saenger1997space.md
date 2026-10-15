@@ -49,3 +49,7 @@ Not read by me in any form this round; every page number and quotation above is 
 4. Lines 23, 81 and 87: verdicts stand, all second-hand. The priority print checks are pp. x, 85, 91, 100 and 176–177.
 5. The read depth (⚠ Not read in full; structure direct, content second-hand) is accurate.
 
+
+## Also used by facet W (2026-10-15)
+
+Facet W did not open the book either. It records three things from the round's reading that bear on the Saenger sentence in the abstract. (1) Balogh (1927, pp. 227–228, card `balogh1927voces`) had already tied *scriptio continua* to difficulty by way of eye-movement science, but located the difficulty in whole-word recognition and long practice and credited the printing press, not Insular scribes, with "regelmäßige Abgrenzung des Wortbildes" (p. 236). (2) Two reading-science papers restate the dating differently: Perea, Tejero & Winskel (2015, p. 8) "around 1000 A.D.", citing Saenger; Laubrock & Kliegl (2015, Introduction) "around the 8th century", citing Manguel (1996), not Saenger. The abstract's "seventh-century" is the Insular origin; whether the other two dates match Saenger's own chronology was not checked against the book (S2 correction, 2026-10-15). (3) The skilled-reader evidence (`li2014reading`, `bai2008reading`, `winskel2009eye`, `kasisopa2016child`) shows silent segmentation without spaces; the learner evidence (Kasisopa 2016; Heilmann n. 28) is where the physiological chapter's claim can still stand.
