@@ -99,3 +99,62 @@ def test_sign_test_and_icc():
     assert stats.sign_test([0, 0])[2] == 1.0
     icc, deff, neff = stats.icc_share(np.repeat(np.array([[0.0], [1.0]]), 10, axis=1))
     assert icc == pytest.approx(1.0) and neff == pytest.approx(2.0)
+
+
+# ---- pre-review audit: the superiority rule as run vs the margin-based reading
+# Published stage-2 intervals (results/stage2_stdout.txt).
+H1 = (0.204, 0.015, 0.417)     # B - A, MAR 0.3, R1, margin 0.10
+H4 = (0.108, -0.017, 0.233)    # B - C, margin 0.05
+H6A = (-0.007, -0.082, 0.078)  # B - A on R2, margin 0.05
+
+
+def test_s2_h1_confirmed_by_rule_as_run_but_inconclusive_by_margin_reading():
+    assert d.superiority(*H1, 0.10) == d.CONFIRMED
+    assert d.superiority_strict(*H1, 0.10) == d.INCONCLUSIVE
+
+
+@pytest.mark.parametrize("t", [H4, H6A])
+def test_other_superiority_tests_unchanged_by_reading(t):
+    assert d.superiority(*t, 0.05) == d.superiority_strict(*t, 0.05) == d.INCONCLUSIVE
+
+
+@pytest.mark.parametrize("point,lo,hi,expect", [
+    (0.20, 0.10, 0.30, d.CONFIRMED),     # lower bound exactly at the margin
+    (0.20, 0.0999, 0.30, d.INCONCLUSIVE),
+    (0.05, 0.01, 0.0999, d.REFUTED),     # interval below the margin, though above zero
+    (0.30, -0.10, 0.70, d.INCONCLUSIVE),
+])
+def test_superiority_strict(point, lo, hi, expect):
+    assert d.superiority_strict(point, lo, hi, 0.10) == expect
+
+
+def test_strict_reading_never_more_lenient_than_rule_as_run():
+    rng = np.random.default_rng(0)
+    for _ in range(2000):
+        lo, hi = np.sort(rng.uniform(-0.5, 0.5, 2))
+        point = rng.uniform(lo, hi)
+        if d.superiority_strict(point, lo, hi, 0.10) == d.CONFIRMED:
+            assert d.superiority(point, lo, hi, 0.10) == d.CONFIRMED
+        assert (d.superiority(point, lo, hi, 0.10) == d.REFUTED) == \
+            (d.superiority_strict(point, lo, hi, 0.10) == d.REFUTED)
+
+
+def test_cluster_boot_matches_explicit_two_stage_loop():
+    a = np.random.default_rng(3).normal(size=(5, 4))
+    boot, seed = 300, 11
+    rng = np.random.default_rng(seed)
+    fi = rng.integers(0, 5, size=(boot, 5))
+    si = rng.integers(0, 4, size=(boot, 5, 4))
+    means = [np.mean([a[fi[b, k], si[b, k, j]] for k in range(5) for j in range(4)]) for b in range(boot)]
+    m, lo, hi = stats.cluster_boot(a, boot=boot, seed=seed)
+    assert m == pytest.approx(a.mean())
+    assert lo == pytest.approx(np.quantile(means, 0.025))
+    assert hi == pytest.approx(np.quantile(means, 0.975))
+
+
+def test_cluster_boot_resamples_forms_not_runs():
+    # Seeds identical within each form: the interval must reflect between-form spread only and equal
+    # a plain bootstrap over form means; seed resampling cannot narrow it.
+    a = np.repeat(np.array([[0.0], [1.0], [0.0], [1.0]]), 6, axis=1)
+    m, lo, hi = stats.cluster_boot(a, boot=4000)
+    assert m == 0.5 and lo <= 0.0 + 1e-12 and hi >= 1.0 - 1e-12

@@ -29,8 +29,24 @@ def h5_symmetric_rule(bin_td, null_td, margin=0.05):
 
 def superiority(point, lo, hi, margin):
     """Predicted: effect >= margin. CONFIRMED if point >= margin and lo > 0; REFUTED if hi < margin;
-    otherwise INCONCLUSIVE."""
+    otherwise INCONCLUSIVE.
+
+    This is the rule the preregistered stage-2 run executed (committed in 996be257, before the
+    preregistration). Note what it does and does not establish: CONFIRMED means the *point estimate*
+    reaches the margin and the interval excludes zero; it does NOT mean the interval excludes effects
+    smaller than the margin. See `superiority_strict` and `margin_audit.py`."""
     if point >= margin and lo > 0:
+        return CONFIRMED
+    if hi < margin:
+        return REFUTED
+    return INCONCLUSIVE
+
+
+def superiority_strict(point, lo, hi, margin):
+    """Margin-based reading of "effect >= margin", reported alongside `superiority` (never instead of
+    it): CONFIRMED only if the interval's lower bound is >= margin; REFUTED if hi < margin; otherwise
+    INCONCLUSIVE. Added in the pre-review audit; it does not change any preregistered verdict."""
+    if lo >= margin:
         return CONFIRMED
     if hi < margin:
         return REFUTED

@@ -211,3 +211,59 @@ def test_bottleneck_scores():
     assert ob.bottleneck_scores([0.3, 0.3, 0.2], {1}) == (0.5, 0, False)     # tie: half credit
     assert ob.bottleneck_scores([0, 0, 0, 0], {0, 2}) == (0.5, 0, True)       # chance, flagged
     assert ob.bottleneck_scores([0.2, 0.1], set()) == (0.0, 0, False)
+
+
+# ---- pre-review audit: brute-force references with no shared code path
+
+def _brute_profile(times, x, y, max_lag, segment):
+    """Every (i, j) with times[j] - times[i] == k; if segment, also no missing timestamp between them."""
+    t = list(times)
+    tset = set(t)
+    out = {}
+    for k in range(-max_lag, max_lag + 1):
+        hits = n = 0
+        for i in range(len(t)):
+            for j in range(len(t)):
+                if t[j] - t[i] != k:
+                    continue
+                lo_, hi_ = min(t[i], t[j]), max(t[i], t[j])
+                if segment and any(u not in tset for u in range(lo_, hi_ + 1)):
+                    continue
+                n += 1
+                hits += int(x[i] == y[j])
+        out[k] = (n, hits / n if n else np.nan)
+    return out
+
+
+@pytest.mark.parametrize("seed", range(6))
+@pytest.mark.parametrize("mode", ["timestamp", "segment"])
+def test_lag_profile_matches_brute_force(seed, mode):
+    rng = np.random.default_rng(seed)
+    T = 60
+    keep = rng.random(T) > rng.uniform(0.1, 0.6)
+    keep[rng.integers(T)] = True
+    t = np.flatnonzero(keep) + int(rng.integers(0, 3))   # also a non-zero first timestamp
+    x, y = rng.integers(0, 2, t.size), rng.integers(0, 2, t.size)
+    lags, rate, cnt = ob.lag_profile(t, x, y, 7, mode)
+    ref = _brute_profile(t, x, y, 7, mode == "segment")
+    for k, r, c in zip(lags, rate, cnt):
+        assert c == ref[int(k)][0]
+        if c:
+            assert r == pytest.approx(ref[int(k)][1])
+        else:
+            assert np.isnan(r)
+
+
+def test_thinned_profile_matches_target_counts_and_never_exceeds_available():
+    rng = np.random.default_rng(0)
+    x, y = rng.integers(0, 2, 50), rng.integers(0, 2, 50)
+    target = np.array([5, 0, 49, 50, 1000])          # lags -2..2; available 48, 49, 50, 49, 48
+    lags, rate, cnt = ob.thinned_profile(x, y, 2, target, np.random.default_rng(1))
+    assert list(cnt) == [5, 0, 49, 49, 48]
+    assert np.isnan(rate[1]) and not np.isnan(rate[0])
+
+
+def test_bottleneck_tie_within_tolerance_is_a_tie():
+    cc = np.array([0.3, 0.3 + 1e-15, 0.1])
+    score, pick, noev = ob.bottleneck_scores(cc, {0})
+    assert score == 0.5 and not noev

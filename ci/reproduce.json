@@ -6948,6 +6948,20 @@
       ],
       "timeout": 600,
       "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "q220-stage2-margin-audit",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.margin_audit",
+      "expect": [
+        "S2-H1   superiority     0.10   +0.204 [+0.015, +0.417]    CONFIRMED     INCONCLUSIVE  | +0.204 [-0.052, +0.513]    INCONCLUSIVE  INCONCLUSIVE ",
+        "all 10 published 95% intervals and verdicts reproduced exactly: PASS",
+        "Mechanism (preregistered rule), rule as run: reconstruction distortion (S2-H1 CONFIRMED, S2-H2 CONFIRMED, S2-H3 CONFIRMED)",
+        "Mechanism (preregistered rule), margin reading: mixed or inconclusive (S2-H1 INCONCLUSIVE, S2-H2 CONFIRMED, S2-H3 CONFIRMED)",
+        "Verdicts that differ between the two readings at 95%: S2-H1",
+        "CONFIRMED (rule as run) verdicts that do not survive Bonferroni 99.5%: S2-H1"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     }
   ]
 }
